@@ -1,0 +1,19 @@
+
+
+[2021-06-30 07:54:55] [AppID 251570] Loaded workshop items in "c:\7d2d\alpha19\asia_mod\asia_mod\steamapps\workshop" (0 installed, 0 needed)
+[2021-06-30 07:54:57] [AppID 241100] Subscribed items changed
+
+
+[2021-06-30 08:31:33] [AppID 251570] Loaded workshop items in "c:\7d2d\alpha19\asia_mod\asia_mod\steamapps\workshop" (0 installed, 0 needed)
+
+
+[2021-06-30 08:50:47] [AppID 251570] Loaded workshop items in "c:\7d2d\alpha19\asia_mod\asia_mod\steamapps\workshop" (0 installed, 0 needed)
+
+
+[2021-07-01 09:03:44] [AppID 251570] Loaded workshop items in "c:\7d2d\alpha19\asia_mod\asia_mod\steamapps\workshop" (0 installed, 0 needed)
+
+
+[2021-07-01 10:21:00] [AppID 251570] Loaded workshop items in "c:\7d2d\alpha19\asia_mod\asia_mod\steamapps\workshop" (0 installed, 0 needed)
+
+
+[2021-07-01 10:40:09] [AppID 251570] Loaded workshop items in "c:\7d2d\alpha19\asia_mod\asia_mod\steamapps\workshop" (0 installed, 0 needed)
