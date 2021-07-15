@@ -1,0 +1,39 @@
+"7"
+{
+	"serverbrowser_hist.vdf"
+	{
+		"root"		"0"
+		"size"		"523"
+		"localtime"		"1626204176"
+		"time"		"1626204176"
+		"remotetime"		"1626204176"
+		"sha"		"dccd2cc40c20e47f21ab854400245f86a2022f08"
+		"syncstate"		"1"
+		"persiststate"		"0"
+		"platformstosync2"		"-1"
+	}
+	"serverbrowser_hist.vdf.meta"
+	{
+		"root"		"0"
+		"size"		"155"
+		"localtime"		"1625051042"
+		"time"		"1625051041"
+		"remotetime"		"0"
+		"sha"		"3465abcf01f4513043b0c6638d9f878327f6e5b3"
+		"syncstate"		"1"
+		"persiststate"		"1"
+		"platformstosync2"		"-1"
+	}
+	"sharedconfig.vdf"
+	{
+		"root"		"0"
+		"size"		"4896"
+		"localtime"		"1625924197"
+		"time"		"1625924197"
+		"remotetime"		"1625924197"
+		"sha"		"d1da4e1872e141f742b33581eebefe437eeea949"
+		"syncstate"		"1"
+		"persiststate"		"0"
+		"platformstosync2"		"-1"
+	}
+}
