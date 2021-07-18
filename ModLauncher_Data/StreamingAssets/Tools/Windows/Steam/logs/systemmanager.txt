@@ -38,3 +38,8 @@
 [2021-07-01 10:40:06] Inilializing System Manager
 [2021-07-01 10:40:06] Suspend inhibited
 [2021-07-01 10:42:10] Suspend inhibit released
+
+
+[2021-07-14 11:54:26] Inilializing System Manager
+[2021-07-14 11:54:26] Suspend inhibited
+[2021-07-14 11:57:09] Suspend inhibit released

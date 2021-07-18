@@ -108,3 +108,21 @@
 [2021-07-01 10:40:41] Flushed store 'install' to 'C:\Users\kilpa\Documents\GitHub\7D2DModLauncher-UE\ModLauncher\Assets\StreamingAssets\Tools\Windows\Steam\config\config.vdf'
 [2021-07-01 10:41:11] Flushed store 'install' to 'C:\Users\kilpa\Documents\GitHub\7D2DModLauncher-UE\ModLauncher\Assets\StreamingAssets\Tools\Windows\Steam\config\config.vdf'
 [2021-07-01 10:41:41] Flushed store 'install' to 'C:\Users\kilpa\Documents\GitHub\7D2DModLauncher-UE\ModLauncher\Assets\StreamingAssets\Tools\Windows\Steam\config\config.vdf'
+
+
+[2021-07-14 11:54:26] Loaded store 'install' from 'C:\Users\kilpa\Documents\GitHub\7D2DModLauncher-UE\ModLauncher\Assets\StreamingAssets\Tools\Windows\Steam\config\config.vdf' successfully
+[2021-07-14 11:54:26] Loaded store 'install' from 'C:\Users\kilpa\Documents\GitHub\7D2DModLauncher-UE\ModLauncher\Assets\StreamingAssets\Tools\Windows\Steam\config\config.vdf' successfully
+[2021-07-14 11:54:26] Loaded store 'install' from 'C:\Users\kilpa\Documents\GitHub\7D2DModLauncher-UE\ModLauncher\Assets\StreamingAssets\Tools\Windows\Steam\config\config.vdf' successfully
+[2021-07-14 11:54:26] Loaded store 'userlocal' from 'C:\Users\kilpa\Documents\GitHub\7D2DModLauncher-UE\ModLauncher\Assets\StreamingAssets\Tools\Windows\Steam\userdata\59824344\config\localconfig.vdf' successfully
+[2021-07-14 11:54:26] Flushed store 'install' to 'C:\Users\kilpa\Documents\GitHub\7D2DModLauncher-UE\ModLauncher\Assets\StreamingAssets\Tools\Windows\Steam\config\config.vdf'
+[2021-07-14 11:54:27] Flushed store 'install' to 'C:\Users\kilpa\Documents\GitHub\7D2DModLauncher-UE\ModLauncher\Assets\StreamingAssets\Tools\Windows\Steam\config\config.vdf'
+[2021-07-14 11:54:27] Flushed store 'userlocal' to 'C:\Users\kilpa\Documents\GitHub\7D2DModLauncher-UE\ModLauncher\Assets\StreamingAssets\Tools\Windows\Steam\userdata\59824344\config\localconfig.vdf'
+[2021-07-14 11:54:29] Flushed store 'userlocal' to 'C:\Users\kilpa\Documents\GitHub\7D2DModLauncher-UE\ModLauncher\Assets\StreamingAssets\Tools\Windows\Steam\userdata\59824344\config\localconfig.vdf'
+[2021-07-14 11:54:29] Flushed store 'install' to 'C:\Users\kilpa\Documents\GitHub\7D2DModLauncher-UE\ModLauncher\Assets\StreamingAssets\Tools\Windows\Steam\config\config.vdf'
+[2021-07-14 11:54:30] Flushed store 'userlocal' to 'C:\Users\kilpa\Documents\GitHub\7D2DModLauncher-UE\ModLauncher\Assets\StreamingAssets\Tools\Windows\Steam\userdata\59824344\config\localconfig.vdf'
+[2021-07-14 11:54:32] Flushed store 'userlocal' to 'C:\Users\kilpa\Documents\GitHub\7D2DModLauncher-UE\ModLauncher\Assets\StreamingAssets\Tools\Windows\Steam\userdata\59824344\config\localconfig.vdf'
+[2021-07-14 11:55:01] Flushed store 'install' to 'C:\Users\kilpa\Documents\GitHub\7D2DModLauncher-UE\ModLauncher\Assets\StreamingAssets\Tools\Windows\Steam\config\config.vdf'
+[2021-07-14 11:55:31] Flushed store 'install' to 'C:\Users\kilpa\Documents\GitHub\7D2DModLauncher-UE\ModLauncher\Assets\StreamingAssets\Tools\Windows\Steam\config\config.vdf'
+[2021-07-14 11:56:01] Flushed store 'install' to 'C:\Users\kilpa\Documents\GitHub\7D2DModLauncher-UE\ModLauncher\Assets\StreamingAssets\Tools\Windows\Steam\config\config.vdf'
+[2021-07-14 11:56:31] Flushed store 'install' to 'C:\Users\kilpa\Documents\GitHub\7D2DModLauncher-UE\ModLauncher\Assets\StreamingAssets\Tools\Windows\Steam\config\config.vdf'
+[2021-07-14 11:57:01] Flushed store 'install' to 'C:\Users\kilpa\Documents\GitHub\7D2DModLauncher-UE\ModLauncher\Assets\StreamingAssets\Tools\Windows\Steam\config\config.vdf'

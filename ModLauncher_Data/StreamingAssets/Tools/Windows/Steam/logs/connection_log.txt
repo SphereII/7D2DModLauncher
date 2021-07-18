@@ -260,3 +260,27 @@
 [2021-07-01 10:42:10] [3,3] LogOff()
 [2021-07-01 10:42:10] [2,3] AsyncDisconnect( bDontWaitOnTCPShutdown: false )
 [2021-07-01 10:42:10] [2,3] Log session ended
+
+
+[2021-07-14 11:54:26] Log session started
+[2021-07-14 11:54:26] [0,0] SetSteamID( [U:1:0] )
+[2021-07-14 11:54:26] CCMInterface::OnNetworkDeviceStateChange -- Saw device up (10.0.0.36)
+[2021-07-14 11:54:26] CCMInterface::OnNetworkDeviceStateChange -- Start connecting to Steam
+[2021-07-14 11:54:26] CCMInterface::OnNetworkDeviceStateChange -- Saw device up (10.0.0.36)
+[2021-07-14 11:54:26] CCMInterface::OnNetworkDeviceStateChange -- Start connecting to Steam
+[2021-07-14 11:54:26] CCMInterface::OnNetworkDeviceStateChange -- Saw device up (10.0.0.36)
+[2021-07-14 11:54:26] CCMInterface::OnNetworkDeviceStateChange -- Start connecting to Steam
+[2021-07-14 11:54:26] [0,0] SetSteamID( [U:1:59824344] )
+[2021-07-14 11:54:26] [0,0] SetSteamID( [U:1:59824344] )
+[2021-07-14 11:54:26] [0,0] Server says 50% of connections should be websockets, we rolled 71 - using UDP as default.
+[2021-07-14 11:54:26] [1,2] Connect() starting connection (eNetQOSLevelHigh, 162.254.192.87:27027, UDP)
+[2021-07-14 11:54:26] IPv6 HTTP connectivity test (ipv6check-http.steamcontent.com / [2602:801:f00b::cdc4:6ab]:80 ([2602:801:f00b::cdc4:6ab]:80)) - SUCCESS
+[2021-07-14 11:54:26] IPv6 HTTP connectivity test (ipv6check-http.steamcontent.com / [2602:801:f00b::cdc4:6ab]:80 ([2602:801:f00b::cdc4:6ab]:80)) - server indicated we are using ipv6, external address = '2607:fea8:f1db:c400:3c86:248c:5350:aa68'
+[2021-07-14 11:54:26] IPv6 UDP connectivity test (ipv6check-udp.steamcontent.com / [2602:801:f007:101::a2fe:c125]:27019) - SUCCESS
+[2021-07-14 11:54:27] [1,2] ConnectionCompleted() (162.254.193.102:27021, UDP) local address (0.0.0.0:52987)
+[2021-07-14 11:54:27] [1,2] RecvMsgClientLogOnResponse() : [U:1:59824344] 'OK'
+[2021-07-14 11:54:27] CClientJobGetClientUpdateHosts: cached copy new expiration: Sat Jul 17 02:21:53 2021
+[2021-07-14 11:57:09] [3,2] ResetVoiceRecording() (was recording: 0) (last get voice time: 1626274629 seconds ago)
+[2021-07-14 11:57:09] [3,2] LogOff()
+[2021-07-14 11:57:09] [2,2] AsyncDisconnect( bDontWaitOnTCPShutdown: false )
+[2021-07-14 11:57:09] [2,2] Log session ended

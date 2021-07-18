@@ -28,3 +28,14 @@
 [2021-07-01 10:40:08] Loaded client id: 2110538612165528099
 [2021-07-01 10:40:08] Listening for IPv4 broadcast on: 27036
 [2021-07-01 10:40:08] Listening for connections on: 0.0.0.0:27036
+
+
+[2021-07-14 11:54:27] Loaded client id: 2110538612165528099
+[2021-07-14 11:54:27] Listening for IPv4 broadcast on: 27036
+[2021-07-14 11:54:27] Listening for connections on: 0.0.0.0:27036
+[2021-07-14 11:54:27] Received broadcast message from client 13767756440270331000 (DESKTOP-CKFJTQ8): 10.0.0.179:27036
+[2021-07-14 11:54:27] Received broadcast message from client 16313830209712751044 (DESKTOP-GEUNFIU): 10.0.0.58:27036
+[2021-07-14 11:54:29] Received broadcast message from client 13767756440270331000 (DESKTOP-CKFJTQ8): 10.0.0.179:27036
+[2021-07-14 11:54:31] Received broadcast message from client 16313830209712751044 (DESKTOP-GEUNFIU): 10.0.0.58:27036
+[2021-07-14 11:54:54] Received broadcast message from client 13767756440270331000 (DESKTOP-CKFJTQ8): 10.0.0.179:27036
+[2021-07-14 11:54:55] Received broadcast message from client 16313830209712751044 (DESKTOP-GEUNFIU): 10.0.0.58:27036

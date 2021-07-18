@@ -165,3 +165,54 @@
 [2021-07-01 10:40:06] Performing checksum verification of executable files
 [2021-07-01 10:40:06] Verification complete
 [2021-07-01 10:42:10] Shutdown
+
+
+[2021-07-14 11:54:21] Startup - updater built Jun  9 2021 12:25:25
+[2021-07-14 11:54:21] Using the following download hosts for Public, Realm steamglobal
+[2021-07-14 11:54:21] 1. https://cdn.akamai.steamstatic.com, /client/, Realm 'steamglobal', weight was 100, source = 'update_hosts_cached.vdf'
+[2021-07-14 11:54:21] 2. https://cdn.cloudflare.steamstatic.com, /client/, Realm 'steamglobal', weight was 100, source = 'update_hosts_cached.vdf'
+[2021-07-14 11:54:21] 3. http://media.steampowered.com, /client/, Realm 'steamglobal', weight was 1, source = 'baked in'
+[2021-07-14 11:54:21] Checking for update on startup
+[2021-07-14 11:54:21] Checking for available updates...
+[2021-07-14 11:54:21] Downloading manifest: https://cdn.akamai.steamstatic.com/client/steam_cmd_win32
+[2021-07-14 11:54:21] Downloaded new manifest: /client/steam_cmd_win32 version 1626127064, installed version 1623268700, existing pending version 0
+[2021-07-14 11:54:21] Package file steamcmd_bins_win32.zip.vz.fad6cd2b633f29ed5902e3daf40e35be89344f6f_5936231 missing or incorrect size
+[2021-07-14 11:54:21] Package file steamcmd_steamservice_win32.zip.vz.c36f1e48c47054edfb5dc5979adfd6e74a8efeff_1605252 missing or incorrect size
+[2021-07-14 11:54:21] Package file steamcmd_steamerrorreporter_win32.zip.6f1016f376dbff2742508f674412b647a9dfc7af missing or incorrect size
+[2021-07-14 11:54:21] Package file steamcmd_win32.zip.vz.d2b3b254e55f2ddb8ba36e0280878187f21583d8_1607302 missing or incorrect size
+[2021-07-14 11:54:21] Add pending download: https://cdn.akamai.steamstatic.com/client/steamcmd_bins_win32.zip.vz.fad6cd2b633f29ed5902e3daf40e35be89344f6f_5936231
+[2021-07-14 11:54:21] Add pending download: https://cdn.akamai.steamstatic.com/client/steamcmd_steamservice_win32.zip.vz.c36f1e48c47054edfb5dc5979adfd6e74a8efeff_1605252
+[2021-07-14 11:54:21] Add pending download: https://cdn.akamai.steamstatic.com/client/steamcmd_steamerrorreporter_win32.zip.6f1016f376dbff2742508f674412b647a9dfc7af
+[2021-07-14 11:54:21] Add pending download: https://cdn.akamai.steamstatic.com/client/steamcmd_win32.zip.vz.d2b3b254e55f2ddb8ba36e0280878187f21583d8_1607302
+[2021-07-14 11:54:21] Downloading update (0 of 9,110 KB)...
+[2021-07-14 11:54:22] Downloading update (2,570 of 9,110 KB)...
+[2021-07-14 11:54:22] Downloading update (9,110 of 9,110 KB)...
+[2021-07-14 11:54:22] Download complete.
+[2021-07-14 11:54:22] Saving metrics to disk (C:\Users\kilpa\Documents\GitHub\7D2DModLauncher-UE\ModLauncher\Assets\StreamingAssets\Tools\Windows\Steam\package\steam_cmd_metrics.bin)
+[2021-07-14 11:54:22] uninstalled manifest found in C:\Users\kilpa\Documents\GitHub\7D2DModLauncher-UE\ModLauncher\Assets\StreamingAssets\Tools\Windows\Steam\package\steam_cmd_win32 (1).
+[2021-07-14 11:54:22] Found pending update
+[2021-07-14 11:54:22] Installing update...
+[2021-07-14 11:54:22] Extracting package...
+[2021-07-14 11:54:24] Installing update...
+[2021-07-14 11:54:24] Committing NTFS transaction (0 non-transactional backup files)
+[2021-07-14 11:54:24] Cleaning up...
+[2021-07-14 11:54:24] Update complete, launching Steamcmd...
+[2021-07-14 11:54:24] Shutdown
+
+
+[2021-07-14 11:54:24] Startup - updater built Jul 12 2021 14:02:18
+[2021-07-14 11:54:24] Loading cached metrics from disk (C:\Users\kilpa\Documents\GitHub\7D2DModLauncher-UE\ModLauncher\Assets\StreamingAssets\Tools\Windows\Steam\package\steam_cmd_metrics.bin)
+[2021-07-14 11:54:24] Using the following download hosts for Public, Realm steamglobal
+[2021-07-14 11:54:24] 1. https://cdn.cloudflare.steamstatic.com, /client/, Realm 'steamglobal', weight was 100, source = 'update_hosts_cached.vdf'
+[2021-07-14 11:54:24] 2. https://cdn.akamai.steamstatic.com, /client/, Realm 'steamglobal', weight was 100, source = 'update_hosts_cached.vdf'
+[2021-07-14 11:54:24] 3. http://media.steampowered.com, /client/, Realm 'steamglobal', weight was 1, source = 'baked in'
+[2021-07-14 11:54:24] Checking for update on startup
+[2021-07-14 11:54:24] Checking for available updates...
+[2021-07-14 11:54:24] Downloading manifest: https://cdn.cloudflare.steamstatic.com/client/steam_cmd_win32
+[2021-07-14 11:54:25] Download skipped: /client/steam_cmd_win32 version 1626127064, installed version 1626127064, existing pending version 0
+[2021-07-14 11:54:25] Nothing to do
+[2021-07-14 11:54:25] Verifying installation...
+[2021-07-14 11:54:25] Performing checksum verification of executable files
+[2021-07-14 11:54:26] Verification complete
+[2021-07-14 11:54:28] Clearing cached metrics (C:\Users\kilpa\Documents\GitHub\7D2DModLauncher-UE\ModLauncher\Assets\StreamingAssets\Tools\Windows\Steam\package\steam_cmd_metrics.bin)
+[2021-07-14 11:57:10] Shutdown
