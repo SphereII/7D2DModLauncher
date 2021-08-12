@@ -201,3 +201,206 @@
 [2021-07-14 11:54:27] 		Friends
 [2021-07-14 11:54:27] 		Library
 [2021-07-14 11:54:27] 		Test
+
+
+[2021-08-11 08:43:04] Setting parental settings for 59824344, account flags are 10084085
+[2021-08-11 08:43:04] Settings dump:
+[2021-08-11 08:43:04] 	Account ID: 59824344
+[2021-08-11 08:43:04] 	Enabled: false
+[2021-08-11 08:43:04] 	Base list: 0 (Allow all games)
+[2021-08-11 08:43:04] 	Custom list:
+[2021-08-11 08:43:04] 		29640 (allowed)
+[2021-08-11 08:43:04] 	Enabled features (181c):
+[2021-08-11 08:43:04] 		Community
+[2021-08-11 08:43:04] 		Profile
+[2021-08-11 08:43:04] 		Friends
+[2021-08-11 08:43:04] 		Library
+[2021-08-11 08:43:04] 		Test
+[2021-08-11 08:43:04] Disabling parental settings for 59824344, account flags are 10084085
+[2021-08-11 08:43:04] Validating parental settings
+[2021-08-11 08:43:04] Settings dump:
+[2021-08-11 08:43:04] 	Account ID: 59824344
+[2021-08-11 08:43:04] 	Enabled: false
+[2021-08-11 08:43:04] 	Base list: 0 (Allow all games)
+[2021-08-11 08:43:04] 	Custom list:
+[2021-08-11 08:43:04] 		29640 (allowed)
+[2021-08-11 08:43:04] 	Enabled features (181c):
+[2021-08-11 08:43:04] 		Community
+[2021-08-11 08:43:04] 		Profile
+[2021-08-11 08:43:04] 		Friends
+[2021-08-11 08:43:04] 		Library
+[2021-08-11 08:43:04] 		Test
+
+
+[2021-08-11 19:48:38] Setting parental settings for 59824344, account flags are 10084085
+[2021-08-11 19:48:38] Settings dump:
+[2021-08-11 19:48:38] 	Account ID: 59824344
+[2021-08-11 19:48:38] 	Enabled: false
+[2021-08-11 19:48:38] 	Base list: 0 (Allow all games)
+[2021-08-11 19:48:38] 	Custom list:
+[2021-08-11 19:48:38] 		29640 (allowed)
+[2021-08-11 19:48:38] 	Enabled features (181c):
+[2021-08-11 19:48:38] 		Community
+[2021-08-11 19:48:38] 		Profile
+[2021-08-11 19:48:38] 		Friends
+[2021-08-11 19:48:38] 		Library
+[2021-08-11 19:48:38] 		Test
+[2021-08-11 19:48:38] Disabling parental settings for 59824344, account flags are 10084085
+[2021-08-11 19:48:38] Validating parental settings
+[2021-08-11 19:48:38] Settings dump:
+[2021-08-11 19:48:38] 	Account ID: 59824344
+[2021-08-11 19:48:38] 	Enabled: false
+[2021-08-11 19:48:38] 	Base list: 0 (Allow all games)
+[2021-08-11 19:48:38] 	Custom list:
+[2021-08-11 19:48:38] 		29640 (allowed)
+[2021-08-11 19:48:38] 	Enabled features (181c):
+[2021-08-11 19:48:38] 		Community
+[2021-08-11 19:48:38] 		Profile
+[2021-08-11 19:48:38] 		Friends
+[2021-08-11 19:48:38] 		Library
+[2021-08-11 19:48:38] 		Test
+
+
+[2021-08-11 21:16:31] Setting parental settings for 59824344, account flags are 10084085
+[2021-08-11 21:16:31] Settings dump:
+[2021-08-11 21:16:31] 	Account ID: 59824344
+[2021-08-11 21:16:31] 	Enabled: false
+[2021-08-11 21:16:31] 	Base list: 0 (Allow all games)
+[2021-08-11 21:16:31] 	Custom list:
+[2021-08-11 21:16:31] 		29640 (allowed)
+[2021-08-11 21:16:31] 	Enabled features (181c):
+[2021-08-11 21:16:31] 		Community
+[2021-08-11 21:16:31] 		Profile
+[2021-08-11 21:16:31] 		Friends
+[2021-08-11 21:16:31] 		Library
+[2021-08-11 21:16:31] 		Test
+[2021-08-11 21:16:31] Disabling parental settings for 59824344, account flags are 10084085
+[2021-08-11 21:16:31] Validating parental settings
+[2021-08-11 21:16:31] Settings dump:
+[2021-08-11 21:16:31] 	Account ID: 59824344
+[2021-08-11 21:16:31] 	Enabled: false
+[2021-08-11 21:16:31] 	Base list: 0 (Allow all games)
+[2021-08-11 21:16:31] 	Custom list:
+[2021-08-11 21:16:31] 		29640 (allowed)
+[2021-08-11 21:16:31] 	Enabled features (181c):
+[2021-08-11 21:16:31] 		Community
+[2021-08-11 21:16:31] 		Profile
+[2021-08-11 21:16:31] 		Friends
+[2021-08-11 21:16:31] 		Library
+[2021-08-11 21:16:31] 		Test
+
+
+[2021-08-12 08:53:21] Setting parental settings for 59824344, account flags are 10084085
+[2021-08-12 08:53:21] Settings dump:
+[2021-08-12 08:53:21] 	Account ID: 59824344
+[2021-08-12 08:53:21] 	Enabled: false
+[2021-08-12 08:53:21] 	Base list: 0 (Allow all games)
+[2021-08-12 08:53:21] 	Custom list:
+[2021-08-12 08:53:21] 		29640 (allowed)
+[2021-08-12 08:53:21] 	Enabled features (181c):
+[2021-08-12 08:53:21] 		Community
+[2021-08-12 08:53:21] 		Profile
+[2021-08-12 08:53:21] 		Friends
+[2021-08-12 08:53:21] 		Library
+[2021-08-12 08:53:21] 		Test
+[2021-08-12 08:53:21] Disabling parental settings for 59824344, account flags are 10084085
+[2021-08-12 08:53:21] Validating parental settings
+[2021-08-12 08:53:21] Settings dump:
+[2021-08-12 08:53:21] 	Account ID: 59824344
+[2021-08-12 08:53:21] 	Enabled: false
+[2021-08-12 08:53:21] 	Base list: 0 (Allow all games)
+[2021-08-12 08:53:21] 	Custom list:
+[2021-08-12 08:53:21] 		29640 (allowed)
+[2021-08-12 08:53:21] 	Enabled features (181c):
+[2021-08-12 08:53:21] 		Community
+[2021-08-12 08:53:21] 		Profile
+[2021-08-12 08:53:21] 		Friends
+[2021-08-12 08:53:21] 		Library
+[2021-08-12 08:53:21] 		Test
+
+
+[2021-08-12 10:11:08] Setting parental settings for 59824344, account flags are 10084085
+[2021-08-12 10:11:08] Settings dump:
+[2021-08-12 10:11:08] 	Account ID: 59824344
+[2021-08-12 10:11:08] 	Enabled: false
+[2021-08-12 10:11:08] 	Base list: 0 (Allow all games)
+[2021-08-12 10:11:08] 	Custom list:
+[2021-08-12 10:11:08] 		29640 (allowed)
+[2021-08-12 10:11:08] 	Enabled features (181c):
+[2021-08-12 10:11:08] 		Community
+[2021-08-12 10:11:08] 		Profile
+[2021-08-12 10:11:08] 		Friends
+[2021-08-12 10:11:08] 		Library
+[2021-08-12 10:11:08] 		Test
+[2021-08-12 10:11:08] Disabling parental settings for 59824344, account flags are 10084085
+[2021-08-12 10:11:08] Validating parental settings
+[2021-08-12 10:11:08] Settings dump:
+[2021-08-12 10:11:08] 	Account ID: 59824344
+[2021-08-12 10:11:08] 	Enabled: false
+[2021-08-12 10:11:08] 	Base list: 0 (Allow all games)
+[2021-08-12 10:11:08] 	Custom list:
+[2021-08-12 10:11:08] 		29640 (allowed)
+[2021-08-12 10:11:08] 	Enabled features (181c):
+[2021-08-12 10:11:08] 		Community
+[2021-08-12 10:11:08] 		Profile
+[2021-08-12 10:11:08] 		Friends
+[2021-08-12 10:11:08] 		Library
+[2021-08-12 10:11:08] 		Test
+
+
+[2021-08-12 10:26:34] Setting parental settings for 59824344, account flags are 10084085
+[2021-08-12 10:26:34] Settings dump:
+[2021-08-12 10:26:34] 	Account ID: 59824344
+[2021-08-12 10:26:34] 	Enabled: false
+[2021-08-12 10:26:34] 	Base list: 0 (Allow all games)
+[2021-08-12 10:26:34] 	Custom list:
+[2021-08-12 10:26:34] 		29640 (allowed)
+[2021-08-12 10:26:34] 	Enabled features (181c):
+[2021-08-12 10:26:34] 		Community
+[2021-08-12 10:26:34] 		Profile
+[2021-08-12 10:26:34] 		Friends
+[2021-08-12 10:26:34] 		Library
+[2021-08-12 10:26:34] 		Test
+[2021-08-12 10:26:34] Disabling parental settings for 59824344, account flags are 10084085
+[2021-08-12 10:26:34] Validating parental settings
+[2021-08-12 10:26:34] Settings dump:
+[2021-08-12 10:26:34] 	Account ID: 59824344
+[2021-08-12 10:26:34] 	Enabled: false
+[2021-08-12 10:26:34] 	Base list: 0 (Allow all games)
+[2021-08-12 10:26:34] 	Custom list:
+[2021-08-12 10:26:34] 		29640 (allowed)
+[2021-08-12 10:26:34] 	Enabled features (181c):
+[2021-08-12 10:26:34] 		Community
+[2021-08-12 10:26:34] 		Profile
+[2021-08-12 10:26:34] 		Friends
+[2021-08-12 10:26:34] 		Library
+[2021-08-12 10:26:34] 		Test
+
+
+[2021-08-12 11:33:53] Setting parental settings for 59824344, account flags are 10084085
+[2021-08-12 11:33:53] Settings dump:
+[2021-08-12 11:33:53] 	Account ID: 59824344
+[2021-08-12 11:33:53] 	Enabled: false
+[2021-08-12 11:33:53] 	Base list: 0 (Allow all games)
+[2021-08-12 11:33:53] 	Custom list:
+[2021-08-12 11:33:53] 		29640 (allowed)
+[2021-08-12 11:33:53] 	Enabled features (181c):
+[2021-08-12 11:33:53] 		Community
+[2021-08-12 11:33:53] 		Profile
+[2021-08-12 11:33:53] 		Friends
+[2021-08-12 11:33:53] 		Library
+[2021-08-12 11:33:53] 		Test
+[2021-08-12 11:33:53] Disabling parental settings for 59824344, account flags are 10084085
+[2021-08-12 11:33:53] Validating parental settings
+[2021-08-12 11:33:53] Settings dump:
+[2021-08-12 11:33:53] 	Account ID: 59824344
+[2021-08-12 11:33:53] 	Enabled: false
+[2021-08-12 11:33:53] 	Base list: 0 (Allow all games)
+[2021-08-12 11:33:53] 	Custom list:
+[2021-08-12 11:33:53] 		29640 (allowed)
+[2021-08-12 11:33:53] 	Enabled features (181c):
+[2021-08-12 11:33:53] 		Community
+[2021-08-12 11:33:53] 		Profile
+[2021-08-12 11:33:53] 		Friends
+[2021-08-12 11:33:53] 		Library
+[2021-08-12 11:33:53] 		Test

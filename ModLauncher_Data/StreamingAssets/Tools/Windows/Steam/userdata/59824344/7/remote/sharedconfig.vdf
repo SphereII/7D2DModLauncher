@@ -2,7 +2,7 @@
 {
 	"Software"
 	{
-		"Valve"
+		"valve"
 		{
 			"Steam"
 			{
@@ -20,6 +20,10 @@
 				{
 					"251570"
 					{
+						"tags"
+						{
+							"0"		"favorite"
+						}
 					}
 					"294420"
 					{
