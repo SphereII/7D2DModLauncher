@@ -4,23 +4,24 @@
 # Author          : Johan Vromans
 # Created On      : Tue Sep 11 15:00:12 1990
 # Last Modified By: Johan Vromans
-# Last Modified On: Thu Jun  9 14:50:37 2016
-# Update Count    : 1699
+# Last Modified On: Mon Aug 12 17:05:46 2019
+# Update Count    : 1728
 # Status          : Released
 
 ################ Module Preamble ################
 
-package Getopt::Long;
-
 use 5.004;
 
 use strict;
+use warnings;
+
+package Getopt::Long;
 
 use vars qw($VERSION);
-$VERSION        =  2.49;
+$VERSION        =  2.51;
 # For testing versions only.
 use vars qw($VERSION_STRING);
-$VERSION_STRING = "2.49";
+$VERSION_STRING = "2.51";
 
 use Exporter;
 use vars qw(@ISA @EXPORT @EXPORT_OK);
@@ -302,7 +303,7 @@ sub GetOptionsFromArray(@) {
 	# Avoid some warnings if debugging.
 	local ($^W) = 0;
 	print STDERR
-	  ("Getopt::Long $Getopt::Long::VERSION ",
+	  ("Getopt::Long $Getopt::Long::VERSION_STRING ",
 	   "called from package \"$pkg\".",
 	   "\n  ",
 	   "argv: ",
@@ -768,7 +769,7 @@ sub GetOptionsFromArray(@) {
     }
 
     # Finish.
-    if ( @ret && $order == $PERMUTE ) {
+    if ( @ret && ( $order == $PERMUTE || $passthrough ) ) {
 	#  Push back accumulated arguments
 	print STDERR ("=> restoring \"", join('" "', @ret), "\"\n")
 	    if $debug;
@@ -804,10 +805,8 @@ sub ParseOptionSpec ($$) {
 		   (
 		     # Option name
 		     (?: \w+[-\w]* )
-		     # Alias names, or "?"
-		     (?: \| (?: \? | \w[-\w]* ) )*
 		     # Aliases
-		     (?: \| (?: [^-|!+=:][^|!+=:]* )? )*
+		     (?: \| (?: . [^|!+=:]* )? )*
 		   )?
 		   (
 		     # Either modifiers ...
@@ -1045,7 +1044,8 @@ sub FindOption ($$$$$) {
 	# Complete the option name, if appropriate.
 	if ( @hits == 1 && $hits[0] ne $opt ) {
 	    $tryopt = $hits[0];
-	    $tryopt = lc ($tryopt) if $ignorecase;
+	    $tryopt = lc ($tryopt)
+	      if $ignorecase > (($bundling && length($tryopt) == 1) ? 1 : 0);
 	    print STDERR ("=> option \"$opt\" -> \"$tryopt\"\n")
 		if $debug;
 	}
@@ -1110,10 +1110,29 @@ sub FindOption ($$$$$) {
 
     # Check if there is an option argument available.
     if ( $gnu_compat ) {
-	my $optargtype = 0; # 0 = none, 1 = empty, 2 = nonempty
-	$optargtype = ( !defined($optarg) ? 0 : ( (length($optarg) == 0) ? 1 : 2 ) );
-    return (1, $opt, $ctl, defined($ctl->[CTL_DEFAULT]) ? $ctl->[CTL_DEFAULT] : undef)
-	  if (($optargtype == 0) && !$mand);
+	my $optargtype = 0; # none, 1 = empty, 2 = nonempty, 3 = aux
+	if ( defined($optarg) ) {
+	    $optargtype = (length($optarg) == 0) ? 1 : 2;
+	}
+	elsif ( defined $rest || @$argv > 0 ) {
+	    # GNU getopt_long() does not accept the (optional)
+	    # argument to be passed to the option without = sign.
+	    # We do, since not doing so breaks existing scripts.
+	    $optargtype = 3;
+	}
+	if(($optargtype == 0) && !$mand) {
+	    if ( $type eq 'I' ) {
+		# Fake incremental type.
+		my @c = @$ctl;
+		$c[CTL_TYPE] = '+';
+		return (1, $opt, \@c, 1);
+	    }
+	    my $val
+	      = defined($ctl->[CTL_DEFAULT]) ? $ctl->[CTL_DEFAULT]
+	      : $type eq 's'                 ? ''
+	      :                                0;
+	    return (1, $opt, $ctl, $val);
+	}
 	return (1, $opt, $ctl, $type eq 's' ? '' : 0)
 	  if $optargtype == 1;  # --foo=  -> return nothing
     }
@@ -1526,7 +1545,7 @@ sub setup_pa_args($@) {
 
 # Sneak way to know what version the user requested.
 sub VERSION {
-    $requested_version = $_[1];
+    $requested_version = $_[1] if @_ > 1;
     shift->SUPER::VERSION(@_);
 }
 
@@ -1753,12 +1772,12 @@ destination for the option:
     GetOptions ("library=s" => \@libfiles);
 
 Alternatively, you can specify that the option can have multiple
-values by adding a "@", and pass a scalar reference as the
+values by adding a "@", and pass a reference to a scalar as the
 destination:
 
     GetOptions ("library=s@" => \$libfiles);
 
-Used with the example above, C<@libfiles> (or C<@$libfiles>) would
+Used with the example above, C<@libfiles> c.q. C<@$libfiles> would
 contain two strings upon completion: C<"lib/stdlib"> and
 C<"lib/extlib">, in that order. It is also possible to specify that
 only integer or floating point numbers are acceptable values.
@@ -2254,8 +2273,7 @@ it will set variable C<$stdio>.
 A special option 'name' C<< <> >> can be used to designate a subroutine
 to handle non-option arguments. When GetOptions() encounters an
 argument that does not look like an option, it will immediately call this
-subroutine and passes it one parameter: the argument name. Well, actually
-it is an object that stringifies to the argument name.
+subroutine and passes it one parameter: the argument name.
 
 For example:
 
@@ -2322,11 +2340,14 @@ do. Without C<gnu_compat>, C<--opt=> gives an error. With C<gnu_compat>,
 C<--opt=> will give option C<opt> and empty value.
 This is the way GNU getopt_long() does it.
 
+Note that C<--opt value> is still accepted, even though GNU
+getopt_long() doesn't.
+
 =item gnu_getopt
 
 This is a short way of setting C<gnu_compat> C<bundling> C<permute>
 C<no_getopt_compat>. With C<gnu_getopt>, command line handling should be
-fully compatible with GNU getopt_long().
+reasonably compatible with GNU getopt_long().
 
 =item require_order
 
@@ -2715,8 +2736,10 @@ version 2.13.
     use Getopt::Long;
     GetOptions ("help|?");    # -help and -? will both set $opt_help
 
-Other characters that can't appear in Perl identifiers are also supported
-as aliases with Getopt::Long of at least version 2.39.
+Other characters that can't appear in Perl identifiers are also
+supported in aliases with Getopt::Long of at version 2.39. Note that
+the characters C<!>, C<|>, C<+>, C<=>, and C<:> can only appear as the
+first (or only) character of an alias.
 
 As of version 2.32 Getopt::Long provides auto-help, a quick and easy way
 to add the options --help and -? to your program, and handle them.

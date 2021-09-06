@@ -99,3 +99,1067 @@
 [2021-07-14 11:54:29] Requesting 1 apps, 0 packages (meta data, 1024 prev attempts)
 [2021-07-14 11:54:29] UpdatesJob: finished OK, apps updated 0 (0 KB), packages updated 0 (0 KB)
 [2021-07-14 11:54:44] Starting async write C:\Users\kilpa\Documents\GitHub\7D2DModLauncher-UE\ModLauncher\Assets\StreamingAssets\Tools\Windows\Steam/appcache/appinfo.vdf (3180068 bytes)
+
+
+[2021-08-09 10:06:50] RequestAppInfoUpdate: nNumAppIDs 1
+[2021-08-09 10:06:50] Change number 0->12241376, apps: 0/0, packages: 0/0
+[2021-08-09 10:06:50] Requesting 650 apps, 302 packages (meta data, 1024 prev attempts)
+[2021-08-09 10:06:51] Requested 73 app access tokens, 15 received, 58 denied
+[2021-08-09 10:06:51] Requested 1 package access tokens, 0 received, 1 denied
+[2021-08-09 10:06:51] Updated SHAs with 15 new access tokens
+[2021-08-09 10:06:52] Downloaded 42 apps via HTTP, 1482 KB (322 KB compressed)
+[2021-08-09 10:06:52] Requesting 99 apps, 3 packages (full data, 1024 prev attempts)
+[2021-08-09 10:06:53] UpdatesJob: finished OK, apps updated 141 (1868 KB), packages updated 2 (32 KB)
+[2021-08-09 10:06:53] Requesting 740 apps, 1 packages (meta data, 1024 prev attempts)
+[2021-08-09 10:06:53] Requested 92 app access tokens, 31 received, 61 denied
+[2021-08-09 10:06:53] Requested 1 package access tokens, 0 received, 1 denied
+[2021-08-09 10:06:53] Updated SHAs with 31 new access tokens
+[2021-08-09 10:06:54] Downloaded 70 apps via HTTP, 975 KB (284 KB compressed)
+[2021-08-09 10:06:54] Requesting 648 apps, 1 packages (full data, 1024 prev attempts)
+[2021-08-09 10:06:58] UpdatesJob: finished OK, apps updated 718 (2987 KB), packages updated 0 (0 KB)
+[2021-08-09 10:06:58] RequestAppInfoUpdate: nNumAppIDs 1
+[2021-08-09 10:06:59] Apps changed: 
+[2021-08-09 10:06:59] Change number 12241376->12241379, apps: 0/2, packages: 0/0
+[2021-08-09 10:06:59] Requesting 1368 apps, 302 packages (meta data, 1024 prev attempts)
+[2021-08-09 10:07:00] Requested 143 app access tokens, 46 received, 97 denied
+[2021-08-09 10:07:00] Requested 1 package access tokens, 0 received, 1 denied
+[2021-08-09 10:07:00] Updated SHAs with 46 new access tokens
+[2021-08-09 10:07:00] Requesting 0 apps, 1 packages (full data, 1024 prev attempts)
+[2021-08-09 10:07:00] UpdatesJob: finished OK, apps updated 0 (0 KB), packages updated 0 (0 KB)
+[2021-08-09 10:07:13] Starting async write C:\Users\kilpa\Documents\GitHub\7D2DModLauncher-UE\ModLauncher\Assets\StreamingAssets\Tools\Windows\Steam/appcache/appinfo.vdf (5249594 bytes)
+[2021-08-09 10:20:41] Packages changed: 
+[2021-08-09 10:20:41] Apps changed: 4020=12241491,4000=12241488,489650=12241485,346110=12241417,218620=12241388,
+[2021-08-09 10:20:41] Change number 12241379->12241498, apps: 5/77, packages: 0/38
+[2021-08-09 10:20:41] Requesting 5 apps, 1 packages (meta data, 1024 prev attempts)
+[2021-08-09 10:20:41] Requested 1 package access tokens, 0 received, 1 denied
+[2021-08-09 10:20:42] Downloaded 2 apps via HTTP, 83 KB (22 KB compressed)
+[2021-08-09 10:20:42] Requesting 2 apps, 1 packages (full data, 1024 prev attempts)
+[2021-08-09 10:20:42] UpdatesJob: finished OK, apps updated 4 (91 KB), packages updated 0 (0 KB)
+[2021-08-09 10:20:57] Starting async write C:\Users\kilpa\Documents\GitHub\7D2DModLauncher-UE\ModLauncher\Assets\StreamingAssets\Tools\Windows\Steam/appcache/appinfo.vdf (5249592 bytes)
+[2021-08-09 10:34:33] Packages changed: 
+[2021-08-09 10:34:33] Apps changed: 471710=12241566,464920=12241523,1045940=12241503,
+[2021-08-09 10:34:33] Change number 12241498->12241573, apps: 3/62, packages: 0/11
+[2021-08-09 10:34:33] Requesting 3 apps, 1 packages (meta data, 1024 prev attempts)
+[2021-08-09 10:34:33] Requested 1 package access tokens, 0 received, 1 denied
+[2021-08-09 10:34:34] Downloaded 2 apps via HTTP, 63 KB (19 KB compressed)
+[2021-08-09 10:34:34] Requesting 1 apps, 1 packages (full data, 1024 prev attempts)
+[2021-08-09 10:34:34] UpdatesJob: finished OK, apps updated 3 (65 KB), packages updated 0 (0 KB)
+[2021-08-09 10:34:49] Starting async write C:\Users\kilpa\Documents\GitHub\7D2DModLauncher-UE\ModLauncher\Assets\StreamingAssets\Tools\Windows\Steam/appcache/appinfo.vdf (5249592 bytes)
+[2021-08-09 10:48:05] Packages changed: 
+[2021-08-09 10:48:05] Apps changed: 604540=12241699,746200=12241698,1011850=12241692,377300=12241680,736220=12241669,1097150=12241655,
+[2021-08-09 10:48:05] Change number 12241573->12241702, apps: 6/115, packages: 0/7
+[2021-08-09 10:48:05] Requesting 6 apps, 1 packages (meta data, 1024 prev attempts)
+[2021-08-09 10:48:06] Requested 2 app access tokens, 0 received, 2 denied
+[2021-08-09 10:48:06] Requested 1 package access tokens, 0 received, 1 denied
+[2021-08-09 10:48:06] Downloaded 2 apps via HTTP, 26 KB (8 KB compressed)
+[2021-08-09 10:48:06] Requesting 2 apps, 1 packages (full data, 1024 prev attempts)
+[2021-08-09 10:48:06] UpdatesJob: finished OK, apps updated 4 (36 KB), packages updated 0 (0 KB)
+[2021-08-09 10:48:21] Starting async write C:\Users\kilpa\Documents\GitHub\7D2DModLauncher-UE\ModLauncher\Assets\StreamingAssets\Tools\Windows\Steam/appcache/appinfo.vdf (5249591 bytes)
+[2021-08-09 11:02:41] Packages changed: 
+[2021-08-09 11:02:41] Apps changed: 1097150=12241738,
+[2021-08-09 11:02:41] Change number 12241702->12241820, apps: 1/81, packages: 0/8
+[2021-08-09 11:02:41] Requesting 1 apps, 1 packages (meta data, 1024 prev attempts)
+[2021-08-09 11:02:41] Requested 1 package access tokens, 0 received, 1 denied
+[2021-08-09 11:02:42] Downloaded 1 apps via HTTP, 9 KB (2 KB compressed)
+[2021-08-09 11:02:42] Requesting 0 apps, 1 packages (full data, 1024 prev attempts)
+[2021-08-09 11:02:42] UpdatesJob: finished OK, apps updated 1 (9 KB), packages updated 0 (0 KB)
+[2021-08-09 11:02:57] Starting async write C:\Users\kilpa\Documents\GitHub\7D2DModLauncher-UE\ModLauncher\Assets\StreamingAssets\Tools\Windows\Steam/appcache/appinfo.vdf (5249591 bytes)
+[2021-08-09 11:18:51] Packages changed: 
+[2021-08-09 11:18:51] Apps changed: 555160=12241890,285900=12241886,40960=12241885,
+[2021-08-09 11:18:51] Change number 12241820->12242016, apps: 3/157, packages: 0/14
+[2021-08-09 11:18:51] Requesting 3 apps, 1 packages (meta data, 1024 prev attempts)
+[2021-08-09 11:18:52] Requested 1 package access tokens, 0 received, 1 denied
+[2021-08-09 11:18:52] Downloaded 1 apps via HTTP, 8 KB (2 KB compressed)
+[2021-08-09 11:18:52] Requesting 2 apps, 1 packages (full data, 1024 prev attempts)
+[2021-08-09 11:18:52] UpdatesJob: finished OK, apps updated 3 (19 KB), packages updated 0 (0 KB)
+[2021-08-09 11:19:07] Starting async write C:\Users\kilpa\Documents\GitHub\7D2DModLauncher-UE\ModLauncher\Assets\StreamingAssets\Tools\Windows\Steam/appcache/appinfo.vdf (5249591 bytes)
+[2021-08-09 11:32:57] Packages changed: 
+[2021-08-09 11:32:57] Apps changed: 726840=12242057,
+[2021-08-09 11:32:57] Change number 12242016->12242127, apps: 1/85, packages: 0/9
+[2021-08-09 11:32:57] Requesting 1 apps, 1 packages (meta data, 1024 prev attempts)
+[2021-08-09 11:32:57] Requested 1 package access tokens, 0 received, 1 denied
+[2021-08-09 11:32:57] Requesting 1 apps, 1 packages (full data, 1024 prev attempts)
+[2021-08-09 11:32:57] UpdatesJob: finished OK, apps updated 1 (7 KB), packages updated 0 (0 KB)
+[2021-08-09 11:33:12] Starting async write C:\Users\kilpa\Documents\GitHub\7D2DModLauncher-UE\ModLauncher\Assets\StreamingAssets\Tools\Windows\Steam/appcache/appinfo.vdf (5249592 bytes)
+[2021-08-09 11:47:33] Packages changed: 
+[2021-08-09 11:47:33] Apps changed: 1247090=12242257,573090=12242245,604540=12242204,17580=12242202,400430=12242141,
+[2021-08-09 11:47:33] Change number 12242127->12242283, apps: 5/125, packages: 0/15
+[2021-08-09 11:47:33] Requesting 5 apps, 1 packages (meta data, 1024 prev attempts)
+[2021-08-09 11:47:34] Requested 1 package access tokens, 0 received, 1 denied
+[2021-08-09 11:47:34] Downloaded 1 apps via HTTP, 17 KB (5 KB compressed)
+[2021-08-09 11:47:34] Requesting 4 apps, 1 packages (full data, 1024 prev attempts)
+[2021-08-09 11:47:34] UpdatesJob: finished OK, apps updated 5 (34 KB), packages updated 0 (0 KB)
+[2021-08-09 11:47:49] Starting async write C:\Users\kilpa\Documents\GitHub\7D2DModLauncher-UE\ModLauncher\Assets\StreamingAssets\Tools\Windows\Steam/appcache/appinfo.vdf (5249592 bytes)
+[2021-08-09 12:02:44] Packages changed: 
+[2021-08-09 12:02:44] Apps changed: 471710=12242284,
+[2021-08-09 12:02:44] Change number 12242283->12242385, apps: 1/70, packages: 0/15
+[2021-08-09 12:02:45] Requesting 1 apps, 1 packages (meta data, 1024 prev attempts)
+[2021-08-09 12:02:45] Requested 1 package access tokens, 0 received, 1 denied
+[2021-08-09 12:02:45] Downloaded 1 apps via HTTP, 13 KB (4 KB compressed)
+[2021-08-09 12:02:45] Requesting 0 apps, 1 packages (full data, 1024 prev attempts)
+[2021-08-09 12:02:45] UpdatesJob: finished OK, apps updated 1 (13 KB), packages updated 0 (0 KB)
+[2021-08-09 12:03:00] Starting async write C:\Users\kilpa\Documents\GitHub\7D2DModLauncher-UE\ModLauncher\Assets\StreamingAssets\Tools\Windows\Steam/appcache/appinfo.vdf (5249592 bytes)
+[2021-08-09 12:17:25] Packages changed: 
+[2021-08-09 12:17:25] Apps changed: 1324780=12242429,376030=12242412,
+[2021-08-09 12:17:25] Change number 12242385->12242475, apps: 2/67, packages: 0/8
+[2021-08-09 12:17:25] Requesting 2 apps, 1 packages (meta data, 1024 prev attempts)
+[2021-08-09 12:17:26] Requested 1 package access tokens, 0 received, 1 denied
+[2021-08-09 12:17:26] Downloaded 1 apps via HTTP, 10 KB (2 KB compressed)
+[2021-08-09 12:17:26] Requesting 1 apps, 1 packages (full data, 1024 prev attempts)
+[2021-08-09 12:17:26] UpdatesJob: finished OK, apps updated 2 (16 KB), packages updated 0 (0 KB)
+[2021-08-09 12:17:41] Starting async write C:\Users\kilpa\Documents\GitHub\7D2DModLauncher-UE\ModLauncher\Assets\StreamingAssets\Tools\Windows\Steam/appcache/appinfo.vdf (5249736 bytes)
+[2021-08-09 12:32:07] Packages changed: 
+[2021-08-09 12:32:07] Apps changed: 774961=12242769,1324780=12242724,346110=12242714,1391110=12242491,440900=12242486,
+[2021-08-09 12:32:07] Change number 12242475->12242770, apps: 5/79, packages: 0/186
+[2021-08-09 12:32:07] Requesting 5 apps, 1 packages (meta data, 1024 prev attempts)
+[2021-08-09 12:32:07] Requested 1 package access tokens, 0 received, 1 denied
+[2021-08-09 12:32:08] Downloaded 3 apps via HTTP, 111 KB (29 KB compressed)
+[2021-08-09 12:32:08] Requesting 2 apps, 1 packages (full data, 1024 prev attempts)
+[2021-08-09 12:32:08] UpdatesJob: finished OK, apps updated 5 (118 KB), packages updated 0 (0 KB)
+[2021-08-09 12:32:23] Starting async write C:\Users\kilpa\Documents\GitHub\7D2DModLauncher-UE\ModLauncher\Assets\StreamingAssets\Tools\Windows\Steam/appcache/appinfo.vdf (5249453 bytes)
+[2021-08-09 12:46:58] Packages changed: 
+[2021-08-09 12:46:58] Apps changed: 494840=12242898,604540=12242872,1042420=12242871,27040=12242788,
+[2021-08-09 12:46:58] Change number 12242770->12242914, apps: 4/122, packages: 0/13
+[2021-08-09 12:46:58] Requesting 4 apps, 1 packages (meta data, 1024 prev attempts)
+[2021-08-09 12:46:58] Requested 1 package access tokens, 0 received, 1 denied
+[2021-08-09 12:46:58] Downloaded 2 apps via HTTP, 26 KB (8 KB compressed)
+[2021-08-09 12:46:58] Requesting 2 apps, 1 packages (full data, 1024 prev attempts)
+[2021-08-09 12:46:58] UpdatesJob: finished OK, apps updated 4 (33 KB), packages updated 0 (0 KB)
+[2021-08-09 12:47:13] Starting async write C:\Users\kilpa\Documents\GitHub\7D2DModLauncher-UE\ModLauncher\Assets\StreamingAssets\Tools\Windows\Steam/appcache/appinfo.vdf (5249453 bytes)
+[2021-08-09 13:01:25] Packages changed: 
+[2021-08-09 13:01:25] Apps changed: 1324780=12243000,714010=12242997,218620=12242982,494840=12242936,
+[2021-08-09 13:01:25] Change number 12242914->12243014, apps: 4/72, packages: 0/19
+[2021-08-09 13:01:25] Requesting 4 apps, 1 packages (meta data, 1024 prev attempts)
+[2021-08-09 13:01:26] Requested 1 package access tokens, 0 received, 1 denied
+[2021-08-09 13:01:26] Downloaded 2 apps via HTTP, 20 KB (6 KB compressed)
+[2021-08-09 13:01:26] Requesting 1 apps, 1 packages (full data, 1024 prev attempts)
+[2021-08-09 13:01:26] UpdatesJob: finished OK, apps updated 3 (26 KB), packages updated 0 (0 KB)
+[2021-08-09 13:01:41] Starting async write C:\Users\kilpa\Documents\GitHub\7D2DModLauncher-UE\ModLauncher\Assets\StreamingAssets\Tools\Windows\Steam/appcache/appinfo.vdf (5249597 bytes)
+[2021-08-09 13:15:55] Packages changed: 
+[2021-08-09 13:15:55] Apps changed: 
+[2021-08-09 13:15:55] Change number 12243014->12243090, apps: 0/54, packages: 0/17
+[2021-08-09 13:31:04] Packages changed: 
+[2021-08-09 13:31:04] Apps changed: 628770=12243165,714010=12243138,951440=12243130,
+[2021-08-09 13:31:04] Change number 12243090->12243181, apps: 3/70, packages: 0/14
+[2021-08-09 13:31:04] Requesting 3 apps, 1 packages (meta data, 1024 prev attempts)
+[2021-08-09 13:31:05] Requested 1 package access tokens, 0 received, 1 denied
+[2021-08-09 13:31:05] Downloaded 2 apps via HTTP, 21 KB (6 KB compressed)
+[2021-08-09 13:31:05] Requesting 1 apps, 1 packages (full data, 1024 prev attempts)
+[2021-08-09 13:31:05] UpdatesJob: finished OK, apps updated 3 (27 KB), packages updated 0 (0 KB)
+[2021-08-09 13:31:20] Starting async write C:\Users\kilpa\Documents\GitHub\7D2DModLauncher-UE\ModLauncher\Assets\StreamingAssets\Tools\Windows\Steam/appcache/appinfo.vdf (5249597 bytes)
+[2021-08-09 13:47:16] Packages changed: 
+[2021-08-09 13:47:16] Apps changed: 222840=12243287,1097150=12243267,1064780=12243258,1650650=12243248,
+[2021-08-09 13:47:16] Change number 12243181->12243332, apps: 4/128, packages: 0/5
+[2021-08-09 13:47:16] Requesting 4 apps, 1 packages (meta data, 1024 prev attempts)
+[2021-08-09 13:47:17] Requested 1 package access tokens, 0 received, 1 denied
+[2021-08-09 13:47:17] Downloaded 1 apps via HTTP, 9 KB (2 KB compressed)
+[2021-08-09 13:47:17] Requesting 3 apps, 1 packages (full data, 1024 prev attempts)
+[2021-08-09 13:47:17] UpdatesJob: finished OK, apps updated 4 (17 KB), packages updated 0 (0 KB)
+[2021-08-09 13:47:32] Starting async write C:\Users\kilpa\Documents\GitHub\7D2DModLauncher-UE\ModLauncher\Assets\StreamingAssets\Tools\Windows\Steam/appcache/appinfo.vdf (5249597 bytes)
+[2021-08-09 14:02:25] Packages changed: force all
+[2021-08-09 14:02:25] Apps changed: 714010=12243400,1011850=12243364,39120=12243344,
+[2021-08-09 14:02:25] Change number 12243332->12243437, apps: 3/60, packages: 0/0
+[2021-08-09 14:02:25] Requesting 3 apps, 302 packages (meta data, 1024 prev attempts)
+[2021-08-09 14:02:25] Requested 1 app access tokens, 0 received, 1 denied
+[2021-08-09 14:02:25] Requested 1 package access tokens, 0 received, 1 denied
+[2021-08-09 14:02:26] Downloaded 1 apps via HTTP, 11 KB (3 KB compressed)
+[2021-08-09 14:02:26] Requesting 1 apps, 1 packages (full data, 1024 prev attempts)
+[2021-08-09 14:02:26] UpdatesJob: finished OK, apps updated 2 (16 KB), packages updated 0 (0 KB)
+[2021-08-09 14:02:41] Starting async write C:\Users\kilpa\Documents\GitHub\7D2DModLauncher-UE\ModLauncher\Assets\StreamingAssets\Tools\Windows\Steam/appcache/appinfo.vdf (5249605 bytes)
+[2021-08-09 14:18:51] Packages changed: 
+[2021-08-09 14:18:51] Apps changed: 774961=12243562,464920=12243561,
+[2021-08-09 14:18:51] Change number 12243437->12243576, apps: 2/113, packages: 0/12
+[2021-08-09 14:18:51] Requesting 2 apps, 1 packages (meta data, 1024 prev attempts)
+[2021-08-09 14:18:52] Requested 1 package access tokens, 0 received, 1 denied
+[2021-08-09 14:18:52] Downloaded 2 apps via HTTP, 66 KB (19 KB compressed)
+[2021-08-09 14:18:52] Requesting 0 apps, 1 packages (full data, 1024 prev attempts)
+[2021-08-09 14:18:52] UpdatesJob: finished OK, apps updated 2 (66 KB), packages updated 0 (0 KB)
+[2021-08-09 14:19:07] Starting async write C:\Users\kilpa\Documents\GitHub\7D2DModLauncher-UE\ModLauncher\Assets\StreamingAssets\Tools\Windows\Steam/appcache/appinfo.vdf (5249605 bytes)
+[2021-08-09 14:34:47] Packages changed: 
+[2021-08-09 14:34:47] Apps changed: 951440=12243627,
+[2021-08-09 14:34:47] Change number 12243576->12243677, apps: 1/71, packages: 0/8
+[2021-08-09 14:34:47] Requesting 1 apps, 1 packages (meta data, 1024 prev attempts)
+[2021-08-09 14:34:48] Requested 1 package access tokens, 0 received, 1 denied
+[2021-08-09 14:34:48] Downloaded 1 apps via HTTP, 10 KB (3 KB compressed)
+[2021-08-09 14:34:48] Requesting 0 apps, 1 packages (full data, 1024 prev attempts)
+[2021-08-09 14:34:48] UpdatesJob: finished OK, apps updated 1 (10 KB), packages updated 0 (0 KB)
+[2021-08-09 14:35:03] Starting async write C:\Users\kilpa\Documents\GitHub\7D2DModLauncher-UE\ModLauncher\Assets\StreamingAssets\Tools\Windows\Steam/appcache/appinfo.vdf (5249605 bytes)
+[2021-08-09 14:50:31] Packages changed: 
+[2021-08-09 14:50:31] Apps changed: 714010=12243778,438100=12243771,746200=12243766,343050=12243763,322330=12243759,1379630=12243751,736220=12243741,
+[2021-08-09 14:50:31] Change number 12243677->12243778, apps: 7/90, packages: 0/6
+[2021-08-09 14:50:31] Requesting 7 apps, 1 packages (meta data, 1024 prev attempts)
+[2021-08-09 14:50:31] Requested 1 package access tokens, 0 received, 1 denied
+[2021-08-09 14:50:32] Downloaded 4 apps via HTTP, 41 KB (12 KB compressed)
+[2021-08-09 14:50:32] Requesting 3 apps, 1 packages (full data, 1024 prev attempts)
+[2021-08-09 14:50:32] UpdatesJob: finished OK, apps updated 7 (55 KB), packages updated 0 (0 KB)
+[2021-08-09 14:50:47] Starting async write C:\Users\kilpa\Documents\GitHub\7D2DModLauncher-UE\ModLauncher\Assets\StreamingAssets\Tools\Windows\Steam/appcache/appinfo.vdf (5249604 bytes)
+[2021-08-09 15:04:21] Packages changed: 
+[2021-08-09 15:04:21] Apps changed: 
+[2021-08-09 15:04:21] Change number 12243778->12243861, apps: 0/69, packages: 0/5
+[2021-08-09 15:19:08] Packages changed: 
+[2021-08-09 15:19:08] Apps changed: 1145360=12243938,
+[2021-08-09 15:19:08] Change number 12243861->12244028, apps: 1/156, packages: 0/6
+[2021-08-09 15:19:08] Requesting 1 apps, 1 packages (meta data, 1024 prev attempts)
+[2021-08-09 15:19:09] Requested 1 package access tokens, 0 received, 1 denied
+[2021-08-09 15:19:09] Downloaded 1 apps via HTTP, 34 KB (8 KB compressed)
+[2021-08-09 15:19:09] Requesting 0 apps, 1 packages (full data, 1024 prev attempts)
+[2021-08-09 15:19:09] UpdatesJob: finished OK, apps updated 1 (34 KB), packages updated 0 (0 KB)
+[2021-08-09 15:19:24] Starting async write C:\Users\kilpa\Documents\GitHub\7D2DModLauncher-UE\ModLauncher\Assets\StreamingAssets\Tools\Windows\Steam/appcache/appinfo.vdf (5249604 bytes)
+[2021-08-09 15:34:49] Packages changed: 
+[2021-08-09 15:34:49] Apps changed: 383120=12244129,774961=12244056,1433270=12244047,
+[2021-08-09 15:34:49] Change number 12244028->12244138, apps: 3/68, packages: 0/18
+[2021-08-09 15:34:49] Requesting 3 apps, 1 packages (meta data, 1024 prev attempts)
+[2021-08-09 15:34:50] Requested 1 package access tokens, 0 received, 1 denied
+[2021-08-09 15:34:50] Downloaded 1 apps via HTTP, 16 KB (4 KB compressed)
+[2021-08-09 15:34:50] Requesting 2 apps, 1 packages (full data, 1024 prev attempts)
+[2021-08-09 15:34:50] UpdatesJob: finished OK, apps updated 3 (29 KB), packages updated 0 (0 KB)
+[2021-08-09 15:35:05] Starting async write C:\Users\kilpa\Documents\GitHub\7D2DModLauncher-UE\ModLauncher\Assets\StreamingAssets\Tools\Windows\Steam/appcache/appinfo.vdf (5249603 bytes)
+[2021-08-09 15:49:55] Packages changed: 
+[2021-08-09 15:49:55] Apps changed: 377300=12244232,530870=12244215,996560=12244199,1157220=12244159,979640=12244153,
+[2021-08-09 15:49:55] Change number 12244138->12244260, apps: 5/112, packages: 0/10
+[2021-08-09 15:49:55] Requesting 5 apps, 1 packages (meta data, 1024 prev attempts)
+[2021-08-09 15:49:56] Requested 1 app access tokens, 0 received, 1 denied
+[2021-08-09 15:49:56] Requested 1 package access tokens, 0 received, 1 denied
+[2021-08-09 15:49:56] Downloaded 1 apps via HTTP, 12 KB (3 KB compressed)
+[2021-08-09 15:49:56] Requesting 3 apps, 1 packages (full data, 1024 prev attempts)
+[2021-08-09 15:49:56] UpdatesJob: finished OK, apps updated 4 (28 KB), packages updated 0 (0 KB)
+[2021-08-09 15:50:11] Starting async write C:\Users\kilpa\Documents\GitHub\7D2DModLauncher-UE\ModLauncher\Assets\StreamingAssets\Tools\Windows\Steam/appcache/appinfo.vdf (5249603 bytes)
+[2021-08-09 16:06:15] Packages changed: 
+[2021-08-09 16:06:15] Apps changed: 530870=12244348,383120=12244347,1433270=12244317,714010=12244303,
+[2021-08-09 16:06:15] Change number 12244260->12244375, apps: 4/82, packages: 0/13
+[2021-08-09 16:06:15] Requesting 4 apps, 1 packages (meta data, 1024 prev attempts)
+[2021-08-09 16:06:15] Requested 1 package access tokens, 0 received, 1 denied
+[2021-08-09 16:06:15] Downloaded 1 apps via HTTP, 11 KB (3 KB compressed)
+[2021-08-09 16:06:15] Requesting 3 apps, 1 packages (full data, 1024 prev attempts)
+[2021-08-09 16:06:16] UpdatesJob: finished OK, apps updated 4 (29 KB), packages updated 0 (0 KB)
+[2021-08-09 16:06:31] Starting async write C:\Users\kilpa\Documents\GitHub\7D2DModLauncher-UE\ModLauncher\Assets\StreamingAssets\Tools\Windows\Steam/appcache/appinfo.vdf (5249833 bytes)
+[2021-08-09 16:20:02] Packages changed: 
+[2021-08-09 16:20:02] Apps changed: 1070560=12244434,403240=12244429,996560=12244420,294100=12244415,757780=12244413,393380=12244388,570=12244378,
+[2021-08-09 16:20:02] Change number 12244375->12244451, apps: 7/60, packages: 0/2
+[2021-08-09 16:20:02] Requesting 7 apps, 1 packages (meta data, 1024 prev attempts)
+[2021-08-09 16:20:02] Requested 1 package access tokens, 0 received, 1 denied
+[2021-08-09 16:20:03] Downloaded 5 apps via HTTP, 406 KB (62 KB compressed)
+[2021-08-09 16:20:03] Requesting 2 apps, 1 packages (full data, 1024 prev attempts)
+[2021-08-09 16:20:03] UpdatesJob: finished OK, apps updated 7 (412 KB), packages updated 0 (0 KB)
+[2021-08-09 16:20:18] Starting async write C:\Users\kilpa\Documents\GitHub\7D2DModLauncher-UE\ModLauncher\Assets\StreamingAssets\Tools\Windows\Steam/appcache/appinfo.vdf (5250000 bytes)
+[2021-08-09 16:33:58] Packages changed: 
+[2021-08-09 16:33:58] Apps changed: 322330=12244509,1391110=12244506,736220=12244500,343050=12244487,1628350=12244481,376210=12244458,
+[2021-08-09 16:33:58] Change number 12244451->12244546, apps: 6/56, packages: 0/28
+[2021-08-09 16:33:58] Requesting 6 apps, 1 packages (meta data, 1024 prev attempts)
+[2021-08-09 16:33:58] Requested 1 app access tokens, 0 received, 1 denied
+[2021-08-09 16:33:58] Requested 1 package access tokens, 0 received, 1 denied
+[2021-08-09 16:33:59] Downloaded 2 apps via HTTP, 21 KB (6 KB compressed)
+[2021-08-09 16:33:59] Requesting 4 apps, 1 packages (full data, 1024 prev attempts)
+[2021-08-09 16:33:59] UpdatesJob: finished OK, apps updated 6 (35 KB), packages updated 0 (0 KB)
+[2021-08-09 16:34:14] Starting async write C:\Users\kilpa\Documents\GitHub\7D2DModLauncher-UE\ModLauncher\Assets\StreamingAssets\Tools\Windows\Steam/appcache/appinfo.vdf (5249533 bytes)
+[2021-08-09 16:50:14] Packages changed: 
+[2021-08-09 16:50:14] Apps changed: 774961=12244631,746200=12244547,
+[2021-08-09 16:50:14] Change number 12244546->12244693, apps: 2/123, packages: 0/19
+[2021-08-09 16:50:14] Requesting 2 apps, 1 packages (meta data, 1024 prev attempts)
+[2021-08-09 16:50:14] Requested 1 package access tokens, 0 received, 1 denied
+[2021-08-09 16:50:14] Downloaded 1 apps via HTTP, 16 KB (4 KB compressed)
+[2021-08-09 16:50:14] Requesting 1 apps, 1 packages (full data, 1024 prev attempts)
+[2021-08-09 16:50:15] UpdatesJob: finished OK, apps updated 2 (20 KB), packages updated 0 (0 KB)
+[2021-08-09 16:50:30] Starting async write C:\Users\kilpa\Documents\GitHub\7D2DModLauncher-UE\ModLauncher\Assets\StreamingAssets\Tools\Windows\Steam/appcache/appinfo.vdf (5249533 bytes)
+[2021-08-09 17:05:55] Packages changed: 
+[2021-08-09 17:05:55] Apps changed: 343050=12244768,322330=12244759,494840=12244725,
+[2021-08-09 17:05:55] Change number 12244693->12244775, apps: 3/70, packages: 0/15
+[2021-08-09 17:05:55] Requesting 3 apps, 1 packages (meta data, 1024 prev attempts)
+[2021-08-09 17:05:56] Requested 1 package access tokens, 0 received, 1 denied
+[2021-08-09 17:05:56] Downloaded 3 apps via HTTP, 31 KB (9 KB compressed)
+[2021-08-09 17:05:56] Requesting 0 apps, 1 packages (full data, 1024 prev attempts)
+[2021-08-09 17:05:56] UpdatesJob: finished OK, apps updated 3 (31 KB), packages updated 0 (0 KB)
+[2021-08-09 17:06:11] Starting async write C:\Users\kilpa\Documents\GitHub\7D2DModLauncher-UE\ModLauncher\Assets\StreamingAssets\Tools\Windows\Steam/appcache/appinfo.vdf (5249533 bytes)
+[2021-08-09 17:21:13] Packages changed: 
+[2021-08-09 17:21:13] Apps changed: 774961=12244869,380870=12244867,1011850=12244863,108600=12244860,403240=12244848,439660=12244817,714010=12244815,996560=12244804,581330=12244777,
+[2021-08-09 17:21:13] Change number 12244775->12244872, apps: 9/68, packages: 0/16
+[2021-08-09 17:21:13] Requesting 9 apps, 1 packages (meta data, 1024 prev attempts)
+[2021-08-09 17:21:14] Requested 1 app access tokens, 0 received, 1 denied
+[2021-08-09 17:21:14] Requested 1 package access tokens, 0 received, 1 denied
+[2021-08-09 17:21:14] Downloaded 7 apps via HTTP, 90 KB (26 KB compressed)
+[2021-08-09 17:21:14] Requesting 1 apps, 1 packages (full data, 1024 prev attempts)
+[2021-08-09 17:21:14] UpdatesJob: finished OK, apps updated 8 (93 KB), packages updated 0 (0 KB)
+[2021-08-09 17:21:29] Starting async write C:\Users\kilpa\Documents\GitHub\7D2DModLauncher-UE\ModLauncher\Assets\StreamingAssets\Tools\Windows\Steam/appcache/appinfo.vdf (5249533 bytes)
+[2021-08-09 17:35:29] Packages changed: 
+[2021-08-09 17:35:29] Apps changed: 812040=12244962,581330=12244918,238430=12244906,
+[2021-08-09 17:35:29] Change number 12244872->12245005, apps: 3/116, packages: 0/8
+[2021-08-09 17:35:30] Requesting 3 apps, 1 packages (meta data, 1024 prev attempts)
+[2021-08-09 17:35:30] Requested 1 package access tokens, 0 received, 1 denied
+[2021-08-09 17:35:30] Downloaded 2 apps via HTTP, 18 KB (5 KB compressed)
+[2021-08-09 17:35:30] Requesting 0 apps, 1 packages (full data, 1024 prev attempts)
+[2021-08-09 17:35:30] UpdatesJob: finished OK, apps updated 2 (18 KB), packages updated 0 (0 KB)
+[2021-08-09 17:35:45] Starting async write C:\Users\kilpa\Documents\GitHub\7D2DModLauncher-UE\ModLauncher\Assets\StreamingAssets\Tools\Windows\Steam/appcache/appinfo.vdf (5249533 bytes)
+[2021-08-09 17:49:45] Packages changed: 
+[2021-08-09 17:49:45] Apps changed: 380870=12245076,108600=12245069,464920=12245052,
+[2021-08-09 17:49:45] Change number 12245005->12245076, apps: 3/52, packages: 0/5
+[2021-08-09 17:49:45] Requesting 3 apps, 1 packages (meta data, 1024 prev attempts)
+[2021-08-09 17:49:45] Requested 1 package access tokens, 0 received, 1 denied
+[2021-08-09 17:49:45] Downloaded 3 apps via HTTP, 81 KB (24 KB compressed)
+[2021-08-09 17:49:45] Requesting 0 apps, 1 packages (full data, 1024 prev attempts)
+[2021-08-09 17:49:45] UpdatesJob: finished OK, apps updated 3 (81 KB), packages updated 0 (0 KB)
+[2021-08-09 17:50:00] Starting async write C:\Users\kilpa\Documents\GitHub\7D2DModLauncher-UE\ModLauncher\Assets\StreamingAssets\Tools\Windows\Steam/appcache/appinfo.vdf (5249533 bytes)
+[2021-08-09 18:04:43] Packages changed: 
+[2021-08-09 18:04:43] Apps changed: 6060=12245143,251570=12245130,
+[2021-08-09 18:04:43] Change number 12245076->12245148, apps: 2/59, packages: 0/4
+[2021-08-09 18:04:43] Requesting 2 apps, 1 packages (meta data, 1024 prev attempts)
+[2021-08-09 18:04:43] Requested 1 package access tokens, 0 received, 1 denied
+[2021-08-09 18:04:43] Downloaded 1 apps via HTTP, 12 KB (3 KB compressed)
+[2021-08-09 18:04:43] Requesting 1 apps, 1 packages (full data, 1024 prev attempts)
+[2021-08-09 18:04:43] UpdatesJob: finished OK, apps updated 2 (17 KB), packages updated 0 (0 KB)
+[2021-08-09 18:04:59] Starting async write C:\Users\kilpa\Documents\GitHub\7D2DModLauncher-UE\ModLauncher\Assets\StreamingAssets\Tools\Windows\Steam/appcache/appinfo.vdf (5249532 bytes)
+[2021-08-09 18:18:33] Packages changed: 
+[2021-08-09 18:18:33] Apps changed: 464920=12245203,394690=12245166,294420=12245153,
+[2021-08-09 18:18:33] Change number 12245148->12245215, apps: 3/51, packages: 0/3
+[2021-08-09 18:18:33] Requesting 3 apps, 1 packages (meta data, 1024 prev attempts)
+[2021-08-09 18:18:34] Requested 1 package access tokens, 0 received, 1 denied
+[2021-08-09 18:18:34] Downloaded 1 apps via HTTP, 49 KB (15 KB compressed)
+[2021-08-09 18:18:34] Requesting 2 apps, 1 packages (full data, 1024 prev attempts)
+[2021-08-09 18:18:34] UpdatesJob: finished OK, apps updated 3 (63 KB), packages updated 0 (0 KB)
+[2021-08-09 18:18:49] Starting async write C:\Users\kilpa\Documents\GitHub\7D2DModLauncher-UE\ModLauncher\Assets\StreamingAssets\Tools\Windows\Steam/appcache/appinfo.vdf (5249532 bytes)
+[2021-08-09 18:32:41] Packages changed: 
+[2021-08-09 18:32:41] Apps changed: 578310=12245281,714010=12245265,471710=12245263,238430=12245262,
+[2021-08-09 18:32:41] Change number 12245215->12245283, apps: 4/54, packages: 0/3
+[2021-08-09 18:32:41] Requesting 4 apps, 1 packages (meta data, 1024 prev attempts)
+[2021-08-09 18:32:42] Requested 1 package access tokens, 0 received, 1 denied
+[2021-08-09 18:32:42] Downloaded 2 apps via HTTP, 24 KB (7 KB compressed)
+[2021-08-09 18:32:42] Requesting 1 apps, 1 packages (full data, 1024 prev attempts)
+[2021-08-09 18:32:42] UpdatesJob: finished OK, apps updated 3 (29 KB), packages updated 0 (0 KB)
+[2021-08-09 18:32:57] Starting async write C:\Users\kilpa\Documents\GitHub\7D2DModLauncher-UE\ModLauncher\Assets\StreamingAssets\Tools\Windows\Steam/appcache/appinfo.vdf (5249532 bytes)
+[2021-08-09 18:48:31] Packages changed: 
+[2021-08-09 18:48:31] Apps changed: 334920=12245454,600760=12245447,376210=12245389,544550=12245287,
+[2021-08-09 18:48:31] Change number 12245283->12245458, apps: 4/104, packages: 0/22
+[2021-08-09 18:48:31] Requesting 4 apps, 1 packages (meta data, 1024 prev attempts)
+[2021-08-09 18:48:31] Requested 1 package access tokens, 0 received, 1 denied
+[2021-08-09 18:48:31] Requesting 4 apps, 1 packages (full data, 1024 prev attempts)
+[2021-08-09 18:48:32] UpdatesJob: finished OK, apps updated 4 (17 KB), packages updated 0 (0 KB)
+[2021-08-09 18:48:47] Starting async write C:\Users\kilpa\Documents\GitHub\7D2DModLauncher-UE\ModLauncher\Assets\StreamingAssets\Tools\Windows\Steam/appcache/appinfo.vdf (5249532 bytes)
+[2021-08-09 19:03:28] Packages changed: 
+[2021-08-09 19:03:28] Apps changed: 774961=12245530,471710=12245511,394690=12245499,578310=12245479,714010=12245478,
+[2021-08-09 19:03:28] Change number 12245458->12245535, apps: 5/59, packages: 0/10
+[2021-08-09 19:03:28] Requesting 5 apps, 1 packages (meta data, 1024 prev attempts)
+[2021-08-09 19:03:28] Requested 1 package access tokens, 0 received, 1 denied
+[2021-08-09 19:03:29] Downloaded 3 apps via HTTP, 40 KB (11 KB compressed)
+[2021-08-09 19:03:29] Requesting 2 apps, 1 packages (full data, 1024 prev attempts)
+[2021-08-09 19:03:29] UpdatesJob: finished OK, apps updated 5 (53 KB), packages updated 0 (0 KB)
+[2021-08-09 19:03:44] Starting async write C:\Users\kilpa\Documents\GitHub\7D2DModLauncher-UE\ModLauncher\Assets\StreamingAssets\Tools\Windows\Steam/appcache/appinfo.vdf (5250016 bytes)
+[2021-08-09 19:18:10] Packages changed: 
+[2021-08-09 19:18:10] Apps changed: 
+[2021-08-09 19:18:10] Change number 12245535->12245702, apps: 0/143, packages: 0/17
+[2021-08-09 19:32:02] Packages changed: 
+[2021-08-09 19:32:02] Apps changed: 1158420=12245763,238430=12245742,714010=12245741,578310=12245731,471710=12245706,
+[2021-08-09 19:32:02] Change number 12245702->12245773, apps: 5/52, packages: 0/7
+[2021-08-09 19:32:02] Requesting 5 apps, 1 packages (meta data, 1024 prev attempts)
+[2021-08-09 19:32:03] Requested 1 package access tokens, 0 received, 1 denied
+[2021-08-09 19:32:03] Downloaded 2 apps via HTTP, 24 KB (7 KB compressed)
+[2021-08-09 19:32:03] Requesting 2 apps, 1 packages (full data, 1024 prev attempts)
+[2021-08-09 19:32:03] UpdatesJob: finished OK, apps updated 4 (34 KB), packages updated 0 (0 KB)
+[2021-08-09 19:32:18] Starting async write C:\Users\kilpa\Documents\GitHub\7D2DModLauncher-UE\ModLauncher\Assets\StreamingAssets\Tools\Windows\Steam/appcache/appinfo.vdf (5249653 bytes)
+[2021-08-09 19:46:13] Packages changed: 
+[2021-08-09 19:46:13] Apps changed: 413150=12245893,578310=12245874,393380=12245871,403240=12245871,1158420=12245865,443030=12245861,440900=12245847,1042420=12245793,
+[2021-08-09 19:46:13] Change number 12245773->12245902, apps: 8/107, packages: 0/5
+[2021-08-09 19:46:13] Requesting 8 apps, 1 packages (meta data, 1024 prev attempts)
+[2021-08-09 19:46:14] Requested 1 package access tokens, 0 received, 1 denied
+[2021-08-09 19:46:14] Downloaded 5 apps via HTTP, 57 KB (17 KB compressed)
+[2021-08-09 19:46:14] Requesting 3 apps, 1 packages (full data, 1024 prev attempts)
+[2021-08-09 19:46:14] UpdatesJob: finished OK, apps updated 8 (73 KB), packages updated 0 (0 KB)
+[2021-08-09 19:46:29] Starting async write C:\Users\kilpa\Documents\GitHub\7D2DModLauncher-UE\ModLauncher\Assets\StreamingAssets\Tools\Windows\Steam/appcache/appinfo.vdf (5250137 bytes)
+[2021-08-09 20:00:02] Apps changed: 438100=12245940,578310=12245935,
+[2021-08-09 20:00:02] Change number 12245902->12245957, apps: 2/42, packages: 0/0
+[2021-08-09 20:00:02] Requesting 2 apps, 1 packages (meta data, 1024 prev attempts)
+[2021-08-09 20:00:02] Requested 1 package access tokens, 0 received, 1 denied
+[2021-08-09 20:00:03] Downloaded 1 apps via HTTP, 9 KB (2 KB compressed)
+[2021-08-09 20:00:03] Requesting 1 apps, 1 packages (full data, 1024 prev attempts)
+[2021-08-09 20:00:03] UpdatesJob: finished OK, apps updated 2 (14 KB), packages updated 0 (0 KB)
+[2021-08-09 20:00:18] Starting async write C:\Users\kilpa\Documents\GitHub\7D2DModLauncher-UE\ModLauncher\Assets\StreamingAssets\Tools\Windows\Steam/appcache/appinfo.vdf (5249653 bytes)
+[2021-08-09 20:15:25] Packages changed: 
+[2021-08-09 20:15:25] Apps changed: 578310=12246018,728470=12245998,1011850=12245972,
+[2021-08-09 20:15:25] Change number 12245957->12246028, apps: 3/52, packages: 0/10
+[2021-08-09 20:15:25] Requesting 3 apps, 1 packages (meta data, 1024 prev attempts)
+[2021-08-09 20:15:25] Requested 1 app access tokens, 0 received, 1 denied
+[2021-08-09 20:15:25] Requested 1 package access tokens, 0 received, 1 denied
+[2021-08-09 20:15:25] Requesting 2 apps, 1 packages (full data, 1024 prev attempts)
+[2021-08-09 20:15:25] UpdatesJob: finished OK, apps updated 2 (12 KB), packages updated 0 (0 KB)
+[2021-08-09 20:15:40] Starting async write C:\Users\kilpa\Documents\GitHub\7D2DModLauncher-UE\ModLauncher\Assets\StreamingAssets\Tools\Windows\Steam/appcache/appinfo.vdf (5250137 bytes)
+[2021-08-09 20:31:26] Packages changed: 
+[2021-08-09 20:31:26] Apps changed: 394690=12246118,604540=12246101,714010=12246094,376210=12246090,578310=12246066,
+[2021-08-09 20:31:26] Change number 12246028->12246119, apps: 5/66, packages: 0/13
+[2021-08-09 20:31:26] Requesting 5 apps, 1 packages (meta data, 1024 prev attempts)
+[2021-08-09 20:31:26] Requested 1 package access tokens, 0 received, 1 denied
+[2021-08-09 20:31:27] Downloaded 3 apps via HTTP, 36 KB (10 KB compressed)
+[2021-08-09 20:31:27] Requesting 2 apps, 1 packages (full data, 1024 prev attempts)
+[2021-08-09 20:31:27] UpdatesJob: finished OK, apps updated 5 (49 KB), packages updated 0 (0 KB)
+[2021-08-09 20:31:42] Starting async write C:\Users\kilpa\Documents\GitHub\7D2DModLauncher-UE\ModLauncher\Assets\StreamingAssets\Tools\Windows\Steam/appcache/appinfo.vdf (5250935 bytes)
+[2021-08-09 20:47:54] Packages changed: 
+[2021-08-09 20:47:54] Apps changed: 471710=12246204,714010=12246192,578310=12246183,252950=12246173,
+[2021-08-09 20:47:54] Change number 12246119->12246223, apps: 4/83, packages: 0/5
+[2021-08-09 20:47:54] Requesting 4 apps, 1 packages (meta data, 1024 prev attempts)
+[2021-08-09 20:47:54] Requested 1 package access tokens, 0 received, 1 denied
+[2021-08-09 20:47:55] Downloaded 3 apps via HTTP, 39 KB (10 KB compressed)
+[2021-08-09 20:47:55] Requesting 1 apps, 1 packages (full data, 1024 prev attempts)
+[2021-08-09 20:47:55] UpdatesJob: finished OK, apps updated 4 (45 KB), packages updated 0 (0 KB)
+[2021-08-09 20:48:10] Starting async write C:\Users\kilpa\Documents\GitHub\7D2DModLauncher-UE\ModLauncher\Assets\StreamingAssets\Tools\Windows\Steam/appcache/appinfo.vdf (5250935 bytes)
+[2021-08-09 21:01:58] Packages changed: 
+[2021-08-09 21:01:58] Apps changed: 391220=12246251,294420=12246243,616720=12246239,251570=12246236,
+[2021-08-09 21:01:58] Change number 12246223->12246293, apps: 4/52, packages: 0/1
+[2021-08-09 21:01:58] Requesting 4 apps, 1 packages (meta data, 1024 prev attempts)
+[2021-08-09 21:01:58] Requested 1 package access tokens, 0 received, 1 denied
+[2021-08-09 21:01:58] Downloaded 2 apps via HTTP, 74 KB (17 KB compressed)
+[2021-08-09 21:01:58] Requesting 2 apps, 1 packages (full data, 1024 prev attempts)
+[2021-08-09 21:01:58] UpdatesJob: finished OK, apps updated 4 (88 KB), packages updated 0 (0 KB)
+[2021-08-09 21:02:13] Starting async write C:\Users\kilpa\Documents\GitHub\7D2DModLauncher-UE\ModLauncher\Assets\StreamingAssets\Tools\Windows\Steam/appcache/appinfo.vdf (5251009 bytes)
+[2021-08-09 21:17:05] Packages changed: 
+[2021-08-09 21:17:05] Apps changed: 710560=12246346,604540=12246343,439660=12246324,1516050=12246315,376210=12246309,578310=12246301,
+[2021-08-09 21:17:05] Change number 12246293->12246359, apps: 6/54, packages: 0/2
+[2021-08-09 21:17:05] Requesting 6 apps, 1 packages (meta data, 1024 prev attempts)
+[2021-08-09 21:17:06] Requested 1 package access tokens, 0 received, 1 denied
+[2021-08-09 21:17:06] Downloaded 2 apps via HTTP, 25 KB (7 KB compressed)
+[2021-08-09 21:17:06] Requesting 3 apps, 1 packages (full data, 1024 prev attempts)
+[2021-08-09 21:17:06] UpdatesJob: finished OK, apps updated 5 (38 KB), packages updated 0 (0 KB)
+[2021-08-09 21:17:21] Starting async write C:\Users\kilpa\Documents\GitHub\7D2DModLauncher-UE\ModLauncher\Assets\StreamingAssets\Tools\Windows\Steam/appcache/appinfo.vdf (5251009 bytes)
+[2021-08-09 21:32:33] Packages changed: 
+[2021-08-09 21:32:33] Apps changed: 628770=12246423,616720=12246408,578310=12246401,
+[2021-08-09 21:32:33] Change number 12246359->12246426, apps: 3/50, packages: 0/10
+[2021-08-09 21:32:33] Requesting 3 apps, 1 packages (meta data, 1024 prev attempts)
+[2021-08-09 21:32:34] Requested 1 package access tokens, 0 received, 1 denied
+[2021-08-09 21:32:34] Requesting 3 apps, 1 packages (full data, 1024 prev attempts)
+[2021-08-09 21:32:34] UpdatesJob: finished OK, apps updated 3 (18 KB), packages updated 0 (0 KB)
+[2021-08-09 21:32:49] Starting async write C:\Users\kilpa\Documents\GitHub\7D2DModLauncher-UE\ModLauncher\Assets\StreamingAssets\Tools\Windows\Steam/appcache/appinfo.vdf (5250252 bytes)
+[2021-08-09 21:47:18] Packages changed: 
+[2021-08-09 21:47:18] Apps changed: 1146010=12246459,812040=12246448,376210=12246430,
+[2021-08-09 21:47:18] Change number 12246426->12246547, apps: 3/94, packages: 0/19
+[2021-08-09 21:47:18] Requesting 3 apps, 1 packages (meta data, 1024 prev attempts)
+[2021-08-09 21:47:19] Requested 1 package access tokens, 0 received, 1 denied
+[2021-08-09 21:47:19] Downloaded 2 apps via HTTP, 16 KB (4 KB compressed)
+[2021-08-09 21:47:19] Requesting 1 apps, 1 packages (full data, 1024 prev attempts)
+[2021-08-09 21:47:19] UpdatesJob: finished OK, apps updated 3 (22 KB), packages updated 0 (0 KB)
+[2021-08-09 21:47:34] Starting async write C:\Users\kilpa\Documents\GitHub\7D2DModLauncher-UE\ModLauncher\Assets\StreamingAssets\Tools\Windows\Steam/appcache/appinfo.vdf (5250252 bytes)
+[2021-08-09 22:01:56] Packages changed: 
+[2021-08-09 22:01:56] Apps changed: 394690=12246613,
+[2021-08-09 22:01:56] Change number 12246547->12246646, apps: 1/81, packages: 0/4
+[2021-08-09 22:01:56] Requesting 1 apps, 1 packages (meta data, 1024 prev attempts)
+[2021-08-09 22:01:56] Requested 1 package access tokens, 0 received, 1 denied
+[2021-08-09 22:01:56] Requesting 1 apps, 1 packages (full data, 1024 prev attempts)
+[2021-08-09 22:01:56] UpdatesJob: finished OK, apps updated 1 (7 KB), packages updated 0 (0 KB)
+[2021-08-09 22:02:11] Starting async write C:\Users\kilpa\Documents\GitHub\7D2DModLauncher-UE\ModLauncher\Assets\StreamingAssets\Tools\Windows\Steam/appcache/appinfo.vdf (5250252 bytes)
+[2021-08-09 22:17:51] Packages changed: 
+[2021-08-09 22:17:51] Apps changed: 427730=12246660,
+[2021-08-09 22:17:51] Change number 12246646->12246722, apps: 1/55, packages: 0/4
+[2021-08-09 22:17:51] Requesting 1 apps, 1 packages (meta data, 1024 prev attempts)
+[2021-08-09 22:17:52] Requested 1 package access tokens, 0 received, 1 denied
+[2021-08-09 22:17:52] Requesting 1 apps, 1 packages (full data, 1024 prev attempts)
+[2021-08-09 22:17:52] UpdatesJob: finished OK, apps updated 1 (5 KB), packages updated 0 (0 KB)
+[2021-08-09 22:18:07] Starting async write C:\Users\kilpa\Documents\GitHub\7D2DModLauncher-UE\ModLauncher\Assets\StreamingAssets\Tools\Windows\Steam/appcache/appinfo.vdf (5250591 bytes)
+[2021-08-09 22:33:09] Packages changed: 
+[2021-08-09 22:33:09] Apps changed: 996560=12246741,413150=12246733,
+[2021-08-09 22:33:09] Change number 12246722->12246791, apps: 2/57, packages: 0/3
+[2021-08-09 22:33:09] Requesting 2 apps, 1 packages (meta data, 1024 prev attempts)
+[2021-08-09 22:33:10] Requested 1 package access tokens, 0 received, 1 denied
+[2021-08-09 22:33:10] Downloaded 2 apps via HTTP, 20 KB (6 KB compressed)
+[2021-08-09 22:33:10] Requesting 0 apps, 1 packages (full data, 1024 prev attempts)
+[2021-08-09 22:33:10] UpdatesJob: finished OK, apps updated 2 (20 KB), packages updated 0 (0 KB)
+[2021-08-09 22:33:25] Starting async write C:\Users\kilpa\Documents\GitHub\7D2DModLauncher-UE\ModLauncher\Assets\StreamingAssets\Tools\Windows\Steam/appcache/appinfo.vdf (5250591 bytes)
+[2021-08-09 22:48:33] Packages changed: 
+[2021-08-09 22:48:33] Apps changed: 376210=12246848,427730=12246794,
+[2021-08-09 22:48:33] Change number 12246791->12246884, apps: 2/77, packages: 0/4
+[2021-08-09 22:48:33] Requesting 2 apps, 1 packages (meta data, 1024 prev attempts)
+[2021-08-09 22:48:33] Requested 1 package access tokens, 0 received, 1 denied
+[2021-08-09 22:48:33] Downloaded 1 apps via HTTP, 8 KB (2 KB compressed)
+[2021-08-09 22:48:33] Requesting 1 apps, 1 packages (full data, 1024 prev attempts)
+[2021-08-09 22:48:34] UpdatesJob: finished OK, apps updated 2 (13 KB), packages updated 0 (0 KB)
+[2021-08-09 22:48:49] Starting async write C:\Users\kilpa\Documents\GitHub\7D2DModLauncher-UE\ModLauncher\Assets\StreamingAssets\Tools\Windows\Steam/appcache/appinfo.vdf (5250591 bytes)
+[2021-08-09 23:03:20] Packages changed: 
+[2021-08-09 23:03:20] Apps changed: 376210=12246927,884110=12246888,
+[2021-08-09 23:03:20] Change number 12246884->12246944, apps: 2/51, packages: 0/4
+[2021-08-09 23:03:20] Requesting 2 apps, 1 packages (meta data, 1024 prev attempts)
+[2021-08-09 23:03:20] Requested 1 package access tokens, 0 received, 1 denied
+[2021-08-09 23:03:20] Downloaded 1 apps via HTTP, 8 KB (2 KB compressed)
+[2021-08-09 23:03:20] Requesting 1 apps, 1 packages (full data, 1024 prev attempts)
+[2021-08-09 23:03:21] UpdatesJob: finished OK, apps updated 2 (10 KB), packages updated 0 (0 KB)
+[2021-08-09 23:03:36] Starting async write C:\Users\kilpa\Documents\GitHub\7D2DModLauncher-UE\ModLauncher\Assets\StreamingAssets\Tools\Windows\Steam/appcache/appinfo.vdf (5250721 bytes)
+[2021-08-09 23:17:29] Apps changed: 996560=12247060,376210=12246947,
+[2021-08-09 23:17:29] Change number 12246944->12247066, apps: 2/116, packages: 0/0
+[2021-08-09 23:17:29] Requesting 2 apps, 1 packages (meta data, 1024 prev attempts)
+[2021-08-09 23:17:30] Requested 1 package access tokens, 0 received, 1 denied
+[2021-08-09 23:17:30] Downloaded 2 apps via HTTP, 20 KB (5 KB compressed)
+[2021-08-09 23:17:30] Requesting 0 apps, 1 packages (full data, 1024 prev attempts)
+[2021-08-09 23:17:30] UpdatesJob: finished OK, apps updated 2 (20 KB), packages updated 0 (0 KB)
+[2021-08-09 23:17:45] Starting async write C:\Users\kilpa\Documents\GitHub\7D2DModLauncher-UE\ModLauncher\Assets\StreamingAssets\Tools\Windows\Steam/appcache/appinfo.vdf (5250721 bytes)
+[2021-08-09 23:32:39] Packages changed: 
+[2021-08-09 23:32:39] Apps changed: 958670=12247114,376210=12247087,714010=12247074,
+[2021-08-09 23:32:39] Change number 12247066->12247126, apps: 3/50, packages: 0/7
+[2021-08-09 23:32:39] Requesting 3 apps, 1 packages (meta data, 1024 prev attempts)
+[2021-08-09 23:32:39] Requested 1 package access tokens, 0 received, 1 denied
+[2021-08-09 23:32:39] Downloaded 2 apps via HTTP, 19 KB (5 KB compressed)
+[2021-08-09 23:32:39] Requesting 1 apps, 1 packages (full data, 1024 prev attempts)
+[2021-08-09 23:32:39] UpdatesJob: finished OK, apps updated 3 (23 KB), packages updated 0 (0 KB)
+[2021-08-09 23:32:54] Starting async write C:\Users\kilpa\Documents\GitHub\7D2DModLauncher-UE\ModLauncher\Assets\StreamingAssets\Tools\Windows\Steam/appcache/appinfo.vdf (5250721 bytes)
+[2021-08-09 23:48:53] Packages changed: 
+[2021-08-09 23:48:53] Apps changed: 714010=12247203,471710=12247133,
+[2021-08-09 23:48:53] Change number 12247126->12247247, apps: 2/98, packages: 0/4
+[2021-08-09 23:48:53] Requesting 2 apps, 1 packages (meta data, 1024 prev attempts)
+[2021-08-09 23:48:54] Requested 1 package access tokens, 0 received, 1 denied
+[2021-08-09 23:48:54] Downloaded 2 apps via HTTP, 24 KB (7 KB compressed)
+[2021-08-09 23:48:54] Requesting 0 apps, 1 packages (full data, 1024 prev attempts)
+[2021-08-09 23:48:54] UpdatesJob: finished OK, apps updated 2 (24 KB), packages updated 0 (0 KB)
+[2021-08-09 23:49:09] Starting async write C:\Users\kilpa\Documents\GitHub\7D2DModLauncher-UE\ModLauncher\Assets\StreamingAssets\Tools\Windows\Steam/appcache/appinfo.vdf (5250721 bytes)
+[2021-08-10 00:04:22] Packages changed: 
+[2021-08-10 00:04:22] Apps changed: 252950=12247298,864060=12247294,
+[2021-08-10 00:04:22] Change number 12247247->12247304, apps: 2/42, packages: 0/11
+[2021-08-10 00:04:22] Requesting 2 apps, 1 packages (meta data, 1024 prev attempts)
+[2021-08-10 00:04:22] Requested 1 package access tokens, 0 received, 1 denied
+[2021-08-10 00:04:23] Downloaded 1 apps via HTTP, 14 KB (3 KB compressed)
+[2021-08-10 00:04:23] Requesting 1 apps, 1 packages (full data, 1024 prev attempts)
+[2021-08-10 00:04:23] UpdatesJob: finished OK, apps updated 2 (20 KB), packages updated 0 (0 KB)
+[2021-08-10 00:04:38] Starting async write C:\Users\kilpa\Documents\GitHub\7D2DModLauncher-UE\ModLauncher\Assets\StreamingAssets\Tools\Windows\Steam/appcache/appinfo.vdf (5250721 bytes)
+[2021-08-10 00:19:47] Packages changed: 
+[2021-08-10 00:19:47] Apps changed: 714010=12247348,660470=12247330,
+[2021-08-10 00:19:47] Change number 12247304->12247361, apps: 2/42, packages: 0/4
+[2021-08-10 00:19:47] Requesting 2 apps, 1 packages (meta data, 1024 prev attempts)
+[2021-08-10 00:19:47] Requested 1 package access tokens, 0 received, 1 denied
+[2021-08-10 00:19:48] Downloaded 1 apps via HTTP, 11 KB (3 KB compressed)
+[2021-08-10 00:19:48] Requesting 1 apps, 1 packages (full data, 1024 prev attempts)
+[2021-08-10 00:19:48] UpdatesJob: finished OK, apps updated 2 (12 KB), packages updated 0 (0 KB)
+[2021-08-10 00:20:03] Starting async write C:\Users\kilpa\Documents\GitHub\7D2DModLauncher-UE\ModLauncher\Assets\StreamingAssets\Tools\Windows\Steam/appcache/appinfo.vdf (5250721 bytes)
+[2021-08-10 00:33:43] Packages changed: 
+[2021-08-10 00:33:43] Apps changed: 864060=12247386,739590=12247382,996560=12247379,471710=12247372,
+[2021-08-10 00:33:43] Change number 12247361->12247409, apps: 4/37, packages: 0/7
+[2021-08-10 00:33:43] Requesting 4 apps, 1 packages (meta data, 1024 prev attempts)
+[2021-08-10 00:33:43] Requested 1 package access tokens, 0 received, 1 denied
+[2021-08-10 00:33:43] Downloaded 3 apps via HTTP, 34 KB (10 KB compressed)
+[2021-08-10 00:33:43] Requesting 1 apps, 1 packages (full data, 1024 prev attempts)
+[2021-08-10 00:33:44] UpdatesJob: finished OK, apps updated 4 (39 KB), packages updated 0 (0 KB)
+[2021-08-10 00:33:59] Starting async write C:\Users\kilpa\Documents\GitHub\7D2DModLauncher-UE\ModLauncher\Assets\StreamingAssets\Tools\Windows\Steam/appcache/appinfo.vdf (5250721 bytes)
+[2021-08-10 00:50:01] Packages changed: 
+[2021-08-10 00:50:01] Apps changed: 660470=12247471,1145360=12247467,
+[2021-08-10 00:50:01] Change number 12247409->12247492, apps: 2/73, packages: 0/8
+[2021-08-10 00:50:01] Requesting 2 apps, 1 packages (meta data, 1024 prev attempts)
+[2021-08-10 00:50:02] Requested 1 package access tokens, 0 received, 1 denied
+[2021-08-10 00:50:02] Downloaded 1 apps via HTTP, 34 KB (8 KB compressed)
+[2021-08-10 00:50:02] Requesting 1 apps, 1 packages (full data, 1024 prev attempts)
+[2021-08-10 00:50:02] UpdatesJob: finished OK, apps updated 2 (36 KB), packages updated 0 (0 KB)
+[2021-08-10 00:50:17] Starting async write C:\Users\kilpa\Documents\GitHub\7D2DModLauncher-UE\ModLauncher\Assets\StreamingAssets\Tools\Windows\Steam/appcache/appinfo.vdf (5250721 bytes)
+[2021-08-10 01:06:29] Packages changed: 
+[2021-08-10 01:06:29] Apps changed: 1154040=12247519,1145360=12247498,249630=12247496,
+[2021-08-10 01:06:29] Change number 12247492->12247563, apps: 3/51, packages: 0/9
+[2021-08-10 01:06:29] Requesting 3 apps, 1 packages (meta data, 1024 prev attempts)
+[2021-08-10 01:06:29] Requested 1 package access tokens, 0 received, 1 denied
+[2021-08-10 01:06:29] Downloaded 2 apps via HTTP, 113 KB (29 KB compressed)
+[2021-08-10 01:06:29] Requesting 1 apps, 1 packages (full data, 1024 prev attempts)
+[2021-08-10 01:06:29] UpdatesJob: finished OK, apps updated 3 (118 KB), packages updated 0 (0 KB)
+[2021-08-10 01:06:45] Starting async write C:\Users\kilpa\Documents\GitHub\7D2DModLauncher-UE\ModLauncher\Assets\StreamingAssets\Tools\Windows\Steam/appcache/appinfo.vdf (5250886 bytes)
+[2021-08-10 01:20:23] Packages changed: 
+[2021-08-10 01:20:23] Apps changed: 
+[2021-08-10 01:20:23] Change number 12247563->12247603, apps: 0/34, packages: 0/2
+[2021-08-10 01:34:54] Packages changed: 
+[2021-08-10 01:34:54] Apps changed: 376210=12247636,443030=12247614,440900=12247608,
+[2021-08-10 01:34:54] Change number 12247603->12247691, apps: 3/63, packages: 0/30
+[2021-08-10 01:34:54] Requesting 3 apps, 1 packages (meta data, 1024 prev attempts)
+[2021-08-10 01:34:55] Requested 1 package access tokens, 0 received, 1 denied
+[2021-08-10 01:34:55] Downloaded 3 apps via HTTP, 37 KB (10 KB compressed)
+[2021-08-10 01:34:55] Requesting 0 apps, 1 packages (full data, 1024 prev attempts)
+[2021-08-10 01:34:55] UpdatesJob: finished OK, apps updated 3 (37 KB), packages updated 0 (0 KB)
+[2021-08-10 01:35:10] Starting async write C:\Users\kilpa\Documents\GitHub\7D2DModLauncher-UE\ModLauncher\Assets\StreamingAssets\Tools\Windows\Steam/appcache/appinfo.vdf (5250886 bytes)
+[2021-08-10 01:50:35] Packages changed: 
+[2021-08-10 01:50:35] Apps changed: 884110=12247780,1670340=12247778,444090=12247771,581330=12247743,739590=12247738,
+[2021-08-10 01:50:35] Change number 12247691->12247781, apps: 5/74, packages: 0/19
+[2021-08-10 01:50:35] Requesting 5 apps, 1 packages (meta data, 1024 prev attempts)
+[2021-08-10 01:50:35] Requested 1 package access tokens, 0 received, 1 denied
+[2021-08-10 01:50:35] Downloaded 2 apps via HTTP, 18 KB (5 KB compressed)
+[2021-08-10 01:50:35] Requesting 2 apps, 1 packages (full data, 1024 prev attempts)
+[2021-08-10 01:50:36] UpdatesJob: finished OK, apps updated 4 (23 KB), packages updated 0 (0 KB)
+[2021-08-10 01:50:51] Starting async write C:\Users\kilpa\Documents\GitHub\7D2DModLauncher-UE\ModLauncher\Assets\StreamingAssets\Tools\Windows\Steam/appcache/appinfo.vdf (5250885 bytes)
+[2021-08-10 02:06:43] Packages changed: 
+[2021-08-10 02:06:43] Apps changed: 1665030=12247837,885570=12247836,660470=12247801,884110=12247798,
+[2021-08-10 02:06:43] Change number 12247781->12247852, apps: 4/53, packages: 0/10
+[2021-08-10 02:06:43] Requesting 4 apps, 1 packages (meta data, 1024 prev attempts)
+[2021-08-10 02:06:44] Requested 1 package access tokens, 0 received, 1 denied
+[2021-08-10 02:06:44] Requesting 4 apps, 1 packages (full data, 1024 prev attempts)
+[2021-08-10 02:06:44] UpdatesJob: finished OK, apps updated 4 (9 KB), packages updated 0 (0 KB)
+[2021-08-10 02:06:59] Starting async write C:\Users\kilpa\Documents\GitHub\7D2DModLauncher-UE\ModLauncher\Assets\StreamingAssets\Tools\Windows\Steam/appcache/appinfo.vdf (5250885 bytes)
+[2021-08-10 02:21:13] Packages changed: 
+[2021-08-10 02:21:13] Apps changed: 714010=12247879,570=12247873,581330=12247856,
+[2021-08-10 02:21:13] Change number 12247852->12247889, apps: 3/31, packages: 0/3
+[2021-08-10 02:21:13] Requesting 3 apps, 1 packages (meta data, 1024 prev attempts)
+[2021-08-10 02:21:14] Requested 1 package access tokens, 0 received, 1 denied
+[2021-08-10 02:21:14] Downloaded 3 apps via HTTP, 380 KB (55 KB compressed)
+[2021-08-10 02:21:14] Requesting 0 apps, 1 packages (full data, 1024 prev attempts)
+[2021-08-10 02:21:14] UpdatesJob: finished OK, apps updated 3 (380 KB), packages updated 0 (0 KB)
+[2021-08-10 02:21:29] Starting async write C:\Users\kilpa\Documents\GitHub\7D2DModLauncher-UE\ModLauncher\Assets\StreamingAssets\Tools\Windows\Steam/appcache/appinfo.vdf (5250883 bytes)
+[2021-08-10 02:36:07] Packages changed: 
+[2021-08-10 02:36:07] Apps changed: 960090=12247938,471710=12247914,
+[2021-08-10 02:36:07] Change number 12247889->12247981, apps: 2/79, packages: 0/8
+[2021-08-10 02:36:07] Requesting 2 apps, 1 packages (meta data, 1024 prev attempts)
+[2021-08-10 02:36:08] Requested 1 package access tokens, 0 received, 1 denied
+[2021-08-10 02:36:08] Downloaded 2 apps via HTTP, 22 KB (6 KB compressed)
+[2021-08-10 02:36:08] Requesting 0 apps, 1 packages (full data, 1024 prev attempts)
+[2021-08-10 02:36:08] UpdatesJob: finished OK, apps updated 2 (22 KB), packages updated 0 (0 KB)
+[2021-08-10 02:36:23] Starting async write C:\Users\kilpa\Documents\GitHub\7D2DModLauncher-UE\ModLauncher\Assets\StreamingAssets\Tools\Windows\Steam/appcache/appinfo.vdf (5250882 bytes)
+[2021-08-10 02:50:34] Packages changed: 
+[2021-08-10 02:50:34] Apps changed: 443030=12248028,440900=12248015,
+[2021-08-10 02:50:34] Change number 12247981->12248059, apps: 2/52, packages: 0/22
+[2021-08-10 02:50:34] Requesting 2 apps, 1 packages (meta data, 1024 prev attempts)
+[2021-08-10 02:50:34] Requested 1 package access tokens, 0 received, 1 denied
+[2021-08-10 02:50:34] Downloaded 2 apps via HTTP, 29 KB (8 KB compressed)
+[2021-08-10 02:50:34] Requesting 0 apps, 1 packages (full data, 1024 prev attempts)
+[2021-08-10 02:50:34] UpdatesJob: finished OK, apps updated 2 (29 KB), packages updated 0 (0 KB)
+[2021-08-10 02:50:49] Starting async write C:\Users\kilpa\Documents\GitHub\7D2DModLauncher-UE\ModLauncher\Assets\StreamingAssets\Tools\Windows\Steam/appcache/appinfo.vdf (5250882 bytes)
+[2021-08-10 03:04:30] Packages changed: 
+[2021-08-10 03:04:30] Apps changed: 960090=12248109,
+[2021-08-10 03:04:30] Change number 12248059->12248125, apps: 1/62, packages: 0/1
+[2021-08-10 03:04:30] Requesting 1 apps, 1 packages (meta data, 1024 prev attempts)
+[2021-08-10 03:04:31] Requested 1 package access tokens, 0 received, 1 denied
+[2021-08-10 03:04:31] Downloaded 1 apps via HTTP, 9 KB (2 KB compressed)
+[2021-08-10 03:04:31] Requesting 0 apps, 1 packages (full data, 1024 prev attempts)
+[2021-08-10 03:04:31] UpdatesJob: finished OK, apps updated 1 (9 KB), packages updated 0 (0 KB)
+[2021-08-10 03:04:46] Starting async write C:\Users\kilpa\Documents\GitHub\7D2DModLauncher-UE\ModLauncher\Assets\StreamingAssets\Tools\Windows\Steam/appcache/appinfo.vdf (5250882 bytes)
+[2021-08-10 03:18:05] Packages changed: 
+[2021-08-10 03:18:05] Apps changed: 951440=12248161,
+[2021-08-10 03:18:05] Change number 12248125->12248285, apps: 1/144, packages: 0/11
+[2021-08-10 03:18:05] Requesting 1 apps, 1 packages (meta data, 1024 prev attempts)
+[2021-08-10 03:18:05] Requested 1 package access tokens, 0 received, 1 denied
+[2021-08-10 03:18:05] Downloaded 1 apps via HTTP, 10 KB (3 KB compressed)
+[2021-08-10 03:18:05] Requesting 0 apps, 1 packages (full data, 1024 prev attempts)
+[2021-08-10 03:18:05] UpdatesJob: finished OK, apps updated 1 (10 KB), packages updated 0 (0 KB)
+[2021-08-10 03:18:20] Starting async write C:\Users\kilpa\Documents\GitHub\7D2DModLauncher-UE\ModLauncher\Assets\StreamingAssets\Tools\Windows\Steam/appcache/appinfo.vdf (5250882 bytes)
+[2021-08-10 03:32:44] Packages changed: 
+[2021-08-10 03:32:44] Apps changed: 354060=12248335,747200=12248289,
+[2021-08-10 03:32:44] Change number 12248285->12248349, apps: 2/40, packages: 0/9
+[2021-08-10 03:32:44] Requesting 2 apps, 1 packages (meta data, 1024 prev attempts)
+[2021-08-10 03:32:44] Requested 1 package access tokens, 0 received, 1 denied
+[2021-08-10 03:32:44] Requesting 2 apps, 1 packages (full data, 1024 prev attempts)
+[2021-08-10 03:32:44] UpdatesJob: finished OK, apps updated 2 (7 KB), packages updated 0 (0 KB)
+[2021-08-10 03:32:59] Starting async write C:\Users\kilpa\Documents\GitHub\7D2DModLauncher-UE\ModLauncher\Assets\StreamingAssets\Tools\Windows\Steam/appcache/appinfo.vdf (5250881 bytes)
+[2021-08-10 03:48:11] Packages changed: 
+[2021-08-10 03:48:11] Apps changed: 
+[2021-08-10 03:48:11] Change number 12248349->12248442, apps: 0/72, packages: 0/3
+[2021-08-10 04:03:01] Packages changed: 
+[2021-08-10 04:03:01] Apps changed: 
+[2021-08-10 04:03:01] Change number 12248442->12248527, apps: 0/65, packages: 0/10
+[2021-08-10 04:19:08] Packages changed: 
+[2021-08-10 04:19:08] Apps changed: 1097150=12248571,
+[2021-08-10 04:19:08] Change number 12248527->12248614, apps: 1/68, packages: 0/4
+[2021-08-10 04:19:08] Requesting 1 apps, 1 packages (meta data, 1024 prev attempts)
+[2021-08-10 04:19:08] Requested 1 package access tokens, 0 received, 1 denied
+[2021-08-10 04:19:09] Downloaded 1 apps via HTTP, 9 KB (2 KB compressed)
+[2021-08-10 04:19:09] Requesting 0 apps, 1 packages (full data, 1024 prev attempts)
+[2021-08-10 04:19:09] UpdatesJob: finished OK, apps updated 1 (9 KB), packages updated 0 (0 KB)
+[2021-08-10 04:19:24] Starting async write C:\Users\kilpa\Documents\GitHub\7D2DModLauncher-UE\ModLauncher\Assets\StreamingAssets\Tools\Windows\Steam/appcache/appinfo.vdf (5250881 bytes)
+[2021-08-10 04:34:34] Packages changed: 
+[2021-08-10 04:34:34] Apps changed: 489650=12248642,1670340=12248638,747200=12248627,951440=12248619,
+[2021-08-10 04:34:34] Change number 12248614->12248700, apps: 4/73, packages: 0/2
+[2021-08-10 04:34:34] Requesting 4 apps, 1 packages (meta data, 1024 prev attempts)
+[2021-08-10 04:34:35] Requested 1 package access tokens, 0 received, 1 denied
+[2021-08-10 04:34:35] Downloaded 1 apps via HTTP, 10 KB (3 KB compressed)
+[2021-08-10 04:34:35] Requesting 3 apps, 1 packages (full data, 1024 prev attempts)
+[2021-08-10 04:34:35] UpdatesJob: finished OK, apps updated 4 (22 KB), packages updated 0 (0 KB)
+[2021-08-10 04:34:50] Starting async write C:\Users\kilpa\Documents\GitHub\7D2DModLauncher-UE\ModLauncher\Assets\StreamingAssets\Tools\Windows\Steam/appcache/appinfo.vdf (5250881 bytes)
+[2021-08-10 04:44:31] Packages changed: 
+[2021-08-10 04:44:31] Apps changed: 
+[2021-08-10 04:44:31] Change number 12248700->12248774, apps: 0/68, packages: 0/1
+[2021-08-10 04:44:31] Requesting 40 apps, 1 packages (meta data, 1024 prev attempts)
+[2021-08-10 04:44:32] Requested 40 app access tokens, 0 received, 40 denied
+[2021-08-10 04:44:32] Requested 1 package access tokens, 0 received, 1 denied
+[2021-08-10 04:44:32] Requesting 0 apps, 1 packages (full data, 1024 prev attempts)
+[2021-08-10 04:44:32] UpdatesJob: finished OK, apps updated 0 (0 KB), packages updated 0 (0 KB)
+[2021-08-10 04:44:46] Change number 12248774->12248774, apps: 0/0, packages: 0/0
+[2021-08-10 04:44:46] Requesting 40 apps, 1 packages (meta data, 1024 prev attempts)
+[2021-08-10 04:44:47] Requested 40 app access tokens, 0 received, 40 denied
+[2021-08-10 04:44:47] Requested 1 package access tokens, 0 received, 1 denied
+[2021-08-10 04:44:47] Requesting 0 apps, 1 packages (full data, 1024 prev attempts)
+[2021-08-10 04:44:47] UpdatesJob: finished OK, apps updated 0 (0 KB), packages updated 0 (0 KB)
+[2021-08-10 04:58:24] Packages changed: 
+[2021-08-10 04:58:24] Apps changed: 747200=12248794,
+[2021-08-10 04:58:24] Change number 12248774->12248876, apps: 1/68, packages: 0/8
+[2021-08-10 04:58:24] Requesting 1 apps, 1 packages (meta data, 1024 prev attempts)
+[2021-08-10 04:58:24] Requested 1 package access tokens, 0 received, 1 denied
+[2021-08-10 04:58:24] Requesting 1 apps, 1 packages (full data, 1024 prev attempts)
+[2021-08-10 04:58:24] UpdatesJob: finished OK, apps updated 1 (5 KB), packages updated 0 (0 KB)
+[2021-08-10 04:58:39] Starting async write C:\Users\kilpa\Documents\GitHub\7D2DModLauncher-UE\ModLauncher\Assets\StreamingAssets\Tools\Windows\Steam/appcache/appinfo.vdf (5250881 bytes)
+[2021-08-10 05:14:42] Packages changed: 
+[2021-08-10 05:14:42] Apps changed: 1097150=12248935,958670=12248894,
+[2021-08-10 05:14:42] Change number 12248876->12249001, apps: 2/85, packages: 0/19
+[2021-08-10 05:14:43] Requesting 2 apps, 1 packages (meta data, 1024 prev attempts)
+[2021-08-10 05:14:43] Requested 1 package access tokens, 0 received, 1 denied
+[2021-08-10 05:14:43] Downloaded 1 apps via HTTP, 9 KB (2 KB compressed)
+[2021-08-10 05:14:43] Requesting 1 apps, 1 packages (full data, 1024 prev attempts)
+[2021-08-10 05:14:43] UpdatesJob: finished OK, apps updated 2 (13 KB), packages updated 0 (0 KB)
+[2021-08-10 05:14:58] Starting async write C:\Users\kilpa\Documents\GitHub\7D2DModLauncher-UE\ModLauncher\Assets\StreamingAssets\Tools\Windows\Steam/appcache/appinfo.vdf (5250745 bytes)
+[2021-08-10 05:30:07] Packages changed: 
+[2021-08-10 05:30:07] Apps changed: 1097150=12249090,
+[2021-08-10 05:30:07] Change number 12249001->12249116, apps: 1/90, packages: 0/8
+[2021-08-10 05:30:08] Requesting 1 apps, 1 packages (meta data, 1024 prev attempts)
+[2021-08-10 05:30:08] Requested 1 package access tokens, 0 received, 1 denied
+[2021-08-10 05:30:08] Downloaded 1 apps via HTTP, 9 KB (2 KB compressed)
+[2021-08-10 05:30:08] Requesting 0 apps, 1 packages (full data, 1024 prev attempts)
+[2021-08-10 05:30:08] UpdatesJob: finished OK, apps updated 1 (9 KB), packages updated 0 (0 KB)
+[2021-08-10 05:30:24] Starting async write C:\Users\kilpa\Documents\GitHub\7D2DModLauncher-UE\ModLauncher\Assets\StreamingAssets\Tools\Windows\Steam/appcache/appinfo.vdf (5250745 bytes)
+[2021-08-10 05:45:00] Packages changed: 
+[2021-08-10 05:45:00] Apps changed: 838410=12249149,
+[2021-08-10 05:45:00] Change number 12249116->12249235, apps: 1/95, packages: 0/6
+[2021-08-10 05:45:00] Requesting 1 apps, 1 packages (meta data, 1024 prev attempts)
+[2021-08-10 05:45:00] Requested 1 package access tokens, 0 received, 1 denied
+[2021-08-10 05:45:00] Requesting 1 apps, 1 packages (full data, 1024 prev attempts)
+[2021-08-10 05:45:01] UpdatesJob: finished OK, apps updated 1 (5 KB), packages updated 0 (0 KB)
+[2021-08-10 05:45:16] Starting async write C:\Users\kilpa\Documents\GitHub\7D2DModLauncher-UE\ModLauncher\Assets\StreamingAssets\Tools\Windows\Steam/appcache/appinfo.vdf (5250745 bytes)
+[2021-08-10 06:00:38] Packages changed: 
+[2021-08-10 06:00:38] Apps changed: 1064780=12249319,747200=12249258,604540=12249245,
+[2021-08-10 06:00:38] Change number 12249235->12249343, apps: 3/69, packages: 0/14
+[2021-08-10 06:00:38] Requesting 3 apps, 1 packages (meta data, 1024 prev attempts)
+[2021-08-10 06:00:39] Requested 1 package access tokens, 0 received, 1 denied
+[2021-08-10 06:00:39] Downloaded 1 apps via HTTP, 17 KB (5 KB compressed)
+[2021-08-10 06:00:39] Requesting 2 apps, 1 packages (full data, 1024 prev attempts)
+[2021-08-10 06:00:39] UpdatesJob: finished OK, apps updated 3 (25 KB), packages updated 0 (0 KB)
+[2021-08-10 06:00:54] Starting async write C:\Users\kilpa\Documents\GitHub\7D2DModLauncher-UE\ModLauncher\Assets\StreamingAssets\Tools\Windows\Steam/appcache/appinfo.vdf (5250745 bytes)
+[2021-08-10 06:14:42] Packages changed: 
+[2021-08-10 06:14:42] Apps changed: 439660=12249419,728470=12249382,291550=12249367,
+[2021-08-10 06:14:42] Change number 12249343->12249433, apps: 3/77, packages: 0/15
+[2021-08-10 06:14:43] Requesting 3 apps, 1 packages (meta data, 1024 prev attempts)
+[2021-08-10 06:14:43] Requested 1 package access tokens, 0 received, 1 denied
+[2021-08-10 06:14:43] Requesting 3 apps, 1 packages (full data, 1024 prev attempts)
+[2021-08-10 06:14:43] UpdatesJob: finished OK, apps updated 3 (16 KB), packages updated 0 (0 KB)
+[2021-08-10 06:14:58] Starting async write C:\Users\kilpa\Documents\GitHub\7D2DModLauncher-UE\ModLauncher\Assets\StreamingAssets\Tools\Windows\Steam/appcache/appinfo.vdf (5250745 bytes)
+[2021-08-10 06:29:37] Packages changed: 
+[2021-08-10 06:29:37] Apps changed: 728470=12249510,464920=12249502,218620=12249494,
+[2021-08-10 06:29:37] Change number 12249433->12249546, apps: 3/77, packages: 0/10
+[2021-08-10 06:29:38] Requesting 3 apps, 1 packages (meta data, 1024 prev attempts)
+[2021-08-10 06:29:38] Requested 1 package access tokens, 0 received, 1 denied
+[2021-08-10 06:29:38] Downloaded 2 apps via HTTP, 173 KB (41 KB compressed)
+[2021-08-10 06:29:38] Requesting 1 apps, 1 packages (full data, 1024 prev attempts)
+[2021-08-10 06:29:38] UpdatesJob: finished OK, apps updated 3 (180 KB), packages updated 0 (0 KB)
+[2021-08-10 06:29:53] Starting async write C:\Users\kilpa\Documents\GitHub\7D2DModLauncher-UE\ModLauncher\Assets\StreamingAssets\Tools\Windows\Steam/appcache/appinfo.vdf (5250971 bytes)
+[2021-08-10 06:45:49] Packages changed: 
+[2021-08-10 06:45:49] Apps changed: 604540=12249664,747200=12249656,
+[2021-08-10 06:45:49] Change number 12249546->12249697, apps: 2/121, packages: 0/18
+[2021-08-10 06:45:49] Requesting 2 apps, 1 packages (meta data, 1024 prev attempts)
+[2021-08-10 06:45:50] Requested 1 package access tokens, 0 received, 1 denied
+[2021-08-10 06:45:50] Downloaded 1 apps via HTTP, 17 KB (5 KB compressed)
+[2021-08-10 06:45:50] Requesting 1 apps, 1 packages (full data, 1024 prev attempts)
+[2021-08-10 06:45:50] UpdatesJob: finished OK, apps updated 2 (22 KB), packages updated 0 (0 KB)
+[2021-08-10 06:46:05] Starting async write C:\Users\kilpa\Documents\GitHub\7D2DModLauncher-UE\ModLauncher\Assets\StreamingAssets\Tools\Windows\Steam/appcache/appinfo.vdf (5250971 bytes)
+[2021-08-10 07:01:33] Packages changed: 
+[2021-08-10 07:01:33] Apps changed: 
+[2021-08-10 07:01:33] Change number 12249697->12249792, apps: 0/74, packages: 0/6
+[2021-08-10 07:16:47] Packages changed: 
+[2021-08-10 07:16:47] Apps changed: 464920=12249990,884110=12249977,1480080=12249974,746200=12249970,1145360=12249893,394690=12249849,736220=12249842,
+[2021-08-10 07:16:47] Change number 12249792->12250001, apps: 7/166, packages: 0/11
+[2021-08-10 07:16:47] Requesting 7 apps, 1 packages (meta data, 1024 prev attempts)
+[2021-08-10 07:16:47] Requested 1 package access tokens, 0 received, 1 denied
+[2021-08-10 07:16:48] Downloaded 2 apps via HTTP, 84 KB (23 KB compressed)
+[2021-08-10 07:16:48] Requesting 5 apps, 1 packages (full data, 1024 prev attempts)
+[2021-08-10 07:16:48] UpdatesJob: finished OK, apps updated 7 (106 KB), packages updated 0 (0 KB)
+[2021-08-10 07:17:03] Starting async write C:\Users\kilpa\Documents\GitHub\7D2DModLauncher-UE\ModLauncher\Assets\StreamingAssets\Tools\Windows\Steam/appcache/appinfo.vdf (5250971 bytes)
+[2021-08-10 07:31:18] Packages changed: 
+[2021-08-10 07:31:18] Apps changed: 1479670=12250065,
+[2021-08-10 07:31:18] Change number 12250001->12250095, apps: 1/69, packages: 0/10
+[2021-08-10 07:31:18] Requesting 1 apps, 1 packages (meta data, 1024 prev attempts)
+[2021-08-10 07:31:19] Requested 1 package access tokens, 0 received, 1 denied
+[2021-08-10 07:31:19] Requesting 1 apps, 1 packages (full data, 1024 prev attempts)
+[2021-08-10 07:31:19] UpdatesJob: finished OK, apps updated 1 (1 KB), packages updated 0 (0 KB)
+[2021-08-10 07:31:34] Starting async write C:\Users\kilpa\Documents\GitHub\7D2DModLauncher-UE\ModLauncher\Assets\StreamingAssets\Tools\Windows\Steam/appcache/appinfo.vdf (5250971 bytes)
+
+
+[2021-08-11 08:43:04] RequestAppInfoUpdate: nNumAppIDs 1
+[2021-08-11 08:43:04] Packages changed: force all
+[2021-08-11 08:43:04] Apps changed: force all
+[2021-08-11 08:43:04] Change number 12023005->12260940, apps: 0/0, packages: 0/0
+[2021-08-11 08:43:04] Requesting 1368 apps, 301 packages (meta data, 1024 prev attempts)
+[2021-08-11 08:43:05] Requested 143 app access tokens, 59 received, 84 denied
+[2021-08-11 08:43:05] Updated SHAs with 59 new access tokens
+[2021-08-11 08:43:06] Downloaded 41 apps via HTTP, 1039 KB (253 KB compressed)
+[2021-08-11 08:43:06] Requesting 76 apps, 1 packages (full data, 1024 prev attempts)
+[2021-08-11 08:43:07] UpdatesJob: finished OK, apps updated 117 (1355 KB), packages updated 1 (9 KB)
+[2021-08-11 08:43:07] RequestAppInfoUpdate: nNumAppIDs 1
+[2021-08-11 08:43:07] Requesting 3 apps, 0 packages (meta data, 1024 prev attempts)
+[2021-08-11 08:43:08] Requested 1 app access tokens, 0 received, 1 denied
+[2021-08-11 08:43:08] Requesting 1 apps, 0 packages (full data, 1024 prev attempts)
+[2021-08-11 08:43:08] UpdatesJob: finished OK, apps updated 1 (0 KB), packages updated 0 (0 KB)
+[2021-08-11 08:43:23] Starting async write C:\Users\kilpa\Documents\GitHub\7D2DModLauncher-UE\ModLauncher\Assets\StreamingAssets\Tools\Windows\Steam/appcache/appinfo.vdf (5233156 bytes)
+
+
+[2021-08-11 19:48:38] RequestAppInfoUpdate: nNumAppIDs 1
+[2021-08-11 19:48:39] Packages changed: 4097=12263780,132619=12263780,
+[2021-08-11 19:48:39] Apps changed: 443030=12266158,439660=12266154,440900=12266142,438100=12266134,1042420=12266125,4940=12266017,4920=12266012,294420=12266003,251570=12265995,376210=12265973,996560=12265961,960090=12265944,427730=12265941,714010=12265918,464920=12265897,394690=12265877,
+[2021-08-11 19:48:39] Change number 12260940->12266210, apps: 76/2234, packages: 2/987
+[2021-08-11 19:48:39] Requesting 128 apps, 2 packages (meta data, 1024 prev attempts)
+[2021-08-11 19:48:39] Requested 54 app access tokens, 0 received, 54 denied
+[2021-08-11 19:48:39] Failed to download /appinfo/346110/sha/0d1b10998fc7a825c9729124176f4965137fe530.txt.gz (HTTP error 404)
+[2021-08-11 19:48:39] Downloaded 28 apps via HTTP, 509 KB (137 KB compressed)
+[2021-08-11 19:48:39] Requesting 44 apps, 0 packages (full data, 1024 prev attempts)
+[2021-08-11 19:48:40] UpdatesJob: finished OK, apps updated 72 (789 KB), packages updated 0 (0 KB)
+[2021-08-11 19:48:40] RequestAppInfoUpdate: nNumAppIDs 1
+[2021-08-11 19:48:40] Requesting 1 apps, 0 packages (meta data, 1024 prev attempts)
+[2021-08-11 19:48:40] UpdatesJob: finished OK, apps updated 0 (0 KB), packages updated 0 (0 KB)
+[2021-08-11 19:48:55] Starting async write C:\Users\kilpa\Documents\GitHub\7D2DModLauncher-UE\ModLauncher\Assets\StreamingAssets\Tools\Windows\Steam/appcache/appinfo.vdf (5232767 bytes)
+
+
+[2021-08-11 21:16:31] RequestAppInfoUpdate: nNumAppIDs 1
+[2021-08-11 21:16:31] Packages changed: 
+[2021-08-11 21:16:31] Apps changed: 438100=12266690,1426300=12266642,1225560=12266633,738060=12266619,376210=12266602,4940=12266595,4920=12266594,427730=12266589,523390=12266568,343050=12266565,541200=12266560,391220=12266519,322330=12266518,294420=12266450,616720=12266440,954010=12266428,
+[2021-08-11 21:16:31] Change number 12266210->12266713, apps: 24/347, packages: 0/35
+[2021-08-11 21:16:31] Requesting 78 apps, 2 packages (meta data, 1024 prev attempts)
+[2021-08-11 21:16:32] Requested 54 app access tokens, 0 received, 54 denied
+[2021-08-11 21:16:32] Downloaded 8 apps via HTTP, 138 KB (37 KB compressed)
+[2021-08-11 21:16:32] Requesting 13 apps, 0 packages (full data, 1024 prev attempts)
+[2021-08-11 21:16:32] UpdatesJob: finished OK, apps updated 21 (195 KB), packages updated 0 (0 KB)
+[2021-08-11 21:16:32] RequestAppInfoUpdate: nNumAppIDs 1
+[2021-08-11 21:16:32] Requesting 1 apps, 0 packages (meta data, 1024 prev attempts)
+[2021-08-11 21:16:33] UpdatesJob: finished OK, apps updated 0 (0 KB), packages updated 0 (0 KB)
+[2021-08-11 21:16:47] Starting async write C:\Users\kilpa\Documents\GitHub\7D2DModLauncher-UE\ModLauncher\Assets\StreamingAssets\Tools\Windows\Steam/appcache/appinfo.vdf (5233478 bytes)
+
+
+[2021-08-12 08:53:21] RequestAppInfoUpdate: nNumAppIDs 1
+[2021-08-12 08:53:21] Packages changed: 
+[2021-08-12 08:53:21] Apps changed: 334920=12271263,1097150=12271241,440900=12271238,394690=12271216,774961=12271215,1424230=12271202,589290=12271198,1199030=12271189,443030=12271182,471710=12271180,931580=12271176,677100=12271156,494840=12271095,746200=12271093,736220=12271026,
+[2021-08-12 08:53:21] Change number 12266713->12271282, apps: 74/2419, packages: 0/368
+[2021-08-12 08:53:21] Requesting 127 apps, 2 packages (meta data, 1024 prev attempts)
+[2021-08-12 08:53:22] Requested 55 app access tokens, 0 received, 55 denied
+[2021-08-12 08:53:22] Downloaded 28 apps via HTTP, 627 KB (168 KB compressed)
+[2021-08-12 08:53:22] Requesting 42 apps, 0 packages (full data, 1024 prev attempts)
+[2021-08-12 08:53:23] UpdatesJob: finished OK, apps updated 70 (793 KB), packages updated 0 (0 KB)
+[2021-08-12 08:53:23] RequestAppInfoUpdate: nNumAppIDs 1
+[2021-08-12 08:53:23] Requesting 1 apps, 0 packages (meta data, 1024 prev attempts)
+[2021-08-12 08:53:23] UpdatesJob: finished OK, apps updated 0 (0 KB), packages updated 0 (0 KB)
+[2021-08-12 08:53:38] Starting async write C:\Users\kilpa\Documents\GitHub\7D2DModLauncher-UE\ModLauncher\Assets\StreamingAssets\Tools\Windows\Steam/appcache/appinfo.vdf (5228122 bytes)
+
+
+[2021-08-12 10:11:08] RequestAppInfoUpdate: nNumAppIDs 1
+[2021-08-12 10:11:08] Packages changed: 
+[2021-08-12 10:11:08] Apps changed: 440900=12271880,394690=12271873,383120=12271859,376030=12271836,589290=12271774,1145360=12271771,1011850=12271768,471710=12271745,218620=12271743,746200=12271740,736220=12271720,1424230=12271713,604540=12271698,1097150=12271659,1484960=12271569,
+[2021-08-12 10:11:08] Change number 12271282->12271917, apps: 23/394, packages: 0/51
+[2021-08-12 10:11:08] Requesting 78 apps, 2 packages (meta data, 1024 prev attempts)
+[2021-08-12 10:11:09] Requested 57 app access tokens, 0 received, 57 denied
+[2021-08-12 10:11:09] Downloaded 11 apps via HTTP, 316 KB (80 KB compressed)
+[2021-08-12 10:11:09] Requesting 11 apps, 0 packages (full data, 1024 prev attempts)
+[2021-08-12 10:11:09] UpdatesJob: finished OK, apps updated 22 (359 KB), packages updated 0 (0 KB)
+[2021-08-12 10:11:09] RequestAppInfoUpdate: nNumAppIDs 1
+[2021-08-12 10:11:09] Requesting 1 apps, 0 packages (meta data, 1024 prev attempts)
+[2021-08-12 10:11:10] UpdatesJob: finished OK, apps updated 0 (0 KB), packages updated 0 (0 KB)
+[2021-08-12 10:11:24] Starting async write C:\Users\kilpa\Documents\GitHub\7D2DModLauncher-UE\ModLauncher\Assets\StreamingAssets\Tools\Windows\Steam/appcache/appinfo.vdf (5215192 bytes)
+
+
+[2021-08-12 10:26:35] RequestAppInfoUpdate: nNumAppIDs 1
+[2021-08-12 10:26:35] Packages changed: 
+[2021-08-12 10:26:35] Apps changed: 671610=12272089,604540=12272075,383120=12271922,
+[2021-08-12 10:26:35] Change number 12271917->12272136, apps: 3/238, packages: 0/5
+[2021-08-12 10:26:35] Requesting 61 apps, 2 packages (meta data, 1024 prev attempts)
+[2021-08-12 10:26:35] Requested 57 app access tokens, 0 received, 57 denied
+[2021-08-12 10:26:35] Downloaded 1 apps via HTTP, 17 KB (5 KB compressed)
+[2021-08-12 10:26:35] Requesting 2 apps, 0 packages (full data, 1024 prev attempts)
+[2021-08-12 10:26:36] UpdatesJob: finished OK, apps updated 3 (30 KB), packages updated 0 (0 KB)
+[2021-08-12 10:26:36] RequestAppInfoUpdate: nNumAppIDs 1
+[2021-08-12 10:26:36] Requesting 1 apps, 0 packages (meta data, 1024 prev attempts)
+[2021-08-12 10:26:36] UpdatesJob: finished OK, apps updated 0 (0 KB), packages updated 0 (0 KB)
+[2021-08-12 10:26:51] Starting async write C:\Users\kilpa\Documents\GitHub\7D2DModLauncher-UE\ModLauncher\Assets\StreamingAssets\Tools\Windows\Steam/appcache/appinfo.vdf (5215192 bytes)
+
+
+[2021-08-12 11:33:53] RequestAppInfoUpdate: nNumAppIDs 1
+[2021-08-12 11:33:53] Packages changed: 
+[2021-08-12 11:33:53] Apps changed: 677100=12272811,471710=12272776,1281150=12272743,539470=12272719,746200=12272700,736220=12272659,1011850=12272608,1097150=12272474,400300=12272457,365960=12272454,391220=12272450,313690=12272342,317800=12272327,1199030=12272326,232130=12272314,
+[2021-08-12 11:33:53] Change number 12272136->12272834, apps: 18/472, packages: 0/35
+[2021-08-12 11:33:53] Requesting 73 apps, 2 packages (meta data, 1024 prev attempts)
+[2021-08-12 11:33:54] Requested 57 app access tokens, 0 received, 57 denied
+[2021-08-12 11:33:54] Downloaded 8 apps via HTTP, 242 KB (64 KB compressed)
+[2021-08-12 11:33:54] Requesting 7 apps, 0 packages (full data, 1024 prev attempts)
+[2021-08-12 11:33:54] UpdatesJob: finished OK, apps updated 15 (275 KB), packages updated 0 (0 KB)
+[2021-08-12 11:33:54] RequestAppInfoUpdate: nNumAppIDs 1
+[2021-08-12 11:33:55] Requesting 1 apps, 0 packages (meta data, 1024 prev attempts)
+[2021-08-12 11:33:55] UpdatesJob: finished OK, apps updated 0 (0 KB), packages updated 0 (0 KB)
+[2021-08-12 11:34:09] Starting async write C:\Users\kilpa\Documents\GitHub\7D2DModLauncher-UE\ModLauncher\Assets\StreamingAssets\Tools\Windows\Steam/appcache/appinfo.vdf (5215192 bytes)
+
+
+[2021-09-03 13:53:05] RequestAppInfoUpdate: nNumAppIDs 1
+[2021-09-03 13:53:05] Packages changed: force all
+[2021-09-03 13:53:05] Apps changed: force all
+[2021-09-03 13:53:05] Change number 12272834->12472517, apps: 0/0, packages: 0/0
+[2021-09-03 13:53:05] Requesting 1369 apps, 303 packages (meta data, 1024 prev attempts)
+[2021-09-03 13:53:06] Requested 143 app access tokens, 59 received, 84 denied
+[2021-09-03 13:53:06] Updated SHAs with 59 new access tokens
+[2021-09-03 13:53:07] Downloaded 96 apps via HTTP, 2295 KB (560 KB compressed)
+[2021-09-03 13:53:07] Requesting 276 apps, 2 packages (full data, 1024 prev attempts)
+[2021-09-03 13:53:09] UpdatesJob: finished OK, apps updated 372 (3418 KB), packages updated 2 (0 KB)
+[2021-09-03 13:53:09] Requesting 2 apps, 0 packages (meta data, 1024 prev attempts)
+[2021-09-03 13:53:10] Downloaded 1 apps via HTTP, 9 KB (2 KB compressed)
+[2021-09-03 13:53:10] Requesting 1 apps, 0 packages (full data, 1024 prev attempts)
+[2021-09-03 13:53:10] UpdatesJob: finished OK, apps updated 2 (13 KB), packages updated 0 (0 KB)
+[2021-09-03 13:53:10] RequestAppInfoUpdate: nNumAppIDs 1
+[2021-09-03 13:53:10] Requesting 1 apps, 0 packages (meta data, 1024 prev attempts)
+[2021-09-03 13:53:10] UpdatesJob: finished OK, apps updated 0 (0 KB), packages updated 0 (0 KB)
+[2021-09-03 13:53:25] Starting async write C:\Users\kilpa\Documents\GitHub\7D2DModLauncher-UE\ModLauncher\Assets\StreamingAssets\Tools\Windows\Steam/appcache/appinfo.vdf (5216491 bytes)
+
+
+[2021-09-03 17:27:49] RequestAppInfoUpdate: nNumAppIDs 1
+[2021-09-03 17:27:49] Packages changed: 
+[2021-09-03 17:27:49] Apps changed: 1504220=12474044,494840=12474041,882430=12474039,1427700=12473993,439660=12473985,714010=12473981,471710=12473965,438100=12473929,604540=12473914,1158420=12473902,322330=12473898,343050=12473897,774961=12473853,1110390=12473835,304930=12473834,
+[2021-09-03 17:27:49] Change number 12472517->12474051, apps: 31/825, packages: 0/603
+[2021-09-03 17:27:49] Requesting 90 apps, 0 packages (meta data, 1024 prev attempts)
+[2021-09-03 17:27:50] Requested 58 app access tokens, 0 received, 58 denied
+[2021-09-03 17:27:50] Downloaded 14 apps via HTTP, 232 KB (66 KB compressed)
+[2021-09-03 17:27:50] Requesting 16 apps, 0 packages (full data, 1024 prev attempts)
+[2021-09-03 17:27:50] UpdatesJob: finished OK, apps updated 30 (302 KB), packages updated 0 (0 KB)
+[2021-09-03 17:27:50] RequestAppInfoUpdate: nNumAppIDs 1
+[2021-09-03 17:27:50] Requesting 1 apps, 0 packages (meta data, 1024 prev attempts)
+[2021-09-03 17:27:50] UpdatesJob: finished OK, apps updated 0 (0 KB), packages updated 0 (0 KB)
+[2021-09-03 17:28:05] Starting async write C:\Users\kilpa\Documents\GitHub\7D2DModLauncher-UE\ModLauncher\Assets\StreamingAssets\Tools\Windows\Steam/appcache/appinfo.vdf (5216468 bytes)
+
+
+[2021-09-03 17:45:54] RequestAppInfoUpdate: nNumAppIDs 1
+[2021-09-03 17:45:54] Packages changed: 
+[2021-09-03 17:45:54] Apps changed: 714010=12474282,882430=12474271,746200=12474233,736220=12474152,247370=12474062,1158420=12474053,
+[2021-09-03 17:45:54] Change number 12474051->12474289, apps: 6/208, packages: 0/9
+[2021-09-03 17:45:54] Requesting 65 apps, 0 packages (meta data, 1024 prev attempts)
+[2021-09-03 17:45:55] Requested 58 app access tokens, 0 received, 58 denied
+[2021-09-03 17:45:55] Downloaded 1 apps via HTTP, 11 KB (3 KB compressed)
+[2021-09-03 17:45:55] Requesting 5 apps, 0 packages (full data, 1024 prev attempts)
+[2021-09-03 17:45:55] UpdatesJob: finished OK, apps updated 6 (31 KB), packages updated 0 (0 KB)
+[2021-09-03 17:45:55] RequestAppInfoUpdate: nNumAppIDs 1
+[2021-09-03 17:45:55] Requesting 1 apps, 0 packages (meta data, 1024 prev attempts)
+[2021-09-03 17:45:55] UpdatesJob: finished OK, apps updated 0 (0 KB), packages updated 0 (0 KB)
+[2021-09-03 17:46:10] Starting async write C:\Users\kilpa\Documents\GitHub\7D2DModLauncher-UE\ModLauncher\Assets\StreamingAssets\Tools\Windows\Steam/appcache/appinfo.vdf (5216243 bytes)
+
+
+[2021-09-03 18:44:29] RequestAppInfoUpdate: nNumAppIDs 1
+[2021-09-03 18:44:30] Packages changed: 
+[2021-09-03 18:44:30] Apps changed: 494840=12474650,376210=12474613,1110390=12474612,304930=12474611,774961=12474531,275850=12474449,346330=12474443,394690=12474386,882430=12474365,714010=12474350,1281930=12474346,471710=12474344,604540=12474336,596350=12474322,1504220=12474294,
+[2021-09-03 18:44:30] Change number 12474289->12474656, apps: 15/259, packages: 0/30
+[2021-09-03 18:44:30] Requesting 74 apps, 0 packages (meta data, 1024 prev attempts)
+[2021-09-03 18:44:30] Requested 58 app access tokens, 0 received, 58 denied
+[2021-09-03 18:44:30] Downloaded 9 apps via HTTP, 113 KB (33 KB compressed)
+[2021-09-03 18:44:30] Requesting 6 apps, 0 packages (full data, 1024 prev attempts)
+[2021-09-03 18:44:31] UpdatesJob: finished OK, apps updated 15 (140 KB), packages updated 0 (0 KB)
+[2021-09-03 18:44:31] RequestAppInfoUpdate: nNumAppIDs 1
+[2021-09-03 18:44:31] Requesting 1 apps, 0 packages (meta data, 1024 prev attempts)
+[2021-09-03 18:44:31] UpdatesJob: finished OK, apps updated 0 (0 KB), packages updated 0 (0 KB)
+[2021-09-03 18:44:46] Starting async write C:\Users\kilpa\Documents\GitHub\7D2DModLauncher-UE\ModLauncher\Assets\StreamingAssets\Tools\Windows\Steam/appcache/appinfo.vdf (5216198 bytes)
+
+
+[2021-09-03 18:47:36] RequestAppInfoUpdate: nNumAppIDs 1
+[2021-09-03 18:47:36] Packages changed: 
+[2021-09-03 18:47:36] Apps changed: 
+[2021-09-03 18:47:36] Change number 12474656->12474676, apps: 0/12, packages: 0/3
+[2021-09-03 18:47:36] Requesting 59 apps, 0 packages (meta data, 1024 prev attempts)
+[2021-09-03 18:47:37] Requested 58 app access tokens, 0 received, 58 denied
+[2021-09-03 18:47:37] UpdatesJob: finished OK, apps updated 0 (0 KB), packages updated 0 (0 KB)
+[2021-09-03 18:47:37] RequestAppInfoUpdate: nNumAppIDs 1
+[2021-09-03 18:47:37] Requesting 1 apps, 0 packages (meta data, 1024 prev attempts)
+[2021-09-03 18:47:37] UpdatesJob: finished OK, apps updated 0 (0 KB), packages updated 0 (0 KB)
+
+
+[2021-09-05 19:48:38] RequestAppInfoUpdate: nNumAppIDs 1
+[2021-09-05 19:48:39] Packages changed: force all
+[2021-09-05 19:48:39] Apps changed: force all
+[2021-09-05 19:48:39] Change number 12474676->12485578, apps: 0/0, packages: 0/0
+[2021-09-05 19:48:39] Requesting 1371 apps, 303 packages (meta data, 1024 prev attempts)
+[2021-09-05 19:48:39] Requested 143 app access tokens, 59 received, 84 denied
+[2021-09-05 19:48:40] Updated SHAs with 59 new access tokens
+[2021-09-05 19:48:40] Downloaded 36 apps via HTTP, 941 KB (209 KB compressed)
+[2021-09-05 19:48:40] Requesting 68 apps, 0 packages (full data, 1024 prev attempts)
+[2021-09-05 19:48:41] UpdatesJob: finished OK, apps updated 104 (1241 KB), packages updated 0 (0 KB)
+[2021-09-05 19:48:41] RequestAppInfoUpdate: nNumAppIDs 1
+[2021-09-05 19:48:41] Requesting 1 apps, 0 packages (meta data, 1024 prev attempts)
+[2021-09-05 19:48:41] UpdatesJob: finished OK, apps updated 0 (0 KB), packages updated 0 (0 KB)
+[2021-09-05 19:48:56] Starting async write C:\Users\kilpa\Documents\GitHub\7D2DModLauncher-UE\ModLauncher\Assets\StreamingAssets\Tools\Windows\Steam/appcache/appinfo.vdf (5218611 bytes)
+
+
+[2021-09-05 20:38:14] RequestAppInfoUpdate: nNumAppIDs 1
+
+
+[2021-09-05 20:38:41] RequestAppInfoUpdate: nNumAppIDs 1
+
+
+[2021-09-05 20:39:14] RequestAppInfoUpdate: nNumAppIDs 1
+
+
+[2021-09-05 20:41:38] RequestAppInfoUpdate: nNumAppIDs 1
+[2021-09-05 20:41:38] Packages changed: 
+[2021-09-05 20:41:38] Apps changed: 570950=12485638,1281930=12485585,
+[2021-09-05 20:41:38] Change number 12485578->12485739, apps: 2/111, packages: 0/13
+[2021-09-05 20:41:38] Requesting 61 apps, 0 packages (meta data, 1024 prev attempts)
+[2021-09-05 20:41:39] Requested 58 app access tokens, 0 received, 58 denied
+[2021-09-05 20:41:39] Requesting 2 apps, 0 packages (full data, 1024 prev attempts)
+[2021-09-05 20:41:39] UpdatesJob: finished OK, apps updated 2 (13 KB), packages updated 0 (0 KB)
+[2021-09-05 20:41:39] RequestAppInfoUpdate: nNumAppIDs 1
+[2021-09-05 20:41:39] Requesting 1 apps, 0 packages (meta data, 1024 prev attempts)
+[2021-09-05 20:41:39] UpdatesJob: finished OK, apps updated 0 (0 KB), packages updated 0 (0 KB)
+[2021-09-05 20:41:54] Starting async write C:\Users\kilpa\Documents\GitHub\7D2DModLauncher-UE\ModLauncher\Assets\StreamingAssets\Tools\Windows\Steam/appcache/appinfo.vdf (5218497 bytes)
+
+
+[2021-09-05 20:49:39] RequestAppInfoUpdate: nNumAppIDs 1
+[2021-09-05 20:49:40] Packages changed: 
+[2021-09-05 20:49:40] Apps changed: 440000=12485755,440900=12485751,
+[2021-09-05 20:49:40] Change number 12485739->12485763, apps: 2/20, packages: 0/1
+[2021-09-05 20:49:40] Requesting 60 apps, 0 packages (meta data, 1024 prev attempts)
+[2021-09-05 20:49:40] Requested 58 app access tokens, 0 received, 58 denied
+[2021-09-05 20:49:40] Downloaded 1 apps via HTTP, 20 KB (5 KB compressed)
+[2021-09-05 20:49:40] UpdatesJob: finished OK, apps updated 1 (20 KB), packages updated 0 (0 KB)
+[2021-09-05 20:49:40] RequestAppInfoUpdate: nNumAppIDs 1
+[2021-09-05 20:49:41] Requesting 1 apps, 0 packages (meta data, 1024 prev attempts)
+[2021-09-05 20:49:41] UpdatesJob: finished OK, apps updated 0 (0 KB), packages updated 0 (0 KB)
+[2021-09-05 20:49:55] Starting async write C:\Users\kilpa\Documents\GitHub\7D2DModLauncher-UE\ModLauncher\Assets\StreamingAssets\Tools\Windows\Steam/appcache/appinfo.vdf (5218497 bytes)
+
+
+[2021-09-05 20:55:18] RequestAppInfoUpdate: nNumAppIDs 1
+[2021-09-05 20:55:19] Apps changed: 443030=12485766,960090=12485764,
+[2021-09-05 20:55:19] Change number 12485763->12485769, apps: 2/6, packages: 0/0
+[2021-09-05 20:55:19] Requesting 61 apps, 0 packages (meta data, 1024 prev attempts)
+[2021-09-05 20:55:19] Requested 58 app access tokens, 0 received, 58 denied
+[2021-09-05 20:55:19] Downloaded 2 apps via HTTP, 17 KB (4 KB compressed)
+[2021-09-05 20:55:19] UpdatesJob: finished OK, apps updated 2 (17 KB), packages updated 0 (0 KB)
+[2021-09-05 20:55:19] RequestAppInfoUpdate: nNumAppIDs 1
+[2021-09-05 20:55:19] Requesting 1 apps, 0 packages (meta data, 1024 prev attempts)
+[2021-09-05 20:55:20] UpdatesJob: finished OK, apps updated 0 (0 KB), packages updated 0 (0 KB)
+[2021-09-05 20:55:34] Starting async write C:\Users\kilpa\Documents\GitHub\7D2DModLauncher-UE\ModLauncher\Assets\StreamingAssets\Tools\Windows\Steam/appcache/appinfo.vdf (5218497 bytes)
+
+
+[2021-09-05 21:07:15] RequestAppInfoUpdate: nNumAppIDs 1
+[2021-09-05 21:07:15] Packages changed: 
+[2021-09-05 21:07:15] Apps changed: 710560=12485771,
+[2021-09-05 21:07:15] Change number 12485769->12485801, apps: 1/26, packages: 0/4
+[2021-09-05 21:07:15] Requesting 60 apps, 0 packages (meta data, 1024 prev attempts)
+[2021-09-05 21:07:16] Requested 58 app access tokens, 0 received, 58 denied
+[2021-09-05 21:07:16] Requesting 1 apps, 0 packages (full data, 1024 prev attempts)
+[2021-09-05 21:07:16] UpdatesJob: finished OK, apps updated 1 (4 KB), packages updated 0 (0 KB)
+[2021-09-05 21:07:16] RequestAppInfoUpdate: nNumAppIDs 1
+[2021-09-05 21:07:16] Requesting 1 apps, 0 packages (meta data, 1024 prev attempts)
+[2021-09-05 21:07:16] UpdatesJob: finished OK, apps updated 0 (0 KB), packages updated 0 (0 KB)
+[2021-09-05 21:07:31] Starting async write C:\Users\kilpa\Documents\GitHub\7D2DModLauncher-UE\ModLauncher\Assets\StreamingAssets\Tools\Windows\Steam/appcache/appinfo.vdf (5218497 bytes)
+
+
+[2021-09-05 21:14:41] RequestAppInfoUpdate: nNumAppIDs 1
+[2021-09-05 21:14:41] Packages changed: 
+[2021-09-05 21:14:41] Apps changed: 391220=12485802,
+[2021-09-05 21:14:41] Change number 12485801->12485824, apps: 1/18, packages: 0/3
+[2021-09-05 21:14:41] Requesting 60 apps, 0 packages (meta data, 1024 prev attempts)
+[2021-09-05 21:14:42] Requested 58 app access tokens, 0 received, 58 denied
+[2021-09-05 21:14:42] Downloaded 1 apps via HTTP, 61 KB (13 KB compressed)
+[2021-09-05 21:14:42] UpdatesJob: finished OK, apps updated 1 (61 KB), packages updated 0 (0 KB)
+[2021-09-05 21:14:42] RequestAppInfoUpdate: nNumAppIDs 1
+[2021-09-05 21:14:42] Requesting 1 apps, 0 packages (meta data, 1024 prev attempts)
+[2021-09-05 21:14:42] UpdatesJob: finished OK, apps updated 0 (0 KB), packages updated 0 (0 KB)
+[2021-09-05 21:14:57] Starting async write C:\Users\kilpa\Documents\GitHub\7D2DModLauncher-UE\ModLauncher\Assets\StreamingAssets\Tools\Windows\Steam/appcache/appinfo.vdf (5218497 bytes)
+
+
+[2021-09-05 21:30:17] RequestAppInfoUpdate: nNumAppIDs 1
+[2021-09-05 21:30:17] Apps changed: 996560=12485852,
+[2021-09-05 21:30:17] Change number 12485824->12485880, apps: 1/32, packages: 0/0
+[2021-09-05 21:30:17] Requesting 60 apps, 0 packages (meta data, 1024 prev attempts)
+[2021-09-05 21:30:18] Requested 58 app access tokens, 0 received, 58 denied
+[2021-09-05 21:30:18] Downloaded 1 apps via HTTP, 9 KB (2 KB compressed)
+[2021-09-05 21:30:18] UpdatesJob: finished OK, apps updated 1 (9 KB), packages updated 0 (0 KB)
+[2021-09-05 21:30:18] RequestAppInfoUpdate: nNumAppIDs 1
+[2021-09-05 21:30:18] Requesting 1 apps, 0 packages (meta data, 1024 prev attempts)
+[2021-09-05 21:30:18] UpdatesJob: finished OK, apps updated 0 (0 KB), packages updated 0 (0 KB)
+[2021-09-05 21:30:33] Starting async write C:\Users\kilpa\Documents\GitHub\7D2DModLauncher-UE\ModLauncher\Assets\StreamingAssets\Tools\Windows\Steam/appcache/appinfo.vdf (5218497 bytes)
+
+
+[2021-09-05 21:33:07] RequestAppInfoUpdate: nNumAppIDs 1
+[2021-09-05 21:33:07] Apps changed: 1239080=12485908,471710=12485892,376210=12485889,
+[2021-09-05 21:33:07] Change number 12485880->12485949, apps: 3/65, packages: 0/0
+[2021-09-05 21:33:07] Requesting 62 apps, 0 packages (meta data, 1024 prev attempts)
+[2021-09-05 21:33:08] Requested 58 app access tokens, 0 received, 58 denied
+[2021-09-05 21:33:08] Downloaded 2 apps via HTTP, 23 KB (6 KB compressed)
+[2021-09-05 21:33:08] Requesting 1 apps, 0 packages (full data, 1024 prev attempts)
+[2021-09-05 21:33:08] UpdatesJob: finished OK, apps updated 3 (27 KB), packages updated 0 (0 KB)
+[2021-09-05 21:33:08] RequestAppInfoUpdate: nNumAppIDs 1
+[2021-09-05 21:33:08] Requesting 1 apps, 0 packages (meta data, 1024 prev attempts)
+[2021-09-05 21:33:08] UpdatesJob: finished OK, apps updated 0 (0 KB), packages updated 0 (0 KB)
+[2021-09-05 21:33:23] Starting async write C:\Users\kilpa\Documents\GitHub\7D2DModLauncher-UE\ModLauncher\Assets\StreamingAssets\Tools\Windows\Steam/appcache/appinfo.vdf (5218497 bytes)

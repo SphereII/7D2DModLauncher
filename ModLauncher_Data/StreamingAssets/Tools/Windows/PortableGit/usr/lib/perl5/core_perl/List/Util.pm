@@ -12,15 +12,19 @@ require Exporter;
 
 our @ISA        = qw(Exporter);
 our @EXPORT_OK  = qw(
-  all any first min max minstr maxstr none notall product reduce sum sum0 shuffle uniq uniqnum uniqstr
-  pairs unpairs pairkeys pairvalues pairmap pairgrep pairfirst
+  all any first min max minstr maxstr none notall product reduce reductions sum sum0
+  sample shuffle uniq uniqint uniqnum uniqstr
+  head tail pairs unpairs pairkeys pairvalues pairmap pairgrep pairfirst
 );
-our $VERSION    = "1.46_02";
+our $VERSION    = "1.55";
 our $XS_VERSION = $VERSION;
-$VERSION    = eval $VERSION;
+$VERSION =~ tr/_//d;
 
 require XSLoader;
 XSLoader::load('List::Util', $XS_VERSION);
+
+# Used by shuffle()
+our $RAND;
 
 sub import
 {
@@ -38,6 +42,7 @@ sub import
 # For objects returned by pairs()
 sub List::Util::_Pair::key   { shift->[0] }
 sub List::Util::_Pair::value { shift->[1] }
+sub List::Util::_Pair::TO_JSON { [ @{+shift} ] }
 
 =head1 NAME
 
@@ -46,13 +51,13 @@ List::Util - A selection of general-utility list subroutines
 =head1 SYNOPSIS
 
     use List::Util qw(
-      reduce any all none notall first
+      reduce any all none notall first reductions
 
       max maxstr min minstr product sum sum0
 
       pairs unpairs pairkeys pairvalues pairfirst pairgrep pairmap
 
-      shuffle uniq uniqnum uniqstr
+      shuffle uniq uniqint uniqnum uniqstr
     );
 
 =head1 DESCRIPTION
@@ -68,7 +73,8 @@ By default C<List::Util> does not export any subroutines.
 
 =head1 LIST-REDUCTION FUNCTIONS
 
-The following set of functions all reduce a list down to a single value.
+The following set of functions all apply a given block of code to a list of
+values.
 
 =cut
 
@@ -116,7 +122,7 @@ C<undef> being returned
 
 The above example code blocks also suggest how to use C<reduce> to build a
 more efficient combined version of one of these basic functions and a C<map>
-block. For example, to find the total length of the all the strings in a list,
+block. For example, to find the total length of all the strings in a list,
 we could use
 
     $total = sum map { length } @strings;
@@ -128,8 +134,28 @@ block that accumulates lengths by writing this instead as:
 
     $total = reduce { $a + length $b } 0, @strings
 
-The remaining list-reduction functions are all specialisations of this generic
-idea.
+The other scalar-returning list reduction functions are all specialisations of
+this generic idea.
+
+=head2 reductions
+
+    @results = reductions { BLOCK } @list
+
+I<Since version 1.54.>
+
+Similar to C<reduce> except that it also returns the intermediate values along
+with the final result. As before, C<$a> is set to the first element of the
+given list, and the C<BLOCK> is then called once for remaining item in the
+list set into C<$b>, with the result being captured for return as well as
+becoming the new value for C<$a>.
+
+The returned list will begin with the initial value for C<$a>, followed by
+each return value from the block in order. The final value of the result will
+be identical to what the C<reduce> function would have returned given the same
+block and list.
+
+    reduce     { "$a-$b" }  "a".."d"    # "a-b-c-d"
+    reductions { "$a-$b" }  "a".."d"    # "a", "a-b", "a-b-c", "a-b-c-d"
 
 =head2 any
 
@@ -149,6 +175,9 @@ instead, as it can short-circuit after the first true result.
         # at least one string has more than 10 characters
     }
 
+Note: Due to XS issues the block passed may be able to access the outer @_
+directly. This is not intentional and will break under debugger.
+
 =head2 all
 
     my $bool = all { BLOCK } @list;
@@ -159,6 +188,9 @@ Similar to L</any>, except that it requires all elements of the C<@list> to
 make the C<BLOCK> return true. If any element returns false, then it returns
 false. If the C<BLOCK> never returns false or the C<@list> was empty then it
 returns true.
+
+Note: Due to XS issues the block passed may be able to access the outer @_
+directly. This is not intentional and will break under debugger.
 
 =head2 none
 
@@ -173,6 +205,9 @@ I<Since version 1.33.>
 Similar to L</any> and L</all>, but with the return sense inverted. C<none>
 returns true only if no value in the C<@list> causes the C<BLOCK> to return
 true, and C<notall> returns true only if not all of the values do.
+
+Note: Due to XS issues the block passed may be able to access the outer @_
+directly. This is not intentional and will break under debugger.
 
 =head2 first
 
@@ -332,6 +367,9 @@ equivalent:
        ...
     }
 
+Since version C<1.51> they also have a C<TO_JSON> method to ease
+serialisation.
+
 =head2 unpairs
 
     my @kvlist = unpairs @pairs
@@ -476,6 +514,25 @@ Returns the values of the input in a random order
 
     @cards = shuffle 0..51      # 0..51 in a random order
 
+This function is affected by the C<$RAND> variable.
+
+=cut
+
+=head2 sample
+
+    my @items = sample $count, @values
+
+I<Since version 1.54.>
+
+Randomly select the given number of elements from the input list. Any given
+position in the input list will be selected at most once.
+
+If there are fewer than C<$count> items in the list then the function will
+return once all of them have been randomly selected; effectively the function
+behaves similarly to L</shuffle>.
+
+This function is affected by the C<$RAND> variable.
+
 =head2 uniq
 
     my @subset = uniq @values
@@ -495,6 +552,28 @@ The C<undef> value is treated by this function as distinct from the empty
 string, and no warning will be produced. It is left as-is in the returned
 list. Subsequent C<undef> values are still considered identical to the first,
 and will be removed.
+
+=head2 uniqint
+
+    my @subset = uniqint @values
+
+I<Since version 1.55.>
+
+Filters a list of values to remove subsequent duplicates, as judged by an
+integer numerical equality test. Preserves the order of unique elements, and
+retains the first value of any duplicate set. Values in the returned list will
+be coerced into integers.
+
+    my $count = uniqint @values
+
+In scalar context, returns the number of elements that would have been
+returned as a list.
+
+Note that C<undef> is treated much as other numerical operations treat it; it
+compares equal to zero but additionally produces a warning if such warnings
+are enabled (C<use warnings 'uninitialized';>). In addition, an C<undef> in
+the returned list is coerced into a numerical zero, so that the entire list of
+values returned by C<uniqint> are well-behaved as integers.
 
 =head2 uniqnum
 
@@ -543,6 +622,51 @@ C<undef> in the returned list is coerced into an empty string, so that the
 entire list of values returned by C<uniqstr> are well-behaved as strings.
 
 =cut
+
+=head2 head
+
+    my @values = head $size, @list;
+
+I<Since version 1.50.>
+
+Returns the first C<$size> elements from C<@list>. If C<$size> is negative, returns
+all but the last C<$size> elements from C<@list>.
+
+    @result = head 2, qw( foo bar baz );
+    # foo, bar
+
+    @result = head -2, qw( foo bar baz );
+    # foo
+
+=head2 tail
+
+    my @values = tail $size, @list;
+
+I<Since version 1.50.>
+
+Returns the last C<$size> elements from C<@list>. If C<$size> is negative, returns
+all but the first C<$size> elements from C<@list>.
+
+    @result = tail 2, qw( foo bar baz );
+    # bar, baz
+
+    @result = tail -2, qw( foo bar baz );
+    # baz
+
+=head1 CONFIGURATION VARIABLES
+
+=head2 $RAND
+
+    local $List::Util::RAND = sub { ... };
+
+I<Since version 1.54.>
+
+This package variable is used by code which needs to generate random numbers
+(such as the L</shuffle> and L</sample> functions). If set to a CODE reference
+it provides an alternative to perl's builtin C<rand()> function. When a new
+random number is needed this function will be invoked with no arguments and is
+expected to return a floating-point value, of which only the fractional part
+will be used.
 
 =head1 KNOWN BUGS
 

@@ -112,7 +112,7 @@ libnghttp2_asio C++ library requires the following packages:
 The Python bindings require the following packages:
 
 * cython >= 0.19
-* python >= 2.7
+* python >= 3.8
 * python-setuptools
 
 If you are using Ubuntu 16.04 LTS (Xenial Xerus) or Debian 8 (jessie)
@@ -323,12 +323,7 @@ its testing framework.  We depend on the following libraries:
 * golang.org/x/net/websocket
 * https://github.com/tatsuhiro-t/go-nghttp2
 
-To download the above packages, after settings ``GOPATH``, run the
-following command under ``integration-tests`` directory:
-
-.. code-block:: text
-
-    $ make itprep
+Go modules will download these dependencies automatically.
 
 To run the tests, run the following command under
 ``integration-tests`` directory:
@@ -1427,7 +1422,7 @@ The extension module is called ``nghttp2``.
 determined by the ``configure`` script.  If the detected Python version is not
 what you expect, specify a path to Python executable in a ``PYTHON``
 variable as an argument to configure script (e.g., ``./configure
-PYTHON=/usr/bin/python3.5``).
+PYTHON=/usr/bin/python3.8``).
 
 The following example code illustrates basic usage of the HPACK compressor
 and decompressor in Python:
@@ -1499,7 +1494,7 @@ BaseRequestHandler usage:
 
 .. code-block:: python
 
-    #!/usr/bin/env python
+    #!/usr/bin/env python3
 
     import io, ssl
     import nghttp2

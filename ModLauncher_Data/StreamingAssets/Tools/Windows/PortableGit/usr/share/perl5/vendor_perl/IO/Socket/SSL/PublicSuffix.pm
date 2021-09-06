@@ -427,7 +427,6 @@ exchange.aero
 express.aero
 federation.aero
 flight.aero
-freight.aero
 fuel.aero
 gliding.aero
 government.aero
@@ -503,8 +502,13 @@ mil.al
 net.al
 org.al
 
-// am : https://en.wikipedia.org/wiki/.am
+// am : https://www.amnic.net/policy/en/Policy_EN.pdf
 am
+co.am
+com.am
+commune.am
+net.am
+org.am
 
 // ao : https://en.wikipedia.org/wiki/.ao
 // http://www.dns.ao/REGISTR.DOC
@@ -583,6 +587,8 @@ vic.au
 wa.au
 // 3LDs
 act.edu.au
+catholic.edu.au
+// eq.edu.au - Removed at the request of the Queensland Department of Education
 nsw.edu.au
 nt.edu.au
 qld.edu.au
@@ -598,6 +604,9 @@ sa.gov.au
 tas.gov.au
 vic.gov.au
 wa.gov.au
+// 4LDs
+education.tas.edu.au
+schools.nsw.edu.au
 
 // aw : https://en.wikipedia.org/wiki/.aw
 aw
@@ -729,8 +738,13 @@ gov.bm
 net.bm
 org.bm
 
-// bn : https://en.wikipedia.org/wiki/.bn
-*.bn
+// bn : http://www.bnnic.bn/faqs
+bn
+com.bn
+edu.bn
+gov.bn
+net.bn
+org.bn
 
 // bo : https://nic.bo/delegacion2015.php#h-1.10
 bo
@@ -743,7 +757,7 @@ net.bo
 mil.bo
 tv.bo
 web.bo
-// Social Domains 
+// Social Domains
 academia.bo
 agro.bo
 arte.bo
@@ -793,6 +807,7 @@ arq.br
 art.br
 ato.br
 b.br
+barueri.br
 belem.br
 bhz.br
 bio.br
@@ -893,6 +908,7 @@ niteroi.br
 not.br
 ntr.br
 odo.br
+ong.br
 org.br
 osasco.br
 palmas.br
@@ -922,6 +938,7 @@ slz.br
 sorocaba.br
 srv.br
 taxi.br
+tc.br
 teo.br
 the.br
 tmp.br
@@ -1049,11 +1066,13 @@ gouv.ci
 *.ck
 !www.ck
 
-// cl : https://en.wikipedia.org/wiki/.cl
+// cl : https://www.nic.cl
+// Confirmed by .CL registry <hsalgado@nic.cl>
 cl
-gov.cl
-gob.cl
+aprendemas.cl
 co.cl
+gob.cl
+gov.cl
 mil.cl
 
 // cm : https://en.wikipedia.org/wiki/.cm plus bug 981927
@@ -1312,8 +1331,19 @@ fi
 // TODO: Check for updates (expected to be phased out around Q1/2009)
 aland.fi
 
-// fj : https://en.wikipedia.org/wiki/.fj
-*.fj
+// fj : http://domains.fj/
+// Submitted by registry <garth.miller@cocca.org.nz> 2020-02-11
+fj
+ac.fj
+biz.fj
+com.fj
+gov.fj
+info.fj
+mil.fj
+name.fj
+net.fj
+org.fj
+pro.fj
 
 // fk : https://en.wikipedia.org/wiki/.fk
 *.fk
@@ -1325,17 +1355,16 @@ fm
 fo
 
 // fr : http://www.afnic.fr/
-// domaines descriptifs : http://www.afnic.fr/obtenir/chartes/nommage-fr/annexe-descriptifs
+// domaines descriptifs : https://www.afnic.fr/medias/documents/Cadre_legal/Afnic_Naming_Policy_12122016_VEN.pdf
 fr
-com.fr
 asso.fr
+com.fr
+gouv.fr
 nom.fr
 prd.fr
-presse.fr
 tm.fr
-// domaines sectoriels : http://www.afnic.fr/obtenir/chartes/nommage-fr/annexe-sectoriels
+// domaines sectoriels : https://www.afnic.fr/en/products-and-services/the-fr-tld/sector-based-fr-domains-4.html
 aeroport.fr
-assedic.fr
 avocat.fr
 avoues.fr
 cci.fr
@@ -1343,7 +1372,6 @@ chambagri.fr
 chirurgiens-dentistes.fr
 experts-comptables.fr
 geometre-expert.fr
-gouv.fr
 greta.fr
 huissier-justice.fr
 medecin.fr
@@ -1461,8 +1489,18 @@ mil.gt
 net.gt
 org.gt
 
-// gu : http://gadao.gov.gu/registration.txt
-*.gu
+// gu : http://gadao.gov.gu/register.html
+// University of Guam : https://www.uog.edu
+// Submitted by uognoc@triton.uog.edu
+gu
+com.gu
+edu.gu
+gov.gu
+guam.gu
+info.gu
+net.gu
+org.gu
+web.gu
 
 // gw : https://en.wikipedia.org/wiki/.gw
 gw
@@ -1477,7 +1515,7 @@ gov.gy
 net.gy
 org.gy
 
-// hk : https://www.hkdnr.hk
+// hk : https://www.hkirc.hk
 // Submitted by registry <hk.tech@hkirc.hk>
 hk
 com.hk
@@ -1576,7 +1614,7 @@ tozsde.hu
 utazas.hu
 video.hu
 
-// id : https://register.pandi.or.id/
+// id : https://pandi.id/en/domain/registration-requirements/
 id
 ac.id
 biz.id
@@ -1587,6 +1625,7 @@ mil.id
 my.id
 net.id
 or.id
+ponpes.id
 sch.id
 web.id
 
@@ -1688,10 +1727,8 @@ int.is
 it
 gov.it
 edu.it
-// Reserved geo-names:
-// http://www.nic.it/documenti/regolamenti-e-linee-guida/regolamento-assegnazione-versione-6.0.pdf
-// There is also a list of reserved geo-names corresponding to Italian municipalities
-// http://www.nic.it/documenti/appendice-c.pdf, but it is not included here.
+// Reserved geo-names (regions and provinces):
+// https://www.nic.it/sites/default/files/archivio/docs/Regulation_assignation_v7.1.pdf
 // Regions
 abr.it
 abruzzo.it
@@ -1745,6 +1782,12 @@ sicily.it
 taa.it
 tos.it
 toscana.it
+trentin-sud-tirol.it
+xn--trentin-sd-tirol-rzb.it
+trentin-sudtirol.it
+xn--trentin-sdtirol-7vb.it
+trentin-sued-tirol.it
+trentin-suedtirol.it
 trentino-a-adige.it
 trentino-aadige.it
 trentino-alto-adige.it
@@ -1752,9 +1795,12 @@ trentino-altoadige.it
 trentino-s-tirol.it
 trentino-stirol.it
 trentino-sud-tirol.it
+xn--trentino-sd-tirol-c3b.it
 trentino-sudtirol.it
+xn--trentino-sdtirol-szb.it
 trentino-sued-tirol.it
 trentino-suedtirol.it
+trentino.it
 trentinoa-adige.it
 trentinoaadige.it
 trentinoalto-adige.it
@@ -1762,9 +1808,17 @@ trentinoaltoadige.it
 trentinos-tirol.it
 trentinostirol.it
 trentinosud-tirol.it
+xn--trentinosd-tirol-rzb.it
 trentinosudtirol.it
+xn--trentinosdtirol-7vb.it
 trentinosued-tirol.it
 trentinosuedtirol.it
+trentinsud-tirol.it
+xn--trentinsd-tirol-6vb.it
+trentinsudtirol.it
+xn--trentinsdtirol-nsb.it
+trentinsued-tirol.it
+trentinsuedtirol.it
 tuscany.it
 umb.it
 umbria.it
@@ -1779,7 +1833,13 @@ valleaosta.it
 valled-aosta.it
 valledaosta.it
 vallee-aoste.it
+xn--valle-aoste-ebb.it
+vallee-d-aoste.it
+xn--valle-d-aoste-ehb.it
 valleeaoste.it
+xn--valleaoste-e7a.it
+valleedaoste.it
+xn--valledaoste-ebb.it
 vao.it
 vda.it
 ven.it
@@ -1812,6 +1872,9 @@ at.it
 av.it
 avellino.it
 ba.it
+balsan-sudtirol.it
+xn--balsan-sdtirol-nsb.it
+balsan-suedtirol.it
 balsan.it
 bari.it
 barletta-trani-andria.it
@@ -1826,13 +1889,21 @@ bl.it
 bn.it
 bo.it
 bologna.it
+bolzano-altoadige.it
 bolzano.it
+bozen-sudtirol.it
+xn--bozen-sdtirol-2ob.it
+bozen-suedtirol.it
 bozen.it
 br.it
 brescia.it
 brindisi.it
 bs.it
 bt.it
+bulsan-sudtirol.it
+xn--bulsan-sdtirol-nsb.it
+bulsan-suedtirol.it
+bulsan.it
 bz.it
 ca.it
 cagliari.it
@@ -1850,7 +1921,9 @@ catanzaro.it
 cb.it
 ce.it
 cesena-forli.it
+xn--cesena-forl-mcb.it
 cesenaforli.it
+xn--cesenaforl-i8a.it
 ch.it
 chieti.it
 ci.it
@@ -1881,7 +1954,9 @@ florence.it
 fm.it
 foggia.it
 forli-cesena.it
+xn--forl-cesena-fcb.it
 forlicesena.it
+xn--forlcesena-c8a.it
 fr.it
 frosinone.it
 ge.it
@@ -2012,6 +2087,7 @@ sp.it
 sr.it
 ss.it
 suedtirol.it
+xn--sdtirol-n2a.it
 sv.it
 ta.it
 taranto.it
@@ -2030,7 +2106,6 @@ trani-barletta-andria.it
 traniandriabarletta.it
 tranibarlettaandria.it
 trapani.it
-trentino.it
 trento.it
 treviso.it
 trieste.it
@@ -3993,8 +4068,16 @@ jeonnam.kr
 seoul.kr
 ulsan.kr
 
-// kw : https://en.wikipedia.org/wiki/.kw
-*.kw
+// kw : https://www.nic.kw/policies/
+// Confirmed by registry <nic.tech@citra.gov.kw>
+kw
+com.kw
+edu.kw
+emb.kw
+gov.kw
+ind.kw
+net.kw
+org.kw
 
 // ky : http://www.icta.ky/da_ky_reg_dom.php
 // Confirmed by registry <kysupport@perimeterusa.com> 2008-06-17
@@ -4076,10 +4159,18 @@ gov.lr
 org.lr
 net.lr
 
-// ls : https://en.wikipedia.org/wiki/.ls
+// ls : http://www.nic.ls/
+// Confirmed by registry <lsadmin@nic.ls>
 ls
+ac.ls
+biz.ls
 co.ls
+edu.ls
+gov.ls
+info.ls
+net.ls
 org.ls
+sc.ls
 
 // lt : https://en.wikipedia.org/wiki/.lt
 lt
@@ -4608,8 +4699,6 @@ niepce.museum
 norfolk.museum
 north.museum
 nrw.museum
-nuernberg.museum
-nuremberg.museum
 nyc.museum
 nyny.museum
 oceanographic.museum
@@ -4936,9 +5025,6 @@ web.ni
 //      https://www.sidn.nl/
 //      ccTLD for the Netherlands
 nl
-
-// BV.nl will be a registry for dutch BV's (besloten vennootschap)
-bv.nl
 
 // no : http://www.norid.no/regelverk/index.en.html
 // The Norwegian registry has declined to notify us of updates. The web pages
@@ -6160,26 +6246,19 @@ gov.rs
 in.rs
 org.rs
 
-// ru : https://cctld.ru/en/domains/domens_ru/reserved/
+// ru : https://cctld.ru/files/pdf/docs/en/rules_ru-rf.pdf
+// Submitted by George Georgievsky <gug@cctld.ru>
 ru
-ac.ru
-edu.ru
-gov.ru
-int.ru
-mil.ru
-test.ru
 
-// rw : http://www.nic.rw/cgi-bin/policy.pl
+// rw : https://www.ricta.org.rw/sites/default/files/resources/registry_registrar_contract_0.pdf
 rw
-gov.rw
-net.rw
-edu.rw
 ac.rw
-com.rw
 co.rw
-int.rw
+coop.rw
+gov.rw
 mil.rw
-gouv.rw
+net.rw
+org.rw
 
 // sa : http://www.nic.net.sa/
 sa
@@ -6314,14 +6393,27 @@ org.sn
 perso.sn
 univ.sn
 
-// so : http://www.soregistry.com/
+// so : http://sonic.so/policies/
 so
 com.so
+edu.so
+gov.so
+me.so
 net.so
 org.so
 
 // sr : https://en.wikipedia.org/wiki/.sr
 sr
+
+// ss : https://registry.nic.ss/
+// Submitted by registry <technical@nic.ss>
+ss
+biz.ss
+com.ss
+edu.ss
+gov.ss
+net.ss
+org.ss
 
 // st : http://www.nic.st/html/policyrules/
 st
@@ -6469,39 +6561,35 @@ org.to
 edu.to
 mil.to
 
-// subTLDs: https://www.nic.tr/forms/eng/policies.pdf
-//     and: https://www.nic.tr/forms/politikalar.pdf
-// Submitted by <mehmetgurevin@gmail.com>
+// tr : https://nic.tr/
+// https://nic.tr/forms/eng/policies.pdf
+// https://nic.tr/index.php?USRACTN=PRICELST
 tr
-com.tr
-info.tr
-biz.tr
-net.tr
-org.tr
-web.tr
-gen.tr
-tv.tr
 av.tr
-dr.tr
 bbs.tr
-name.tr
-tel.tr
-gov.tr
 bel.tr
-pol.tr
+biz.tr
+com.tr
+dr.tr
+edu.tr
+gen.tr
+gov.tr
+info.tr
 mil.tr
 k12.tr
-edu.tr
 kep.tr
-
+name.tr
+net.tr
+org.tr
+pol.tr
+tel.tr
+tsk.tr
+tv.tr
+web.tr
 // Used by Northern Cyprus
 nc.tr
-
 // Used by government agencies of Northern Cyprus
 gov.nc.tr
-
-// travel : https://en.wikipedia.org/wiki/.travel
-travel
 
 // tt : http://www.nic.tt/
 tt
@@ -7067,7 +7155,15 @@ xn--lgbbat1ad8j
 xn--wgbh1c
 
 // xn--e1a4c ("eu", Cyrillic) : EU
+// https://eurid.eu
 xn--e1a4c
+
+// xn--qxa6a ("eu", Greek) : EU
+// https://eurid.eu
+xn--qxa6a
+
+// xn--mgbah1a3hjkrd ("Mauritania", Arabic) : MR
+xn--mgbah1a3hjkrd
 
 // xn--node ("ge", Georgian Mkhedruli) : GE
 xn--node
@@ -7077,8 +7173,16 @@ xn--node
 xn--qxam
 
 // xn--j6w193g ("Hong Kong", Chinese) : HK
-// https://www2.hkirc.hk/register/rules.jsp
+// https://www.hkirc.hk
+// Submitted by registry <hk.tech@hkirc.hk>
+// https://www.hkirc.hk/content.jsp?id=30#!/34
 xn--j6w193g
+xn--55qx5d.xn--j6w193g
+xn--wcvs22d.xn--j6w193g
+xn--mxtq1m.xn--j6w193g
+xn--gmqw5a.xn--j6w193g
+xn--od0alg.xn--j6w193g
+xn--uc0atv.xn--j6w193g
 
 // xn--2scrj9c ("Bharat", Kannada) : IN
 // India
@@ -7111,6 +7215,10 @@ xn--rvc1e0am3e
 // xn--h2brj9c ("Bharat", Devanagari) : IN
 // India
 xn--h2brj9c
+
+// xn--mgbbh1a ("Bharat", Kashmiri) : IN
+// India
+xn--mgbbh1a
 
 // xn--mgbbh1a71e ("Bharat", Arabic) : IN
 // India
@@ -7210,7 +7318,8 @@ xn--o1ach.xn--90a3ac
 xn--80au.xn--90a3ac
 
 // xn--p1ai ("rf", Russian-Cyrillic) : RU
-// http://www.cctld.ru/en/docs/rulesrf.php
+// https://cctld.ru/files/pdf/docs/en/rules_ru-rf.pdf
+// Submitted by George Georgievsky <gug@cctld.ru>
 xn--p1ai
 
 // xn--wgbl6a ("Qatar", Arabic) : QA
@@ -7283,7 +7392,7 @@ xxx
 // ye : http://www.y.net.ye/services/domain_name.htm
 *.ye
 
-// za : http://www.zadna.org.za/content/page/domain-information
+// za : https://www.zadna.org.za/content/page/domain-information/
 ac.za
 agric.za
 alt.za
@@ -7295,6 +7404,7 @@ law.za
 mil.za
 net.za
 ngo.za
+nic.za
 nis.za
 nom.za
 org.za
@@ -7326,8 +7436,11 @@ gov.zw
 mil.zw
 org.zw
 
-// List of new gTLDs imported from https://newgtlds.icann.org/newgtlds.csv on 2017-02-23T00:46:09Z
 
+// newGTLDs
+
+// List of new gTLDs imported from https://www.icann.org/resources/registries/gtlds/v2/gtlds.json on 2020-03-29T18:18:21Z
+// This list is auto-generated, don't edit it manually.
 // aaa : 2015-02-26 American Automobile Association, Inc.
 aaa
 
@@ -7352,13 +7465,13 @@ abc
 // able : 2015-06-25 Able Inc.
 able
 
-// abogado : 2014-04-24 Top Level Domain Holdings Limited
+// abogado : 2014-04-24 Minds + Machines Group Limited
 abogado
 
 // abudhabi : 2015-07-30 Abu Dhabi Systems and Information Centre
 abudhabi
 
-// academy : 2013-11-07 Half Oaks, LLC
+// academy : 2013-11-07 Binky Moon, LLC
 academy
 
 // accenture : 2014-08-15 Accenture plc
@@ -7367,16 +7480,13 @@ accenture
 // accountant : 2014-11-20 dot Accountant Limited
 accountant
 
-// accountants : 2014-03-20 Knob Town, LLC
+// accountants : 2014-03-20 Binky Moon, LLC
 accountants
 
 // aco : 2015-01-08 ACO Severin Ahlmann GmbH & Co. KG
 aco
 
-// active : 2014-05-01 The Active Network, Inc
-active
-
-// actor : 2013-12-12 United TLD Holdco Ltd.
+// actor : 2013-12-12 Dog Beach, LLC
 actor
 
 // adac : 2015-07-16 Allgemeiner Deutscher Automobil-Club e.V. (ADAC)
@@ -7406,7 +7516,7 @@ africa
 // agakhan : 2015-04-23 Fondation Aga Khan (Aga Khan Foundation)
 agakhan
 
-// agency : 2013-11-14 Steel Falls, LLC
+// agency : 2013-11-14 Binky Moon, LLC
 agency
 
 // aig : 2014-12-18 American International Group, Inc.
@@ -7418,7 +7528,7 @@ aigo
 // airbus : 2015-07-30 Airbus S.A.S.
 airbus
 
-// airforce : 2014-03-06 United TLD Holdco Ltd.
+// airforce : 2014-03-06 Dog Beach, LLC
 airforce
 
 // airtel : 2014-10-24 Bharti Airtel Limited
@@ -7445,11 +7555,14 @@ allstate
 // ally : 2015-06-18 Ally Financial Inc.
 ally
 
-// alsace : 2014-07-02 REGION D ALSACE
+// alsace : 2014-07-02 Region Grand Est
 alsace
 
 // alstom : 2015-07-30 ALSTOM
 alstom
+
+// amazon : 2019-12-19 Amazon Registry Services, Inc.
+amazon
 
 // americanexpress : 2015-07-31 American Express Travel Related Services Company, Inc.
 americanexpress
@@ -7481,10 +7594,10 @@ anquan
 // anz : 2015-07-31 Australia and New Zealand Banking Group Limited
 anz
 
-// aol : 2015-09-17 AOL Inc.
+// aol : 2015-09-17 Oath Inc.
 aol
 
-// apartments : 2014-12-11 June Maple, LLC
+// apartments : 2014-12-11 Binky Moon, LLC
 apartments
 
 // app : 2015-05-14 Charleston Road Registry Inc.
@@ -7502,10 +7615,10 @@ arab
 // aramco : 2014-11-20 Aramco Services Company
 aramco
 
-// archi : 2014-02-06 STARTING DOT LIMITED
+// archi : 2014-02-06 Afilias Limited
 archi
 
-// army : 2014-03-06 United TLD Holdco Ltd.
+// army : 2014-03-06 Dog Beach, LLC
 army
 
 // art : 2016-03-24 UK Creative Ideas Limited
@@ -7517,22 +7630,22 @@ arte
 // asda : 2015-07-31 Wal-Mart Stores, Inc.
 asda
 
-// associates : 2014-03-06 Baxter Hill, LLC
+// associates : 2014-03-06 Binky Moon, LLC
 associates
 
 // athleta : 2015-07-30 The Gap, Inc.
 athleta
 
-// attorney : 2014-03-20
+// attorney : 2014-03-20 Dog Beach, LLC
 attorney
 
-// auction : 2014-03-20
+// auction : 2014-03-20 Dog Beach, LLC
 auction
 
 // audi : 2015-05-21 AUDI Aktiengesellschaft
 audi
 
-// audible : 2015-06-25 Amazon EU S.à r.l.
+// audible : 2015-06-25 Amazon Registry Services, Inc.
 audible
 
 // audio : 2014-03-20 Uniregistry, Corp.
@@ -7541,19 +7654,19 @@ audio
 // auspost : 2015-08-13 Australian Postal Corporation
 auspost
 
-// author : 2014-12-18 Amazon EU S.à r.l.
+// author : 2014-12-18 Amazon Registry Services, Inc.
 author
 
-// auto : 2014-11-13
+// auto : 2014-11-13 Cars Registry Limited
 auto
 
 // autos : 2014-01-09 DERAutos, LLC
 autos
 
-// avianca : 2015-01-08 Aerovias del Continente Americano S.A. Avianca
+// avianca : 2015-01-08 Avianca Holdings S.A.
 avianca
 
-// aws : 2015-06-25 Amazon EU S.à r.l.
+// aws : 2015-06-25 Amazon Registry Services, Inc.
 aws
 
 // axa : 2013-12-19 AXA SA
@@ -7562,7 +7675,7 @@ axa
 // azure : 2014-12-18 Microsoft Corporation
 azure
 
-// baby : 2015-04-09 Johnson & Johnson Services, Inc.
+// baby : 2015-04-09 XYZ.COM LLC
 baby
 
 // baidu : 2015-01-08 Baidu, Inc.
@@ -7574,7 +7687,7 @@ banamex
 // bananarepublic : 2015-07-31 The Gap, Inc.
 bananarepublic
 
-// band : 2014-06-12
+// band : 2014-06-12 Dog Beach, LLC
 band
 
 // bank : 2014-09-25 fTLD Registry Services LLC
@@ -7595,7 +7708,7 @@ barclays
 // barefoot : 2015-06-11 Gallo Vineyards, Inc.
 barefoot
 
-// bargains : 2013-11-14 Half Hallow, LLC
+// bargains : 2013-11-14 Binky Moon, LLC
 bargains
 
 // baseball : 2015-10-29 MLB Advanced Media DH, LLC
@@ -7628,10 +7741,10 @@ bcn
 // beats : 2015-05-14 Beats Electronics, LLC
 beats
 
-// beauty : 2015-12-03 L'Oréal
+// beauty : 2015-12-03 XYZ.COM LLC
 beauty
 
-// beer : 2014-01-09 Top Level Domain Holdings Limited
+// beer : 2014-01-09 Minds + Machines Group Limited
 beer
 
 // bentley : 2014-12-18 Bentley Motors Limited
@@ -7646,7 +7759,7 @@ best
 // bestbuy : 2015-07-31 BBY Solutions, Inc.
 bestbuy
 
-// bet : 2015-05-07 Afilias plc
+// bet : 2015-05-07 Afilias Limited
 bet
 
 // bharti : 2014-01-09 Bharti Enterprises (Holding) Private Limited
@@ -7658,16 +7771,16 @@ bible
 // bid : 2013-12-19 dot Bid Limited
 bid
 
-// bike : 2013-08-27 Grand Hollow, LLC
+// bike : 2013-08-27 Binky Moon, LLC
 bike
 
 // bing : 2014-12-18 Microsoft Corporation
 bing
 
-// bingo : 2014-12-04 Sand Cedar, LLC
+// bingo : 2014-12-04 Binky Moon, LLC
 bingo
 
-// bio : 2014-03-06 STARTING DOT LIMITED
+// bio : 2014-03-06 Afilias Limited
 bio
 
 // black : 2014-01-16 Afilias Limited
@@ -7676,13 +7789,10 @@ black
 // blackfriday : 2014-01-16 Uniregistry, Corp.
 blackfriday
 
-// blanco : 2015-07-16 BLANCO GmbH + Co KG
-blanco
-
 // blockbuster : 2015-07-30 Dish DBS Corporation
 blockbuster
 
-// blog : 2015-05-14
+// blog : 2015-05-14 Knock Knock WHOIS There, LLC
 blog
 
 // bloomberg : 2014-07-17 Bloomberg IP Holdings LLC
@@ -7697,9 +7807,6 @@ bms
 // bmw : 2014-01-09 Bayerische Motoren Werke Aktiengesellschaft
 bmw
 
-// bnl : 2014-07-24 Banca Nazionale del Lavoro
-bnl
-
 // bnpparibas : 2014-05-29 BNP Paribas
 bnpparibas
 
@@ -7709,26 +7816,23 @@ boats
 // boehringer : 2015-07-09 Boehringer Ingelheim International GmbH
 boehringer
 
-// bofa : 2015-07-31 NMS Services, Inc.
+// bofa : 2015-07-31 Bank of America Corporation
 bofa
 
 // bom : 2014-10-16 Núcleo de Informação e Coordenação do Ponto BR - NIC.br
 bom
 
-// bond : 2014-06-05 Bond University Limited
+// bond : 2014-06-05 ShortDot SA
 bond
 
 // boo : 2014-01-30 Charleston Road Registry Inc.
 boo
 
-// book : 2015-08-27 Amazon EU S.à r.l.
+// book : 2015-08-27 Amazon Registry Services, Inc.
 book
 
 // booking : 2015-07-16 Booking.com B.V.
 booking
-
-// boots : 2015-01-08 THE BOOTS COMPANY PLC
-boots
 
 // bosch : 2015-06-18 Robert Bosch GMBH
 bosch
@@ -7736,16 +7840,16 @@ bosch
 // bostik : 2015-05-28 Bostik SA
 bostik
 
-// boston : 2015-12-10
+// boston : 2015-12-10 Boston TLD Management, LLC
 boston
 
-// bot : 2014-12-18 Amazon EU S.à r.l.
+// bot : 2014-12-18 Amazon Registry Services, Inc.
 bot
 
-// boutique : 2013-11-14 Over Galley, LLC
+// boutique : 2013-11-14 Binky Moon, LLC
 boutique
 
-// box : 2015-11-12 NS1 Limited
+// box : 2015-11-12 .BOX INC.
 box
 
 // bradesco : 2014-12-18 Banco Bradesco S.A.
@@ -7757,7 +7861,7 @@ bridgestone
 // broadway : 2014-12-22 Celebrate Broadway, Inc.
 broadway
 
-// broker : 2014-12-11 IG Group Holdings PLC
+// broker : 2014-12-11 Dotbroker Registry Limited
 broker
 
 // brother : 2015-01-29 Brother Industries, Ltd.
@@ -7766,7 +7870,7 @@ brother
 // brussels : 2014-02-06 DNS.be vzw
 brussels
 
-// budapest : 2013-11-21 Top Level Domain Holdings Limited
+// budapest : 2013-11-21 Minds + Machines Group Limited
 budapest
 
 // bugatti : 2015-07-23 Bugatti International SA
@@ -7775,13 +7879,13 @@ bugatti
 // build : 2013-11-07 Plan Bee LLC
 build
 
-// builders : 2013-11-07 Atomic Madison, LLC
+// builders : 2013-11-07 Binky Moon, LLC
 builders
 
-// business : 2013-11-07 Spring Cross, LLC
+// business : 2013-11-07 Binky Moon, LLC
 business
 
-// buy : 2014-12-18 Amazon EU S.à r.l.
+// buy : 2014-12-18 Amazon Registry Services, Inc.
 buy
 
 // buzz : 2013-10-02 DOTSTRATEGY CO.
@@ -7790,16 +7894,16 @@ buzz
 // bzh : 2014-02-27 Association www.bzh
 bzh
 
-// cab : 2013-10-24 Half Sunset, LLC
+// cab : 2013-10-24 Binky Moon, LLC
 cab
 
-// cafe : 2015-02-11 Pioneer Canyon, LLC
+// cafe : 2015-02-11 Binky Moon, LLC
 cafe
 
 // cal : 2014-07-24 Charleston Road Registry Inc.
 cal
 
-// call : 2014-12-18 Amazon EU S.à r.l.
+// call : 2014-12-18 Amazon Registry Services, Inc.
 call
 
 // calvinklein : 2015-07-30 PVH gTLD Holdings LLC
@@ -7808,10 +7912,10 @@ calvinklein
 // cam : 2016-04-21 AC Webconnecting Holding B.V.
 cam
 
-// camera : 2013-08-27 Atomic Maple, LLC
+// camera : 2013-08-27 Binky Moon, LLC
 camera
 
-// camp : 2013-11-07 Delta Dynamite, LLC
+// camp : 2013-11-07 Binky Moon, LLC
 camp
 
 // cancerresearch : 2014-05-15 Australian Cancer Research Foundation
@@ -7823,37 +7927,34 @@ canon
 // capetown : 2014-03-24 ZA Central Registry NPC trading as ZA Central Registry
 capetown
 
-// capital : 2014-03-06 Delta Mill, LLC
+// capital : 2014-03-06 Binky Moon, LLC
 capital
 
 // capitalone : 2015-08-06 Capital One Financial Corporation
 capitalone
 
-// car : 2015-01-22
+// car : 2015-01-22 Cars Registry Limited
 car
 
 // caravan : 2013-12-12 Caravan International, Inc.
 caravan
 
-// cards : 2013-12-05 Foggy Hollow, LLC
+// cards : 2013-12-05 Binky Moon, LLC
 cards
 
-// care : 2014-03-06 Goose Cross
+// care : 2014-03-06 Binky Moon, LLC
 care
 
 // career : 2013-10-09 dotCareer LLC
 career
 
-// careers : 2013-10-02 Wild Corner, LLC
+// careers : 2013-10-02 Binky Moon, LLC
 careers
 
-// cars : 2014-11-13
+// cars : 2014-11-13 Cars Registry Limited
 cars
 
-// cartier : 2014-06-23 Richemont DNS Inc.
-cartier
-
-// casa : 2013-11-21 Top Level Domain Holdings Limited
+// casa : 2013-11-21 Minds + Machines Group Limited
 casa
 
 // case : 2015-09-03 CNH Industrial N.V.
@@ -7862,13 +7963,13 @@ case
 // caseih : 2015-09-03 CNH Industrial N.V.
 caseih
 
-// cash : 2014-03-06 Delta Lake, LLC
+// cash : 2014-03-06 Binky Moon, LLC
 cash
 
-// casino : 2014-12-18 Binky Sky, LLC
+// casino : 2014-12-18 Binky Moon, LLC
 casino
 
-// catering : 2013-12-05 New Falls. LLC
+// catering : 2013-12-05 Binky Moon, LLC
 catering
 
 // catholic : 2015-10-21 Pontificium Consilium de Comunicationibus Socialibus (PCCS) (Pontifical Council for Social Communication)
@@ -7889,7 +7990,7 @@ cbs
 // ceb : 2015-04-09 The Corporate Executive Board Company
 ceb
 
-// center : 2013-11-07 Tin Mill, LLC
+// center : 2013-11-07 Binky Moon, LLC
 center
 
 // ceo : 2013-11-07 CEOTLD Pty Ltd
@@ -7901,7 +8002,7 @@ cern
 // cfa : 2014-08-28 CFA Institute
 cfa
 
-// cfd : 2014-12-11 IG Group Holdings PLC
+// cfd : 2014-12-11 DotCFD Registry Limited
 cfd
 
 // chanel : 2015-04-09 Chanel International B.V.
@@ -7910,13 +8011,16 @@ chanel
 // channel : 2014-05-08 Charleston Road Registry Inc.
 channel
 
-// chase : 2015-04-30 JPMorgan Chase & Co.
+// charity : 2018-04-11 Binky Moon, LLC
+charity
+
+// chase : 2015-04-30 JPMorgan Chase Bank, National Association
 chase
 
-// chat : 2014-12-04 Sand Fields, LLC
+// chat : 2014-12-04 Binky Moon, LLC
 chat
 
-// cheap : 2013-11-14 Sand Cover, LLC
+// cheap : 2013-11-14 Binky Moon, LLC
 cheap
 
 // chintai : 2015-06-11 CHINTAI Corporation
@@ -7928,16 +8032,13 @@ christmas
 // chrome : 2014-07-24 Charleston Road Registry Inc.
 chrome
 
-// chrysler : 2015-07-30 FCA US LLC.
-chrysler
-
-// church : 2014-02-06 Holly Fields, LLC
+// church : 2014-02-06 Binky Moon, LLC
 church
 
 // cipriani : 2015-02-19 Hotel Cipriani Srl
 cipriani
 
-// circle : 2014-12-18 Amazon EU S.à r.l.
+// circle : 2014-12-18 Amazon Registry Services, Inc.
 circle
 
 // cisco : 2014-12-22 Cisco Technology, Inc.
@@ -7952,31 +8053,31 @@ citi
 // citic : 2014-01-09 CITIC Group Corporation
 citic
 
-// city : 2014-05-29 Snow Sky, LLC
+// city : 2014-05-29 Binky Moon, LLC
 city
 
 // cityeats : 2014-12-11 Lifestyle Domain Holdings, Inc.
 cityeats
 
-// claims : 2014-03-20 Black Corner, LLC
+// claims : 2014-03-20 Binky Moon, LLC
 claims
 
-// cleaning : 2013-12-05 Fox Shadow, LLC
+// cleaning : 2013-12-05 Binky Moon, LLC
 cleaning
 
 // click : 2014-06-05 Uniregistry, Corp.
 click
 
-// clinic : 2014-03-20 Goose Park, LLC
+// clinic : 2014-03-20 Binky Moon, LLC
 clinic
 
 // clinique : 2015-10-01 The Estée Lauder Companies Inc.
 clinique
 
-// clothing : 2013-08-27 Steel Lake, LLC
+// clothing : 2013-08-27 Binky Moon, LLC
 clothing
 
-// cloud : 2015-04-16 ARUBA S.p.A.
+// cloud : 2015-04-16 Aruba PEC S.p.A.
 cloud
 
 // club : 2013-11-08 .CLUB DOMAINS, LLC
@@ -7985,19 +8086,19 @@ club
 // clubmed : 2015-06-25 Club Méditerranée S.A.
 clubmed
 
-// coach : 2014-10-09 Koko Island, LLC
+// coach : 2014-10-09 Binky Moon, LLC
 coach
 
-// codes : 2013-10-31 Puff Willow, LLC
+// codes : 2013-10-31 Binky Moon, LLC
 codes
 
-// coffee : 2013-10-17 Trixy Cover, LLC
+// coffee : 2013-10-17 Binky Moon, LLC
 coffee
 
 // college : 2014-01-16 XYZ.COM LLC
 college
 
-// cologne : 2014-02-05 NetCologne Gesellschaft für Telekommunikation mbH
+// cologne : 2014-02-05 dotKoeln GmbH
 cologne
 
 // comcast : 2015-07-23 Comcast IP Holdings I, LLC
@@ -8006,64 +8107,67 @@ comcast
 // commbank : 2014-06-26 COMMONWEALTH BANK OF AUSTRALIA
 commbank
 
-// community : 2013-12-05 Fox Orchard, LLC
+// community : 2013-12-05 Binky Moon, LLC
 community
 
-// company : 2013-11-07 Silver Avenue, LLC
+// company : 2013-11-07 Binky Moon, LLC
 company
 
-// compare : 2015-10-08 iSelect Ltd
+// compare : 2015-10-08 Registry Services, LLC
 compare
 
-// computer : 2013-10-24 Pine Mill, LLC
+// computer : 2013-10-24 Binky Moon, LLC
 computer
 
 // comsec : 2015-01-08 VeriSign, Inc.
 comsec
 
-// condos : 2013-12-05 Pine House, LLC
+// condos : 2013-12-05 Binky Moon, LLC
 condos
 
-// construction : 2013-09-16 Fox Dynamite, LLC
+// construction : 2013-09-16 Binky Moon, LLC
 construction
 
-// consulting : 2013-12-05
+// consulting : 2013-12-05 Dog Beach, LLC
 consulting
 
-// contact : 2015-01-08 Top Level Spectrum, Inc.
+// contact : 2015-01-08 Dog Beach, LLC
 contact
 
-// contractors : 2013-09-10 Magic Woods, LLC
+// contractors : 2013-09-10 Binky Moon, LLC
 contractors
 
-// cooking : 2013-11-21 Top Level Domain Holdings Limited
+// cooking : 2013-11-21 Minds + Machines Group Limited
 cooking
 
 // cookingchannel : 2015-07-02 Lifestyle Domain Holdings, Inc.
 cookingchannel
 
-// cool : 2013-11-14 Koko Lake, LLC
+// cool : 2013-11-14 Binky Moon, LLC
 cool
 
-// corsica : 2014-09-25 Collectivité Territoriale de Corse
+// corsica : 2014-09-25 Collectivité de Corse
 corsica
 
-// country : 2013-12-19 Top Level Domain Holdings Limited
+// country : 2013-12-19 DotCountry LLC
 country
 
-// coupon : 2015-02-26 Amazon EU S.à r.l.
+// coupon : 2015-02-26 Amazon Registry Services, Inc.
 coupon
 
-// coupons : 2015-03-26 Black Island, LLC
+// coupons : 2015-03-26 Binky Moon, LLC
 coupons
 
 // courses : 2014-12-04 OPEN UNIVERSITIES AUSTRALIA PTY LTD
 courses
 
-// credit : 2014-03-20 Snow Shadow, LLC
+// cpa : 2019-06-10 American Institute of Certified Public Accountants
+cpa
+
+// credit : 2014-03-20 Binky Moon, LLC
 credit
 
-// creditcard : 2014-03-20 Binky Frostbite, LLC
+// creditcard : 2014-03-20 Binky Moon, LLC
 creditcard
 
 // creditunion : 2015-01-22 CUNA Performance Resources, LLC
@@ -8081,19 +8185,19 @@ crs
 // cruise : 2015-12-10 Viking River Cruises (Bermuda) Ltd.
 cruise
 
-// cruises : 2013-12-05 Spring Way, LLC
+// cruises : 2013-12-05 Binky Moon, LLC
 cruises
 
 // csc : 2014-09-25 Alliance-One Services, Inc.
 csc
 
-// cuisinella : 2014-04-03 SALM S.A.S.
+// cuisinella : 2014-04-03 SCHMIDT GROUPE S.A.S.
 cuisinella
 
 // cymru : 2014-05-08 Nominet UK
 cymru
 
-// cyou : 2015-01-22 Beijing Gamease Age Digital Technology Co., Ltd.
+// cyou : 2015-01-22 ShortDot SA
 cyou
 
 // dabur : 2014-02-06 Dabur India Limited
@@ -8102,7 +8206,7 @@ dabur
 // dad : 2014-01-23 Charleston Road Registry Inc.
 dad
 
-// dance : 2013-10-24 United TLD Holdco Ltd.
+// dance : 2013-10-24 Dog Beach, LLC
 dance
 
 // data : 2016-06-02 Dish DBS Corporation
@@ -8111,7 +8215,7 @@ data
 // date : 2014-11-20 dot Date Limited
 date
 
-// dating : 2013-12-05 Pine Fest, LLC
+// dating : 2013-12-05 Binky Moon, LLC
 dating
 
 // datsun : 2014-03-27 NISSAN MOTOR CO., LTD.
@@ -8123,22 +8227,22 @@ day
 // dclk : 2014-11-20 Charleston Road Registry Inc.
 dclk
 
-// dds : 2015-05-07 Top Level Domain Holdings Limited
+// dds : 2015-05-07 Minds + Machines Group Limited
 dds
 
-// deal : 2015-06-25 Amazon EU S.à r.l.
+// deal : 2015-06-25 Amazon Registry Services, Inc.
 deal
 
-// dealer : 2014-12-22 Dealer Dot Com, Inc.
+// dealer : 2014-12-22 Intercap Registry Inc.
 dealer
 
-// deals : 2014-05-22 Sand Sunset, LLC
+// deals : 2014-05-22 Binky Moon, LLC
 deals
 
-// degree : 2014-03-06
+// degree : 2014-03-06 Dog Beach, LLC
 degree
 
-// delivery : 2014-09-11 Steel Station, LLC
+// delivery : 2014-09-11 Binky Moon, LLC
 delivery
 
 // dell : 2014-10-24 Dell Inc.
@@ -8150,13 +8254,13 @@ deloitte
 // delta : 2015-02-19 Delta Air Lines, Inc.
 delta
 
-// democrat : 2013-10-24 United TLD Holdco Ltd.
+// democrat : 2013-10-24 Dog Beach, LLC
 democrat
 
-// dental : 2014-03-20 Tin Birch, LLC
+// dental : 2014-03-20 Binky Moon, LLC
 dental
 
-// dentist : 2014-03-20
+// dentist : 2014-03-20 Dog Beach, LLC
 dentist
 
 // desi : 2013-11-14 Desi Networks LLC
@@ -8171,22 +8275,22 @@ dev
 // dhl : 2015-07-23 Deutsche Post AG
 dhl
 
-// diamonds : 2013-09-22 John Edge, LLC
+// diamonds : 2013-09-22 Binky Moon, LLC
 diamonds
 
 // diet : 2014-06-26 Uniregistry, Corp.
 diet
 
-// digital : 2014-03-06 Dash Park, LLC
+// digital : 2014-03-06 Binky Moon, LLC
 digital
 
-// direct : 2014-04-10 Half Trail, LLC
+// direct : 2014-04-10 Binky Moon, LLC
 direct
 
-// directory : 2013-09-20 Extra Madison, LLC
+// directory : 2013-09-20 Binky Moon, LLC
 directory
 
-// discount : 2014-03-06 Holly Hill, LLC
+// discount : 2014-03-06 Binky Moon, LLC
 discount
 
 // discover : 2015-07-23 Discover Financial Services
@@ -8204,19 +8308,13 @@ dnp
 // docs : 2014-10-16 Charleston Road Registry Inc.
 docs
 
-// doctor : 2016-06-02 Brice Trail, LLC
+// doctor : 2016-06-02 Binky Moon, LLC
 doctor
 
-// dodge : 2015-07-30 FCA US LLC.
-dodge
-
-// dog : 2014-12-04 Koko Mill, LLC
+// dog : 2014-12-04 Binky Moon, LLC
 dog
 
-// doha : 2014-09-18 Communications Regulatory Authority (CRA)
-doha
-
-// domains : 2013-10-17 Sugar Cross, LLC
+// domains : 2013-10-17 Binky Moon, LLC
 domains
 
 // dot : 2015-05-21 Dish DBS Corporation
@@ -8240,9 +8338,6 @@ duck
 // dunlop : 2015-07-02 The Goodyear Tire & Rubber Company
 dunlop
 
-// duns : 2015-08-06 The Dun & Bradstreet Corporation
-duns
-
 // dupont : 2015-06-25 E. I. du Pont de Nemours and Company
 dupont
 
@@ -8252,7 +8347,7 @@ durban
 // dvag : 2014-06-23 Deutsche Vermögensberatung Aktiengesellschaft DVAG
 dvag
 
-// dvr : 2016-05-26 Hughes Satellite Systems Corporation
+// dvr : 2016-05-26 DISH Technologies L.L.C.
 dvr
 
 // earth : 2014-12-04 Interlink Co., Ltd.
@@ -8267,34 +8362,31 @@ eco
 // edeka : 2014-12-18 EDEKA Verband kaufmännischer Genossenschaften e.V.
 edeka
 
-// education : 2013-11-07 Brice Way, LLC
+// education : 2013-11-07 Binky Moon, LLC
 education
 
-// email : 2013-10-31 Spring Madison, LLC
+// email : 2013-10-31 Binky Moon, LLC
 email
 
 // emerck : 2014-04-03 Merck KGaA
 emerck
 
-// energy : 2014-09-11 Binky Birch, LLC
+// energy : 2014-09-11 Binky Moon, LLC
 energy
 
-// engineer : 2014-03-06 United TLD Holdco Ltd.
+// engineer : 2014-03-06 Dog Beach, LLC
 engineer
 
-// engineering : 2014-03-06 Romeo Canyon
+// engineering : 2014-03-06 Binky Moon, LLC
 engineering
 
-// enterprises : 2013-09-20 Snow Oaks, LLC
+// enterprises : 2013-09-20 Binky Moon, LLC
 enterprises
-
-// epost : 2015-07-23 Deutsche Post AG
-epost
 
 // epson : 2014-12-04 Seiko Epson Corporation
 epson
 
-// equipment : 2013-08-27 Corn Station, LLC
+// equipment : 2013-08-27 Binky Moon, LLC
 equipment
 
 // ericsson : 2015-07-09 Telefonaktiebolaget L M Ericsson
@@ -8306,7 +8398,7 @@ erni
 // esq : 2014-05-08 Charleston Road Registry Inc.
 esq
 
-// estate : 2013-08-27 Trixy Park, LLC
+// estate : 2013-08-27 Binky Moon, LLC
 estate
 
 // esurance : 2015-07-23 Esurance Insurance Company
@@ -8321,22 +8413,19 @@ eurovision
 // eus : 2013-12-12 Puntueus Fundazioa
 eus
 
-// events : 2013-12-05 Pioneer Maple, LLC
+// events : 2013-12-05 Binky Moon, LLC
 events
 
-// everbank : 2014-05-15 EverBank
-everbank
-
-// exchange : 2014-03-06 Spring Falls, LLC
+// exchange : 2014-03-06 Binky Moon, LLC
 exchange
 
-// expert : 2013-11-21 Magic Pass, LLC
+// expert : 2013-11-21 Binky Moon, LLC
 expert
 
-// exposed : 2013-12-05 Victor Beach, LLC
+// exposed : 2013-12-05 Binky Moon, LLC
 exposed
 
-// express : 2015-02-11 Sea Sunset, LLC
+// express : 2015-02-11 Binky Moon, LLC
 express
 
 // extraspace : 2015-05-14 Extra Space Storage LLC
@@ -8345,7 +8434,7 @@ extraspace
 // fage : 2014-12-18 Fage International S.A.
 fage
 
-// fail : 2014-03-06 Atomic Pipe, LLC
+// fail : 2014-03-06 Binky Moon, LLC
 fail
 
 // fairwinds : 2014-11-13 FairWinds Partners, LLC
@@ -8354,25 +8443,25 @@ fairwinds
 // faith : 2014-11-20 dot Faith Limited
 faith
 
-// family : 2015-04-02
+// family : 2015-04-02 Dog Beach, LLC
 family
 
-// fan : 2014-03-06
+// fan : 2014-03-06 Dog Beach, LLC
 fan
 
-// fans : 2014-11-07 Asiamix Digital Limited
+// fans : 2014-11-07 ZDNS International Limited
 fans
 
-// farm : 2013-11-07 Just Maple, LLC
+// farm : 2013-11-07 Binky Moon, LLC
 farm
 
 // farmers : 2015-07-09 Farmers Insurance Exchange
 farmers
 
-// fashion : 2014-07-03 Top Level Domain Holdings Limited
+// fashion : 2014-07-03 Minds + Machines Group Limited
 fashion
 
-// fast : 2014-12-18 Amazon EU S.à r.l.
+// fast : 2014-12-18 Amazon Registry Services, Inc.
 fast
 
 // fedex : 2015-08-06 Federal Express Corporation
@@ -8393,7 +8482,7 @@ fiat
 // fidelity : 2015-07-30 Fidelity Brokerage Services LLC
 fidelity
 
-// fido : 2015-08-06 Rogers Communications Partnership
+// fido : 2015-08-06 Rogers Communications Canada Inc.
 fido
 
 // film : 2015-01-08 Motion Picture Domain Registry Pty Ltd
@@ -8402,43 +8491,43 @@ film
 // final : 2014-10-16 Núcleo de Informação e Coordenação do Ponto BR - NIC.br
 final
 
-// finance : 2014-03-20 Cotton Cypress, LLC
+// finance : 2014-03-20 Binky Moon, LLC
 finance
 
-// financial : 2014-03-06 Just Cover, LLC
+// financial : 2014-03-06 Binky Moon, LLC
 financial
 
-// fire : 2015-06-25 Amazon EU S.à r.l.
+// fire : 2015-06-25 Amazon Registry Services, Inc.
 fire
 
-// firestone : 2014-12-18 Bridgestone Corporation
+// firestone : 2014-12-18 Bridgestone Licensing Services, Inc
 firestone
 
 // firmdale : 2014-03-27 Firmdale Holdings Limited
 firmdale
 
-// fish : 2013-12-12 Fox Woods, LLC
+// fish : 2013-12-12 Binky Moon, LLC
 fish
 
-// fishing : 2013-11-21 Top Level Domain Holdings Limited
+// fishing : 2013-11-21 Minds + Machines Group Limited
 fishing
 
-// fit : 2014-11-07 Top Level Domain Holdings Limited
+// fit : 2014-11-07 Minds + Machines Group Limited
 fit
 
-// fitness : 2014-03-06 Brice Orchard, LLC
+// fitness : 2014-03-06 Binky Moon, LLC
 fitness
 
 // flickr : 2015-04-02 Yahoo! Domain Services Inc.
 flickr
 
-// flights : 2013-12-05 Fox Station, LLC
+// flights : 2013-12-05 Binky Moon, LLC
 flights
 
 // flir : 2015-07-23 FLIR Systems, Inc.
 flir
 
-// florist : 2013-11-07 Half Cypress, LLC
+// florist : 2013-11-07 Binky Moon, LLC
 florist
 
 // flowers : 2014-10-09 Uniregistry, Corp.
@@ -8456,28 +8545,28 @@ food
 // foodnetwork : 2015-07-02 Lifestyle Domain Holdings, Inc.
 foodnetwork
 
-// football : 2014-12-18 Foggy Farms, LLC
+// football : 2014-12-18 Binky Moon, LLC
 football
 
 // ford : 2014-11-13 Ford Motor Company
 ford
 
-// forex : 2014-12-11 IG Group Holdings PLC
+// forex : 2014-12-11 Dotforex Registry Limited
 forex
 
-// forsale : 2014-05-22
+// forsale : 2014-05-22 Dog Beach, LLC
 forsale
 
 // forum : 2015-04-02 Fegistry, LLC
 forum
 
-// foundation : 2013-12-05 John Dale, LLC
+// foundation : 2013-12-05 Binky Moon, LLC
 foundation
 
 // fox : 2015-09-11 FOX Registry, LLC
 fox
 
-// free : 2015-12-10 Amazon EU S.à r.l.
+// free : 2015-12-10 Amazon Registry Services, Inc.
 free
 
 // fresenius : 2015-07-30 Fresenius Immobilien-Verwaltungs-GmbH
@@ -8504,25 +8593,25 @@ fujitsu
 // fujixerox : 2015-07-23 Xerox DNHC LLC
 fujixerox
 
-// fun : 2016-01-14
+// fun : 2016-01-14 DotSpace Inc.
 fun
 
-// fund : 2014-03-20 John Castle, LLC
+// fund : 2014-03-20 Binky Moon, LLC
 fund
 
-// furniture : 2014-03-20 Lone Fields, LLC
+// furniture : 2014-03-20 Binky Moon, LLC
 furniture
 
-// futbol : 2013-09-20
+// futbol : 2013-09-20 Dog Beach, LLC
 futbol
 
-// fyi : 2015-04-02 Silver Tigers, LLC
+// fyi : 2015-04-02 Binky Moon, LLC
 fyi
 
 // gal : 2013-11-07 Asociación puntoGAL
 gal
 
-// gallery : 2013-09-13 Sugar House, LLC
+// gallery : 2013-09-13 Binky Moon, LLC
 gallery
 
 // gallo : 2015-06-11 Gallo Vineyards, Inc.
@@ -8534,14 +8623,17 @@ gallup
 // game : 2015-05-28 Uniregistry, Corp.
 game
 
-// games : 2015-05-28
+// games : 2015-05-28 Dog Beach, LLC
 games
 
 // gap : 2015-07-31 The Gap, Inc.
 gap
 
-// garden : 2014-06-26 Top Level Domain Holdings Limited
+// garden : 2014-06-26 Minds + Machines Group Limited
 garden
+
+// gay : 2019-05-23 Top Level Design, LLC
+gay
 
 // gbiz : 2014-07-17 Charleston Road Registry Inc.
 gbiz
@@ -8552,7 +8644,7 @@ gdn
 // gea : 2014-12-04 GEA Group Aktiengesellschaft
 gea
 
-// gent : 2014-01-23 COMBELL GROUP NV/SA
+// gent : 2014-01-23 COMBELL NV
 gent
 
 // genting : 2015-03-12 Resorts World Inc Pte. Ltd.
@@ -8564,13 +8656,13 @@ george
 // ggee : 2014-01-09 GMO Internet, Inc.
 ggee
 
-// gift : 2013-10-17 Uniregistry, Corp.
+// gift : 2013-10-17 DotGift, LLC
 gift
 
-// gifts : 2014-07-03 Goose Sky, LLC
+// gifts : 2014-07-03 Binky Moon, LLC
 gifts
 
-// gives : 2014-03-06 United TLD Holdco Ltd.
+// gives : 2014-03-06 Dog Beach, LLC
 gives
 
 // giving : 2014-11-13 Giving Limited
@@ -8579,13 +8671,13 @@ giving
 // glade : 2015-07-23 Johnson Shareholdings, Inc.
 glade
 
-// glass : 2013-11-07 Black Cover, LLC
+// glass : 2013-11-07 Binky Moon, LLC
 glass
 
 // gle : 2014-07-24 Charleston Road Registry Inc.
 gle
 
-// global : 2014-04-17 Dot GLOBAL AS
+// global : 2014-04-17 Dot Global Domain Registry Limited
 global
 
 // globo : 2013-12-19 Globo Comunicação e Participações S.A
@@ -8594,7 +8686,7 @@ globo
 // gmail : 2014-05-01 Charleston Road Registry Inc.
 gmail
 
-// gmbh : 2016-01-29 Extra Dynamite, LLC
+// gmbh : 2016-01-29 Binky Moon, LLC
 gmbh
 
 // gmo : 2014-01-09 GMO Internet, Inc.
@@ -8606,20 +8698,17 @@ gmx
 // godaddy : 2015-07-23 Go Daddy East, LLC
 godaddy
 
-// gold : 2015-01-22 June Edge, LLC
+// gold : 2015-01-22 Binky Moon, LLC
 gold
 
 // goldpoint : 2014-11-20 YODOBASHI CAMERA CO.,LTD.
 goldpoint
 
-// golf : 2014-12-18 Lone falls, LLC
+// golf : 2014-12-18 Binky Moon, LLC
 golf
 
 // goo : 2014-12-18 NTT Resonant Inc.
 goo
-
-// goodhands : 2015-07-31 Allstate Fire and Casualty Insurance Company
-goodhands
 
 // goodyear : 2015-07-02 The Goodyear Tire & Rubber Company
 goodyear
@@ -8633,28 +8722,28 @@ google
 // gop : 2014-01-16 Republican State Leadership Committee, Inc.
 gop
 
-// got : 2014-12-18 Amazon EU S.à r.l.
+// got : 2014-12-18 Amazon Registry Services, Inc.
 got
 
 // grainger : 2015-05-07 Grainger Registry Services, LLC
 grainger
 
-// graphics : 2013-09-13 Over Madison, LLC
+// graphics : 2013-09-13 Binky Moon, LLC
 graphics
 
-// gratis : 2014-03-20 Pioneer Tigers, LLC
+// gratis : 2014-03-20 Binky Moon, LLC
 gratis
 
 // green : 2014-05-08 Afilias Limited
 green
 
-// gripe : 2014-03-06 Corn Sunset, LLC
+// gripe : 2014-03-06 Binky Moon, LLC
 gripe
 
 // grocery : 2016-06-16 Wal-Mart Stores, Inc.
 grocery
 
-// group : 2014-08-15 Romeo Town, LLC
+// group : 2014-08-15 Binky Moon, LLC
 group
 
 // guardian : 2015-07-30 The Guardian Life Insurance Company of America
@@ -8666,16 +8755,16 @@ gucci
 // guge : 2014-08-28 Charleston Road Registry Inc.
 guge
 
-// guide : 2013-09-13 Snow Moon, LLC
+// guide : 2013-09-13 Binky Moon, LLC
 guide
 
 // guitars : 2013-11-14 Uniregistry, Corp.
 guitars
 
-// guru : 2013-08-27 Pioneer Cypress, LLC
+// guru : 2013-08-27 Binky Moon, LLC
 guru
 
-// hair : 2015-12-03 L'Oréal
+// hair : 2015-12-03 XYZ.COM LLC
 hair
 
 // hamburg : 2014-02-20 Hamburg Top-Level-Domain GmbH
@@ -8684,7 +8773,7 @@ hamburg
 // hangout : 2014-11-13 Charleston Road Registry Inc.
 hangout
 
-// haus : 2013-12-05
+// haus : 2013-12-05 Dog Beach, LLC
 haus
 
 // hbo : 2015-07-30 HBO Registry Services, Inc.
@@ -8699,7 +8788,7 @@ hdfcbank
 // health : 2015-02-11 DotHealth, LLC
 health
 
-// healthcare : 2014-06-12 Silver Glen, LLC
+// healthcare : 2014-06-12 Binky Moon, LLC
 healthcare
 
 // help : 2014-06-26 Uniregistry, Corp.
@@ -8726,22 +8815,22 @@ hisamitsu
 // hitachi : 2014-10-31 Hitachi, Ltd.
 hitachi
 
-// hiv : 2014-03-13
+// hiv : 2014-03-13 Uniregistry, Corp.
 hiv
 
 // hkt : 2015-05-14 PCCW-HKT DataCom Services Limited
 hkt
 
-// hockey : 2015-03-19 Half Willow, LLC
+// hockey : 2015-03-19 Binky Moon, LLC
 hockey
 
-// holdings : 2013-08-27 John Madison, LLC
+// holdings : 2013-08-27 Binky Moon, LLC
 holdings
 
-// holiday : 2013-11-07 Goose Woods, LLC
+// holiday : 2013-11-07 Binky Moon, LLC
 holiday
 
-// homedepot : 2015-04-02 Homer TLC, Inc.
+// homedepot : 2015-04-02 Home Depot Product Authority, LLC
 homedepot
 
 // homegoods : 2015-07-16 The TJX Companies, Inc.
@@ -8756,13 +8845,10 @@ homesense
 // honda : 2014-12-18 Honda Motor Co., Ltd.
 honda
 
-// honeywell : 2015-07-23 Honeywell GTLD LLC
-honeywell
-
-// horse : 2013-11-21 Top Level Domain Holdings Limited
+// horse : 2013-11-21 Minds + Machines Group Limited
 horse
 
-// hospital : 2016-10-20 Ruby Pike, LLC
+// hospital : 2016-10-20 Binky Moon, LLC
 hospital
 
 // host : 2014-04-17 DotHost Inc.
@@ -8771,7 +8857,7 @@ host
 // hosting : 2014-05-29 Uniregistry, Corp.
 hosting
 
-// hot : 2015-08-27 Amazon EU S.à r.l.
+// hot : 2015-08-27 Amazon Registry Services, Inc.
 hot
 
 // hoteles : 2015-03-05 Travel Reservations SRL
@@ -8783,13 +8869,13 @@ hotels
 // hotmail : 2014-12-18 Microsoft Corporation
 hotmail
 
-// house : 2013-11-07 Sugar Park, LLC
+// house : 2013-11-07 Binky Moon, LLC
 house
 
 // how : 2014-01-23 Charleston Road Registry Inc.
 how
 
-// hsbc : 2014-10-24 HSBC Holdings PLC
+// hsbc : 2014-10-24 HSBC Global Services (UK) Limited
 hsbc
 
 // hughes : 2015-07-30 Hughes Satellite Systems Corporation
@@ -8810,7 +8896,7 @@ icbc
 // ice : 2014-10-30 IntercontinentalExchange, Inc.
 ice
 
-// icu : 2015-01-08 One.com A/S
+// icu : 2015-01-08 ShortDot SA
 icu
 
 // ieee : 2015-07-23 IEEE Global LLC
@@ -8825,16 +8911,19 @@ ikano
 // imamat : 2015-08-06 Fondation Aga Khan (Aga Khan Foundation)
 imamat
 
-// imdb : 2015-06-25 Amazon EU S.à r.l.
+// imdb : 2015-06-25 Amazon Registry Services, Inc.
 imdb
 
-// immo : 2014-07-10 Auburn Bloom, LLC
+// immo : 2014-07-10 Binky Moon, LLC
 immo
 
-// immobilien : 2013-11-07 United TLD Holdco Ltd.
+// immobilien : 2013-11-07 Dog Beach, LLC
 immobilien
 
-// industries : 2013-12-05 Outer House, LLC
+// inc : 2018-03-10 Intercap Registry Inc.
+inc
+
+// industries : 2013-12-05 Binky Moon, LLC
 industries
 
 // infiniti : 2014-03-27 NISSAN MOTOR CO., LTD.
@@ -8846,35 +8935,32 @@ ing
 // ink : 2013-12-05 Top Level Design, LLC
 ink
 
-// institute : 2013-11-07 Outer Maple, LLC
+// institute : 2013-11-07 Binky Moon, LLC
 institute
 
 // insurance : 2015-02-19 fTLD Registry Services LLC
 insurance
 
-// insure : 2014-03-20 Pioneer Willow, LLC
+// insure : 2014-03-20 Binky Moon, LLC
 insure
 
 // intel : 2015-08-06 Intel Corporation
 intel
 
-// international : 2013-11-07 Wild Way, LLC
+// international : 2013-11-07 Binky Moon, LLC
 international
 
 // intuit : 2015-07-30 Intuit Administrative Services, Inc.
 intuit
 
-// investments : 2014-03-20 Holly Glen, LLC
+// investments : 2014-03-20 Binky Moon, LLC
 investments
 
 // ipiranga : 2014-08-28 Ipiranga Produtos de Petroleo S.A.
 ipiranga
 
-// irish : 2014-08-07 Dot-Irish LLC
+// irish : 2014-08-07 Binky Moon, LLC
 irish
-
-// iselect : 2015-02-11 iSelect Ltd
-iselect
 
 // ismaili : 2015-08-06 Fondation Aga Khan (Aga Khan Foundation)
 ismaili
@@ -8894,9 +8980,6 @@ itv
 // iveco : 2015-09-03 CNH Industrial N.V.
 iveco
 
-// iwc : 2014-06-23 Richemont DNS Inc.
-iwc
-
 // jaguar : 2014-11-13 Jaguar Land Rover Ltd
 jaguar
 
@@ -8912,17 +8995,14 @@ jcp
 // jeep : 2015-07-30 FCA US LLC.
 jeep
 
-// jetzt : 2014-01-09
+// jetzt : 2014-01-09 Binky Moon, LLC
 jetzt
 
-// jewelry : 2015-03-05 Wild Bloom, LLC
+// jewelry : 2015-03-05 Binky Moon, LLC
 jewelry
 
-// jio : 2015-04-02 Affinity Names, Inc.
+// jio : 2015-04-02 Reliance Industries Limited
 jio
-
-// jlc : 2014-12-04 Richemont DNS Inc.
-jlc
 
 // jll : 2015-04-02 Jones Lang LaSalle Incorporated
 jll
@@ -8936,13 +9016,13 @@ jnj
 // joburg : 2014-03-24 ZA Central Registry NPC trading as ZA Central Registry
 joburg
 
-// jot : 2014-12-18 Amazon EU S.à r.l.
+// jot : 2014-12-18 Amazon Registry Services, Inc.
 jot
 
-// joy : 2014-12-18 Amazon EU S.à r.l.
+// joy : 2014-12-18 Amazon Registry Services, Inc.
 joy
 
-// jpmorgan : 2015-04-30 JPMorgan Chase & Co.
+// jpmorgan : 2015-04-30 JPMorgan Chase Bank, National Association
 jpmorgan
 
 // jprs : 2014-09-18 Japan Registry Services Co., Ltd.
@@ -8954,7 +9034,7 @@ juegos
 // juniper : 2015-07-30 JUNIPER NETWORKS, INC.
 juniper
 
-// kaufen : 2013-11-07 United TLD Holdco Ltd.
+// kaufen : 2013-11-07 Dog Beach, LLC
 kaufen
 
 // kddi : 2014-09-12 KDDI CORPORATION
@@ -8981,16 +9061,16 @@ kim
 // kinder : 2014-11-07 Ferrero Trading Lux S.A.
 kinder
 
-// kindle : 2015-06-25 Amazon EU S.à r.l.
+// kindle : 2015-06-25 Amazon Registry Services, Inc.
 kindle
 
-// kitchen : 2013-09-20 Just Goodbye, LLC
+// kitchen : 2013-09-20 Binky Moon, LLC
 kitchen
 
 // kiwi : 2013-09-20 DOT KIWI LIMITED
 kiwi
 
-// koeln : 2014-01-09 NetCologne Gesellschaft für Telekommunikation mbH
+// koeln : 2014-01-09 dotKoeln GmbH
 koeln
 
 // komatsu : 2015-01-08 Komatsu Ltd.
@@ -9017,11 +9097,8 @@ kuokgroup
 // kyoto : 2014-11-07 Academic Institution: Kyoto Jyoho Gakuen
 kyoto
 
-// lacaixa : 2014-01-09 CAIXA D'ESTALVIS I PENSIONS DE BARCELONA
+// lacaixa : 2014-01-09 Fundación Bancaria Caixa d’Estalvis i Pensions de Barcelona, “la Caixa”
 lacaixa
-
-// ladbrokes : 2015-08-06 LADBROKES INTERNATIONAL PLC
-ladbrokes
 
 // lamborghini : 2015-06-04 Automobili Lamborghini S.p.A.
 lamborghini
@@ -9035,10 +9112,7 @@ lancaster
 // lancia : 2015-07-31 Fiat Chrysler Automobiles N.V.
 lancia
 
-// lancome : 2015-07-23 L'Oréal
-lancome
-
-// land : 2013-09-10 Pine Moon, LLC
+// land : 2013-09-10 Binky Moon, LLC
 land
 
 // landrover : 2014-11-13 Jaguar Land Rover Ltd
@@ -9059,16 +9133,16 @@ latino
 // latrobe : 2014-06-16 La Trobe University
 latrobe
 
-// law : 2015-01-22 Minds + Machines Group Limited
+// law : 2015-01-22 LW TLD Limited
 law
 
-// lawyer : 2014-03-20
+// lawyer : 2014-03-20 Dog Beach, LLC
 lawyer
 
 // lds : 2014-03-20 IRI Domain Management, LLC ("Applicant")
 lds
 
-// lease : 2014-03-06 Victor Trail, LLC
+// lease : 2014-03-06 Binky Moon, LLC
 lease
 
 // leclerc : 2014-08-07 A.C.D. LEC Association des Centres Distributeurs Edouard Leclerc
@@ -9077,7 +9151,7 @@ leclerc
 // lefrak : 2015-07-16 LeFrak Organization, Inc.
 lefrak
 
-// legal : 2014-10-16 Blue Falls, LLC
+// legal : 2014-10-16 Binky Moon, LLC
 legal
 
 // lego : 2015-07-16 LEGO Juris A/S
@@ -9089,13 +9163,10 @@ lexus
 // lgbt : 2014-05-08 Afilias Limited
 lgbt
 
-// liaison : 2014-10-02 Liaison Technologies, Incorporated
-liaison
-
 // lidl : 2014-09-18 Schwarz Domains und Services GmbH & Co. KG
 lidl
 
-// life : 2014-02-06 Trixy Oaks, LLC
+// life : 2014-02-06 Binky Moon, LLC
 life
 
 // lifeinsurance : 2015-01-15 American Council of Life Insurers
@@ -9104,19 +9175,19 @@ lifeinsurance
 // lifestyle : 2014-12-11 Lifestyle Domain Holdings, Inc.
 lifestyle
 
-// lighting : 2013-08-27 John McCook, LLC
+// lighting : 2013-08-27 Binky Moon, LLC
 lighting
 
-// like : 2014-12-18 Amazon EU S.à r.l.
+// like : 2014-12-18 Amazon Registry Services, Inc.
 like
 
 // lilly : 2015-07-31 Eli Lilly and Company
 lilly
 
-// limited : 2014-03-06 Big Fest, LLC
+// limited : 2014-03-06 Binky Moon, LLC
 limited
 
-// limo : 2013-10-17 Hidden Frostbite, LLC
+// limo : 2013-10-17 Binky Moon, LLC
 limo
 
 // lincoln : 2014-11-13 Ford Motor Company
@@ -9131,7 +9202,7 @@ link
 // lipsy : 2015-06-25 Lipsy Ltd
 lipsy
 
-// live : 2014-12-04
+// live : 2014-12-04 Dog Beach, LLC
 live
 
 // living : 2015-07-30 Lifestyle Domain Holdings, Inc.
@@ -9140,10 +9211,16 @@ living
 // lixil : 2015-03-19 LIXIL Group Corporation
 lixil
 
+// llc : 2017-12-14 Afilias Limited
+llc
+
+// llp : 2019-08-26 Dot Registry LLC
+llp
+
 // loan : 2014-11-20 dot Loan Limited
 loan
 
-// loans : 2014-03-20 June Woods, LLC
+// loans : 2014-03-20 Binky Moon, LLC
 loans
 
 // locker : 2015-06-04 Dish DBS Corporation
@@ -9176,10 +9253,10 @@ lpl
 // lplfinancial : 2015-07-30 LPL Holdings, Inc.
 lplfinancial
 
-// ltd : 2014-09-25 Over Corner, LLC
+// ltd : 2014-09-25 Binky Moon, LLC
 ltd
 
-// ltda : 2014-04-17 DOMAIN ROBOT SERVICOS DE HOSPEDAGEM NA INTERNET LTDA
+// ltda : 2014-04-17 InterNetX, Corp
 ltda
 
 // lundbeck : 2015-08-06 H. Lundbeck A/S
@@ -9188,7 +9265,7 @@ lundbeck
 // lupin : 2014-11-07 LUPIN LIMITED
 lupin
 
-// luxe : 2014-01-09 Top Level Domain Holdings Limited
+// luxe : 2014-01-09 Minds + Machines Group Limited
 luxe
 
 // luxury : 2013-10-17 Luxury Partners, LLC
@@ -9203,16 +9280,16 @@ madrid
 // maif : 2014-10-02 Mutuelle Assurance Instituteur France (MAIF)
 maif
 
-// maison : 2013-12-05 Victor Frostbite, LLC
+// maison : 2013-12-05 Binky Moon, LLC
 maison
 
-// makeup : 2015-01-15 L'Oréal
+// makeup : 2015-01-15 XYZ.COM LLC
 makeup
 
 // man : 2014-12-04 MAN SE
 man
 
-// management : 2013-11-07 John Goodbye, LLC
+// management : 2013-11-07 Binky Moon, LLC
 management
 
 // mango : 2013-10-24 PUNTO FA S.L.
@@ -9221,13 +9298,13 @@ mango
 // map : 2016-06-09 Charleston Road Registry Inc.
 map
 
-// market : 2014-03-06
+// market : 2014-03-06 Dog Beach, LLC
 market
 
-// marketing : 2013-11-07 Fern Pass, LLC
+// marketing : 2013-11-07 Binky Moon, LLC
 marketing
 
-// markets : 2014-12-11 IG Group Holdings PLC
+// markets : 2014-12-11 Dotmarkets Registry Limited
 markets
 
 // marriott : 2014-10-09 Marriott Worldwide Corporation
@@ -9242,7 +9319,7 @@ maserati
 // mattel : 2015-08-06 Mattel Sites, Inc.
 mattel
 
-// mba : 2015-04-02 Lone Hollow, LLC
+// mba : 2015-04-02 Binky Moon, LLC
 mba
 
 // mckinsey : 2015-07-31 McKinsey Holdings, Inc.
@@ -9251,10 +9328,10 @@ mckinsey
 // med : 2015-08-06 Medistry LLC
 med
 
-// media : 2014-03-06 Grand Glen, LLC
+// media : 2014-03-06 Binky Moon, LLC
 media
 
-// meet : 2014-01-16
+// meet : 2014-01-16 Charleston Road Registry Inc.
 meet
 
 // melbourne : 2014-05-29 The Crown in right of the State of Victoria, represented by its Department of State Development, Business and Innovation
@@ -9269,11 +9346,8 @@ memorial
 // men : 2015-02-26 Exclusive Registry Limited
 men
 
-// menu : 2013-09-11 Wedding TLD2, LLC
+// menu : 2013-09-11 Dot Menu Registry, LLC
 menu
-
-// meo : 2014-11-07 PT Comunicacoes S.A.
-meo
 
 // merckmsd : 2016-07-14 MSD Registry Holdings, Inc.
 merckmsd
@@ -9281,7 +9355,7 @@ merckmsd
 // metlife : 2015-05-07 MetLife Services and Solutions, LLC
 metlife
 
-// miami : 2013-12-19 Top Level Domain Holdings Limited
+// miami : 2013-12-19 Minds + Machines Group Limited
 miami
 
 // microsoft : 2014-12-18 Microsoft Corporation
@@ -9311,16 +9385,13 @@ mma
 // mobile : 2016-06-02 Dish DBS Corporation
 mobile
 
-// mobily : 2014-12-18 GreenTech Consultancy Company W.L.L.
-mobily
-
-// moda : 2013-11-07 United TLD Holdco Ltd.
+// moda : 2013-11-07 Dog Beach, LLC
 moda
 
 // moe : 2013-11-13 Interlink Co., Ltd.
 moe
 
-// moi : 2014-12-18 Amazon EU S.à r.l.
+// moi : 2014-12-18 Amazon Registry Services, Inc.
 moi
 
 // mom : 2015-04-16 Uniregistry, Corp.
@@ -9329,25 +9400,22 @@ mom
 // monash : 2013-09-30 Monash University
 monash
 
-// money : 2014-10-16 Outer McCook, LLC
+// money : 2014-10-16 Binky Moon, LLC
 money
 
-// monster : 2015-09-11 Monster Worldwide, Inc.
+// monster : 2015-09-11 XYZ.COM LLC
 monster
-
-// mopar : 2015-07-30 FCA US LLC.
-mopar
 
 // mormon : 2013-12-05 IRI Domain Management, LLC ("Applicant")
 mormon
 
-// mortgage : 2014-03-20
+// mortgage : 2014-03-20 Dog Beach, LLC
 mortgage
 
 // moscow : 2013-12-19 Foundation for Assistance for Internet Technologies and Infrastructure Development (FAITID)
 moscow
 
-// moto : 2015-06-04
+// moto : 2015-06-04 Motorola Trademark Holdings, LLC
 moto
 
 // motorcycles : 2014-01-09 DERMotorcycles, LLC
@@ -9356,20 +9424,14 @@ motorcycles
 // mov : 2014-01-30 Charleston Road Registry Inc.
 mov
 
-// movie : 2015-02-05 New Frostbite, LLC
+// movie : 2015-02-05 Binky Moon, LLC
 movie
-
-// movistar : 2014-10-16 Telefónica S.A.
-movistar
 
 // msd : 2015-07-23 MSD Registry Holdings, Inc.
 msd
 
 // mtn : 2014-12-04 MTN Dubai Limited
 mtn
-
-// mtpc : 2014-11-20 Mitsubishi Tanabe Pharma Corporation
-mtpc
 
 // mtr : 2015-03-12 MTR Corporation Limited
 mtr
@@ -9380,9 +9442,6 @@ mutual
 // nab : 2015-08-20 National Australia Bank Limited
 nab
 
-// nadex : 2014-12-11 IG Group Holdings PLC
-nadex
-
 // nagoya : 2013-10-24 GMO Registry, Inc.
 nagoya
 
@@ -9392,7 +9451,7 @@ nationwide
 // natura : 2015-03-12 NATURA COSMÉTICOS S.A.
 natura
 
-// navy : 2014-03-06 United TLD Holdco Ltd.
+// navy : 2014-03-06 Dog Beach, LLC
 navy
 
 // nba : 2015-07-31 NBA REGISTRY, LLC
@@ -9407,10 +9466,10 @@ netbank
 // netflix : 2015-06-18 Netflix, Inc.
 netflix
 
-// network : 2013-11-14 Trixy Manor, LLC
+// network : 2013-11-14 Binky Moon, LLC
 network
 
-// neustar : 2013-12-05 NeuStar, Inc.
+// neustar : 2013-12-05 Registry Services, LLC
 neustar
 
 // new : 2014-01-30 Charleston Road Registry Inc.
@@ -9419,7 +9478,7 @@ new
 // newholland : 2015-09-03 CNH Industrial N.V.
 newholland
 
-// news : 2014-12-18
+// news : 2014-12-18 Dog Beach, LLC
 news
 
 // next : 2015-06-18 Next plc
@@ -9449,7 +9508,7 @@ nike
 // nikon : 2015-05-21 NIKON CORPORATION
 nikon
 
-// ninja : 2013-11-07 United TLD Holdco Ltd.
+// ninja : 2013-11-07 Dog Beach, LLC
 ninja
 
 // nissan : 2014-03-27 NISSAN MOTOR CO., LTD.
@@ -9467,7 +9526,7 @@ northwesternmutual
 // norton : 2014-12-04 Symantec Corporation
 norton
 
-// now : 2015-06-25 Amazon EU S.à r.l.
+// now : 2015-06-25 Amazon Registry Services, Inc.
 now
 
 // nowruz : 2014-09-04 Asia Green IT System Bilgisayar San. ve Tic. Ltd. Sti.
@@ -9491,7 +9550,7 @@ nyc
 // obi : 2014-09-25 OBI Group Holding SE & Co. KGaA
 obi
 
-// observer : 2015-04-30
+// observer : 2015-04-30 Top Level Spectrum, Inc.
 observer
 
 // off : 2015-07-23 Johnson Shareholdings, Inc.
@@ -9500,7 +9559,7 @@ off
 // office : 2015-03-12 Microsoft Corporation
 office
 
-// okinawa : 2013-12-05 BusinessRalliart Inc.
+// okinawa : 2013-12-05 BRregistry, Inc.
 okinawa
 
 // olayan : 2015-05-14 Crescent Holding GmbH
@@ -9533,7 +9592,7 @@ online
 // onyourside : 2015-07-23 Nationwide Mutual Insurance Company
 onyourside
 
-// ooo : 2014-01-09 INFIBEAM INCORPORATION LIMITED
+// ooo : 2014-01-09 INFIBEAM AVENUES LIMITED
 ooo
 
 // open : 2015-07-31 American Express Travel Related Services Company, Inc.
@@ -9551,7 +9610,7 @@ organic
 // origins : 2015-10-01 The Estée Lauder Companies Inc.
 origins
 
-// osaka : 2014-09-04 Interlink Co., Ltd.
+// osaka : 2014-09-04 Osaka Registry Co., Ltd.
 osaka
 
 // otsuka : 2013-10-11 Otsuka Holdings Co., Ltd.
@@ -9560,7 +9619,7 @@ otsuka
 // ott : 2015-06-04 Dish DBS Corporation
 ott
 
-// ovh : 2014-01-16 OVH SAS
+// ovh : 2014-01-16 MédiaBC
 ovh
 
 // page : 2014-12-04 Charleston Road Registry Inc.
@@ -9569,19 +9628,16 @@ page
 // panasonic : 2015-07-30 Panasonic Corporation
 panasonic
 
-// panerai : 2014-11-07 Richemont DNS Inc.
-panerai
-
 // paris : 2014-01-30 City of Paris
 paris
 
 // pars : 2014-09-04 Asia Green IT System Bilgisayar San. ve Tic. Ltd. Sti.
 pars
 
-// partners : 2013-12-05 Magic Glen, LLC
+// partners : 2013-12-05 Binky Moon, LLC
 partners
 
-// parts : 2013-12-05 Sea Goodbye, LLC
+// parts : 2013-12-05 Binky Moon, LLC
 parts
 
 // party : 2014-09-11 Blue Sky Registry Limited
@@ -9590,13 +9646,13 @@ party
 // passagens : 2015-03-05 Travel Reservations SRL
 passagens
 
-// pay : 2015-08-27 Amazon EU S.à r.l.
+// pay : 2015-08-27 Amazon Registry Services, Inc.
 pay
 
 // pccw : 2015-05-14 PCCW Enterprises Limited
 pccw
 
-// pet : 2015-05-07 Afilias plc
+// pet : 2015-05-07 Afilias Limited
 pet
 
 // pfizer : 2015-09-11 Pfizer Inc.
@@ -9617,17 +9673,14 @@ phone
 // photo : 2013-11-14 Uniregistry, Corp.
 photo
 
-// photography : 2013-09-20 Sugar Glen, LLC
+// photography : 2013-09-20 Binky Moon, LLC
 photography
 
-// photos : 2013-10-17 Sea Corner, LLC
+// photos : 2013-10-17 Binky Moon, LLC
 photos
 
 // physio : 2014-05-01 PhysBiz Pty Ltd
 physio
-
-// piaget : 2014-10-16 Richemont DNS Inc.
-piaget
 
 // pics : 2013-11-14 Uniregistry, Corp.
 pics
@@ -9635,13 +9688,13 @@ pics
 // pictet : 2014-06-26 Pictet Europe S.A.
 pictet
 
-// pictures : 2014-03-06 Foggy Sky, LLC
+// pictures : 2014-03-06 Binky Moon, LLC
 pictures
 
 // pid : 2015-01-08 Top Level Spectrum, Inc.
 pid
 
-// pin : 2014-12-18 Amazon EU S.à r.l.
+// pin : 2014-12-18 Amazon Registry Services, Inc.
 pin
 
 // ping : 2015-06-11 Ping Registry Provider, Inc.
@@ -9653,22 +9706,22 @@ pink
 // pioneer : 2015-07-16 Pioneer Corporation
 pioneer
 
-// pizza : 2014-06-26 Foggy Moon, LLC
+// pizza : 2014-06-26 Binky Moon, LLC
 pizza
 
-// place : 2014-04-24 Snow Galley, LLC
+// place : 2014-04-24 Binky Moon, LLC
 place
 
 // play : 2015-03-05 Charleston Road Registry Inc.
 play
 
-// playstation : 2015-07-02 Sony Computer Entertainment Inc.
+// playstation : 2015-07-02 Sony Interactive Entertainment Inc.
 playstation
 
-// plumbing : 2013-09-10 Spring Tigers, LLC
+// plumbing : 2013-09-10 Binky Moon, LLC
 plumbing
 
-// plus : 2015-02-05 Sugar Mill, LLC
+// plus : 2015-02-05 Binky Moon, LLC
 plus
 
 // pnc : 2015-07-02 PNC Domain Co., LLC
@@ -9677,7 +9730,7 @@ pnc
 // pohl : 2014-06-23 Deutsche Vermögensberatung Aktiengesellschaft DVAG
 pohl
 
-// poker : 2014-07-03 Afilias Domains No. 5 Limited
+// poker : 2014-07-03 Afilias Limited
 poker
 
 // politie : 2015-08-20 Politie Nederland
@@ -9695,13 +9748,13 @@ praxi
 // press : 2014-04-03 DotPress Inc.
 press
 
-// prime : 2015-06-25 Amazon EU S.à r.l.
+// prime : 2015-06-25 Amazon Registry Services, Inc.
 prime
 
 // prod : 2014-01-23 Charleston Road Registry Inc.
 prod
 
-// productions : 2013-12-05 Magic Birch, LLC
+// productions : 2013-12-05 Binky Moon, LLC
 productions
 
 // prof : 2014-07-24 Charleston Road Registry Inc.
@@ -9710,16 +9763,16 @@ prof
 // progressive : 2015-07-23 Progressive Casualty Insurance Company
 progressive
 
-// promo : 2014-12-18
+// promo : 2014-12-18 Afilias Limited
 promo
 
-// properties : 2013-12-05 Big Pass, LLC
+// properties : 2013-12-05 Binky Moon, LLC
 properties
 
 // property : 2014-05-22 Uniregistry, Corp.
 property
 
-// protection : 2015-04-23
+// protection : 2015-04-23 XYZ.COM LLC
 protection
 
 // pru : 2015-07-30 Prudential Financial, Inc.
@@ -9728,7 +9781,7 @@ pru
 // prudential : 2015-07-30 Prudential Financial, Inc.
 prudential
 
-// pub : 2013-12-12 United TLD Holdco Ltd.
+// pub : 2013-12-12 Dog Beach, LLC
 pub
 
 // pwc : 2015-10-29 PricewaterhouseCoopers LLP
@@ -9740,7 +9793,7 @@ qpon
 // quebec : 2013-12-19 PointQuébec Inc
 quebec
 
-// quest : 2015-03-26 Quest ION Limited
+// quest : 2015-03-26 XYZ.COM LLC
 quest
 
 // qvc : 2015-07-30 QVC, Inc.
@@ -9755,7 +9808,7 @@ radio
 // raid : 2015-07-23 Johnson Shareholdings, Inc.
 raid
 
-// read : 2014-12-18 Amazon EU S.à r.l.
+// read : 2014-12-18 Amazon Registry Services, Inc.
 read
 
 // realestate : 2015-09-11 dotRealEstate LLC
@@ -9767,7 +9820,7 @@ realtor
 // realty : 2015-03-19 Fegistry, LLC
 realty
 
-// recipes : 2013-10-17 Grand Island, LLC
+// recipes : 2013-10-17 Binky Moon, LLC
 recipes
 
 // red : 2013-11-07 Afilias Limited
@@ -9779,13 +9832,13 @@ redstone
 // redumbrella : 2015-03-26 Travelers TLD, LLC
 redumbrella
 
-// rehab : 2014-03-06 United TLD Holdco Ltd.
+// rehab : 2014-03-06 Dog Beach, LLC
 rehab
 
-// reise : 2014-03-13
+// reise : 2014-03-13 Binky Moon, LLC
 reise
 
-// reisen : 2014-03-06 New Cypress, LLC
+// reisen : 2014-03-06 Binky Moon, LLC
 reisen
 
 // reit : 2014-09-04 National Association of Real Estate Investment Trusts, Inc.
@@ -9794,34 +9847,34 @@ reit
 // reliance : 2015-04-02 Reliance Industries Limited
 reliance
 
-// ren : 2013-12-12 Beijing Qianxiang Wangjing Technology Development Co., Ltd.
+// ren : 2013-12-12 ZDNS International Limited
 ren
 
-// rent : 2014-12-04 DERRent, LLC
+// rent : 2014-12-04 XYZ.COM LLC
 rent
 
-// rentals : 2013-12-05 Big Hollow,LLC
+// rentals : 2013-12-05 Binky Moon, LLC
 rentals
 
-// repair : 2013-11-07 Lone Sunset, LLC
+// repair : 2013-11-07 Binky Moon, LLC
 repair
 
-// report : 2013-12-05 Binky Glen, LLC
+// report : 2013-12-05 Binky Moon, LLC
 report
 
-// republican : 2014-03-20 United TLD Holdco Ltd.
+// republican : 2014-03-20 Dog Beach, LLC
 republican
 
 // rest : 2013-12-19 Punto 2012 Sociedad Anonima Promotora de Inversion de Capital Variable
 rest
 
-// restaurant : 2014-07-03 Snow Avenue, LLC
+// restaurant : 2014-07-03 Binky Moon, LLC
 restaurant
 
 // review : 2014-11-20 dot Review Limited
 review
 
-// reviews : 2013-09-13
+// reviews : 2013-09-13 Dog Beach, LLC
 reviews
 
 // rexroth : 2015-06-18 Robert Bosch GMBH
@@ -9845,7 +9898,7 @@ ril
 // rio : 2014-02-27 Empresa Municipal de Informática SA - IPLANRIO
 rio
 
-// rip : 2014-07-10 United TLD Holdco Ltd.
+// rip : 2014-07-10 Dog Beach, LLC
 rip
 
 // rmit : 2015-11-19 Royal Melbourne Institute of Technology
@@ -9854,16 +9907,16 @@ rmit
 // rocher : 2014-12-18 Ferrero Trading Lux S.A.
 rocher
 
-// rocks : 2013-11-14
+// rocks : 2013-11-14 Dog Beach, LLC
 rocks
 
-// rodeo : 2013-12-19 Top Level Domain Holdings Limited
+// rodeo : 2013-12-19 Minds + Machines Group Limited
 rodeo
 
-// rogers : 2015-08-06 Rogers Communications Partnership
+// rogers : 2015-08-06 Rogers Communications Canada Inc.
 rogers
 
-// room : 2014-12-18 Amazon EU S.à r.l.
+// room : 2014-12-18 Amazon Registry Services, Inc.
 room
 
 // rsvp : 2014-05-08 Charleston Road Registry Inc.
@@ -9875,19 +9928,19 @@ rugby
 // ruhr : 2013-10-02 regiodot GmbH & Co. KG
 ruhr
 
-// run : 2015-03-19 Snow Park, LLC
+// run : 2015-03-19 Binky Moon, LLC
 run
 
 // rwe : 2015-04-02 RWE AG
 rwe
 
-// ryukyu : 2014-01-09 BusinessRalliart Inc.
+// ryukyu : 2014-01-09 BRregistry, Inc.
 ryukyu
 
 // saarland : 2013-12-12 dotSaarland GmbH
 saarland
 
-// safe : 2014-12-18 Amazon EU S.à r.l.
+// safe : 2014-12-18 Amazon Registry Services, Inc.
 safe
 
 // safety : 2015-01-08 Safety Registry Services, LLC.
@@ -9896,10 +9949,10 @@ safety
 // sakura : 2014-12-18 SAKURA Internet Inc.
 sakura
 
-// sale : 2014-10-16
+// sale : 2014-10-16 Dog Beach, LLC
 sale
 
-// salon : 2014-12-11 Outer Orchard, LLC
+// salon : 2014-12-11 Binky Moon, LLC
 salon
 
 // samsclub : 2015-07-31 Wal-Mart Stores, Inc.
@@ -9920,16 +9973,13 @@ sanofi
 // sap : 2014-03-27 SAP AG
 sap
 
-// sapo : 2014-11-07 PT Comunicacoes S.A.
-sapo
-
-// sarl : 2014-07-03 Delta Orchard, LLC
+// sarl : 2014-07-03 Binky Moon, LLC
 sarl
 
 // sas : 2015-04-02 Research IP LLC
 sas
 
-// save : 2015-06-25 Amazon EU S.à r.l.
+// save : 2015-06-25 Amazon Registry Services, Inc.
 save
 
 // saxo : 2014-10-31 Saxo Bank A/S
@@ -9950,16 +10000,16 @@ scb
 // schaeffler : 2015-08-06 Schaeffler Technologies AG & Co. KG
 schaeffler
 
-// schmidt : 2014-04-03 SALM S.A.S.
+// schmidt : 2014-04-03 SCHMIDT GROUPE S.A.S.
 schmidt
 
 // scholarships : 2014-04-24 Scholarships.com, LLC
 scholarships
 
-// school : 2014-12-18 Little Galley, LLC
+// school : 2014-12-18 Binky Moon, LLC
 school
 
-// schule : 2014-03-06 Outer Moon, LLC
+// schule : 2014-03-06 Binky Moon, LLC
 schule
 
 // schwarz : 2014-09-18 Schwarz Domains und Services GmbH & Co. KG
@@ -9983,22 +10033,22 @@ search
 // seat : 2014-05-22 SEAT, S.A. (Sociedad Unipersonal)
 seat
 
-// secure : 2015-08-27 Amazon EU S.à r.l.
+// secure : 2015-08-27 Amazon Registry Services, Inc.
 secure
 
-// security : 2015-05-14
+// security : 2015-05-14 XYZ.COM LLC
 security
 
 // seek : 2014-12-04 Seek Limited
 seek
 
-// select : 2015-10-08 iSelect Ltd
+// select : 2015-10-08 Registry Services, LLC
 select
 
 // sener : 2014-10-24 Sener Ingeniería y Sistemas, S.A.
 sener
 
-// services : 2014-02-27 Fox Castle, LLC
+// services : 2014-02-27 Binky Moon, LLC
 services
 
 // ses : 2015-07-23 SES
@@ -10037,19 +10087,19 @@ shia
 // shiksha : 2013-11-14 Afilias Limited
 shiksha
 
-// shoes : 2013-10-02 Binky Galley, LLC
+// shoes : 2013-10-02 Binky Moon, LLC
 shoes
 
 // shop : 2016-04-08 GMO Registry, Inc.
 shop
 
-// shopping : 2016-03-31
+// shopping : 2016-03-31 Binky Moon, LLC
 shopping
 
 // shouji : 2015-01-08 QIHOO 360 TECHNOLOGY CO. LTD.
 shouji
 
-// show : 2015-03-05 Snow Beach, LLC
+// show : 2015-03-05 Binky Moon, LLC
 show
 
 // showtime : 2015-08-06 CBS Domains Inc.
@@ -10058,64 +10108,64 @@ showtime
 // shriram : 2014-01-23 Shriram Capital Ltd.
 shriram
 
-// silk : 2015-06-25 Amazon EU S.à r.l.
+// silk : 2015-06-25 Amazon Registry Services, Inc.
 silk
 
 // sina : 2015-03-12 Sina Corporation
 sina
 
-// singles : 2013-08-27 Fern Madison, LLC
+// singles : 2013-08-27 Binky Moon, LLC
 singles
 
 // site : 2015-01-15 DotSite Inc.
 site
 
-// ski : 2015-04-09 STARTING DOT LIMITED
+// ski : 2015-04-09 Afilias Limited
 ski
 
-// skin : 2015-01-15 L'Oréal
+// skin : 2015-01-15 XYZ.COM LLC
 skin
 
-// sky : 2014-06-19 Sky IP International Ltd, a company incorporated in England and Wales, operating via its registered Swiss branch
+// sky : 2014-06-19 Sky International AG
 sky
 
 // skype : 2014-12-18 Microsoft Corporation
 skype
 
-// sling : 2015-07-30 Hughes Satellite Systems Corporation
+// sling : 2015-07-30 DISH Technologies L.L.C.
 sling
 
 // smart : 2015-07-09 Smart Communications, Inc. (SMART)
 smart
 
-// smile : 2014-12-18 Amazon EU S.à r.l.
+// smile : 2014-12-18 Amazon Registry Services, Inc.
 smile
 
 // sncf : 2015-02-19 Société Nationale des Chemins de fer Francais S N C F
 sncf
 
-// soccer : 2015-03-26 Foggy Shadow, LLC
+// soccer : 2015-03-26 Binky Moon, LLC
 soccer
 
-// social : 2013-11-07 United TLD Holdco Ltd.
+// social : 2013-11-07 Dog Beach, LLC
 social
 
-// softbank : 2015-07-02 SoftBank Corp.
+// softbank : 2015-07-02 SoftBank Group Corp.
 softbank
 
-// software : 2014-03-20
+// software : 2014-03-20 Dog Beach, LLC
 software
 
 // sohu : 2013-12-19 Sohu.com Limited
 sohu
 
-// solar : 2013-11-07 Ruby Town, LLC
+// solar : 2013-11-07 Binky Moon, LLC
 solar
 
-// solutions : 2013-11-07 Silver Cover, LLC
+// solutions : 2013-11-07 Binky Moon, LLC
 solutions
 
-// song : 2015-02-26 Amazon EU S.à r.l.
+// song : 2015-02-26 Amazon Registry Services, Inc.
 song
 
 // sony : 2015-01-08 Sony Corporation
@@ -10124,23 +10174,23 @@ sony
 // soy : 2014-01-23 Charleston Road Registry Inc.
 soy
 
+// spa : 2019-09-19 Asia Spa and Wellness Promotion Council Limited
+spa
+
 // space : 2014-04-03 DotSpace Inc.
 space
 
-// spiegel : 2014-02-05 SPIEGEL-Verlag Rudolf Augstein GmbH & Co. KG
-spiegel
+// sport : 2017-11-16 Global Association of International Sports Federations (GAISF)
+sport
 
-// spot : 2015-02-26 Amazon EU S.à r.l.
+// spot : 2015-02-26 Amazon Registry Services, Inc.
 spot
 
-// spreadbetting : 2014-12-11 IG Group Holdings PLC
+// spreadbetting : 2014-12-11 Dotspreadbetting Registry Limited
 spreadbetting
 
-// srl : 2015-05-07 mySRL GmbH
+// srl : 2015-05-07 InterNetX, Corp
 srl
-
-// srt : 2015-07-30 FCA US LLC.
-srt
 
 // stada : 2014-11-13 STADA Arzneimittel AG
 stada
@@ -10151,17 +10201,11 @@ staples
 // star : 2015-01-08 Star India Private Limited
 star
 
-// starhub : 2015-02-05 StarHub Ltd
-starhub
-
 // statebank : 2015-03-12 STATE BANK OF INDIA
 statebank
 
 // statefarm : 2015-07-30 State Farm Mutual Automobile Insurance Company
 statefarm
-
-// statoil : 2014-12-04 Statoil ASA
-statoil
 
 // stc : 2014-10-09 Saudi Telecom Company
 stc
@@ -10172,7 +10216,7 @@ stcgroup
 // stockholm : 2014-12-18 Stockholms kommun
 stockholm
 
-// storage : 2014-12-22 Self Storage Company LLC
+// storage : 2014-12-22 XYZ.COM LLC
 storage
 
 // store : 2015-04-09 DotStore Inc.
@@ -10181,7 +10225,7 @@ store
 // stream : 2016-01-08 dot Stream Limited
 stream
 
-// studio : 2015-02-11
+// studio : 2015-02-11 Dog Beach, LLC
 studio
 
 // study : 2014-12-11 OPEN UNIVERSITIES AUSTRALIA PTY LTD
@@ -10190,22 +10234,22 @@ study
 // style : 2014-12-04 Binky Moon, LLC
 style
 
-// sucks : 2014-12-22 Vox Populi Registry Inc.
+// sucks : 2014-12-22 Vox Populi Registry Ltd.
 sucks
 
-// supplies : 2013-12-19 Atomic Fields, LLC
+// supplies : 2013-12-19 Binky Moon, LLC
 supplies
 
-// supply : 2013-12-19 Half Falls, LLC
+// supply : 2013-12-19 Binky Moon, LLC
 supply
 
-// support : 2013-10-24 Grand Orchard, LLC
+// support : 2013-10-24 Binky Moon, LLC
 support
 
-// surf : 2014-01-09 Top Level Domain Holdings Limited
+// surf : 2014-01-09 Minds + Machines Group Limited
 surf
 
-// surgery : 2014-03-20 Tin Avenue, LLC
+// surgery : 2014-03-20 Binky Moon, LLC
 surgery
 
 // suzuki : 2014-02-20 SUZUKI MOTOR CORPORATION
@@ -10226,7 +10270,7 @@ sydney
 // symantec : 2014-12-04 Symantec Corporation
 symantec
 
-// systems : 2013-11-07 Dash Cypress, LLC
+// systems : 2013-11-07 Binky Moon, LLC
 systems
 
 // tab : 2014-12-04 Tabcorp Holdings Limited
@@ -10235,7 +10279,7 @@ tab
 // taipei : 2014-07-10 Taipei City Government
 taipei
 
-// talk : 2015-04-09 Amazon EU S.à r.l.
+// talk : 2015-04-09 Amazon Registry Services, Inc.
 talk
 
 // taobao : 2015-01-15 Alibaba Group Holding Limited
@@ -10253,10 +10297,10 @@ tatar
 // tattoo : 2013-08-30 Uniregistry, Corp.
 tattoo
 
-// tax : 2014-03-20 Storm Orchard, LLC
+// tax : 2014-03-20 Binky Moon, LLC
 tax
 
-// taxi : 2015-03-19 Pine Falls, LLC
+// taxi : 2015-03-19 Binky Moon, LLC
 taxi
 
 // tci : 2014-09-12 Asia Green IT System Bilgisayar San. ve Tic. Ltd. Sti.
@@ -10265,37 +10309,31 @@ tci
 // tdk : 2015-06-11 TDK Corporation
 tdk
 
-// team : 2015-03-05 Atomic Lake, LLC
+// team : 2015-03-05 Binky Moon, LLC
 team
 
-// tech : 2015-01-30 Dot Tech LLC
+// tech : 2015-01-30 Personals TLD Inc.
 tech
 
-// technology : 2013-09-13 Auburn Falls
+// technology : 2013-09-13 Binky Moon, LLC
 technology
-
-// telecity : 2015-02-19 TelecityGroup International Limited
-telecity
-
-// telefonica : 2014-10-16 Telefónica S.A.
-telefonica
 
 // temasek : 2014-08-07 Temasek Holdings (Private) Limited
 temasek
 
-// tennis : 2014-12-04 Cotton Bloom, LLC
+// tennis : 2014-12-04 Binky Moon, LLC
 tennis
 
 // teva : 2015-07-02 Teva Pharmaceutical Industries Limited
 teva
 
-// thd : 2015-04-02 Homer TLC, Inc.
+// thd : 2015-04-02 Home Depot Product Authority, LLC
 thd
 
-// theater : 2015-03-19 Blue Tigers, LLC
+// theater : 2015-03-19 Binky Moon, LLC
 theater
 
-// theatre : 2015-05-07
+// theatre : 2015-05-07 XYZ.COM LLC
 theatre
 
 // tiaa : 2015-07-23 Teachers Insurance and Annuity Association of America
@@ -10304,16 +10342,16 @@ tiaa
 // tickets : 2015-02-05 Accent Media Limited
 tickets
 
-// tienda : 2013-11-14 Victor Manor, LLC
+// tienda : 2013-11-14 Binky Moon, LLC
 tienda
 
 // tiffany : 2015-01-30 Tiffany and Company
 tiffany
 
-// tips : 2013-09-20 Corn Willow, LLC
+// tips : 2013-09-20 Binky Moon, LLC
 tips
 
-// tires : 2014-11-07 Dog Edge, LLC
+// tires : 2014-11-07 Binky Moon, LLC
 tires
 
 // tirol : 2014-04-24 punkt Tirol GmbH
@@ -10331,16 +10369,16 @@ tkmaxx
 // tmall : 2015-01-15 Alibaba Group Holding Limited
 tmall
 
-// today : 2013-09-20 Pearl Woods, LLC
+// today : 2013-09-20 Binky Moon, LLC
 today
 
 // tokyo : 2013-11-13 GMO Registry, Inc.
 tokyo
 
-// tools : 2013-11-21 Pioneer North, LLC
+// tools : 2013-11-21 Binky Moon, LLC
 tools
 
-// top : 2014-03-20 Jiangsu Bangning Science & Technology Co.,Ltd.
+// top : 2014-03-20 .TOP Registry
 top
 
 // toray : 2014-12-18 Toray Industries, Inc.
@@ -10352,26 +10390,29 @@ toshiba
 // total : 2015-08-06 Total SA
 total
 
-// tours : 2015-01-22 Sugar Station, LLC
+// tours : 2015-01-22 Binky Moon, LLC
 tours
 
-// town : 2014-03-06 Koko Moon, LLC
+// town : 2014-03-06 Binky Moon, LLC
 town
 
 // toyota : 2015-04-23 TOYOTA MOTOR CORPORATION
 toyota
 
-// toys : 2014-03-06 Pioneer Orchard, LLC
+// toys : 2014-03-06 Binky Moon, LLC
 toys
 
 // trade : 2014-01-23 Elite Registry Limited
 trade
 
-// trading : 2014-12-11 IG Group Holdings PLC
+// trading : 2014-12-11 Dottrading Registry Limited
 trading
 
-// training : 2013-11-07 Wild Willow, LLC
+// training : 2013-11-07 Binky Moon, LLC
 training
+
+// travel : 2015-10-09 Dog Beach, LLC
+travel
 
 // travelchannel : 2015-07-02 Lifestyle Domain Holdings, Inc.
 travelchannel
@@ -10382,7 +10423,7 @@ travelers
 // travelersinsurance : 2015-03-26 Travelers TLD, LLC
 travelersinsurance
 
-// trust : 2014-10-16
+// trust : 2014-10-16 NCC Group Inc.
 trust
 
 // trv : 2015-03-26 Travelers TLD, LLC
@@ -10394,10 +10435,10 @@ tube
 // tui : 2014-07-03 TUI AG
 tui
 
-// tunes : 2015-02-26 Amazon EU S.à r.l.
+// tunes : 2015-02-26 Amazon Registry Services, Inc.
 tunes
 
-// tushu : 2014-12-18 Amazon EU S.à r.l.
+// tushu : 2014-12-18 Amazon Registry Services, Inc.
 tushu
 
 // tvs : 2015-02-19 T V SUNDRAM IYENGAR  & SONS LIMITED
@@ -10409,16 +10450,13 @@ ubank
 // ubs : 2014-12-11 UBS AG
 ubs
 
-// uconnect : 2015-07-30 FCA US LLC.
-uconnect
-
 // unicom : 2015-10-15 China United Network Communications Corporation Limited
 unicom
 
-// university : 2014-03-06 Little Station, LLC
+// university : 2014-03-06 Binky Moon, LLC
 university
 
-// uno : 2013-09-11 Dot Latin LLC
+// uno : 2013-09-11 DotSite Inc.
 uno
 
 // uol : 2014-05-01 UBN INTERNET LTDA.
@@ -10427,7 +10465,7 @@ uol
 // ups : 2015-06-25 UPS Market Driver, Inc.
 ups
 
-// vacations : 2013-12-05 Atomic Tigers, LLC
+// vacations : 2013-12-05 Binky Moon, LLC
 vacations
 
 // vana : 2014-12-11 Lifestyle Domain Holdings, Inc.
@@ -10439,22 +10477,22 @@ vanguard
 // vegas : 2014-01-16 Dot Vegas, Inc.
 vegas
 
-// ventures : 2013-08-27 Binky Lake, LLC
+// ventures : 2013-08-27 Binky Moon, LLC
 ventures
 
 // verisign : 2015-08-13 VeriSign, Inc.
 verisign
 
-// versicherung : 2014-03-20
+// versicherung : 2014-03-20 tldbox GmbH
 versicherung
 
-// vet : 2014-03-06
+// vet : 2014-03-06 Dog Beach, LLC
 vet
 
-// viajes : 2013-10-17 Black Madison, LLC
+// viajes : 2013-10-17 Binky Moon, LLC
 viajes
 
-// video : 2014-10-16
+// video : 2014-10-16 Dog Beach, LLC
 video
 
 // vig : 2015-05-14 VIENNA INSURANCE GROUP AG Wiener Versicherung Gruppe
@@ -10463,10 +10501,10 @@ vig
 // viking : 2015-04-02 Viking River Cruises (Bermuda) Ltd.
 viking
 
-// villas : 2013-12-05 New Sky, LLC
+// villas : 2013-12-05 Binky Moon, LLC
 villas
 
-// vin : 2015-06-18 Holly Shadow, LLC
+// vin : 2015-06-18 Binky Moon, LLC
 vin
 
 // vip : 2015-01-22 Minds + Machines Group Limited
@@ -10478,14 +10516,8 @@ virgin
 // visa : 2015-07-30 Visa Worldwide Pte. Limited
 visa
 
-// vision : 2013-12-05 Koko Station, LLC
+// vision : 2013-12-05 Binky Moon, LLC
 vision
-
-// vista : 2014-09-18 Vistaprint Limited
-vista
-
-// vistaprint : 2014-09-18 Vistaprint Limited
-vistaprint
 
 // viva : 2014-11-07 Saudi Telecom Company
 viva
@@ -10496,7 +10528,7 @@ vivo
 // vlaanderen : 2014-02-06 DNS.be vzw
 vlaanderen
 
-// vodka : 2013-12-19 Top Level Domain Holdings Limited
+// vodka : 2013-12-19 Minds + Machines Group Limited
 vodka
 
 // volkswagen : 2015-05-14 Volkswagen Group of America Inc.
@@ -10514,7 +10546,7 @@ voting
 // voto : 2013-11-21 Monolith Registry LLC
 voto
 
-// voyage : 2013-08-27 Ruby House, LLC
+// voyage : 2013-08-27 Binky Moon, LLC
 voyage
 
 // vuelos : 2015-03-05 Travel Reservations SRL
@@ -10529,25 +10561,22 @@ walmart
 // walter : 2014-11-13 Sandvik AB
 walter
 
-// wang : 2013-10-24 Zodiac Leo Limited
+// wang : 2013-10-24 Zodiac Wang Limited
 wang
 
-// wanggou : 2014-12-18 Amazon EU S.à r.l.
+// wanggou : 2014-12-18 Amazon Registry Services, Inc.
 wanggou
 
-// warman : 2015-06-18 Weir Group IP Limited
-warman
-
-// watch : 2013-11-14 Sand Shadow, LLC
+// watch : 2013-11-14 Binky Moon, LLC
 watch
 
 // watches : 2014-12-22 Richemont DNS Inc.
 watches
 
-// weather : 2015-01-08 The Weather Channel, LLC
+// weather : 2015-01-08 International Business Machines Corporation
 weather
 
-// weatherchannel : 2015-03-12 The Weather Channel, LLC
+// weatherchannel : 2015-03-12 International Business Machines Corporation
 weatherchannel
 
 // webcam : 2014-01-23 dot Webcam Limited
@@ -10562,7 +10591,7 @@ website
 // wed : 2013-10-01 Atgron, Inc.
 wed
 
-// wedding : 2014-04-24 Top Level Domain Holdings Limited
+// wedding : 2014-04-24 Minds + Machines Group Limited
 wedding
 
 // weibo : 2015-03-05 Sina Corporation
@@ -10589,7 +10618,7 @@ win
 // windows : 2014-12-18 Microsoft Corporation
 windows
 
-// wine : 2015-06-18 June Station, LLC
+// wine : 2015-06-18 Binky Moon, LLC
 wine
 
 // winners : 2015-07-16 The TJX Companies, Inc.
@@ -10604,22 +10633,22 @@ wolterskluwer
 // woodside : 2015-07-09 Woodside Petroleum Limited
 woodside
 
-// work : 2013-12-19 Top Level Domain Holdings Limited
+// work : 2013-12-19 Minds + Machines Group Limited
 work
 
-// works : 2013-11-14 Little Dynamite, LLC
+// works : 2013-11-14 Binky Moon, LLC
 works
 
-// world : 2014-06-12 Bitter Fields, LLC
+// world : 2014-06-12 Binky Moon, LLC
 world
 
-// wow : 2015-10-08 Amazon EU S.à r.l.
+// wow : 2015-10-08 Amazon Registry Services, Inc.
 wow
 
 // wtc : 2013-12-19 World Trade Centers Association, Inc.
 wtc
 
-// wtf : 2014-03-06 Hidden Way, LLC
+// wtf : 2014-03-06 Binky Moon, LLC
 wtf
 
 // xbox : 2014-12-18 Microsoft Corporation
@@ -10640,7 +10669,7 @@ xin
 // xn--11b4c3d : 2015-01-15 VeriSign Sarl
 xn--11b4c3d
 
-// xn--1ck2e1b : 2015-02-26 Amazon EU S.à r.l.
+// xn--1ck2e1b : 2015-02-26 Amazon Registry Services, Inc.
 xn--1ck2e1b
 
 // xn--1qqw23a : 2014-01-09 Guangzhou YU Wei Information Technology Co., Ltd.
@@ -10652,7 +10681,7 @@ xn--30rr7y
 // xn--3bst00m : 2013-09-13 Eagle Horizon Limited
 xn--3bst00m
 
-// xn--3ds443g : 2013-09-08 TLD REGISTRY LIMITED
+// xn--3ds443g : 2013-09-08 TLD REGISTRY LIMITED OY
 xn--3ds443g
 
 // xn--3oq18vl8pn36a : 2015-07-02 Volkswagen (China) Investment Co., Ltd.
@@ -10664,16 +10693,16 @@ xn--3pxu8k
 // xn--42c2d9a : 2015-01-15 VeriSign Sarl
 xn--42c2d9a
 
-// xn--45q11c : 2013-11-21 Zodiac Scorpio Limited
+// xn--45q11c : 2013-11-21 Zodiac Gemini Ltd
 xn--45q11c
 
-// xn--4gbrim : 2013-10-04 Suhub Electronic Establishment
+// xn--4gbrim : 2013-10-04 Fans TLD Limited
 xn--4gbrim
 
 // xn--55qw42g : 2013-11-08 China Organizational Name Administration Center
 xn--55qw42g
 
-// xn--55qx5d : 2013-11-14 Computer Network Information Center of Chinese Academy of Sciences （China Internet Network Information Center）
+// xn--55qx5d : 2013-11-14 China Internet Network Information Center (CNNIC)
 xn--55qx5d
 
 // xn--5su34j936bgsg : 2015-09-03 Shangri‐La International Hotel Management Limited
@@ -10715,7 +10744,7 @@ xn--9krt00a
 // xn--b4w605ferd : 2014-08-07 Temasek Holdings (Private) Limited
 xn--b4w605ferd
 
-// xn--bck1b9a5dre4c : 2015-02-26 Amazon EU S.à r.l.
+// xn--bck1b9a5dre4c : 2015-02-26 Amazon Registry Services, Inc.
 xn--bck1b9a5dre4c
 
 // xn--c1avg : 2013-11-14 Public Interest Registry
@@ -10724,46 +10753,49 @@ xn--c1avg
 // xn--c2br7g : 2015-01-15 VeriSign Sarl
 xn--c2br7g
 
-// xn--cck2b3b : 2015-02-26 Amazon EU S.à r.l.
+// xn--cck2b3b : 2015-02-26 Amazon Registry Services, Inc.
 xn--cck2b3b
+
+// xn--cckwcxetd : 2019-12-19 Amazon Registry Services, Inc.
+xn--cckwcxetd
 
 // xn--cg4bki : 2013-09-27 SAMSUNG SDS CO., LTD
 xn--cg4bki
 
-// xn--czr694b : 2014-01-16 Dot Trademark TLD Holding Company Limited
+// xn--czr694b : 2014-01-16 Internet DotTrademark Organisation Limited
 xn--czr694b
 
-// xn--czrs0t : 2013-12-19 Wild Island, LLC
+// xn--czrs0t : 2013-12-19 Binky Moon, LLC
 xn--czrs0t
 
-// xn--czru2d : 2013-11-21 Zodiac Capricorn Limited
+// xn--czru2d : 2013-11-21 Zodiac Aquarius Limited
 xn--czru2d
 
 // xn--d1acj3b : 2013-11-20 The Foundation for Network Initiatives “The Smart Internet”
 xn--d1acj3b
 
-// xn--eckvdtc9d : 2014-12-18 Amazon EU S.à r.l.
+// xn--eckvdtc9d : 2014-12-18 Amazon Registry Services, Inc.
 xn--eckvdtc9d
 
-// xn--efvy88h : 2014-08-22 Xinhua News Agency Guangdong Branch 新华通讯社广东分社
+// xn--efvy88h : 2014-08-22 Guangzhou YU Wei Information Technology Co., Ltd.
 xn--efvy88h
 
 // xn--estv75g : 2015-02-19 Industrial and Commercial Bank of China Limited
 xn--estv75g
 
-// xn--fct429k : 2015-04-09 Amazon EU S.à r.l.
+// xn--fct429k : 2015-04-09 Amazon Registry Services, Inc.
 xn--fct429k
 
 // xn--fhbei : 2015-01-15 VeriSign Sarl
 xn--fhbei
 
-// xn--fiq228c5hs : 2013-09-08 TLD REGISTRY LIMITED
+// xn--fiq228c5hs : 2013-09-08 TLD REGISTRY LIMITED OY
 xn--fiq228c5hs
 
 // xn--fiq64b : 2013-10-14 CITIC Group Corporation
 xn--fiq64b
 
-// xn--fjq720a : 2014-05-22 Will Bloom, LLC
+// xn--fjq720a : 2014-05-22 Binky Moon, LLC
 xn--fjq720a
 
 // xn--flw351e : 2014-07-31 Charleston Road Registry Inc.
@@ -10775,31 +10807,34 @@ xn--fzys8d69uvgm
 // xn--g2xx48c : 2015-01-30 Minds + Machines Group Limited
 xn--g2xx48c
 
-// xn--gckr3f0f : 2015-02-26 Amazon EU S.à r.l.
+// xn--gckr3f0f : 2015-02-26 Amazon Registry Services, Inc.
 xn--gckr3f0f
 
-// xn--gk3at1e : 2015-10-08 Amazon EU S.à r.l.
+// xn--gk3at1e : 2015-10-08 Amazon Registry Services, Inc.
 xn--gk3at1e
 
-// xn--hxt814e : 2014-05-15 Zodiac Libra Limited
+// xn--hxt814e : 2014-05-15 Zodiac Taurus Limited
 xn--hxt814e
 
 // xn--i1b6b1a6a2e : 2013-11-14 Public Interest Registry
 xn--i1b6b1a6a2e
 
-// xn--imr513n : 2014-12-11 Dot Trademark TLD Holding Company Limited
+// xn--imr513n : 2014-12-11 Internet DotTrademark Organisation Limited
 xn--imr513n
 
-// xn--io0a7i : 2013-11-14 Computer Network Information Center of Chinese Academy of Sciences （China Internet Network Information Center）
+// xn--io0a7i : 2013-11-14 China Internet Network Information Center (CNNIC)
 xn--io0a7i
 
 // xn--j1aef : 2015-01-15 VeriSign Sarl
 xn--j1aef
 
+// xn--jlq480n2rg : 2019-12-19 Amazon Registry Services, Inc.
+xn--jlq480n2rg
+
 // xn--jlq61u9w7b : 2015-01-08 Nokia Corporation
 xn--jlq61u9w7b
 
-// xn--jvr189m : 2015-02-26 Amazon EU S.à r.l.
+// xn--jvr189m : 2015-02-26 Amazon Registry Services, Inc.
 xn--jvr189m
 
 // xn--kcrx77d1x4a : 2014-11-07 Koninklijke Philips N.V.
@@ -10822,9 +10857,6 @@ xn--mgbaakc7dvf
 
 // xn--mgbab2bd : 2013-10-31 CORE Association
 xn--mgbab2bd
-
-// xn--mgbb9fbpob : 2014-12-18 GreenTech Consultancy Company W.L.L.
-xn--mgbb9fbpob
 
 // xn--mgbca7dzdo : 2015-07-30 Abu Dhabi Systems and Information Centre
 xn--mgbca7dzdo
@@ -10859,6 +10891,9 @@ xn--nqv7fs00ema
 // xn--nyqy26a : 2014-11-07 Stable Tone Limited
 xn--nyqy26a
 
+// xn--otu796d : 2017-08-06 Jiang Yu Liang Cai Technology Company Limited
+xn--otu796d
+
 // xn--p1acf : 2013-12-12 Rusnames Limited
 xn--p1acf
 
@@ -10877,10 +10912,10 @@ xn--qcka1pmc
 // xn--rhqv96g : 2013-09-11 Stable Tone Limited
 xn--rhqv96g
 
-// xn--rovu88b : 2015-02-26 Amazon EU S.à r.l.
+// xn--rovu88b : 2015-02-26 Amazon Registry Services, Inc.
 xn--rovu88b
 
-// xn--ses554g : 2014-01-16
+// xn--ses554g : 2014-01-16 KNET Co., Ltd.
 xn--ses554g
 
 // xn--t60b56a : 2015-01-15 VeriSign Sarl
@@ -10892,7 +10927,7 @@ xn--tckwe
 // xn--tiq49xqyj : 2015-10-21 Pontificium Consilium de Comunicationibus Socialibus (PCCS) (Pontifical Council for Social Communication)
 xn--tiq49xqyj
 
-// xn--unup4y : 2013-07-14 Spring Fields, LLC
+// xn--unup4y : 2013-07-14 Binky Moon, LLC
 xn--unup4y
 
 // xn--vermgensberater-ctb : 2014-06-23 Deutsche Vermögensberatung Aktiengesellschaft DVAG
@@ -10901,7 +10936,7 @@ xn--vermgensberater-ctb
 // xn--vermgensberatung-pwb : 2014-06-23 Deutsche Vermögensberatung Aktiengesellschaft DVAG
 xn--vermgensberatung-pwb
 
-// xn--vhquv : 2013-08-27 Dash McCook, LLC
+// xn--vhquv : 2013-08-27 Binky Moon, LLC
 xn--vhquv
 
 // xn--vuq861b : 2014-10-16 Beijing Tele-info Network Technology Co., Ltd.
@@ -10919,9 +10954,6 @@ xn--xhq521b
 // xn--zfr164b : 2013-11-08 China Organizational Name Administration Center
 xn--zfr164b
 
-// xperia : 2015-05-14 Sony Mobile Communications AB
-xperia
-
 // xyz : 2013-12-05 XYZ.COM LLC
 xyz
 
@@ -10931,22 +10963,22 @@ yachts
 // yahoo : 2015-04-02 Yahoo! Domain Services Inc.
 yahoo
 
-// yamaxun : 2014-12-18 Amazon EU S.à r.l.
+// yamaxun : 2014-12-18 Amazon Registry Services, Inc.
 yamaxun
 
-// yandex : 2014-04-10 YANDEX, LLC
+// yandex : 2014-04-10 Yandex Europe B.V.
 yandex
 
 // yodobashi : 2014-11-20 YODOBASHI CAMERA CO.,LTD.
 yodobashi
 
-// yoga : 2014-05-29 Top Level Domain Holdings Limited
+// yoga : 2014-05-29 Minds + Machines Group Limited
 yoga
 
 // yokohama : 2013-12-12 GMO Registry, Inc.
 yokohama
 
-// you : 2015-04-09 Amazon EU S.à r.l.
+// you : 2015-04-09 Amazon Registry Services, Inc.
 you
 
 // youtube : 2014-05-01 Charleston Road Registry Inc.
@@ -10955,22 +10987,19 @@ youtube
 // yun : 2015-01-08 QIHOO 360 TECHNOLOGY CO. LTD.
 yun
 
-// zappos : 2015-06-25 Amazon EU S.à r.l.
+// zappos : 2015-06-25 Amazon Registry Services, Inc.
 zappos
 
 // zara : 2014-11-07 Industria de Diseño Textil, S.A. (INDITEX, S.A.)
 zara
 
-// zero : 2014-12-18 Amazon EU S.à r.l.
+// zero : 2014-12-18 Amazon Registry Services, Inc.
 zero
 
 // zip : 2014-05-08 Charleston Road Registry Inc.
 zip
 
-// zippo : 2015-07-02 Zadco Company
-zippo
-
-// zone : 2013-11-14 Outer Falls, LLC
+// zone : 2013-11-14 Binky Moon, LLC
 zone
 
 // zuerich : 2014-11-07 Kanton Zürich (Canton of Zurich)
@@ -10987,20 +11016,28 @@ cc.ua
 inf.ua
 ltd.ua
 
-// AgileBits Inc : https://agilebits.com
-// Submitted by Roustem Karimov <roustem@agilebits.com>
-1password.ca
-1password.com
-1password.eu
+// Adobe : https://www.adobe.com/
+// Submitted by Ian Boston <boston@adobe.com>
+adobeaemcloud.com
+adobeaemcloud.net
+*.dev.adobeaemcloud.com
 
 // Agnat sp. z o.o. : https://domena.pl
 // Submitted by Przemyslaw Plewa <it-admin@domena.pl>
 beep.pl
 
+// alboto.ca : http://alboto.ca
+// Submitted by Anton Avramov <avramov@alboto.ca>
+barsy.ca
+
 // Alces Software Ltd : http://alces-software.com
 // Submitted by Mark J. Titorenko <mark.titorenko@alces-software.com>
 *.compute.estate
 *.alces.network
+
+// Altervista: https://www.altervista.org
+// Submitted by Carlo Cannas <tech_staff@altervista.it>
+altervista.org
 
 // alwaysdata : https://www.alwaysdata.com
 // Submitted by Cyril <admin@alwaysdata.com>
@@ -11020,9 +11057,11 @@ us-east-1.amazonaws.com
 // Amazon Elastic Beanstalk : https://aws.amazon.com/elasticbeanstalk/
 // Submitted by Luke Wells <psl-maintainers@amazon.com>
 cn-north-1.eb.amazonaws.com.cn
+cn-northwest-1.eb.amazonaws.com.cn
 elasticbeanstalk.com
 ap-northeast-1.elasticbeanstalk.com
 ap-northeast-2.elasticbeanstalk.com
+ap-northeast-3.elasticbeanstalk.com
 ap-south-1.elasticbeanstalk.com
 ap-southeast-1.elasticbeanstalk.com
 ap-southeast-2.elasticbeanstalk.com
@@ -11100,14 +11139,28 @@ s3-website.eu-west-2.amazonaws.com
 s3-website.eu-west-3.amazonaws.com
 s3-website.us-east-2.amazonaws.com
 
+// Amsterdam Wireless: https://www.amsterdamwireless.nl/
+// Submitted by Imre Jonk <hostmaster@amsterdamwireless.nl>
+amsw.nl
+
 // Amune : https://amune.org/
 // Submitted by Team Amune <cert@amune.org>
 t3l3p0rt.net
 tele.amune.org
 
+// Apigee : https://apigee.com/
+// Submitted by Apigee Security Team <security@apigee.com>
+apigee.io
+
 // Aptible : https://www.aptible.com/
 // Submitted by Thomas Orozco <thomas@aptible.com>
 on-aptible.com
+
+// ASEINet : https://www.aseinet.com/
+// Submitted by Asei SEKIGUCHI <mail@aseinet.com>
+user.aseinet.ne.jp
+gv.vc
+d.gv.vc
 
 // Asociación Amigos de la Informática "Euskalamiga" : http://encounter.eus/
 // Submitted by Hector Martin <marcan@euskalencounter.org>
@@ -11133,9 +11186,21 @@ myfritz.net
 *.awdev.ca
 *.advisor.ws
 
+// b-data GmbH : https://www.b-data.io
+// Submitted by Olivier Benz <olivier.benz@b-data.ch>
+b-data.io
+
 // backplane : https://www.backplane.io
 // Submitted by Anthony Voutas <anthony@backplane.io>
 backplaneapp.io
+
+// Balena : https://www.balena.io
+// Submitted by Petros Angelatos <petrosagg@balena.io>
+balena-devices.com
+
+// Banzai Cloud
+// Submitted by Gabor Kozma <info@banzaicloud.com>
+app.banzaicloud.io
 
 // BetaInABox
 // Submitted by Adrian <adrian@betainabox.com>
@@ -11144,6 +11209,10 @@ betainabox.com
 // BinaryLane : http://www.binarylane.com
 // Submitted by Nathan O'Sullivan <nathan@mammoth.com.au>
 bnr.la
+
+// Blackbaud, Inc. : https://www.blackbaud.com
+// Submitted by Paul Crowder <paul.crowder@blackbaud.com>
+blackbaudcdn.net
 
 // Boomla : https://boomla.com
 // Submitted by Tibor Halter <thalter@boomla.com>
@@ -11166,9 +11235,21 @@ square7.net
 // Submitted by Dave Tharp <browsersafetymark.io@quicinc.com>
 browsersafetymark.io
 
+// Bytemark Hosting : https://www.bytemark.co.uk
+// Submitted by Paul Cammish <paul.cammish@bytemark.co.uk>
+uk0.bigv.io
+dh.bytemark.co.uk
+vm.bytemark.co.uk
+
 // callidomus : https://www.callidomus.com/
 // Submitted by Marcus Popp <admin@callidomus.com>
 mycd.eu
+
+// Carrd : https://carrd.co
+// Submitted by AJ <aj@carrd.co>
+carrd.co
+crd.co
+uwu.ai
 
 // CentralNic : http://www.centralnic.com/names/domains
 // Submitted by registry <gavin.brown@centralnic.com>
@@ -11192,7 +11273,6 @@ no.com
 qc.com
 ru.com
 sa.com
-se.com
 se.net
 uk.com
 uk.net
@@ -11232,14 +11312,29 @@ certmgr.org
 // Submitted by Alex Stoddard <alex.stoddard@citrix.com>
 xenapponazure.com
 
+// Civilized Discourse Construction Kit, Inc. : https://www.discourse.org/
+// Submitted by Rishabh Nambiar & Michael Brown <team@discourse.org>
+discourse.group
+discourse.team
+
 // ClearVox : http://www.clearvox.nl/
 // Submitted by Leon Rowland <leon@clearvox.nl>
 virtueeldomein.nl
+
+// Clever Cloud : https://www.clever-cloud.com/
+// Submitted by Quentin Adam <noc@clever-cloud.com>
+cleverapps.io
+
+// Clerk : https://www.clerk.dev
+// Submitted by Colin Sidoti <colin@clerk.dev>
+*.lcl.dev
+*.stg.dev
 
 // Cloud66 : https://www.cloud66.com/
 // Submitted by Khash Sajadi <khash@cloud66.com>
 c66.me
 cloud66.ws
+cloud66.zone
 
 // CloudAccess.net : https://www.cloudaccess.net/
 // Submitted by Pawel Panek <noc@cloudaccess.net>
@@ -11254,8 +11349,25 @@ cloudaccess.net
 cloudcontrolled.com
 cloudcontrolapp.com
 
+// Cloudera, Inc. : https://www.cloudera.com/
+// Submitted by Philip Langdale <security@cloudera.com>
+cloudera.site
+
+// Cloudflare, Inc. : https://www.cloudflare.com/
+// Submitted by Jake Riesterer <publicsuffixlist@cloudflare.com>
+trycloudflare.com
+workers.dev
+
+// Clovyr : https://clovyr.io
+// Submitted by Patrick Nielsen <patrick@clovyr.io>
+wnext.app
+
 // co.ca : http://registry.co.ca/
 co.ca
+
+// Co & Co : https://co-co.nl/
+// Submitted by Govert Versluis <govert@co-co.nl>
+*.otap.co
 
 // i-registry s.r.o. : http://www.i-registry.cz/
 // Submitted by Martin Semrad <semrad@i-registry.cz>
@@ -11283,6 +11395,14 @@ cloudns.pro
 cloudns.pw
 cloudns.us
 
+// Cloudeity Inc : https://cloudeity.com
+// Submitted by Stefan Dimitrov <contact@cloudeity.com>
+cloudeity.net
+
+// CNPY : https://cnpy.gdn
+// Submitted by Angelo Gladding <angelo@lahacker.net>
+cnpy.gdn
+
 // CoDNS B.V.
 co.nl
 co.no
@@ -11291,6 +11411,15 @@ co.no
 // Submitted by Thomas Wouters <thomas.wouters@combellgroup.com>
 webhosting.be
 hosting-cluster.nl
+
+// Coordination Center for TLD RU and XN--P1AI : https://cctld.ru/en/domains/domens_ru/reserved/
+// Submitted by George Georgievsky <gug@cctld.ru>
+ac.ru
+edu.ru
+gov.ru
+int.ru
+mil.ru
+test.ru
 
 // COSIMO GmbH : http://www.cosimo.de
 // Submitted by Rene Marticke <rmarticke@cosimo.de>
@@ -11316,6 +11445,14 @@ realm.cz
 // Submitted by Jonathan Rudenberg <jonathan@cupcake.io>
 cupcake.is
 
+// Customer OCI - Oracle Dyn https://cloud.oracle.com/home https://dyn.com/dns/
+// Submitted by Gregory Drake <support@dyn.com>
+// Note: This is intended to also include customer-oci.com due to wildcards implicitly including the current label
+*.customer-oci.com
+*.oci.customer-oci.com
+*.ocp.customer-oci.com
+*.ocs.customer-oci.com
+
 // cyon GmbH : https://www.cyon.ch/
 // Submitted by Dominic Luechinger <dol@cyon.ch>
 cyon.link
@@ -11326,6 +11463,15 @@ cyon.site
 daplie.me
 localhost.daplie.me
 
+// Datto, Inc. : https://www.datto.com/
+// Submitted by Philipp Heckel <ph@datto.com>
+dattolocal.com
+dattorelay.com
+dattoweb.com
+mydatto.com
+dattolocal.net
+mydatto.net
+
 // Dansk.net : http://www.dansk.net/
 // Submitted by Anani Voule <digital@digital.co.dk>
 biz.dk
@@ -11333,6 +11479,19 @@ co.dk
 firm.dk
 reg.dk
 store.dk
+
+// dapps.earth : https://dapps.earth/
+// Submitted by Daniil Burdakov <icqkill@gmail.com>
+*.dapps.earth
+*.bzz.dapps.earth
+
+// Dark, Inc. : https://darklang.com
+// Submitted by Paul Biggar <ops@darklang.com>
+builtwithdark.com
+
+// Datawire, Inc : https://www.datawire.io
+// Submitted by Richard Li <secalert@datawire.io>
+edgestack.me
 
 // Debian : https://www.debian.org/
 // Submitted by Peter Palfrader / Debian Sysadmin Team <dsa-publicsuffixlist@debian.org>
@@ -11345,6 +11504,11 @@ dedyn.io
 // DNShome : https://www.dnshome.de/
 // Submitted by Norbert Auler <mail@dnshome.de>
 dnshome.de
+
+// DotArai : https://www.dotarai.com/
+// Submitted by Atsadawat Netcharadsang <atsadawat@dotarai.co.th>
+online.th
+shop.th
 
 // DrayTek Corp. : https://www.draytek.com/
 // Submitted by Paul Fang <mis@draytek.com>
@@ -11670,6 +11834,10 @@ ddnss.org
 definima.net
 definima.io
 
+// dnstrace.pro : https://dnstrace.pro/
+// Submitted by Chris Partridge <chris@partridge.tech>
+bci.dnstrace.pro
+
 // Dynu.com : https://www.dynu.com/
 // Submitted by Sue Ye <sue@dynu.com>
 ddnsfree.com
@@ -11698,9 +11866,18 @@ dynv6.net
 // Submitted by Vladimir Dudr <info@e4you.cz>
 e4.cz
 
+// En root‽ : https://en-root.org
+// Submitted by Emmanuel Raviart <emmanuel@raviart.com>
+en-root.fr
+
 // Enalean SAS: https://www.enalean.com
 // Submitted by Thomas Cottier <thomas.cottier@enalean.com>
 mytuleap.com
+
+// ECG Robotics, Inc: https://ecgrobotics.org
+// Submitted by <frc1533@ecgrobotics.org>
+onred.one
+staging.onred.one
 
 // Enonic : http://enonic.com/
 // Submitted by Erik Kaareng-Sunde <esu@enonic.com>
@@ -11868,9 +12045,11 @@ vologda.su
 // Fancy Bits, LLC : http://getchannels.com
 // Submitted by Aman Gupta <aman@getchannels.com>
 channelsdvr.net
+u.channelsdvr.net
 
 // Fastly Inc. : http://www.fastly.com/
 // Submitted by Fastly Security <security@fastly.com>
+fastly-terrarium.com
 fastlylb.net
 map.fastlylb.net
 freetls.fastly.net
@@ -11880,6 +12059,11 @@ global.prod.fastly.net
 a.ssl.fastly.net
 b.ssl.fastly.net
 global.ssl.fastly.net
+
+// FASTVPS EESTI OU : https://fastvps.ru/
+// Submitted by Likhachev Vasiliy <lihachev@fastvps.ru>
+fastpanel.direct
+fastvps-server.com
 
 // Featherhead : https://featherhead.xyz/
 // Submitted by Simon Menke <simon@featherhead.xyz>
@@ -11893,9 +12077,19 @@ cloud.fedoraproject.org
 app.os.fedoraproject.org
 app.os.stg.fedoraproject.org
 
+// Fermax : https://fermax.com/
+// submitted by Koen Van Isterdael <k.vanisterdael@fermax.be>
+mydobiss.com
+
 // Filegear Inc. : https://www.filegear.com
 // Submitted by Jason Zhu <jason@owtware.com>
 filegear.me
+filegear-au.me
+filegear-de.me
+filegear-gb.me
+filegear-ie.me
+filegear-jp.me
+filegear-sg.me
 
 // Firebase, Inc.
 // Submitted by Chris Raynor <chris@firebase.com>
@@ -11906,6 +12100,10 @@ firebaseapp.com
 flynnhub.com
 flynnhosting.net
 
+// Frederik Braun https://frederik-braun.com
+// Submitted by Frederik Braun <fb@frederik-braun.com>
+0e.vc
+
 // Freebox : http://www.freebox.fr
 // Submitted by Romain Fliedel <rfliedel@freebox.fr>
 freebox-os.com
@@ -11915,9 +12113,15 @@ fbxos.fr
 freebox-os.fr
 freeboxos.fr
 
+// freedesktop.org : https://www.freedesktop.org
+// Submitted by Daniel Stone <daniel@fooishbar.org>
+freedesktop.org
+
 // Futureweb OG : http://www.futureweb.at
 // Submitted by Andreas Schnederle-Wagner <schnederle@futureweb.at>
 *.futurecms.at
+*.ex.futurecms.at
+*.in.futurecms.at
 futurehosting.at
 futuremailing.at
 *.ex.ortsinfo.at
@@ -11928,6 +12132,16 @@ futuremailing.at
 // Submitted by David Illsley <david.illsley@digital.cabinet-office.gov.uk>
 service.gov.uk
 
+// Gehirn Inc. : https://www.gehirn.co.jp/
+// Submitted by Kohei YOSHIDA <tech@gehirn.co.jp>
+gehirn.ne.jp
+usercontent.jp
+
+// Gentlent, Inc. : https://www.gentlent.com
+// Submitted by Tom Klein <tom@gentlent.com>
+gentapps.com
+lab.ms
+
 // GitHub, Inc.
 // Submitted by Patrick Toomey <security@github.com>
 github.io
@@ -11936,6 +12150,19 @@ githubusercontent.com
 // GitLab, Inc.
 // Submitted by Alex Hanselka <alex@gitlab.com>
 gitlab.io
+
+// Glitch, Inc : https://glitch.com
+// Submitted by Mads Hartmann <mads@glitch.com>
+glitch.me
+
+// GMO Pepabo, Inc. : https://pepabo.com/
+// Submitted by dojineko <admin@pepabo.com>
+lolipop.io
+
+// GOV.UK Platform as a Service : https://www.cloud.service.gov.uk/
+// Submitted by Tom Whitwell <tom.whitwell@digital.cabinet-office.gov.uk>
+cloudapps.digital
+london.cloudapps.digital
 
 // UKHomeOffice : https://www.gov.uk/government/organisations/home-office
 // Submitted by Jon Shanks <jon.shanks@digital.homeoffice.gov.uk>
@@ -11952,8 +12179,12 @@ goip.de
 
 // Google, Inc.
 // Submitted by Eduardo Vela <evn@google.com>
+run.app
+a.run.app
+web.app
 *.0emm.com
 appspot.com
+*.r.appspot.com
 blogspot.ae
 blogspot.al
 blogspot.am
@@ -12038,11 +12269,29 @@ publishproxy.com
 withgoogle.com
 withyoutube.com
 
+// Group 53, LLC : https://www.group53.com
+// Submitted by Tyler Todd <noc@nova53.net>
+awsmppl.com
+
+// Hakaran group: http://hakaran.cz
+// Submited by Arseniy Sokolov <security@hakaran.cz>
+fin.ci
+free.hr
+caa.li
+ua.rs
+conf.se
+
+// Handshake : https://handshake.org
+// Submitted by Mike Damm <md@md.vc>
+hs.zone
+hs.run
+
 // Hashbang : https://hashbang.sh
 hashbang.sh
 
 // Hasura : https://hasura.io
 // Submitted by Shahidh K Muhammed <shahidh@hasura.io>
+hasura.app
 hasura-app.io
 
 // Hepforge : https://www.hepforge.org
@@ -12054,13 +12303,54 @@ hepforge.org
 herokuapp.com
 herokussl.com
 
+// Hibernating Rhinos
+// Submitted by Oren Eini <oren@ravendb.net>
+myravendb.com
+ravendb.community
+ravendb.me
+development.run
+ravendb.run
+
+// HOSTBIP REGISTRY : https://www.hostbip.com/
+// Submitted by Atanunu Igbunuroghene <publicsuffixlist@hostbip.com>
+bpl.biz
+orx.biz
+ng.city
+biz.gl
+ng.ink
+col.ng
+firm.ng
+gen.ng
+ltd.ng
+ngo.ng
+ng.school
+sch.so
+
+// Häkkinen.fi
+// Submitted by Eero Häkkinen <Eero+psl@Häkkinen.fi>
+xn--hkkinen-5wa.fi
+
 // Ici la Lune : http://www.icilalune.com/
 // Submitted by Simon Morvan <simon@icilalune.com>
+*.moonscale.io
 moonscale.net
 
 // iki.fi
 // Submitted by Hannu Aronsson <haa@iki.fi>
 iki.fi
+
+// Individual Network Berlin e.V. : https://www.in-berlin.de/
+// Submitted by Christian Seitz <chris@in-berlin.de>
+dyn-berlin.de
+in-berlin.de
+in-brb.de
+in-butter.de
+in-dsl.de
+in-dsl.net
+in-dsl.org
+in-vpn.de
+in-vpn.net
+in-vpn.org
 
 // info.at : http://www.info.at/
 biz.at
@@ -12108,6 +12398,24 @@ pixolino.com
 // Submitted by Matthew Hardeman <mhardeman@ipifony.com>
 ipifony.net
 
+// IServ GmbH : https://iserv.eu
+// Submitted by Kim-Alexander Brodowski <kim.brodowski@iserv.eu>
+mein-iserv.de
+test-iserv.de
+iserv.dev
+
+// I-O DATA DEVICE, INC. : http://www.iodata.com/
+// Submitted by Yuji Minagawa <domains-admin@iodata.jp>
+iobb.net
+
+// Jino : https://www.jino.ru
+// Submitted by Sergey Ulyashin <ulyashin@jino.ru>
+myjino.ru
+*.hosting.myjino.ru
+*.landing.myjino.ru
+*.spectrum.myjino.ru
+*.vps.myjino.ru
+
 // Joyent : https://www.joyent.com/
 // Submitted by Brian Bennett <brian.bennett@joyent.com>
 *.triton.zone
@@ -12117,13 +12425,27 @@ ipifony.net
 // Submitted by Stefan Keim <admin@js.org>
 js.org
 
+// KaasHosting : http://www.kaashosting.nl/
+// Submitted by Wouter Bakker <hostmaster@kaashosting.nl>
+kaas.gg
+khplay.nl
+
 // Keyweb AG : https://www.keyweb.de
 // Submitted by Martin Dannehl <postmaster@keymachine.de>
 keymachine.de
 
+// KingHost : https://king.host
+// Submitted by Felipe Keller Braz <felipebraz@kinghost.com.br>
+kinghost.net
+uni5.net
+
 // KnightPoint Systems, LLC : http://www.knightpoint.com/
 // Submitted by Roy Keene <rkeene@knightpoint.com>
 knightpoint.systems
+
+// KUROKU LTD : https://kuroku.ltd/
+// Submitted by DisposaBoy <security@oya.to>
+oya.to
 
 // .KRD : http://nic.krd/data/krd/Registration%20Policy.pdf
 co.krd
@@ -12135,38 +12457,125 @@ git-repos.de
 lcube-server.de
 svn-repos.de
 
+// Leadpages : https://www.leadpages.net
+// Submitted by Greg Dallavalle <domains@leadpages.net>
+leadpages.co
+lpages.co
+lpusercontent.com
+
+// Lelux.fi : https://lelux.fi/
+// Submitted by Lelux Admin <publisuffix@lelux.site>
+lelux.site
+
+// Lifetime Hosting : https://Lifetime.Hosting/
+// Submitted by Mike Fillator <support@lifetime.hosting>
+co.business
+co.education
+co.events
+co.financial
+co.network
+co.place
+co.technology
+
+// Lightmaker Property Manager, Inc. : https://app.lmpm.com/
+// Submitted by Greg Holland <greg.holland@lmpm.com>
+app.lmpm.com
+
+// Linki Tools UG : https://linki.tools
+// Submitted by Paulo Matos <pmatos@linki.tools>
+linkitools.space
+
 // linkyard ldt: https://www.linkyard.ch/
 // Submitted by Mario Siegenthaler <mario.siegenthaler@linkyard.ch>
 linkyard.cloud
 linkyard-cloud.ch
 
+// Linode : https://linode.com
+// Submitted by <security@linode.com>
+members.linode.com
+nodebalancer.linode.com
+
 // LiquidNet Ltd : http://www.liquidnetlimited.com/
 // Submitted by Victor Velchev <admin@liquidnetlimited.com>
 we.bs
 
+// Log'in Line : https://www.loginline.com/
+// Submitted by Rémi Mach <remi.mach@loginline.com>
+loginline.app
+loginline.dev
+loginline.io
+loginline.services
+loginline.site
+
+// LubMAN UMCS Sp. z o.o : https://lubman.pl/
+// Submitted by Ireneusz Maliszewski <ireneusz.maliszewski@lubman.pl>
+krasnik.pl
+leczna.pl
+lubartow.pl
+lublin.pl
+poniatowa.pl
+swidnik.pl
+
+// Lug.org.uk : https://lug.org.uk
+// Submitted by Jon Spriggs <admin@lug.org.uk>
+uklugs.org
+glug.org.uk
+lug.org.uk
+lugs.org.uk
+
 // Lukanet Ltd : https://lukanet.com
 // Submitted by Anton Avramov <register@lukanet.com>
 barsy.bg
+barsy.co.uk
+barsyonline.co.uk
+barsycenter.com
 barsyonline.com
+barsy.club
 barsy.de
 barsy.eu
 barsy.in
+barsy.info
+barsy.io
+barsy.me
+barsy.menu
+barsy.mobi
 barsy.net
 barsy.online
+barsy.org
+barsy.pro
+barsy.pub
+barsy.shop
+barsy.site
 barsy.support
+barsy.uk
 
 // Magento Commerce
 // Submitted by Damien Tournoud <dtournoud@magento.cloud>
 *.magentosite.cloud
 
+// May First - People Link : https://mayfirst.org/
+// Submitted by Jamie McClelland <info@mayfirst.org>
+mayfirst.info
+mayfirst.org
+
 // Mail.Ru Group : https://hb.cldmail.ru
 // Submitted by Ilya Zaretskiy <zaretskiy@corp.mail.ru>
 hb.cldmail.ru
+
+// Memset hosting : https://www.memset.com
+// Submitted by Tom Whitwell <domains@memset.com>
+miniserver.com
+memset.net
 
 // MetaCentrum, CESNET z.s.p.o. : https://www.metacentrum.cz/en/
 // Submitted by Zdeněk Šustr <zdenek.sustr@cesnet.cz>
 cloud.metacentrum.cz
 custom.metacentrum.cz
+
+// MetaCentrum, CESNET z.s.p.o. : https://www.metacentrum.cz/en/
+// Submitted by Radim Janča <janca@cesnet.cz>
+flt.cloud.muni.cz
+usr.cloud.muni.cz
 
 // Meteor Development Group : https://www.meteor.com/hosting
 // Submitted by Pierre Carrier <pierre@meteor.com>
@@ -12176,11 +12585,16 @@ eu.meteorapp.com
 // Michau Enterprises Limited : http://www.co.pl/
 co.pl
 
-// Microsoft : http://microsoft.com
-// Submitted by Barry Dorrans <bdorrans@microsoft.com>
+// Microsoft Corporation : http://microsoft.com
+// Submitted by Justin Luk <juluk@microsoft.com>
+azurecontainer.io
 azurewebsites.net
 azure-mobile.net
 cloudapp.net
+
+// Mozilla Corporation : https://mozilla.com
+// Submitted by Ben Francis <bfrancis@mozilla.com>
+mozilla-iot.org
 
 // Mozilla Foundation : https://mozilla.org/
 // Submitted by glob <glob@mozilla.com>
@@ -12191,6 +12605,30 @@ bmoattachments.org
 net.ru
 org.ru
 pp.ru
+
+// Nabu Casa : https://www.nabucasa.com
+// Submitted by Paulus Schoutsen <infra@nabucasa.com>
+ui.nabu.casa
+
+// Names.of.London : https://names.of.london/
+// Submitted by James Stevens <registry@names.of.london> or <james@jrcs.net>
+pony.club
+of.fashion
+on.fashion
+of.football
+in.london
+of.london
+for.men
+and.mom
+for.mom
+for.one
+for.sale
+of.work
+to.work
+
+// NCTU.ME : https://nctu.me/
+// Submitted by Tocknicsu <admin@nctu.me>
+nctu.me
 
 // Netlify : https://www.netlify.com
 // Submitted by Jessica Parsons <jessica@netlify.com>
@@ -12212,6 +12650,34 @@ nh-serv.co.uk
 // NFSN, Inc. : https://www.NearlyFreeSpeech.NET/
 // Submitted by Jeff Wheelhouse <support@nearlyfreespeech.net>
 nfshost.com
+
+// Now-DNS : https://now-dns.com
+// Submitted by Steve Russell <steve@now-dns.com>
+dnsking.ch
+mypi.co
+n4t.co
+001www.com
+ddnslive.com
+myiphost.com
+forumz.info
+16-b.it
+32-b.it
+64-b.it
+soundcast.me
+tcp4.me
+dnsup.net
+hicam.net
+now-dns.net
+ownip.net
+vpndns.net
+dynserv.org
+now-dns.org
+x443.pw
+now-dns.top
+ntdll.top
+freeddns.us
+crafting.xyz
+zapto.xyz
 
 // nsupdate.info : https://www.nsupdate.info/
 // Submitted by Thomas Waldmann <info@nsupdate.info>
@@ -12315,32 +12781,47 @@ stage.nodeart.io
 nodum.co
 nodum.io
 
+// Nucleos Inc. : https://nucleos.com
+// Submitted by Piotr Zduniak <piotr@nucleos.com>
+pcloud.host
+
 // NYC.mn : http://www.information.nyc.mn
 // Submitted by Matthew Brown <mattbrown@nyc.mn>
 nyc.mn
 
 // NymNom : https://nymnom.com/
-// Submitted by Dave McCormack <dave.mccormack@nymnom.com>
+// Submitted by NymNom <psl@nymnom.com>
 nom.ae
+nom.af
 nom.ai
 nom.al
 nym.by
+nom.bz
 nym.bz
 nom.cl
+nym.ec
 nom.gd
+nom.ge
 nom.gl
 nym.gr
 nom.gt
+nym.gy
+nym.hk
 nom.hn
+nym.ie
 nom.im
+nom.ke
 nym.kz
 nym.la
+nym.lc
 nom.li
 nym.li
 nym.lt
 nym.lu
+nom.lv
 nym.me
 nom.mk
+nym.mn
 nym.mx
 nom.nu
 nym.nz
@@ -12348,20 +12829,31 @@ nym.pe
 nym.pt
 nom.pw
 nom.qa
+nym.ro
 nom.rs
 nom.si
 nym.sk
+nom.st
 nym.su
 nym.sx
+nom.tj
 nym.tw
 nom.ug
 nom.uy
 nom.vc
 nom.vg
 
+// Observable, Inc. : https://observablehq.com
+// Submitted by Mike Bostock <dns@observablehq.com>
+static.observableusercontent.com
+
 // Octopodal Solutions, LLC. : https://ulterius.io/
 // Submitted by Andrew Sampson <andrew@ulterius.io>
 cya.gg
+
+// Omnibond Systems, LLC. : https://www.omnibond.com
+// Submitted by Cole Estep <cole@omnibond.com>
+cloudycluster.net
 
 // One Fold Media : http://www.onefoldmedia.com/
 // Submitted by Eddie Jones <eddie@onefoldmedia.com>
@@ -12375,13 +12867,22 @@ opencraft.hosting
 // Submitted by Yngve Pettersen <yngve@opera.com>
 operaunite.com
 
+// Oursky Limited : https://skygear.io/
+// Submited by Skygear Developer <hello@skygear.io>
+skygearapp.com
+
 // OutSystems
 // Submitted by Duarte Santos <domain-admin@outsystemscloud.com>
 outsystemscloud.com
 
-// OwnProvider : http://www.ownprovider.com
+// OwnProvider GmbH: http://www.ownprovider.com
 // Submitted by Jan Moennich <jan.moennich@ownprovider.com>
 ownprovider.com
+own.pm
+
+// OX : http://www.ox.rs
+// Submitted by Adam Grand <webmaster@mail.ox.rs>
+ox.rs
 
 // oy.lc
 // Submitted by Charly Coste <changaco@changaco.oy.lc>
@@ -12412,6 +12913,10 @@ gotpantheon.com
 // Submitted by Steve Leung <steveleung@peplink.com>
 mypep.link
 
+// Perspecta : https://perspecta.com/
+// Submitted by Kenneth Van Alstyne <kvanalstyne@perspecta.com>
+perspecta.cloud
+
 // Planet-Work : https://www.planet-work.com/
 // Submitted by Frédéric VANNIÈRE <f.vanniere@planet-work.com>
 on-web.fr
@@ -12421,6 +12926,14 @@ on-web.fr
 *.platform.sh
 *.platformsh.site
 
+// Port53 : https://port53.io/
+// Submitted by Maximilian Schieder <maxi@zeug.co>
+dyn53.io
+
+// Positive Codes Technology Company : http://co.bn/faq.html
+// Submitted by Zulfais <pc@co.bn>
+co.bn
+
 // prgmr.com : https://prgmr.com/
 // Submitted by Sarah Newman <owner@prgmr.com>
 xen.prgmr.com
@@ -12428,6 +12941,14 @@ xen.prgmr.com
 // priv.at : http://www.nic.priv.at/
 // Submitted by registry <lendl@nic.at>
 priv.at
+
+// privacytools.io : https://www.privacytools.io/
+// Submitted by Jonah Aragon <jonah@privacytools.io>
+prvcy.page
+
+// Protocol Labs : https://protocol.ai/
+// Submitted by Michael Burns <noc@protocol.ai>
+*.dweb.link
 
 // Protonet GmbH : http://protonet.io
 // Submitted by Martin Meier <admin@protonet.io>
@@ -12438,9 +12959,34 @@ protonet.io
 chirurgiens-dentistes-en-france.fr
 byen.site
 
+// pubtls.org: https://www.pubtls.org
+// Submitted by Kor Nielsen <kor@pubtls.org>
+pubtls.org
+
+// Qualifio : https://qualifio.com/
+// Submitted by Xavier De Cock <xdecock@gmail.com>
+qualifioapp.com
+
+// QuickBackend: https://www.quickbackend.com
+// Submitted by Dani Biro <dani@pymet.com>
+qbuser.com
+
+// Redstar Consultants : https://www.redstarconsultants.com/
+// Submitted by Jons Slemmer <jons@redstarconsultants.com>
+instantcloud.cn
+
+// Russian Academy of Sciences
+// Submitted by Tech Support <support@rasnet.ru>
+ras.ru
+
 // QA2
 // Submitted by Daniel Dent (https://www.danieldent.com/)
 qa2.com
+
+// QCX
+// Submitted by Cassandra Beelen <cassandra@beelen.one>
+qcx.io
+*.sys.qcx.io
 
 // QNAP System Inc : https://www.qnap.com
 // Submitted by Nick Chang <nickchang@qnap.com>
@@ -12462,9 +13008,29 @@ vaporcloud.io
 rackmaze.com
 rackmaze.net
 
+// Rancher Labs, Inc : https://rancher.com
+// Submitted by Vincent Fiduccia <domains@rancher.com>
+*.on-k3s.io
+*.on-rancher.cloud
+*.on-rio.io
+
+// Read The Docs, Inc : https://www.readthedocs.org
+// Submitted by David Fischer <team@readthedocs.org>
+readthedocs.io
+
 // Red Hat, Inc. OpenShift : https://openshift.redhat.com/
 // Submitted by Tim Kramer <tkramer@rhcloud.com>
 rhcloud.com
+
+// Render : https://render.com
+// Submitted by Anurag Goel <dev@render.com>
+app.render.com
+onrender.com
+
+// Repl.it : https://repl.it
+// Submitted by Mason Clayton <mason@repl.it>
+repl.co
+repl.run
 
 // Resin.io : https://resin.io
 // Submitted by Tim Perry <tim@resin.io>
@@ -12481,6 +13047,10 @@ wellbeingzone.eu
 ptplus.fit
 wellbeingzone.co.uk
 
+// Rochester Institute of Technology : http://www.rit.edu/
+// Submitted by Jennifer Herting <jchits@rit.edu>
+git-pages.rit.edu
+
 // Sandstorm Development Group, Inc. : https://sandcats.io/
 // Submitted by Asheesh Laroia <asheesh@sandstorm.io>
 sandcats.io
@@ -12493,6 +13063,10 @@ logoip.com
 // schokokeks.org GbR : https://schokokeks.org/
 // Submitted by Hanno Böck <hanno@schokokeks.org>
 schokokeks.net
+
+// Scottish Government: https://www.gov.scot
+// Submitted by Martin Ellis <martin.ellis@gov.scot>
+gov.scot
 
 // Scry Security : http://www.scrysec.com
 // Submitted by Shante Adam <shante@skyhat.io>
@@ -12511,10 +13085,9 @@ my-firewall.org
 myfirewall.org
 spdns.org
 
-// SensioLabs, SAS : https://sensiolabs.com/
-// Submitted by Fabien Potencier <fabien.potencier@sensiolabs.com>
-*.s5y.io
-*.sensiosite.cloud
+// Senseering GmbH : https://www.senseering.de
+// Submitted by Felix Mönckemeyer <f.moenckemeyer@senseering.de>
+senseering.net
 
 // Service Online LLC : http://drs.ua/
 // Submitted by Serhii Bulakh <support@drs.ua>
@@ -12530,6 +13103,14 @@ shiftedit.io
 // Submitted by Alex Bowers <alex@shopblocks.com>
 myshopblocks.com
 
+// Shopit : https://www.shopitcommerce.com/
+// Submitted by Craig McMahon <craig@shopitcommerce.com>
+shopitsite.com
+
+// Siemens Mobility GmbH
+// Submitted by Oliver Graebner <security@mo-siemens.io>
+mo-siemens.io
+
 // SinaAppEngine : http://sae.sina.com.cn/
 // Submitted by SinaAppEngine <saesupport@sinacloud.com>
 1kapp.com
@@ -12538,11 +13119,19 @@ applinzi.com
 sinaapp.com
 vipsinaapp.com
 
+// Siteleaf : https://www.siteleaf.com/
+// Submitted by Skylar Challand <support@siteleaf.com>
+siteleaf.net
+
 // Skyhat : http://www.skyhat.io
 // Submitted by Shante Adam <shante@skyhat.io>
 bounty-full.com
 alpha.bounty-full.com
 beta.bounty-full.com
+
+// Stackhero : https://www.stackhero.io
+// Submitted by Adrien Gillon <adrien+public-suffix-list@stackhero.io>
+stackhero-network.com
 
 // staticland : https://static.land
 // Submitted by Seth Vincent <sethvincent@gmail.com>
@@ -12559,17 +13148,44 @@ apps.lair.io
 // Submitted by Reza Akhavan <spacekit.io@gmail.com>
 spacekit.io
 
-// Stackspace : https://www.stackspace.io/
-// Submitted by Lina He <info@stackspace.io>
-stackspace.space
+// SpeedPartner GmbH: https://www.speedpartner.de/
+// Submitted by Stefan Neufeind <info@speedpartner.de>
+customer.speedpartner.de
+
+// Standard Library : https://stdlib.com
+// Submitted by Jacob Lee <jacob@stdlib.com>
+api.stdlib.com
 
 // Storj Labs Inc. : https://storj.io/
 // Submitted by Philip Hutchins <hostmaster@storj.io>
 storj.farm
 
+// Studenten Net Twente : http://www.snt.utwente.nl/
+// Submitted by Silke Hofstra <syscom@snt.utwente.nl>
+utwente.io
+
+// Student-Run Computing Facility : https://www.srcf.net/
+// Submitted by Edwin Balani <sysadmins@srcf.net>
+soc.srcf.net
+user.srcf.net
+
 // Sub 6 Limited: http://www.sub6.com
 // Submitted by Dan Miller <dm@sub6.com>
 temp-dns.com
+
+// Swisscom Application Cloud: https://developer.swisscom.com
+// Submitted by Matthias.Winzeler <matthias.winzeler@swisscom.com>
+applicationcloud.io
+scapp.io
+
+// Symfony, SAS : https://symfony.com/
+// Submitted by Fabien Potencier <fabien@symfony.com>
+*.s5y.io
+*.sensiosite.cloud
+
+// Syncloud : https://syncloud.org
+// Submitted by Boris Rybalkin <syncloud@syncloud.it>
+syncloud.it
 
 // Synology, Inc. : https://www.synology.com/
 // Submitted by Rony Weng <ronyweng@synology.com>
@@ -12587,6 +13203,7 @@ i234.me
 myds.me
 synology.me
 vpnplus.to
+direct.quickconnect.to
 
 // TAIFUN Software AG : http://taifun-software.de
 // Submitted by Bjoern Henke <dev-server@taifun-software.de>
@@ -12599,12 +13216,32 @@ gdynia.pl
 med.pl
 sopot.pl
 
+// Teckids e.V. : https://www.teckids.org
+// Submitted by Dominik George <dominik.george@teckids.org>
+edugit.org
+
+// Telebit : https://telebit.cloud
+// Submitted by AJ ONeal <aj@telebit.cloud>
+telebit.app
+telebit.io
+*.telebit.xyz
+
+// The Gwiddle Foundation : https://gwiddlefoundation.org.uk
+// Submitted by Joshua Bayfield <joshua.bayfield@gwiddlefoundation.org.uk>
+gwiddle.co.uk
+
 // Thingdust AG : https://thingdust.com/
 // Submitted by Adrian Imboden <adi@thingdust.com>
+thingdustdata.com
 cust.dev.thingdust.io
 cust.disrec.thingdust.io
 cust.prod.thingdust.io
 cust.testing.thingdust.io
+
+// Tlon.io : https://tlon.io
+// Submitted by Mark Staarink <mark@tlon.io>
+arvo.network
+azimuth.network
 
 // TownNews.com : http://www.townnews.com
 // Submitted by Dustin Ward <dward@townnews.com>
@@ -12633,7 +13270,7 @@ lima-city.rocks
 webspace.rocks
 lima.zone
 
-// TransIP : htts://www.transip.nl
+// TransIP : https://www.transip.nl
 // Submitted by Rory Breuk <rbreuk@transip.nl>
 *.transurl.be
 *.transurl.eu
@@ -12662,6 +13299,7 @@ synology-ds.de
 // Uberspace : https://uberspace.de
 // Submitted by Moritz Werner <mwerner@jonaspasche.com>
 uber.space
+*.uberspace.de
 
 // UDR Limited : http://www.udr.hk.com
 // Submitted by registry <hostmaster@udr.hk.com>
@@ -12669,6 +13307,16 @@ hk.com
 hk.org
 ltd.hk
 inc.hk
+
+// United Gameserver GmbH : https://united-gameserver.de
+// Submitted by Stefan Schwarz <sysadm@united-gameserver.de>
+virtualuser.de
+virtual-user.de
+
+// urown.net : https://urown.net
+// Submitted by Hostmaster <hostmaster@urown.net>
+urown.cloud
+dnsupdate.info
 
 // .US
 // Submitted by Ed Moore <Ed.Moore@lib.de.us>
@@ -12686,6 +13334,22 @@ router.management
 // Submitted by Adnan RIHAN <hostmaster@v-info.info>
 v-info.info
 
+// Voorloper.com: https://voorloper.com
+// Submitted by Nathan van Bakel <info@voorloper.com>
+voorloper.cloud
+
+// V.UA Domain Administrator : https://domain.v.ua/
+// Submitted by Serhii Rostilo <sergey@rostilo.kiev.ua>
+v.ua
+
+// Waffle Computer Inc., Ltd. : https://docs.waffleinfo.com
+// Submitted by Masayuki Note <masa@blade.wafflecell.com>
+wafflecell.com
+
+// WebHare bv: https://www.webhare.com/
+// Submitted by Arnold Hendriks <info@webhare.com>
+*.webhare.dev
+
 // WeDeploy by Liferay, Inc. : https://www.wedeploy.com
 // Submitted by Henrique Vicente <security@wedeploy.com>
 wedeploy.io
@@ -12697,14 +13361,40 @@ wedeploy.sh
 remotewd.com
 
 // Wikimedia Labs : https://wikitech.wikimedia.org
-// Submitted by Yuvi Panda <yuvipanda@wikimedia.org>
+// Submitted by Arturo Borrero Gonzalez <aborrero@wikimedia.org>
 wmflabs.org
+toolforge.org
+wmcloud.org
+
+// WoltLab GmbH : https://www.woltlab.com
+// Submitted by Tim Düsterhus <security@woltlab.cloud>
+myforum.community
+community-pro.de
+diskussionsbereich.de
+community-pro.net
+meinforum.net
+
+// XenonCloud GbR: https://xenoncloud.net
+// Submitted by Julian Uphoff <publicsuffixlist@xenoncloud.net>
+half.host
+
+// XnBay Technology : http://www.xnbay.com/
+// Submitted by XnBay Developer <developer.xncloud@gmail.com>
+xnbay.com
+u2.xnbay.com
+u2-local.xnbay.com
 
 // XS4ALL Internet bv : https://www.xs4all.nl/
 // Submitted by Daniel Mostertman <unixbeheer+publicsuffix@xs4all.net>
 cistron.nl
 demon.nl
 xs4all.space
+
+// Yandex.Cloud LLC: https://cloud.yandex.com
+// Submitted by Alexander Lodin <security+psl@yandex-team.ru>
+yandexcloud.net
+storage.yandexcloud.net
+website.yandexcloud.net
 
 // YesCourse Pty Ltd : https://yescourse.com
 // Submitted by Atul Bhouraskar <atul@yescourse.com>
@@ -12724,6 +13414,11 @@ ybo.review
 ybo.science
 ybo.trade
 
+// Yunohost : https://yunohost.org
+// Submitted by Valentin Grimaud <security@yunohost.org>
+nohost.me
+noho.st
+
 // ZaNiC : http://www.za.net/
 // Submitted by registry <hostmaster@nic.za.net>
 za.net
@@ -12732,6 +13427,16 @@ za.org
 // Zeit, Inc. : https://zeit.domains/
 // Submitted by Olli Vanhoja <olli@zeit.co>
 now.sh
+
+// Zine EOOD : https://zine.bg/
+// Submitted by Martin Angelov <martin@zine.bg>
+bss.design
+
+// Zitcom A/S : https://www.zitcom.dk
+// Submitted by Emil Stahl <esp@zitcom.dk>
+basicserver.io
+virtualserver.io
+enterprisecloud.nu
 
 // ===END PRIVATE DOMAINS===
 END_BUILTIN_DATA

@@ -11,10 +11,12 @@ our @EXPORT  = qw/ hostname /;
 
 our $VERSION;
 
+use warnings ();
+
 our $host;
 
 BEGIN {
-    $VERSION = '1.20';
+    $VERSION = '1.23';
     {
 	local $SIG{__DIE__};
 	eval {
@@ -27,6 +29,7 @@ BEGIN {
 
 
 sub hostname {
+  @_ and croak("hostname() does not accepts arguments (it used to silently discard any provided)");
 
   # method 1 - we already know it
   return $host if defined $host;
