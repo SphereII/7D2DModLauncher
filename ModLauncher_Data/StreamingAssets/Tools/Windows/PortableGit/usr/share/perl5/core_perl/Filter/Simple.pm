@@ -2,14 +2,12 @@ package Filter::Simple;
 
 use Text::Balanced ':ALL';
 
-use vars qw{ $VERSION @EXPORT };
-
-$VERSION = '0.93';
+our $VERSION = '0.96';
 
 use Filter::Util::Call;
 use Carp;
 
-@EXPORT = qw( FILTER FILTER_ONLY );
+our @EXPORT = qw( FILTER FILTER_ONLY );
 
 
 sub import {
@@ -72,6 +70,7 @@ my %extractor_for = (
 my %selector_for = (
     all   => sub { my ($t)=@_; sub{ $_=$$_; $t->(@_); $_} },
     executable=> sub { my ($t)=@_; sub{ref() ? $_=$$_ : $t->(@_); $_} },
+    executable_no_comments=> sub { my ($t)=@_; sub{ref() ? $_=$$_ : $t->(@_); $_} },
     quotelike => sub { my ($t)=@_; sub{ref() && do{$_=$$_; $t->(@_)}; $_} },
     regex     => sub { my ($t)=@_;
                sub{ref() or return $_;

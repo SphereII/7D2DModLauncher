@@ -5,14 +5,22 @@ use strict;
 use warnings;
 use warnings::register;
 use Carp;
+use constant _IS_CYGWIN => $^O eq "cygwin";
 
 BEGIN { *warnif = \&warnings::warnif }
 
 our(@EXPORT, @EXPORT_OK, %EXPORT_TAGS);
 
-our $VERSION = '1.07';
+our $VERSION = '1.09';
 
-my @fields;
+our @fields;
+our ( $st_dev, $st_ino, $st_mode,
+    $st_nlink, $st_uid, $st_gid,
+    $st_rdev, $st_size,
+    $st_atime, $st_mtime, $st_ctime,
+    $st_blksize, $st_blocks
+);
+
 BEGIN {
     use Exporter   ();
     @EXPORT      = qw(stat lstat);
@@ -25,7 +33,6 @@ BEGIN {
     @EXPORT_OK   = ( @fields, "stat_cando" );
     %EXPORT_TAGS = ( FIELDS => [ @fields, @EXPORT ] );
 }
-use vars @fields;
 
 use Fcntl qw(S_IRUSR S_IWUSR S_IXUSR);
 
@@ -92,7 +99,7 @@ else {
         # This code basically assumes that the rwx bits of the mode are
         # the 0777 bits, but so does Perl_cando.
 
-        if ($uid == 0 && $^O ne "VMS") {
+        if (_IS_CYGWIN ? _ingroup(544, $eff) : ($uid == 0 && $^O ne "VMS")) {
             # If we're root on unix
             # not testing for executable status => all file tests are true
             return 1 if !($mode & 0111);

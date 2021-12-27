@@ -3,7 +3,7 @@ package HTTP::Message;
 use strict;
 use warnings;
 
-our $VERSION = '6.18';
+our $VERSION = '6.32';
 
 require HTTP::Headers;
 require Carp;
@@ -417,6 +417,7 @@ sub decodable
     # should match the Content-Encoding values that decoded_content can deal with
     my $self = shift;
     my @enc;
+    local $@;
     # XXX preferably we should determine if the modules are available without loading
     # them here
     eval {
@@ -781,7 +782,7 @@ HTTP::Message - HTTP style message (base class)
 
 =head1 VERSION
 
-version 6.18
+version 6.32
 
 =head1 SYNOPSIS
 
@@ -1119,7 +1120,7 @@ Gisle Aas <gisle@activestate.com>
 
 =head1 COPYRIGHT AND LICENSE
 
-This software is copyright (c) 1994-2017 by Gisle Aas.
+This software is copyright (c) 1994 by Gisle Aas.
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
