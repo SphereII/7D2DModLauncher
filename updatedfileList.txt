@@ -1,8 +1,4 @@
 Files necessary to upload to the server.
 fileList.txt
 ModLauncher_Data/globalgamemanagers
-Patcher/7D2DUpdater_Data/globalgamemanagers
-Patcher/7D2DUpdater_Data/Managed/Assembly-CSharp.dll
-Patcher/7D2DUpdater_Data/Managed/Unity.TextMeshPro.dll
-Patcher/7D2DUpdater_Data/Managed/Unity.Timeline.dll
-Patcher/7D2DUpdater_Data/Managed/UnityEngine.UI.dll
+ModLauncher_Data/Managed/Assembly-CSharp.dll
