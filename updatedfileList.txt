@@ -1,5 +1,4 @@
 Files necessary to upload to the server.
 fileList.txt
 ModLauncher_Data/globalgamemanagers
-ModLauncher_Data/resources.assets
 ModLauncher_Data/Managed/Assembly-CSharp.dll
