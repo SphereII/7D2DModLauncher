@@ -1163,3 +1163,28 @@
 [2021-09-05 21:33:08] Requesting 1 apps, 0 packages (meta data, 1024 prev attempts)
 [2021-09-05 21:33:08] UpdatesJob: finished OK, apps updated 0 (0 KB), packages updated 0 (0 KB)
 [2021-09-05 21:33:23] Starting async write C:\Users\kilpa\Documents\GitHub\7D2DModLauncher-UE\ModLauncher\Assets\StreamingAssets\Tools\Windows\Steam/appcache/appinfo.vdf (5218497 bytes)
+
+
+[2022-01-21 14:47:03] RequestAppInfoUpdate: AppIDs 7
+[2022-01-21 14:47:03] Packages changed: force all
+[2022-01-21 14:47:03] Apps changed: force all
+[2022-01-21 14:47:03] Change number 12485949->13728189, apps: 0/0, packages: 0/0
+[2022-01-21 14:47:03] Requesting 1371 apps, 307 packages (meta data, 1024 prev attempts)
+[2022-01-21 14:47:03] Requested 139 app access tokens, 59 received, 80 denied
+[2022-01-21 14:47:03] Updated SHAs with 59 new access tokens
+[2022-01-21 14:47:04] Downloaded 142 apps via HTTP, 3694 KB (902 KB compressed)
+[2022-01-21 14:47:04] Requesting 630 apps, 7 packages (full data, 1024 prev attempts)
+[2022-01-21 14:47:06] UpdatesJob: finished OK, apps updated 772 (5955 KB), packages updated 7 (10 KB)
+[2022-01-21 14:47:06] Requesting 8 apps, 0 packages (meta data, 1024 prev attempts)
+[2022-01-21 14:47:06] Requested 2 app access tokens, 1 received, 1 denied
+[2022-01-21 14:47:07] Updated SHAs with 1 new access tokens
+[2022-01-21 14:47:07] Downloaded 1 apps via HTTP, 15 KB (4 KB compressed)
+[2022-01-21 14:47:07] Requesting 6 apps, 0 packages (full data, 1024 prev attempts)
+[2022-01-21 14:47:07] UpdatesJob: finished OK, apps updated 7 (30 KB), packages updated 0 (0 KB)
+[2022-01-21 14:47:22] Starting async write C:\Users\kilpa\Documents\GitHub\7D2DModLauncher-UE\ModLauncher\Assets\StreamingAssets\Tools\Windows\Steam/appcache/appinfo.vdf (5596210 bytes)
+[2022-01-21 14:51:47] RequestAppInfoUpdate: AppIDs 251570
+[2022-01-21 14:51:47] Requesting 1 apps, 0 packages (meta data, 1024 prev attempts)
+[2022-01-21 14:51:47] UpdatesJob: finished OK, apps updated 0 (0 KB), packages updated 0 (0 KB)
+[2022-01-21 15:01:23] Packages changed: 
+[2022-01-21 15:01:23] Apps changed: 
+[2022-01-21 15:01:23] Change number 13728189->13728280, apps: 0/67, packages: 0/10

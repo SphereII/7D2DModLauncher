@@ -81,3 +81,9 @@
 
 
 [2021-09-05 21:33:08] [AppID 251570] Loaded workshop items in "c:\7d2d\alpha19\darkness_falls\darkness_falls\steamapps\workshop" (0 installed, 0 needed)
+
+
+[2022-01-21 14:46:43] Loading workshop items for 0 installed apps for user [U:1:59824344]:
+[2022-01-21 14:47:08] [AppID 241100] Subscribed items changed
+[2022-01-21 14:51:47] Loading workshop items for 0 installed apps for user [U:1:59824344]:
+[2022-01-21 14:51:47] [AppID 251570] Loaded workshop items in "d:\7_days\alpha20\undead_legacy\undead_legacy_stable\steamapps\workshop" (0 installed, 0 needed)
