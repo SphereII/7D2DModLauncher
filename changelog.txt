@@ -3,4 +3,7 @@
 
 https://7d2dmodlauncher.org
 
-* New Auto-updater
+* Fixed Copy Progress Window
+* Fixed a few git-related download issues
+* Improved Copy and Delete speeds.. I hope.
+

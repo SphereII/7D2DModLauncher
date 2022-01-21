@@ -3,8 +3,7 @@
 
 https://7d2dmodlauncher.org
 
-Version:  3.0.2.25
-
-* New Auto-updater
-* Copy tweaks for creating new copies of the game.
+* Fixed Copy Progress Window
+* Fixed a few git-related download issues
+* Improved Copy and Delete speeds.. I hope.
 
