@@ -3,7 +3,6 @@
 
 https://7d2dmodlauncher.org
 
-* Fixed Copy Progress Window
-* Fixed a few git-related download issues
-* Improved Copy and Delete speeds.. I hope.
+* Fixed EAC / Non-EAC
+* Added Settings to Exit Mod Launcher when game starts.
 
