@@ -3,6 +3,5 @@
 
 https://7d2dmodlauncher.org
 
-* Fixed EAC / Non-EAC
-* Added Settings to Exit Mod Launcher when game starts.
+* Fixed an issue where the description was not showing up.
 

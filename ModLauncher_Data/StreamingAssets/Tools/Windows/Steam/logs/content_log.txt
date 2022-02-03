@@ -1642,3 +1642,6 @@
 [2022-01-21 15:11:25] AppID 251570 state changed : Fully Installed,Update Queued,
 [2022-01-21 15:11:25] AppID 251570 state changed : Fully Installed,
 [2022-01-21 15:11:25] AppID 251570 scheduler finished : removed from schedule (result No Error, state 0xc) 
+
+
+[2022-02-02 12:42:19] Loaded 0 apps from install folder "C:\Users\kilpa\Documents\GitHub\7D2DModLauncher-UE\ModLauncher\Assets\StreamingAssets\Tools\Windows\Steam\steamapps\appmanifest_*.acf".

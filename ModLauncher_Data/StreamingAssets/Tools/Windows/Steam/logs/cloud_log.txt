@@ -657,3 +657,14 @@
 [2022-01-21 14:47:07] [Roaming Config] OnRemoteStorageSyncedClient() - result OK
 [2022-01-21 14:47:07] [AppID 7] YldWriteCacheDirectoryToFile - saved to 'C:\Users\kilpa\Documents\GitHub\7D2DModLauncher-UE\ModLauncher\Assets\StreamingAssets\Tools\Windows\Steam/userdata/59824344/7/remotecache.vdf'
 [2022-01-21 14:57:03] [Roaming Config] PerformSyncCloud - all sync'd up
+
+
+[2022-02-02 12:42:19] [AppID 7] Starting sync (init,)
+[2022-02-02 12:42:19] [AppID 7] AutoCloud checking local state for user 59824344
+[2022-02-02 12:42:19] [U:1:59824344] [AppID 7] Init cache request complete
+[2022-02-02 12:42:19] [AppID 7] Starting sync (init,)
+[2022-02-02 12:42:19] [AppID 7] AutoCloud checking local state for user 59824344
+[2022-02-02 12:42:19] [U:1:59824344] [AppID 7] Init cache request complete
+[2022-02-02 12:42:42] [AppID 7] Starting sync (init,)
+[2022-02-02 12:42:42] [AppID 7] AutoCloud checking local state for user 59824344
+[2022-02-02 12:42:42] [U:1:59824344] [AppID 7] Init cache request complete
