@@ -2,7 +2,8 @@ Files necessary to upload to the server.
 fileList.txt
 changelog.txt
 ModLauncher_Data/globalgamemanagers
-ModLauncher_Data/globalgamemanagers.assets
+ModLauncher_Data/level0
+ModLauncher_Data/level0.resS
 ModLauncher_Data/level1
-ModLauncher_Data/Managed/Assembly-CSharp.dll
+ModLauncher_Data/resources.assets
 Patcher/changelog.txt
