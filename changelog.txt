@@ -3,5 +3,7 @@
 
 https://7d2dmodlauncher.org
 
-* Fixed an issue where the description was not showing up.
+* Added error detection invalid folders
+* Fixed an issue where notifications weren't popping up
+* fixed version number. Finally.
 
