@@ -87,6 +87,3 @@
 [2022-01-21 14:47:08] [AppID 241100] Subscribed items changed
 [2022-01-21 14:51:47] Loading workshop items for 0 installed apps for user [U:1:59824344]:
 [2022-01-21 14:51:47] [AppID 251570] Loaded workshop items in "d:\7_days\alpha20\undead_legacy\undead_legacy_stable\steamapps\workshop" (0 installed, 0 needed)
-
-
-[2022-02-02 12:42:19] Loading workshop items for 0 installed apps for user [U:1:59824344]:
