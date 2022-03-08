@@ -3,7 +3,6 @@
 
 https://7d2dmodlauncher.org
 
-* Added error detection invalid folders
-* Fixed an issue where notifications weren't popping up
-* fixed version number. Finally.
-
+* On exit, a Logs.zip file will be created in the ModLauncher's folder with the Mod Launcher log + game log
+* Reduced re-try amount for failed listings.
+* Fixed error when steam was not in the default path.

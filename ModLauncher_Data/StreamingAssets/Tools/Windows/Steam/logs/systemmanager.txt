@@ -270,8 +270,3 @@
 [2022-01-21 14:46:43] Inilializing System Manager
 [2022-01-21 14:46:43] Suspend inhibited
 [2022-01-21 15:11:25] Suspend inhibit released
-
-
-[2022-02-02 12:42:18] Inilializing System Manager
-[2022-02-02 12:42:18] Suspend inhibited
-[2022-02-02 12:42:43] Suspend inhibit released
