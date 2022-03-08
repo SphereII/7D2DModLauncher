@@ -1064,3 +1064,19 @@
 [2022-01-21 14:46:43] Verification complete
 [2022-01-21 14:47:04] Clearing cached metrics (C:\Users\kilpa\Documents\GitHub\7D2DModLauncher-UE\ModLauncher\Assets\StreamingAssets\Tools\Windows\Steam\package\steam_cmd_metrics.bin)
 [2022-01-21 15:11:26] Shutdown
+
+
+[2022-02-02 12:42:15] Startup - updater built Jan 16 2022 09:36:39
+[2022-02-02 12:42:15] Using the following download hosts for Public, Realm steamglobal
+[2022-02-02 12:42:15] 1. https://cdn.cloudflare.steamstatic.com, /client/, Realm 'steamglobal', weight was 100, source = 'update_hosts_cached.vdf'
+[2022-02-02 12:42:15] 2. https://cdn.akamai.steamstatic.com, /client/, Realm 'steamglobal', weight was 100, source = 'update_hosts_cached.vdf'
+[2022-02-02 12:42:15] 3. http://media.steampowered.com, /client/, Realm 'steamglobal', weight was 1, source = 'baked in'
+[2022-02-02 12:42:15] Checking for update on startup
+[2022-02-02 12:42:15] Checking for available updates...
+[2022-02-02 12:42:15] Downloading manifest: https://cdn.cloudflare.steamstatic.com/client/steam_cmd_win32
+[2022-02-02 12:42:16] Download skipped: /client/steam_cmd_win32 version 1642451655, installed version 1642451655, existing pending version 0
+[2022-02-02 12:42:16] Nothing to do
+[2022-02-02 12:42:16] Verifying installation...
+[2022-02-02 12:42:16] Performing checksum verification of executable files
+[2022-02-02 12:42:18] Verification complete
+[2022-02-02 12:42:44] Shutdown
