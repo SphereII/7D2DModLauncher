@@ -8,3 +8,4 @@ ModLauncher_Data/globalgamemanagers.assets
 ModLauncher_Data/level1
 ModLauncher_Data/resources.assets
 ModLauncher_Data/Managed/Assembly-CSharp.dll
+Patcher/Patcher_Data/Managed/Assembly-CSharp.dll
