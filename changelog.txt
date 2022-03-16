@@ -1,8 +1,22 @@
 =========================
 7D2D Mod Launcher by sphereii
 
+If you run into issues with the Mod Launcher, exit the mod launcher. This will make a logs.zip fle in the same folder as the ModLauncher.exe. Share this zip on discord for help.
+
 https://7d2dmodlauncher.org
 
-* On exit, a Logs.zip file will be created in the ModLauncher's folder with the Mod Launcher log + game log
-* Reduced re-try amount for failed listings.
-* Fixed error when steam was not in the default path.
+* Fixed an issue with the Steam Password not being passed through consistently.
+* Fixed an issue where a non-existing game copy could be used.
+* Fixed an issue with downloading modlets from gitlab (vehicle packs, etc).
+* Cleaned up a few UI issues.
+* Added optional command parameters to mods  (-language=, etc).
+* Added screenshot of the mod launcher for the logs.zip.
+* Added an extract check for the OPEN URL option.
+* Added a runas when starting the game for it to more accurately detect Steam is running.
+* Fixed an issue with the current mod listing not scrolling to the top, leading to confusion.
+
+Current Bugs:
+
+There are a few bugs that we are still tracking, and need more information on.
+
+* Sometimes when making a game copy, you will get a Cannot Load Mono error.
