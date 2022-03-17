@@ -87,3 +87,12 @@
 [2022-01-21 14:47:08] [AppID 241100] Subscribed items changed
 [2022-01-21 14:51:47] Loading workshop items for 0 installed apps for user [U:1:59824344]:
 [2022-01-21 14:51:47] [AppID 251570] Loaded workshop items in "d:\7_days\alpha20\undead_legacy\undead_legacy_stable\steamapps\workshop" (0 installed, 0 needed)
+
+
+[2022-03-17 10:59:34] Loading workshop items for 0 installed apps for user [U:1:59824344]:
+
+
+[2022-03-17 10:59:57] Loading workshop items for 0 installed apps for user [U:1:59824344]:
+[2022-03-17 10:59:59] [AppID 241100] Subscribed items changed
+[2022-03-17 11:00:02] Loading workshop items for 0 installed apps for user [U:1:59824344]:
+[2022-03-17 11:00:03] [AppID 251570] Loaded workshop items in "c:\7d2d\alpha20\better_vanilla\better_vanilla_a20\steamapps\workshop" (0 installed, 0 needed)

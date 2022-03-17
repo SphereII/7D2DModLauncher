@@ -657,3 +657,45 @@
 [2022-01-21 14:47:07] [Roaming Config] OnRemoteStorageSyncedClient() - result OK
 [2022-01-21 14:47:07] [AppID 7] YldWriteCacheDirectoryToFile - saved to 'C:\Users\kilpa\Documents\GitHub\7D2DModLauncher-UE\ModLauncher\Assets\StreamingAssets\Tools\Windows\Steam/userdata/59824344/7/remotecache.vdf'
 [2022-01-21 14:57:03] [Roaming Config] PerformSyncCloud - all sync'd up
+
+
+[2022-03-17 10:59:34] [AppID 7] Starting sync (init,)
+[2022-03-17 10:59:34] [AppID 7] AutoCloud checking local state for user 59824344
+[2022-03-17 10:59:34] [AppID 7] (ValidateCache) File 'C:\Users\kilpa\Documents\repos\7D2DModLauncher-UE\ModLauncher\Assets\StreamingAssets\Tools\Windows\Steam\userdata\59824344\7\remote\serverbrowser_hist.vdf' timestamp or SHA mismatch with cache - setting local changes
+[2022-03-17 10:59:34] [AppID 7] (ValidateCache) File 'C:\Users\kilpa\Documents\repos\7D2DModLauncher-UE\ModLauncher\Assets\StreamingAssets\Tools\Windows\Steam\userdata\59824344\7\remote\sharedconfig.vdf' timestamp or SHA mismatch with cache - setting local changes
+[2022-03-17 10:59:34] [U:1:59824344] [AppID 7] Init cache request complete
+[2022-03-17 10:59:34] [AppID 7] YldWriteCacheDirectoryToFile - saved to 'C:\Users\kilpa\Documents\repos\7D2DModLauncher-UE\ModLauncher\Assets\StreamingAssets\Tools\Windows\Steam/userdata/59824344/7/remotecache.vdf'
+
+
+[2022-03-17 10:59:56] [AppID 7] Starting sync (init,)
+[2022-03-17 10:59:57] [AppID 7] AutoCloud checking local state for user 59824344
+[2022-03-17 10:59:57] [U:1:59824344] [AppID 7] Init cache request complete
+[2022-03-17 10:59:57] [AppID 7] YldWriteCacheDirectoryToFile - saved to 'C:\Users\kilpa\Documents\repos\7D2DModLauncher-UE\ModLauncher\Assets\StreamingAssets\Tools\Windows\Steam/userdata/59824344/7/remotecache.vdf'
+[2022-03-17 10:59:58] [AppID 7] Starting sync (down,)
+[2022-03-17 10:59:58] [AppID 7] Attempting to sync from local change number '0' to global change number '13963018983963718718'
+[2022-03-17 10:59:58] [AppID 7] serverbrowser_hist.vdf has local changes but mismatch - creating a conflict. Local/Remote SHA: 915e3533c1158e0590212e86756cb8e297fbac0e / 715043312b1cda4b9e247e96b05afb40573bda37, Timestamps: 1645967867 / 1647392071, persist state: 0 / 0
+[2022-03-17 10:59:58] [AppID 7] sharedconfig.vdf has local changes but mismatch - creating a conflict. Local/Remote SHA: 68e2606acdefdb45f411207ad5bb47f1da380e20 / e4a56fa0b4681454d4568889b37794a38a09d83e, Timestamps: 1645967867 / 1646616422, persist state: 0 / 0
+[2022-03-17 10:59:58] [AppID 7] Sync conflict for file serverbrowser_hist.vdf
+[2022-03-17 10:59:58] [AppID 7] Sync conflict for file sharedconfig.vdf
+[2022-03-17 10:59:58] [AppID 7] Download failed due to conflicts in build list
+[2022-03-17 10:59:58] [Roaming Config] OnRemoteStorageSyncedClient() - result Remote File Conflict
+[2022-03-17 10:59:58] [AppID 7] YldWriteCacheDirectoryToFile - saved to 'C:\Users\kilpa\Documents\repos\7D2DModLauncher-UE\ModLauncher\Assets\StreamingAssets\Tools\Windows\Steam/userdata/59824344/7/remotecache.vdf'
+[2022-03-17 11:00:57] [Roaming Config] PerformSyncCloud - conflict detected, accepting remote files
+[2022-03-17 11:00:57] [AppID 7] Starting sync (down,resolve,)
+[2022-03-17 11:00:58] [AppID 7] Attempting to sync from local change number '0' to global change number '13963018983963718718'
+[2022-03-17 11:00:58] [AppID 7] serverbrowser_hist.vdf already marked as conflicting. Local/Remote SHA: 915e3533c1158e0590212e86756cb8e297fbac0e / 715043312b1cda4b9e247e96b05afb40573bda37, Local/Remote persist state: 0 / 0
+[2022-03-17 11:00:58] [AppID 7] sharedconfig.vdf already marked as conflicting. Local/Remote SHA: 68e2606acdefdb45f411207ad5bb47f1da380e20 / e4a56fa0b4681454d4568889b37794a38a09d83e, Local/Remote persist state: 0 / 0
+[2022-03-17 11:00:58] [AppID 7] Resolving file serverbrowser_hist.vdf from state 4, bUseLocal = false
+[2022-03-17 11:00:58] [AppID 7] Resolving file serverbrowser_hist.vdf.meta from state 1 - synchronized, leaving
+[2022-03-17 11:00:58] [AppID 7] Resolving file sharedconfig.vdf from state 4, bUseLocal = false
+[2022-03-17 11:00:58] [AppID 7] Resolving file sharedconfig.vdf.meta from state 1 - synchronized, leaving
+[2022-03-17 11:00:58] [AppID 7] Need to download file serverbrowser_hist.vdf
+[2022-03-17 11:00:58] [AppID 7] Skipping download of file sharedconfig.vdf to our platform
+[2022-03-17 11:00:58] [AppID 7] HTTP download for file 'serverbrowser_hist.vdf' from host 'steamcloud-yyz.s3.dualstack.ca-central-1.amazonaws.com' beginning. . .
+[2022-03-17 11:00:59] [AppID 7] HTTP download for file 'serverbrowser_hist.vdf' from host 'steamcloud-yyz.s3.dualstack.ca-central-1.amazonaws.com' - Success.
+[2022-03-17 11:00:59] [AppID 7] Download OK for file serverbrowser_hist.vdf
+[2022-03-17 11:00:59] [AppID 7] Download complete, result OK
+[2022-03-17 11:00:59] [Roaming Config] OnRemoteStorageConflictResolution - result OK
+[2022-03-17 11:00:59] [AppID 7] Successfully synced to ChangeNumber 13963018983963718718
+[2022-03-17 11:01:00] [AppID 7] YldWriteCacheDirectoryToFile - saved to 'C:\Users\kilpa\Documents\repos\7D2DModLauncher-UE\ModLauncher\Assets\StreamingAssets\Tools\Windows\Steam/userdata/59824344/7/remotecache.vdf'
+[2022-03-17 11:01:57] [Roaming Config] PerformSyncCloud - all sync'd up

@@ -13,6 +13,7 @@ https://7d2dmodlauncher.org
 * Added screenshot of the mod launcher for the logs.zip.
 * Added an extract check for the OPEN URL option.
 * Added a runas when starting the game for it to more accurately detect Steam is running.
+* Fixed an issue with the current mod listing not scrolling to the top, leading to confusion.
 
 Current Bugs:
 

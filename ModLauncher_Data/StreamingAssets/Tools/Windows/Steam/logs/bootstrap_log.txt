@@ -1064,3 +1064,147 @@
 [2022-01-21 14:46:43] Verification complete
 [2022-01-21 14:47:04] Clearing cached metrics (C:\Users\kilpa\Documents\GitHub\7D2DModLauncher-UE\ModLauncher\Assets\StreamingAssets\Tools\Windows\Steam\package\steam_cmd_metrics.bin)
 [2022-01-21 15:11:26] Shutdown
+
+
+[2022-03-17 10:37:59] Startup - updater built Jan 16 2022 09:36:39
+[2022-03-17 10:37:59] Using the following download hosts for Public, Realm steamglobal
+[2022-03-17 10:37:59] 1. https://cdn.akamai.steamstatic.com, /client/, Realm 'steamglobal', weight was 100, source = 'update_hosts_cached.vdf'
+[2022-03-17 10:37:59] 2. https://cdn.cloudflare.steamstatic.com, /client/, Realm 'steamglobal', weight was 100, source = 'update_hosts_cached.vdf'
+[2022-03-17 10:37:59] 3. http://media.steampowered.com, /client/, Realm 'steamglobal', weight was 1, source = 'baked in'
+[2022-03-17 10:37:59] Checking for update on startup
+[2022-03-17 10:37:59] Checking for available updates...
+[2022-03-17 10:37:59] Downloading manifest: https://cdn.akamai.steamstatic.com/client/steam_cmd_win32
+[2022-03-17 10:38:01] Downloaded new manifest: /client/steam_cmd_win32 version 1647446802, installed version 1642451655, existing pending version 0
+[2022-03-17 10:38:01] Package file steamcmd_public_all.zip.2d2f199752a2914b5f17225d5583453f053a4778 missing or incorrect size
+[2022-03-17 10:38:01] Package file steamcmd_bins_win32.zip.vz.477ec855bda8429971c6a9e054d2d5e7e6cca0d0_6189350 missing or incorrect size
+[2022-03-17 10:38:01] Package file steamcmd_steamservice_win32.zip.vz.e9acc775a0e7615c751dc13391f234d0dd1a8769_1684112 missing or incorrect size
+[2022-03-17 10:38:01] Package file steamcmd_steamerrorreporter_win32.zip.7562b5eaf1defda9b7b22d094bf721c4cd586252 missing or incorrect size
+[2022-03-17 10:38:01] Package file steamcmd_siteserverui_win32.zip.vz.2a7b82fa486efa40b79446319f11b68b94cb5642_33629486 missing or incorrect size
+[2022-03-17 10:38:01] Package file steamcmd_win32.zip.vz.4b3bbbd7a4750fe856da1ef72fbd0655ae636e0a_1684407 missing or incorrect size
+[2022-03-17 10:38:01] Add pending download: https://cdn.akamai.steamstatic.com/client/steamcmd_public_all.zip.2d2f199752a2914b5f17225d5583453f053a4778
+[2022-03-17 10:38:01] Add pending download: https://cdn.akamai.steamstatic.com/client/steamcmd_bins_win32.zip.vz.477ec855bda8429971c6a9e054d2d5e7e6cca0d0_6189350
+[2022-03-17 10:38:01] Add pending download: https://cdn.akamai.steamstatic.com/client/steamcmd_steamservice_win32.zip.vz.e9acc775a0e7615c751dc13391f234d0dd1a8769_1684112
+[2022-03-17 10:38:01] Add pending download: https://cdn.akamai.steamstatic.com/client/steamcmd_steamerrorreporter_win32.zip.7562b5eaf1defda9b7b22d094bf721c4cd586252
+[2022-03-17 10:38:01] Add pending download: https://cdn.akamai.steamstatic.com/client/steamcmd_siteserverui_win32.zip.vz.2a7b82fa486efa40b79446319f11b68b94cb5642_33629486
+[2022-03-17 10:38:01] Add pending download: https://cdn.akamai.steamstatic.com/client/steamcmd_win32.zip.vz.4b3bbbd7a4750fe856da1ef72fbd0655ae636e0a_1684407
+[2022-03-17 10:38:01] Downloading update (0 of 42,402 KB)...
+[2022-03-17 10:38:02] Downloading update (64 of 42,402 KB)...
+[2022-03-17 10:38:02] Downloading update (227 of 42,402 KB)...
+[2022-03-17 10:38:02] Downloading update (406 of 42,402 KB)...
+[2022-03-17 10:38:02] Downloading update (1,216 of 42,402 KB)...
+[2022-03-17 10:38:03] Downloading update (3,177 of 42,402 KB)...
+[2022-03-17 10:38:03] Downloading update (3,324 of 42,402 KB)...
+[2022-03-17 10:38:03] Downloading update (4,660 of 42,402 KB)...
+[2022-03-17 10:38:03] Downloading update (5,996 of 42,402 KB)...
+[2022-03-17 10:38:04] Downloading update (9,949 of 42,402 KB)...
+[2022-03-17 10:38:04] Downloading update (12,192 of 42,402 KB)...
+[2022-03-17 10:38:04] Downloading update (14,918 of 42,402 KB)...
+[2022-03-17 10:38:04] Downloading update (15,896 of 42,402 KB)...
+[2022-03-17 10:38:05] Downloading update (18,195 of 42,402 KB)...
+[2022-03-17 10:38:05] Downloading update (21,162 of 42,402 KB)...
+[2022-03-17 10:38:05] Downloading update (25,949 of 42,402 KB)...
+[2022-03-17 10:38:05] Downloading update (27,245 of 42,402 KB)...
+[2022-03-17 10:38:06] Downloading update (30,830 of 42,402 KB)...
+[2022-03-17 10:38:06] Downloading update (33,176 of 42,402 KB)...
+[2022-03-17 10:38:06] Downloading update (35,523 of 42,402 KB)...
+[2022-03-17 10:38:06] Downloading update (36,914 of 42,402 KB)...
+[2022-03-17 10:38:07] Downloading update (40,064 of 42,402 KB)...
+[2022-03-17 10:38:07] Downloading update (42,116 of 42,402 KB)...
+[2022-03-17 10:38:08] Downloading update (42,402 of 42,402 KB)...
+[2022-03-17 10:38:08] Download complete.
+[2022-03-17 10:38:08] Saving metrics to disk (C:\Users\kilpa\Documents\repos\7D2DModLauncher-UE\ModLauncher\Assets\StreamingAssets\Tools\Windows\Steam\package\steam_cmd_metrics.bin)
+[2022-03-17 10:38:08] uninstalled manifest found in C:\Users\kilpa\Documents\repos\7D2DModLauncher-UE\ModLauncher\Assets\StreamingAssets\Tools\Windows\Steam\package\steam_cmd_win32 (1).
+[2022-03-17 10:38:08] Found pending update
+[2022-03-17 10:38:08] Installing update...
+[2022-03-17 10:38:08] Extracting package...
+[2022-03-17 10:38:11] Installing update...
+[2022-03-17 10:38:11] Committing NTFS transaction (0 non-transactional backup files)
+[2022-03-17 10:38:11] Cleaning up...
+[2022-03-17 10:38:11] Update complete, launching Steamcmd...
+[2022-03-17 10:38:11] Shutdown
+
+
+[2022-03-17 10:38:11] Startup - updater built Mar 14 2022 12:50:27
+[2022-03-17 10:38:12] Loading cached metrics from disk (C:\Users\kilpa\Documents\repos\7D2DModLauncher-UE\ModLauncher\Assets\StreamingAssets\Tools\Windows\Steam\package\steam_cmd_metrics.bin)
+[2022-03-17 10:38:12] Using the following download hosts for Public, Realm steamglobal
+[2022-03-17 10:38:12] 1. https://cdn.akamai.steamstatic.com, /client/, Realm 'steamglobal', weight was 100, source = 'update_hosts_cached.vdf'
+[2022-03-17 10:38:12] 2. https://cdn.cloudflare.steamstatic.com, /client/, Realm 'steamglobal', weight was 100, source = 'update_hosts_cached.vdf'
+[2022-03-17 10:38:12] 3. http://media.steampowered.com, /client/, Realm 'steamglobal', weight was 1, source = 'baked in'
+[2022-03-17 10:38:12] Checking for update on startup
+[2022-03-17 10:38:12] Checking for available updates...
+[2022-03-17 10:38:12] Downloading manifest: https://cdn.akamai.steamstatic.com/client/steam_cmd_win32
+[2022-03-17 10:38:13] Download skipped: /client/steam_cmd_win32 version 1647446802, installed version 1647446802, existing pending version 0
+[2022-03-17 10:38:13] Nothing to do
+[2022-03-17 10:38:13] Verifying installation...
+[2022-03-17 10:38:13] Performing checksum verification of executable files
+[2022-03-17 10:38:16] Verification complete
+[2022-03-17 10:38:21] Shutdown
+
+
+[2022-03-17 10:54:22] Startup - updater built Mar 14 2022 12:50:27
+[2022-03-17 10:54:23] Loading cached metrics from disk (C:\Users\kilpa\Documents\repos\7D2DModLauncher-UE\ModLauncher\Assets\StreamingAssets\Tools\Windows\Steam\package\steam_cmd_metrics.bin)
+[2022-03-17 10:54:23] Using the following download hosts for Public, Realm steamglobal
+[2022-03-17 10:54:23] 1. https://cdn.cloudflare.steamstatic.com, /client/, Realm 'steamglobal', weight was 100, source = 'update_hosts_cached.vdf'
+[2022-03-17 10:54:23] 2. https://cdn.akamai.steamstatic.com, /client/, Realm 'steamglobal', weight was 100, source = 'update_hosts_cached.vdf'
+[2022-03-17 10:54:23] 3. http://media.steampowered.com, /client/, Realm 'steamglobal', weight was 1, source = 'baked in'
+[2022-03-17 10:54:23] Checking for update on startup
+[2022-03-17 10:54:23] Checking for available updates...
+[2022-03-17 10:54:23] Downloading manifest: https://cdn.cloudflare.steamstatic.com/client/steam_cmd_win32
+[2022-03-17 10:54:23] Download skipped: /client/steam_cmd_win32 version 1647446802, installed version 1647446802, existing pending version 0
+[2022-03-17 10:54:23] Nothing to do
+[2022-03-17 10:54:23] Verifying installation...
+[2022-03-17 10:54:23] Performing checksum verification of executable files
+[2022-03-17 10:54:24] Verification complete
+[2022-03-17 10:54:26] Shutdown
+
+
+[2022-03-17 10:56:50] Startup - updater built Mar 14 2022 12:50:27
+[2022-03-17 10:56:50] Loading cached metrics from disk (C:\Users\kilpa\Documents\repos\7D2DModLauncher-UE\ModLauncher\Assets\StreamingAssets\Tools\Windows\Steam\package\steam_cmd_metrics.bin)
+[2022-03-17 10:56:50] Using the following download hosts for Public, Realm steamglobal
+[2022-03-17 10:56:50] 1. https://cdn.akamai.steamstatic.com, /client/, Realm 'steamglobal', weight was 100, source = 'update_hosts_cached.vdf'
+[2022-03-17 10:56:50] 2. https://cdn.cloudflare.steamstatic.com, /client/, Realm 'steamglobal', weight was 100, source = 'update_hosts_cached.vdf'
+[2022-03-17 10:56:50] 3. http://media.steampowered.com, /client/, Realm 'steamglobal', weight was 1, source = 'baked in'
+[2022-03-17 10:56:50] Checking for update on startup
+[2022-03-17 10:56:50] Checking for available updates...
+[2022-03-17 10:56:50] Downloading manifest: https://cdn.akamai.steamstatic.com/client/steam_cmd_win32
+[2022-03-17 10:56:51] Download skipped: /client/steam_cmd_win32 version 1647446802, installed version 1647446802, existing pending version 0
+[2022-03-17 10:56:51] Nothing to do
+[2022-03-17 10:56:51] Verifying installation...
+[2022-03-17 10:56:51] Performing checksum verification of executable files
+[2022-03-17 10:56:51] Verification complete
+[2022-03-17 10:56:53] Shutdown
+
+
+[2022-03-17 10:59:32] Startup - updater built Mar 14 2022 12:50:27
+[2022-03-17 10:59:32] Loading cached metrics from disk (C:\Users\kilpa\Documents\repos\7D2DModLauncher-UE\ModLauncher\Assets\StreamingAssets\Tools\Windows\Steam\package\steam_cmd_metrics.bin)
+[2022-03-17 10:59:32] Using the following download hosts for Public, Realm steamglobal
+[2022-03-17 10:59:32] 1. https://cdn.akamai.steamstatic.com, /client/, Realm 'steamglobal', weight was 100, source = 'update_hosts_cached.vdf'
+[2022-03-17 10:59:32] 2. https://cdn.cloudflare.steamstatic.com, /client/, Realm 'steamglobal', weight was 100, source = 'update_hosts_cached.vdf'
+[2022-03-17 10:59:32] 3. http://media.steampowered.com, /client/, Realm 'steamglobal', weight was 1, source = 'baked in'
+[2022-03-17 10:59:32] Checking for update on startup
+[2022-03-17 10:59:32] Checking for available updates...
+[2022-03-17 10:59:32] Downloading manifest: https://cdn.akamai.steamstatic.com/client/steam_cmd_win32
+[2022-03-17 10:59:33] Download skipped: /client/steam_cmd_win32 version 1647446802, installed version 1647446802, existing pending version 0
+[2022-03-17 10:59:33] Nothing to do
+[2022-03-17 10:59:33] Verifying installation...
+[2022-03-17 10:59:33] Performing checksum verification of executable files
+[2022-03-17 10:59:33] Verification complete
+[2022-03-17 10:59:37] Shutdown
+
+
+[2022-03-17 10:59:53] Startup - updater built Mar 14 2022 12:50:27
+[2022-03-17 10:59:53] Loading cached metrics from disk (C:\Users\kilpa\Documents\repos\7D2DModLauncher-UE\ModLauncher\Assets\StreamingAssets\Tools\Windows\Steam\package\steam_cmd_metrics.bin)
+[2022-03-17 10:59:53] Using the following download hosts for Public, Realm steamglobal
+[2022-03-17 10:59:53] 1. https://cdn.cloudflare.steamstatic.com, /client/, Realm 'steamglobal', weight was 100, source = 'update_hosts_cached.vdf'
+[2022-03-17 10:59:53] 2. https://cdn.akamai.steamstatic.com, /client/, Realm 'steamglobal', weight was 100, source = 'update_hosts_cached.vdf'
+[2022-03-17 10:59:53] 3. http://media.steampowered.com, /client/, Realm 'steamglobal', weight was 1, source = 'baked in'
+[2022-03-17 10:59:53] Checking for update on startup
+[2022-03-17 10:59:53] Checking for available updates...
+[2022-03-17 10:59:53] Downloading manifest: https://cdn.cloudflare.steamstatic.com/client/steam_cmd_win32
+[2022-03-17 10:59:54] Download skipped: /client/steam_cmd_win32 version 1647446802, installed version 1647446802, existing pending version 0
+[2022-03-17 10:59:54] Nothing to do
+[2022-03-17 10:59:54] Verifying installation...
+[2022-03-17 10:59:54] Performing checksum verification of executable files
+[2022-03-17 10:59:54] Verification complete
+[2022-03-17 10:59:57] Clearing cached metrics (C:\Users\kilpa\Documents\repos\7D2DModLauncher-UE\ModLauncher\Assets\StreamingAssets\Tools\Windows\Steam\package\steam_cmd_metrics.bin)
+[2022-03-17 11:17:09] Shutdown

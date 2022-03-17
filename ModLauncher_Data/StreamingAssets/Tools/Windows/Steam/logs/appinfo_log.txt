@@ -1188,3 +1188,35 @@
 [2022-01-21 15:01:23] Packages changed: 
 [2022-01-21 15:01:23] Apps changed: 
 [2022-01-21 15:01:23] Change number 13728189->13728280, apps: 0/67, packages: 0/10
+
+
+[2022-03-17 10:54:25] RequestAppInfoUpdate: AppIDs 251570
+
+
+[2022-03-17 10:56:51] RequestAppInfoUpdate: AppIDs 251570
+
+
+[2022-03-17 10:59:57] RequestAppInfoUpdate: AppIDs 7
+[2022-03-17 10:59:58] Packages changed: force all
+[2022-03-17 10:59:58] Apps changed: force all
+[2022-03-17 10:59:58] Change number 13728280->14253456, apps: 0/0, packages: 0/0
+[2022-03-17 10:59:58] Requesting 1378 apps, 307 packages (meta data, 1024 prev attempts)
+[2022-03-17 10:59:58] Requested 140 app access tokens, 59 received, 81 denied
+[2022-03-17 10:59:58] Updated SHAs with 59 new access tokens
+[2022-03-17 11:00:00] Downloaded 150 apps via HTTP, 3683 KB (911 KB compressed)
+[2022-03-17 11:00:00] Requesting 513 apps, 8 packages (full data, 1024 prev attempts)
+[2022-03-17 11:00:02] UpdatesJob: finished OK, apps updated 663 (5627 KB), packages updated 8 (11 KB)
+[2022-03-17 11:00:02] RequestAppInfoUpdate: AppIDs 251570
+[2022-03-17 11:00:02] Requesting 5 apps, 0 packages (meta data, 1024 prev attempts)
+[2022-03-17 11:00:02] Requested 3 app access tokens, 2 received, 1 denied
+[2022-03-17 11:00:03] Updated SHAs with 2 new access tokens
+[2022-03-17 11:00:03] Requesting 3 apps, 0 packages (full data, 1024 prev attempts)
+[2022-03-17 11:00:03] UpdatesJob: finished OK, apps updated 3 (2 KB), packages updated 0 (0 KB)
+[2022-03-17 11:00:18] Starting async write C:\Users\kilpa\Documents\repos\7D2DModLauncher-UE\ModLauncher\Assets\StreamingAssets\Tools\Windows\Steam/appcache/appinfo.vdf (5754779 bytes)
+[2022-03-17 11:14:08] Packages changed: 
+[2022-03-17 11:14:08] Apps changed: 774961=14253540,
+[2022-03-17 11:14:08] Change number 14253456->14253591, apps: 1/84, packages: 0/14
+[2022-03-17 11:14:08] Requesting 1 apps, 0 packages (meta data, 1024 prev attempts)
+[2022-03-17 11:14:09] Downloaded 1 apps via HTTP, 14 KB (3 KB compressed)
+[2022-03-17 11:14:09] UpdatesJob: finished OK, apps updated 1 (14 KB), packages updated 0 (0 KB)
+[2022-03-17 11:14:24] Starting async write C:\Users\kilpa\Documents\repos\7D2DModLauncher-UE\ModLauncher\Assets\StreamingAssets\Tools\Windows\Steam/appcache/appinfo.vdf (5754779 bytes)
