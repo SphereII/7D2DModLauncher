@@ -1,0 +1,701 @@
+
+
+[2021-06-30 07:54:47] [AppID 7] AutoCloud checking local state for user 59824344
+[2021-06-30 07:54:47] [AppID 7] Not running AutoCloud. No config data found
+[2021-06-30 07:54:47] [U:1:59824344] [AppID 7] Init cache request complete
+[2021-06-30 07:54:47] Starting sync job
+[2021-06-30 07:54:47] [AppID 7] Starting sync (init,)
+[2021-06-30 07:54:53] Starting sync job
+[2021-06-30 07:54:53] [AppID 7] Starting sync (down,)
+[2021-06-30 07:54:54] [AppID 7] Need to download file serverbrowser_hist.vdf
+[2021-06-30 07:54:54] [AppID 7] Skipping download of file sharedconfig.vdf to our platform
+[2021-06-30 07:54:54] [AppID 7] HTTP download for file 'serverbrowser_hist.vdf' from host 'steamcloud-us-west1.storage.googleapis.com' beginning. . .
+[2021-06-30 07:54:55] [AppID 7] HTTP download for file 'serverbrowser_hist.vdf' from host 'steamcloud-us-west1.storage.googleapis.com' - Success.
+[2021-06-30 07:54:55] [AppID 7] Download OK for file serverbrowser_hist.vdf
+[2021-06-30 07:54:55] [AppID 7] Download complete, result OK
+
+
+[2021-06-30 08:31:30] [AppID 7] AutoCloud checking local state for user 59824344
+[2021-06-30 08:31:30] [U:1:59824344] [AppID 7] Init cache request complete
+[2021-06-30 08:31:30] Starting sync job
+[2021-06-30 08:31:30] [AppID 7] Starting sync (init,)
+[2021-06-30 08:31:31] [AppID 7] AutoCloud checking local state for user 59824344
+[2021-06-30 08:31:31] Starting sync job
+[2021-06-30 08:31:31] [AppID 7] Starting sync (eval,)
+[2021-06-30 08:31:32] [AppID 7] Need to download file serverbrowser_hist.vdf
+[2021-06-30 08:31:32] [AppID 7] File is in sync serverbrowser_hist.vdf.meta
+[2021-06-30 08:31:32] [AppID 7] Skipping download of file sharedconfig.vdf to our platform
+[2021-06-30 08:31:32] [AppID 7] Eval complete
+[2021-06-30 08:31:32] Starting sync job
+[2021-06-30 08:31:32] [AppID 7] Starting sync (down,)
+[2021-06-30 08:31:32] [AppID 7] Need to download file serverbrowser_hist.vdf
+[2021-06-30 08:31:32] [AppID 7] Skipping download of file sharedconfig.vdf to our platform
+[2021-06-30 08:31:32] [AppID 7] HTTP download for file 'serverbrowser_hist.vdf' from host 'steamcloud-us-east1.storage.googleapis.com' beginning. . .
+[2021-06-30 08:31:32] [AppID 7] HTTP download for file 'serverbrowser_hist.vdf' from host 'steamcloud-us-east1.storage.googleapis.com' - Success.
+[2021-06-30 08:31:32] [AppID 7] Download OK for file serverbrowser_hist.vdf
+[2021-06-30 08:31:32] [AppID 7] Download complete, result OK
+[2021-06-30 08:31:32] [AppID 7] AutoCloud checking local state for user 59824344
+[2021-06-30 08:31:32] Starting sync job
+[2021-06-30 08:31:32] [AppID 7] Starting sync (eval,)
+[2021-06-30 08:31:32] [AppID 7] File is in sync serverbrowser_hist.vdf
+[2021-06-30 08:31:32] [AppID 7] File is in sync serverbrowser_hist.vdf.meta
+[2021-06-30 08:31:32] [AppID 7] Skipping download of file sharedconfig.vdf to our platform
+[2021-06-30 08:31:32] [AppID 7] Eval complete
+
+
+[2021-06-30 08:50:45] [AppID 7] AutoCloud checking local state for user 59824344
+[2021-06-30 08:50:45] [U:1:59824344] [AppID 7] Init cache request complete
+[2021-06-30 08:50:45] Starting sync job
+[2021-06-30 08:50:45] [AppID 7] Starting sync (init,)
+[2021-06-30 08:50:46] [AppID 7] AutoCloud checking local state for user 59824344
+[2021-06-30 08:50:46] Starting sync job
+[2021-06-30 08:50:46] [AppID 7] Starting sync (eval,)
+[2021-06-30 08:50:46] [AppID 7] File is in sync serverbrowser_hist.vdf
+[2021-06-30 08:50:46] [AppID 7] File is in sync serverbrowser_hist.vdf.meta
+[2021-06-30 08:50:46] [AppID 7] Skipping download of file sharedconfig.vdf to our platform
+[2021-06-30 08:50:46] [AppID 7] Eval complete
+[2021-06-30 08:50:46] Starting sync job
+[2021-06-30 08:50:46] [AppID 7] Starting sync (down,)
+[2021-06-30 08:50:46] [AppID 7] Skipping download of file sharedconfig.vdf to our platform
+[2021-06-30 08:50:46] [AppID 7] Download complete in build list
+
+
+[2021-07-01 09:03:41] [AppID 7] AutoCloud checking local state for user 59824344
+[2021-07-01 09:03:41] [U:1:59824344] [AppID 7] Init cache request complete
+[2021-07-01 09:03:41] Starting sync job
+[2021-07-01 09:03:41] [AppID 7] Starting sync (init,)
+[2021-07-01 09:03:42] [AppID 7] AutoCloud checking local state for user 59824344
+[2021-07-01 09:03:42] Starting sync job
+[2021-07-01 09:03:42] [AppID 7] Starting sync (eval,)
+[2021-07-01 09:03:42] [AppID 7] File is in sync serverbrowser_hist.vdf
+[2021-07-01 09:03:42] [AppID 7] File is in sync serverbrowser_hist.vdf.meta
+[2021-07-01 09:03:42] [AppID 7] Skipping download of file sharedconfig.vdf to our platform
+[2021-07-01 09:03:42] [AppID 7] Eval complete
+[2021-07-01 09:03:42] Starting sync job
+[2021-07-01 09:03:42] [AppID 7] Starting sync (down,)
+[2021-07-01 09:03:42] [AppID 7] Skipping download of file sharedconfig.vdf to our platform
+[2021-07-01 09:03:42] [AppID 7] Download complete in build list
+
+
+[2021-07-01 09:23:13] [AppID 7] AutoCloud checking local state for user 59824344
+[2021-07-01 09:23:13] [U:1:59824344] [AppID 7] Init cache request complete
+[2021-07-01 09:23:13] Starting sync job
+[2021-07-01 09:23:13] [AppID 7] Starting sync (init,)
+
+
+[2021-07-01 10:20:59] [AppID 7] AutoCloud checking local state for user 59824344
+[2021-07-01 10:20:59] [U:1:59824344] [AppID 7] Init cache request complete
+[2021-07-01 10:20:59] Starting sync job
+[2021-07-01 10:20:59] [AppID 7] Starting sync (init,)
+[2021-07-01 10:20:59] [AppID 7] AutoCloud checking local state for user 59824344
+[2021-07-01 10:20:59] Starting sync job
+[2021-07-01 10:20:59] [AppID 7] Starting sync (eval,)
+[2021-07-01 10:20:59] [AppID 7] Need to download file serverbrowser_hist.vdf
+[2021-07-01 10:20:59] [AppID 7] File is in sync serverbrowser_hist.vdf.meta
+[2021-07-01 10:20:59] [AppID 7] Skipping download of file sharedconfig.vdf to our platform
+[2021-07-01 10:20:59] [AppID 7] Eval complete
+[2021-07-01 10:20:59] Starting sync job
+[2021-07-01 10:20:59] [AppID 7] Starting sync (down,)
+[2021-07-01 10:20:59] [AppID 7] Need to download file serverbrowser_hist.vdf
+[2021-07-01 10:20:59] [AppID 7] Skipping download of file sharedconfig.vdf to our platform
+[2021-07-01 10:20:59] [AppID 7] HTTP download for file 'serverbrowser_hist.vdf' from host 'steamcloud-us-east1.storage.googleapis.com' beginning. . .
+[2021-07-01 10:21:00] [AppID 7] HTTP download for file 'serverbrowser_hist.vdf' from host 'steamcloud-us-east1.storage.googleapis.com' - Success.
+[2021-07-01 10:21:00] [AppID 7] Download OK for file serverbrowser_hist.vdf
+[2021-07-01 10:21:00] [AppID 7] Download complete, result OK
+[2021-07-01 10:21:00] [AppID 7] AutoCloud checking local state for user 59824344
+[2021-07-01 10:21:00] Starting sync job
+[2021-07-01 10:21:00] [AppID 7] Starting sync (eval,)
+[2021-07-01 10:21:00] [AppID 7] File is in sync serverbrowser_hist.vdf
+[2021-07-01 10:21:00] [AppID 7] File is in sync serverbrowser_hist.vdf.meta
+[2021-07-01 10:21:00] [AppID 7] Skipping download of file sharedconfig.vdf to our platform
+[2021-07-01 10:21:00] [AppID 7] Eval complete
+
+
+[2021-07-01 10:40:07] [AppID 7] AutoCloud checking local state for user 59824344
+[2021-07-01 10:40:07] [U:1:59824344] [AppID 7] Init cache request complete
+[2021-07-01 10:40:07] Starting sync job
+[2021-07-01 10:40:07] [AppID 7] Starting sync (init,)
+[2021-07-01 10:40:08] [AppID 7] AutoCloud checking local state for user 59824344
+[2021-07-01 10:40:08] Starting sync job
+[2021-07-01 10:40:08] [AppID 7] Starting sync (eval,)
+[2021-07-01 10:40:09] [AppID 7] File is in sync serverbrowser_hist.vdf
+[2021-07-01 10:40:09] [AppID 7] File is in sync serverbrowser_hist.vdf.meta
+[2021-07-01 10:40:09] [AppID 7] Skipping download of file sharedconfig.vdf to our platform
+[2021-07-01 10:40:09] [AppID 7] Eval complete
+[2021-07-01 10:40:09] Starting sync job
+[2021-07-01 10:40:09] [AppID 7] Starting sync (down,)
+[2021-07-01 10:40:09] [AppID 7] Skipping download of file sharedconfig.vdf to our platform
+[2021-07-01 10:40:09] [AppID 7] Download complete in build list
+
+
+[2021-07-14 11:54:26] [AppID 7] Starting sync (init,)
+[2021-07-14 11:54:26] [AppID 7] AutoCloud checking local state for user 59824344
+[2021-07-14 11:54:26] [U:1:59824344] [AppID 7] Init cache request complete
+[2021-07-14 11:54:27] [AppID 7] Starting sync (eval,)
+[2021-07-14 11:54:27] [AppID 7] AutoCloud checking local state for user 59824344
+[2021-07-14 11:54:27] [AppID 7] Need to download file serverbrowser_hist.vdf
+[2021-07-14 11:54:27] [AppID 7] File is in sync serverbrowser_hist.vdf.meta
+[2021-07-14 11:54:27] [AppID 7] Need to download file sharedconfig.vdf
+[2021-07-14 11:54:27] [AppID 7] Eval complete
+[2021-07-14 11:54:27] [AppID 7] Starting sync (down,)
+[2021-07-14 11:54:27] [AppID 7] Need to download file serverbrowser_hist.vdf
+[2021-07-14 11:54:27] [AppID 7] Need to download file sharedconfig.vdf
+[2021-07-14 11:54:28] [AppID 7] YldWriteCacheDirectoryToFile - saved to 'C:\Users\kilpa\Documents\GitHub\7D2DModLauncher-UE\ModLauncher\Assets\StreamingAssets\Tools\Windows\Steam/userdata/59824344/7/remotecache.vdf'
+[2021-07-14 11:54:28] [AppID 7] HTTP download for file 'serverbrowser_hist.vdf' from host 'steamcloud-us-east1.storage.googleapis.com' beginning. . .
+[2021-07-14 11:54:28] [AppID 7] HTTP download for file 'sharedconfig.vdf' from host 'steamcloud-us-west1.storage.googleapis.com' beginning. . .
+[2021-07-14 11:54:28] [AppID 7] HTTP download for file 'serverbrowser_hist.vdf' from host 'steamcloud-us-east1.storage.googleapis.com' - Success.
+[2021-07-14 11:54:28] [AppID 7] Download OK for file serverbrowser_hist.vdf
+[2021-07-14 11:54:28] [AppID 7] HTTP download for file 'sharedconfig.vdf' from host 'steamcloud-us-west1.storage.googleapis.com' - Success.
+[2021-07-14 11:54:28] [AppID 7] Download OK for file sharedconfig.vdf
+[2021-07-14 11:54:28] [AppID 7] Download complete, result OK
+[2021-07-14 11:54:28] [AppID 7] Starting sync (eval,)
+[2021-07-14 11:54:28] [AppID 7] AutoCloud checking local state for user 59824344
+[2021-07-14 11:54:28] [AppID 7] File is in sync serverbrowser_hist.vdf
+[2021-07-14 11:54:28] [AppID 7] File is in sync serverbrowser_hist.vdf.meta
+[2021-07-14 11:54:28] [AppID 7] File is in sync sharedconfig.vdf
+[2021-07-14 11:54:28] [AppID 7] Eval complete
+[2021-07-14 11:54:28] [AppID 7] YldWriteCacheDirectoryToFile - saved to 'C:\Users\kilpa\Documents\GitHub\7D2DModLauncher-UE\ModLauncher\Assets\StreamingAssets\Tools\Windows\Steam/userdata/59824344/7/remotecache.vdf'
+
+
+[2021-08-11 08:42:59] [AppID 7] Starting sync (init,)
+[2021-08-11 08:42:59] [AppID 7] AutoCloud checking local state for user 59824344
+[2021-08-11 08:42:59] [U:1:59824344] [AppID 7] Init cache request complete
+[2021-08-11 08:43:04] [AppID 7] Starting sync (eval,)
+[2021-08-11 08:43:04] [AppID 7] AutoCloud checking local state for user 59824344
+[2021-08-11 08:43:04] [AppID 7] Need to download file serverbrowser_hist.vdf
+[2021-08-11 08:43:04] [AppID 7] File is in sync serverbrowser_hist.vdf.meta
+[2021-08-11 08:43:04] [AppID 7] Need to download file sharedconfig.vdf
+[2021-08-11 08:43:04] [AppID 7] File is in sync sharedconfig.vdf.meta
+[2021-08-11 08:43:04] [AppID 7] Eval complete
+[2021-08-11 08:43:04] [AppID 7] Starting sync (down,)
+[2021-08-11 08:43:04] [AppID 7] Need to download file serverbrowser_hist.vdf
+[2021-08-11 08:43:04] [AppID 7] Need to download file sharedconfig.vdf
+[2021-08-11 08:43:04] [AppID 7] YldWriteCacheDirectoryToFile - saved to 'C:\Users\kilpa\Documents\GitHub\7D2DModLauncher-UE\ModLauncher\Assets\StreamingAssets\Tools\Windows\Steam/userdata/59824344/7/remotecache.vdf'
+[2021-08-11 08:43:05] [AppID 7] HTTP download for file 'serverbrowser_hist.vdf' from host 'steamcloudtoronto2.blob.core.windows.net' beginning. . .
+[2021-08-11 08:43:05] [AppID 7] HTTP download for file 'sharedconfig.vdf' from host 'steamcloudtoronto2.blob.core.windows.net' beginning. . .
+[2021-08-11 08:43:05] [AppID 7] HTTP download for file 'serverbrowser_hist.vdf' from host 'steamcloudtoronto2.blob.core.windows.net' - Success.
+[2021-08-11 08:43:05] [AppID 7] Download OK for file serverbrowser_hist.vdf
+[2021-08-11 08:43:05] [AppID 7] HTTP download for file 'sharedconfig.vdf' from host 'steamcloudtoronto2.blob.core.windows.net' - Success.
+[2021-08-11 08:43:05] [AppID 7] Download OK for file sharedconfig.vdf
+[2021-08-11 08:43:05] [AppID 7] Download complete, result OK
+[2021-08-11 08:43:05] [AppID 7] Starting sync (eval,)
+[2021-08-11 08:43:05] [AppID 7] AutoCloud checking local state for user 59824344
+[2021-08-11 08:43:05] [AppID 7] File is in sync serverbrowser_hist.vdf
+[2021-08-11 08:43:05] [AppID 7] File is in sync serverbrowser_hist.vdf.meta
+[2021-08-11 08:43:05] [AppID 7] File is in sync sharedconfig.vdf
+[2021-08-11 08:43:05] [AppID 7] File is in sync sharedconfig.vdf.meta
+[2021-08-11 08:43:05] [AppID 7] Eval complete
+[2021-08-11 08:43:05] [AppID 7] YldWriteCacheDirectoryToFile - saved to 'C:\Users\kilpa\Documents\GitHub\7D2DModLauncher-UE\ModLauncher\Assets\StreamingAssets\Tools\Windows\Steam/userdata/59824344/7/remotecache.vdf'
+
+
+[2021-08-11 19:48:37] [AppID 7] Starting sync (init,)
+[2021-08-11 19:48:37] [AppID 7] AutoCloud checking local state for user 59824344
+[2021-08-11 19:48:37] [U:1:59824344] [AppID 7] Init cache request complete
+[2021-08-11 19:48:39] [AppID 7] Starting sync (eval,)
+[2021-08-11 19:48:39] [AppID 7] AutoCloud checking local state for user 59824344
+[2021-08-11 19:48:39] [AppID 7] Need to download file serverbrowser_hist.vdf
+[2021-08-11 19:48:39] [AppID 7] File is in sync serverbrowser_hist.vdf.meta
+[2021-08-11 19:48:39] [AppID 7] File is in sync sharedconfig.vdf
+[2021-08-11 19:48:39] [AppID 7] File is in sync sharedconfig.vdf.meta
+[2021-08-11 19:48:39] [AppID 7] Eval complete
+[2021-08-11 19:48:39] [AppID 7] Starting sync (down,)
+[2021-08-11 19:48:39] [AppID 7] Need to download file serverbrowser_hist.vdf
+[2021-08-11 19:48:39] [AppID 7] YldWriteCacheDirectoryToFile - saved to 'C:\Users\kilpa\Documents\GitHub\7D2DModLauncher-UE\ModLauncher\Assets\StreamingAssets\Tools\Windows\Steam/userdata/59824344/7/remotecache.vdf'
+[2021-08-11 19:48:39] [AppID 7] HTTP download for file 'serverbrowser_hist.vdf' from host 'steamcloudtoronto2.blob.core.windows.net' beginning. . .
+[2021-08-11 19:48:39] [AppID 7] HTTP download for file 'serverbrowser_hist.vdf' from host 'steamcloudtoronto2.blob.core.windows.net' - Success.
+[2021-08-11 19:48:39] [AppID 7] Download OK for file serverbrowser_hist.vdf
+[2021-08-11 19:48:39] [AppID 7] Download complete, result OK
+[2021-08-11 19:48:39] [AppID 7] Starting sync (eval,)
+[2021-08-11 19:48:39] [AppID 7] AutoCloud checking local state for user 59824344
+[2021-08-11 19:48:39] [AppID 7] File is in sync serverbrowser_hist.vdf
+[2021-08-11 19:48:39] [AppID 7] File is in sync serverbrowser_hist.vdf.meta
+[2021-08-11 19:48:39] [AppID 7] File is in sync sharedconfig.vdf
+[2021-08-11 19:48:39] [AppID 7] File is in sync sharedconfig.vdf.meta
+[2021-08-11 19:48:39] [AppID 7] Eval complete
+[2021-08-11 19:48:39] [AppID 7] YldWriteCacheDirectoryToFile - saved to 'C:\Users\kilpa\Documents\GitHub\7D2DModLauncher-UE\ModLauncher\Assets\StreamingAssets\Tools\Windows\Steam/userdata/59824344/7/remotecache.vdf'
+
+
+[2021-08-11 21:16:29] [AppID 7] Starting sync (init,)
+[2021-08-11 21:16:29] [AppID 7] AutoCloud checking local state for user 59824344
+[2021-08-11 21:16:29] [U:1:59824344] [AppID 7] Init cache request complete
+[2021-08-11 21:16:31] [AppID 7] Starting sync (eval,)
+[2021-08-11 21:16:31] [AppID 7] AutoCloud checking local state for user 59824344
+[2021-08-11 21:16:31] [AppID 7] File is in sync serverbrowser_hist.vdf
+[2021-08-11 21:16:31] [AppID 7] File is in sync serverbrowser_hist.vdf.meta
+[2021-08-11 21:16:31] [AppID 7] File is in sync sharedconfig.vdf
+[2021-08-11 21:16:31] [AppID 7] File is in sync sharedconfig.vdf.meta
+[2021-08-11 21:16:31] [AppID 7] Eval complete
+[2021-08-11 21:16:31] [AppID 7] Starting sync (down,)
+[2021-08-11 21:16:31] [AppID 7] Download complete in build list
+[2021-08-11 21:16:31] [AppID 7] YldWriteCacheDirectoryToFile - saved to 'C:\Users\kilpa\Documents\GitHub\7D2DModLauncher-UE\ModLauncher\Assets\StreamingAssets\Tools\Windows\Steam/userdata/59824344/7/remotecache.vdf'
+
+
+[2021-08-12 08:53:16] [AppID 7] Starting sync (init,)
+[2021-08-12 08:53:16] [AppID 7] AutoCloud checking local state for user 59824344
+[2021-08-12 08:53:16] [U:1:59824344] [AppID 7] Init cache request complete
+[2021-08-12 08:53:21] [AppID 7] Starting sync (eval,)
+[2021-08-12 08:53:21] [AppID 7] AutoCloud checking local state for user 59824344
+[2021-08-12 08:53:21] [AppID 7] File is in sync serverbrowser_hist.vdf
+[2021-08-12 08:53:21] [AppID 7] File is in sync serverbrowser_hist.vdf.meta
+[2021-08-12 08:53:21] [AppID 7] File is in sync sharedconfig.vdf
+[2021-08-12 08:53:21] [AppID 7] File is in sync sharedconfig.vdf.meta
+[2021-08-12 08:53:21] [AppID 7] Eval complete
+[2021-08-12 08:53:21] [AppID 7] Starting sync (down,)
+[2021-08-12 08:53:21] [AppID 7] Download complete in build list
+[2021-08-12 08:53:22] [AppID 7] YldWriteCacheDirectoryToFile - saved to 'C:\Users\kilpa\Documents\GitHub\7D2DModLauncher-UE\ModLauncher\Assets\StreamingAssets\Tools\Windows\Steam/userdata/59824344/7/remotecache.vdf'
+
+
+[2021-08-12 10:11:07] [AppID 7] Starting sync (init,)
+[2021-08-12 10:11:07] [AppID 7] AutoCloud checking local state for user 59824344
+[2021-08-12 10:11:07] [U:1:59824344] [AppID 7] Init cache request complete
+[2021-08-12 10:11:08] [AppID 7] Starting sync (eval,)
+[2021-08-12 10:11:08] [AppID 7] AutoCloud checking local state for user 59824344
+[2021-08-12 10:11:08] [AppID 7] Need to download file serverbrowser_hist.vdf
+[2021-08-12 10:11:08] [AppID 7] File is in sync serverbrowser_hist.vdf.meta
+[2021-08-12 10:11:08] [AppID 7] File is in sync sharedconfig.vdf
+[2021-08-12 10:11:08] [AppID 7] File is in sync sharedconfig.vdf.meta
+[2021-08-12 10:11:08] [AppID 7] Eval complete
+[2021-08-12 10:11:08] [AppID 7] Starting sync (down,)
+[2021-08-12 10:11:08] [AppID 7] Need to download file serverbrowser_hist.vdf
+[2021-08-12 10:11:08] [AppID 7] YldWriteCacheDirectoryToFile - saved to 'C:\Users\kilpa\Documents\GitHub\7D2DModLauncher-UE\ModLauncher\Assets\StreamingAssets\Tools\Windows\Steam/userdata/59824344/7/remotecache.vdf'
+[2021-08-12 10:11:09] [AppID 7] HTTP download for file 'serverbrowser_hist.vdf' from host 'steamcloud-us-west1.storage.googleapis.com' beginning. . .
+[2021-08-12 10:11:09] [AppID 7] HTTP download for file 'serverbrowser_hist.vdf' from host 'steamcloud-us-west1.storage.googleapis.com' - Success.
+[2021-08-12 10:11:09] [AppID 7] Download OK for file serverbrowser_hist.vdf
+[2021-08-12 10:11:09] [AppID 7] Download complete, result OK
+[2021-08-12 10:11:09] [AppID 7] Starting sync (eval,)
+[2021-08-12 10:11:09] [AppID 7] AutoCloud checking local state for user 59824344
+[2021-08-12 10:11:09] [AppID 7] File is in sync serverbrowser_hist.vdf
+[2021-08-12 10:11:09] [AppID 7] File is in sync serverbrowser_hist.vdf.meta
+[2021-08-12 10:11:09] [AppID 7] File is in sync sharedconfig.vdf
+[2021-08-12 10:11:09] [AppID 7] File is in sync sharedconfig.vdf.meta
+[2021-08-12 10:11:09] [AppID 7] Eval complete
+[2021-08-12 10:11:09] [AppID 7] YldWriteCacheDirectoryToFile - saved to 'C:\Users\kilpa\Documents\GitHub\7D2DModLauncher-UE\ModLauncher\Assets\StreamingAssets\Tools\Windows\Steam/userdata/59824344/7/remotecache.vdf'
+
+
+[2021-08-12 10:25:44] [AppID 7] Starting sync (init,)
+[2021-08-12 10:25:44] [AppID 7] AutoCloud checking local state for user 59824344
+[2021-08-12 10:25:44] [U:1:59824344] [AppID 7] Init cache request complete
+
+
+[2021-08-12 10:26:34] [AppID 7] Starting sync (init,)
+[2021-08-12 10:26:34] [AppID 7] AutoCloud checking local state for user 59824344
+[2021-08-12 10:26:34] [U:1:59824344] [AppID 7] Init cache request complete
+[2021-08-12 10:26:35] [AppID 7] Starting sync (eval,)
+[2021-08-12 10:26:35] [AppID 7] AutoCloud checking local state for user 59824344
+[2021-08-12 10:26:35] [AppID 7] File is in sync serverbrowser_hist.vdf
+[2021-08-12 10:26:35] [AppID 7] File is in sync serverbrowser_hist.vdf.meta
+[2021-08-12 10:26:35] [AppID 7] File is in sync sharedconfig.vdf
+[2021-08-12 10:26:35] [AppID 7] File is in sync sharedconfig.vdf.meta
+[2021-08-12 10:26:35] [AppID 7] Eval complete
+[2021-08-12 10:26:35] [AppID 7] Starting sync (down,)
+[2021-08-12 10:26:35] [AppID 7] Download complete in build list
+[2021-08-12 10:26:35] [AppID 7] YldWriteCacheDirectoryToFile - saved to 'C:\Users\kilpa\Documents\GitHub\7D2DModLauncher-UE\ModLauncher\Assets\StreamingAssets\Tools\Windows\Steam/userdata/59824344/7/remotecache.vdf'
+[2021-08-12 10:26:35] [AppID 7] YldWriteCacheDirectoryToFile - saved to 'C:\Users\kilpa\Documents\GitHub\7D2DModLauncher-UE\ModLauncher\Assets\StreamingAssets\Tools\Windows\Steam/userdata/59824344/7/remotecache.vdf'
+
+
+[2021-08-12 10:58:08] [AppID 7] Starting sync (init,)
+[2021-08-12 10:58:08] [AppID 7] AutoCloud checking local state for user 59824344
+[2021-08-12 10:58:08] [U:1:59824344] [AppID 7] Init cache request complete
+
+
+[2021-08-12 11:33:53] [AppID 7] Starting sync (init,)
+[2021-08-12 11:33:53] [AppID 7] AutoCloud checking local state for user 59824344
+[2021-08-12 11:33:53] [U:1:59824344] [AppID 7] Init cache request complete
+[2021-08-12 11:33:53] [AppID 7] Starting sync (eval,)
+[2021-08-12 11:33:53] [AppID 7] AutoCloud checking local state for user 59824344
+[2021-08-12 11:33:53] [AppID 7] File is in sync serverbrowser_hist.vdf
+[2021-08-12 11:33:53] [AppID 7] File is in sync serverbrowser_hist.vdf.meta
+[2021-08-12 11:33:53] [AppID 7] File is in sync sharedconfig.vdf
+[2021-08-12 11:33:53] [AppID 7] File is in sync sharedconfig.vdf.meta
+[2021-08-12 11:33:53] [AppID 7] Eval complete
+[2021-08-12 11:33:53] [AppID 7] Starting sync (down,)
+[2021-08-12 11:33:53] [AppID 7] Download complete in build list
+[2021-08-12 11:33:54] [AppID 7] YldWriteCacheDirectoryToFile - saved to 'C:\Users\kilpa\Documents\GitHub\7D2DModLauncher-UE\ModLauncher\Assets\StreamingAssets\Tools\Windows\Steam/userdata/59824344/7/remotecache.vdf'
+
+
+[2021-09-03 13:53:03] [AppID 7] Starting sync (init,)
+[2021-09-03 13:53:03] [AppID 7] AutoCloud checking local state for user 59824344
+[2021-09-03 13:53:03] [U:1:59824344] [AppID 7] Init cache request complete
+[2021-09-03 13:53:05] [AppID 7] Starting sync (eval,)
+[2021-09-03 13:53:05] [AppID 7] AutoCloud checking local state for user 59824344
+[2021-09-03 13:53:05] [AppID 7] Need to download file serverbrowser_hist.vdf
+[2021-09-03 13:53:05] [AppID 7] File is in sync serverbrowser_hist.vdf.meta
+[2021-09-03 13:53:05] [AppID 7] Need to download file sharedconfig.vdf
+[2021-09-03 13:53:05] [AppID 7] File is in sync sharedconfig.vdf.meta
+[2021-09-03 13:53:05] [AppID 7] Eval complete
+[2021-09-03 13:53:05] [AppID 7] YldWriteCacheDirectoryToFile - saved to 'C:\Users\kilpa\Documents\GitHub\7D2DModLauncher-UE\ModLauncher\Assets\StreamingAssets\Tools\Windows\Steam/userdata/59824344/7/remotecache.vdf'
+[2021-09-03 13:53:05] [AppID 7] Starting sync (down,)
+[2021-09-03 13:53:05] [AppID 7] Need to download file serverbrowser_hist.vdf
+[2021-09-03 13:53:05] [AppID 7] Need to download file sharedconfig.vdf
+[2021-09-03 13:53:05] [AppID 7] HTTP download for file 'serverbrowser_hist.vdf' from host 'steamcloud-us-west1.storage.googleapis.com' beginning. . .
+[2021-09-03 13:53:05] [AppID 7] HTTP download for file 'sharedconfig.vdf' from host 'steamcloud-us-west1.storage.googleapis.com' beginning. . .
+[2021-09-03 13:53:06] [AppID 7] HTTP download for file 'sharedconfig.vdf' from host 'steamcloud-us-west1.storage.googleapis.com' - Success.
+[2021-09-03 13:53:06] [AppID 7] HTTP download for file 'serverbrowser_hist.vdf' from host 'steamcloud-us-west1.storage.googleapis.com' - Success.
+[2021-09-03 13:53:06] [AppID 7] Download OK for file sharedconfig.vdf
+[2021-09-03 13:53:06] [AppID 7] Download OK for file serverbrowser_hist.vdf
+[2021-09-03 13:53:06] [AppID 7] Download complete, result OK
+[2021-09-03 13:53:06] [AppID 7] YldWriteCacheDirectoryToFile - saved to 'C:\Users\kilpa\Documents\GitHub\7D2DModLauncher-UE\ModLauncher\Assets\StreamingAssets\Tools\Windows\Steam/userdata/59824344/7/remotecache.vdf'
+[2021-09-03 13:53:10] [AppID 7] Starting sync (down,)
+[2021-09-03 13:53:10] [AppID 7] Download complete in build list
+[2021-09-03 13:53:10] [AppID 7] YldWriteCacheDirectoryToFile - saved to 'C:\Users\kilpa\Documents\GitHub\7D2DModLauncher-UE\ModLauncher\Assets\StreamingAssets\Tools\Windows\Steam/userdata/59824344/7/remotecache.vdf'
+
+
+[2021-09-03 17:27:48] [AppID 7] Starting sync (init,)
+[2021-09-03 17:27:48] [AppID 7] AutoCloud checking local state for user 59824344
+[2021-09-03 17:27:48] [U:1:59824344] [AppID 7] Init cache request complete
+[2021-09-03 17:27:49] [AppID 7] Starting sync (eval,)
+[2021-09-03 17:27:49] [AppID 7] AutoCloud checking local state for user 59824344
+[2021-09-03 17:27:49] [AppID 7] Need to download file serverbrowser_hist.vdf
+[2021-09-03 17:27:49] [AppID 7] File is in sync serverbrowser_hist.vdf.meta
+[2021-09-03 17:27:49] [AppID 7] File is in sync sharedconfig.vdf
+[2021-09-03 17:27:49] [AppID 7] File is in sync sharedconfig.vdf.meta
+[2021-09-03 17:27:49] [AppID 7] Eval complete
+[2021-09-03 17:27:49] [AppID 7] Starting sync (down,)
+[2021-09-03 17:27:49] [AppID 7] Need to download file serverbrowser_hist.vdf
+[2021-09-03 17:27:49] [AppID 7] YldWriteCacheDirectoryToFile - saved to 'C:\Users\kilpa\Documents\GitHub\7D2DModLauncher-UE\ModLauncher\Assets\StreamingAssets\Tools\Windows\Steam/userdata/59824344/7/remotecache.vdf'
+[2021-09-03 17:27:50] [AppID 7] HTTP download for file 'serverbrowser_hist.vdf' from host 'steamcloud-us-east1.storage.googleapis.com' beginning. . .
+[2021-09-03 17:27:50] [AppID 7] HTTP download for file 'serverbrowser_hist.vdf' from host 'steamcloud-us-east1.storage.googleapis.com' - Success.
+[2021-09-03 17:27:50] [AppID 7] Download OK for file serverbrowser_hist.vdf
+[2021-09-03 17:27:50] [AppID 7] Download complete, result OK
+[2021-09-03 17:27:50] [AppID 7] Starting sync (eval,)
+[2021-09-03 17:27:50] [AppID 7] AutoCloud checking local state for user 59824344
+[2021-09-03 17:27:50] [AppID 7] File is in sync serverbrowser_hist.vdf
+[2021-09-03 17:27:50] [AppID 7] File is in sync serverbrowser_hist.vdf.meta
+[2021-09-03 17:27:50] [AppID 7] File is in sync sharedconfig.vdf
+[2021-09-03 17:27:50] [AppID 7] File is in sync sharedconfig.vdf.meta
+[2021-09-03 17:27:50] [AppID 7] Eval complete
+[2021-09-03 17:27:50] [AppID 7] YldWriteCacheDirectoryToFile - saved to 'C:\Users\kilpa\Documents\GitHub\7D2DModLauncher-UE\ModLauncher\Assets\StreamingAssets\Tools\Windows\Steam/userdata/59824344/7/remotecache.vdf'
+
+
+[2021-09-03 17:45:07] [AppID 7] Starting sync (init,)
+[2021-09-03 17:45:07] [AppID 7] AutoCloud checking local state for user 59824344
+[2021-09-03 17:45:07] [U:1:59824344] [AppID 7] Init cache request complete
+
+
+[2021-09-03 17:45:54] [AppID 7] Starting sync (init,)
+[2021-09-03 17:45:54] [AppID 7] AutoCloud checking local state for user 59824344
+[2021-09-03 17:45:54] [U:1:59824344] [AppID 7] Init cache request complete
+[2021-09-03 17:45:54] [AppID 7] Starting sync (eval,)
+[2021-09-03 17:45:54] [AppID 7] AutoCloud checking local state for user 59824344
+[2021-09-03 17:45:54] [AppID 7] File is in sync serverbrowser_hist.vdf
+[2021-09-03 17:45:54] [AppID 7] File is in sync serverbrowser_hist.vdf.meta
+[2021-09-03 17:45:54] [AppID 7] File is in sync sharedconfig.vdf
+[2021-09-03 17:45:54] [AppID 7] File is in sync sharedconfig.vdf.meta
+[2021-09-03 17:45:54] [AppID 7] Eval complete
+[2021-09-03 17:45:54] [AppID 7] Starting sync (down,)
+[2021-09-03 17:45:54] [AppID 7] Download complete in build list
+[2021-09-03 17:45:54] [AppID 7] YldWriteCacheDirectoryToFile - saved to 'C:\Users\kilpa\Documents\GitHub\7D2DModLauncher-UE\ModLauncher\Assets\StreamingAssets\Tools\Windows\Steam/userdata/59824344/7/remotecache.vdf'
+[2021-09-03 17:45:54] [AppID 7] YldWriteCacheDirectoryToFile - saved to 'C:\Users\kilpa\Documents\GitHub\7D2DModLauncher-UE\ModLauncher\Assets\StreamingAssets\Tools\Windows\Steam/userdata/59824344/7/remotecache.vdf'
+
+
+[2021-09-03 18:44:28] [AppID 7] Starting sync (init,)
+[2021-09-03 18:44:28] [AppID 7] AutoCloud checking local state for user 59824344
+[2021-09-03 18:44:28] [U:1:59824344] [AppID 7] Init cache request complete
+[2021-09-03 18:44:29] [AppID 7] Starting sync (eval,)
+[2021-09-03 18:44:29] [AppID 7] AutoCloud checking local state for user 59824344
+[2021-09-03 18:44:30] [AppID 7] File is in sync serverbrowser_hist.vdf
+[2021-09-03 18:44:30] [AppID 7] File is in sync serverbrowser_hist.vdf.meta
+[2021-09-03 18:44:30] [AppID 7] File is in sync sharedconfig.vdf
+[2021-09-03 18:44:30] [AppID 7] File is in sync sharedconfig.vdf.meta
+[2021-09-03 18:44:30] [AppID 7] Eval complete
+[2021-09-03 18:44:30] [AppID 7] Starting sync (down,)
+[2021-09-03 18:44:30] [AppID 7] Download complete in build list
+[2021-09-03 18:44:30] [AppID 7] YldWriteCacheDirectoryToFile - saved to 'C:\Users\kilpa\Documents\GitHub\7D2DModLauncher-UE\ModLauncher\Assets\StreamingAssets\Tools\Windows\Steam/userdata/59824344/7/remotecache.vdf'
+
+
+[2021-09-03 18:47:35] [AppID 7] Starting sync (init,)
+[2021-09-03 18:47:35] [AppID 7] AutoCloud checking local state for user 59824344
+[2021-09-03 18:47:35] [U:1:59824344] [AppID 7] Init cache request complete
+[2021-09-03 18:47:36] [AppID 7] Starting sync (eval,)
+[2021-09-03 18:47:36] [AppID 7] AutoCloud checking local state for user 59824344
+[2021-09-03 18:47:36] [AppID 7] File is in sync serverbrowser_hist.vdf
+[2021-09-03 18:47:36] [AppID 7] File is in sync serverbrowser_hist.vdf.meta
+[2021-09-03 18:47:36] [AppID 7] File is in sync sharedconfig.vdf
+[2021-09-03 18:47:36] [AppID 7] File is in sync sharedconfig.vdf.meta
+[2021-09-03 18:47:36] [AppID 7] Eval complete
+[2021-09-03 18:47:36] [AppID 7] Starting sync (down,)
+[2021-09-03 18:47:36] [AppID 7] Download complete in build list
+[2021-09-03 18:47:36] [AppID 7] YldWriteCacheDirectoryToFile - saved to 'C:\Users\kilpa\Documents\GitHub\7D2DModLauncher-UE\ModLauncher\Assets\StreamingAssets\Tools\Windows\Steam/userdata/59824344/7/remotecache.vdf'
+
+
+[2021-09-05 19:48:07] [AppID 7] Starting sync (init,)
+[2021-09-05 19:48:07] [AppID 7] AutoCloud checking local state for user 59824344
+[2021-09-05 19:48:07] [U:1:59824344] [AppID 7] Init cache request complete
+
+
+[2021-09-05 19:48:38] [AppID 7] Starting sync (init,)
+[2021-09-05 19:48:38] [AppID 7] AutoCloud checking local state for user 59824344
+[2021-09-05 19:48:38] [U:1:59824344] [AppID 7] Init cache request complete
+[2021-09-05 19:48:39] [AppID 7] Starting sync (eval,)
+[2021-09-05 19:48:39] [AppID 7] AutoCloud checking local state for user 59824344
+[2021-09-05 19:48:39] [AppID 7] Need to download file serverbrowser_hist.vdf
+[2021-09-05 19:48:39] [AppID 7] File is in sync serverbrowser_hist.vdf.meta
+[2021-09-05 19:48:39] [AppID 7] Need to download file sharedconfig.vdf
+[2021-09-05 19:48:39] [AppID 7] File is in sync sharedconfig.vdf.meta
+[2021-09-05 19:48:39] [AppID 7] Eval complete
+[2021-09-05 19:48:39] [AppID 7] Starting sync (down,)
+[2021-09-05 19:48:39] [AppID 7] Need to download file serverbrowser_hist.vdf
+[2021-09-05 19:48:39] [AppID 7] Need to download file sharedconfig.vdf
+[2021-09-05 19:48:39] [AppID 7] YldWriteCacheDirectoryToFile - saved to 'C:\Users\kilpa\Documents\GitHub\7D2DModLauncher-UE\ModLauncher\Assets\StreamingAssets\Tools\Windows\Steam/userdata/59824344/7/remotecache.vdf'
+[2021-09-05 19:48:39] [AppID 7] HTTP download for file 'serverbrowser_hist.vdf' from host 'steamcloud-us-east.s3.dualstack.us-east-1.amazonaws.com' beginning. . .
+[2021-09-05 19:48:39] [AppID 7] HTTP download for file 'sharedconfig.vdf' from host 'steamcloud-us-west1.storage.googleapis.com' beginning. . .
+[2021-09-05 19:48:40] [AppID 7] HTTP download for file 'sharedconfig.vdf' from host 'steamcloud-us-west1.storage.googleapis.com' - Success.
+[2021-09-05 19:48:40] [AppID 7] Download OK for file sharedconfig.vdf
+[2021-09-05 19:48:40] [AppID 7] HTTP download for file 'serverbrowser_hist.vdf' from host 'steamcloud-us-east.s3.dualstack.us-east-1.amazonaws.com' - Success.
+[2021-09-05 19:48:40] [AppID 7] Download OK for file serverbrowser_hist.vdf
+[2021-09-05 19:48:40] [AppID 7] Download complete, result OK
+[2021-09-05 19:48:40] [AppID 7] Starting sync (eval,)
+[2021-09-05 19:48:40] [AppID 7] AutoCloud checking local state for user 59824344
+[2021-09-05 19:48:40] [AppID 7] File is in sync serverbrowser_hist.vdf
+[2021-09-05 19:48:40] [AppID 7] File is in sync serverbrowser_hist.vdf.meta
+[2021-09-05 19:48:40] [AppID 7] File is in sync sharedconfig.vdf
+[2021-09-05 19:48:40] [AppID 7] File is in sync sharedconfig.vdf.meta
+[2021-09-05 19:48:40] [AppID 7] Eval complete
+[2021-09-05 19:48:40] [AppID 7] YldWriteCacheDirectoryToFile - saved to 'C:\Users\kilpa\Documents\GitHub\7D2DModLauncher-UE\ModLauncher\Assets\StreamingAssets\Tools\Windows\Steam/userdata/59824344/7/remotecache.vdf'
+
+
+[2021-09-05 20:41:20] [AppID 7] Starting sync (init,)
+[2021-09-05 20:41:20] [AppID 7] AutoCloud checking local state for user 59824344
+[2021-09-05 20:41:20] [U:1:59824344] [AppID 7] Init cache request complete
+[2021-09-05 20:41:20] [AppID 7] Starting sync (init,)
+[2021-09-05 20:41:20] [AppID 7] AutoCloud checking local state for user 59824344
+[2021-09-05 20:41:20] [U:1:59824344] [AppID 7] Init cache request complete
+[2021-09-05 20:41:27] [AppID 7] Starting sync (init,)
+[2021-09-05 20:41:27] [AppID 7] AutoCloud checking local state for user 59824344
+[2021-09-05 20:41:27] [U:1:59824344] [AppID 7] Init cache request complete
+
+
+[2021-09-05 20:41:38] [AppID 7] Starting sync (init,)
+[2021-09-05 20:41:38] [AppID 7] AutoCloud checking local state for user 59824344
+[2021-09-05 20:41:38] [U:1:59824344] [AppID 7] Init cache request complete
+[2021-09-05 20:41:38] [AppID 7] Starting sync (eval,)
+[2021-09-05 20:41:38] [AppID 7] AutoCloud checking local state for user 59824344
+[2021-09-05 20:41:38] [AppID 7] File is in sync serverbrowser_hist.vdf
+[2021-09-05 20:41:38] [AppID 7] File is in sync serverbrowser_hist.vdf.meta
+[2021-09-05 20:41:38] [AppID 7] File is in sync sharedconfig.vdf
+[2021-09-05 20:41:38] [AppID 7] File is in sync sharedconfig.vdf.meta
+[2021-09-05 20:41:38] [AppID 7] Eval complete
+[2021-09-05 20:41:38] [AppID 7] Starting sync (down,)
+[2021-09-05 20:41:38] [AppID 7] Download complete in build list
+[2021-09-05 20:41:38] [AppID 7] YldWriteCacheDirectoryToFile - saved to 'C:\Users\kilpa\Documents\GitHub\7D2DModLauncher-UE\ModLauncher\Assets\StreamingAssets\Tools\Windows\Steam/userdata/59824344/7/remotecache.vdf'
+
+
+[2021-09-05 20:44:22] [AppID 7] Starting sync (init,)
+[2021-09-05 20:44:22] [AppID 7] AutoCloud checking local state for user 59824344
+[2021-09-05 20:44:22] [U:1:59824344] [AppID 7] Init cache request complete
+[2021-09-05 20:44:22] [AppID 7] Starting sync (init,)
+[2021-09-05 20:44:22] [AppID 7] AutoCloud checking local state for user 59824344
+[2021-09-05 20:44:22] [U:1:59824344] [AppID 7] Init cache request complete
+
+
+[2021-09-05 20:49:33] [AppID 7] Starting sync (init,)
+[2021-09-05 20:49:33] [AppID 7] AutoCloud checking local state for user 59824344
+[2021-09-05 20:49:33] [U:1:59824344] [AppID 7] Init cache request complete
+[2021-09-05 20:49:33] [AppID 7] Starting sync (init,)
+[2021-09-05 20:49:33] [AppID 7] AutoCloud checking local state for user 59824344
+[2021-09-05 20:49:33] [U:1:59824344] [AppID 7] Init cache request complete
+[2021-09-05 20:49:38] [AppID 7] Starting sync (init,)
+[2021-09-05 20:49:38] [AppID 7] AutoCloud checking local state for user 59824344
+[2021-09-05 20:49:38] [U:1:59824344] [AppID 7] Init cache request complete
+[2021-09-05 20:49:39] [AppID 7] Starting sync (eval,)
+[2021-09-05 20:49:39] [AppID 7] AutoCloud checking local state for user 59824344
+[2021-09-05 20:49:40] [AppID 7] File is in sync serverbrowser_hist.vdf
+[2021-09-05 20:49:40] [AppID 7] File is in sync serverbrowser_hist.vdf.meta
+[2021-09-05 20:49:40] [AppID 7] File is in sync sharedconfig.vdf
+[2021-09-05 20:49:40] [AppID 7] File is in sync sharedconfig.vdf.meta
+[2021-09-05 20:49:40] [AppID 7] Eval complete
+[2021-09-05 20:49:40] [AppID 7] Starting sync (down,)
+[2021-09-05 20:49:40] [AppID 7] Download complete in build list
+[2021-09-05 20:49:40] [AppID 7] YldWriteCacheDirectoryToFile - saved to 'C:\Users\kilpa\Documents\GitHub\7D2DModLauncher-UE\ModLauncher\Assets\StreamingAssets\Tools\Windows\Steam/userdata/59824344/7/remotecache.vdf'
+[2021-09-05 20:49:40] [AppID 7] YldWriteCacheDirectoryToFile - saved to 'C:\Users\kilpa\Documents\GitHub\7D2DModLauncher-UE\ModLauncher\Assets\StreamingAssets\Tools\Windows\Steam/userdata/59824344/7/remotecache.vdf'
+
+
+[2021-09-05 20:55:17] [AppID 7] Starting sync (init,)
+[2021-09-05 20:55:17] [AppID 7] AutoCloud checking local state for user 59824344
+[2021-09-05 20:55:17] [U:1:59824344] [AppID 7] Init cache request complete
+[2021-09-05 20:55:17] [AppID 7] Starting sync (init,)
+[2021-09-05 20:55:17] [AppID 7] AutoCloud checking local state for user 59824344
+[2021-09-05 20:55:17] [U:1:59824344] [AppID 7] Init cache request complete
+[2021-09-05 20:55:18] [AppID 7] Starting sync (eval,)
+[2021-09-05 20:55:18] [AppID 7] AutoCloud checking local state for user 59824344
+[2021-09-05 20:55:19] [AppID 7] File is in sync serverbrowser_hist.vdf
+[2021-09-05 20:55:19] [AppID 7] File is in sync serverbrowser_hist.vdf.meta
+[2021-09-05 20:55:19] [AppID 7] File is in sync sharedconfig.vdf
+[2021-09-05 20:55:19] [AppID 7] File is in sync sharedconfig.vdf.meta
+[2021-09-05 20:55:19] [AppID 7] Eval complete
+[2021-09-05 20:55:19] [AppID 7] Starting sync (down,)
+[2021-09-05 20:55:19] [AppID 7] Download complete in build list
+[2021-09-05 20:55:19] [AppID 7] YldWriteCacheDirectoryToFile - saved to 'C:\Users\kilpa\Documents\GitHub\7D2DModLauncher-UE\ModLauncher\Assets\StreamingAssets\Tools\Windows\Steam/userdata/59824344/7/remotecache.vdf'
+[2021-09-05 20:55:19] [AppID 7] YldWriteCacheDirectoryToFile - saved to 'C:\Users\kilpa\Documents\GitHub\7D2DModLauncher-UE\ModLauncher\Assets\StreamingAssets\Tools\Windows\Steam/userdata/59824344/7/remotecache.vdf'
+
+
+[2021-09-05 21:01:58] [AppID 7] Starting sync (init,)
+[2021-09-05 21:01:58] [AppID 7] AutoCloud checking local state for user 59824344
+[2021-09-05 21:01:58] [U:1:59824344] [AppID 7] Init cache request complete
+[2021-09-05 21:01:58] [AppID 7] Starting sync (init,)
+[2021-09-05 21:01:58] [AppID 7] AutoCloud checking local state for user 59824344
+[2021-09-05 21:01:58] [U:1:59824344] [AppID 7] Init cache request complete
+[2021-09-05 21:02:04] [AppID 7] Starting sync (init,)
+[2021-09-05 21:02:04] [AppID 7] AutoCloud checking local state for user 59824344
+[2021-09-05 21:02:04] [U:1:59824344] [AppID 7] Init cache request complete
+
+
+[2021-09-05 21:07:15] [AppID 7] Starting sync (init,)
+[2021-09-05 21:07:15] [AppID 7] AutoCloud checking local state for user 59824344
+[2021-09-05 21:07:15] [U:1:59824344] [AppID 7] Init cache request complete
+[2021-09-05 21:07:15] [AppID 7] Starting sync (eval,)
+[2021-09-05 21:07:15] [AppID 7] AutoCloud checking local state for user 59824344
+[2021-09-05 21:07:15] [AppID 7] File is in sync serverbrowser_hist.vdf
+[2021-09-05 21:07:15] [AppID 7] File is in sync serverbrowser_hist.vdf.meta
+[2021-09-05 21:07:15] [AppID 7] File is in sync sharedconfig.vdf
+[2021-09-05 21:07:15] [AppID 7] File is in sync sharedconfig.vdf.meta
+[2021-09-05 21:07:15] [AppID 7] Eval complete
+[2021-09-05 21:07:15] [AppID 7] Starting sync (down,)
+[2021-09-05 21:07:15] [AppID 7] Download complete in build list
+[2021-09-05 21:07:15] [AppID 7] YldWriteCacheDirectoryToFile - saved to 'C:\Users\kilpa\Documents\GitHub\7D2DModLauncher-UE\ModLauncher\Assets\StreamingAssets\Tools\Windows\Steam/userdata/59824344/7/remotecache.vdf'
+
+
+[2021-09-05 21:14:40] [AppID 7] Starting sync (init,)
+[2021-09-05 21:14:40] [AppID 7] AutoCloud checking local state for user 59824344
+[2021-09-05 21:14:40] [U:1:59824344] [AppID 7] Init cache request complete
+[2021-09-05 21:14:40] [AppID 7] Starting sync (init,)
+[2021-09-05 21:14:40] [AppID 7] AutoCloud checking local state for user 59824344
+[2021-09-05 21:14:40] [U:1:59824344] [AppID 7] Init cache request complete
+[2021-09-05 21:14:41] [AppID 7] Starting sync (eval,)
+[2021-09-05 21:14:41] [AppID 7] AutoCloud checking local state for user 59824344
+[2021-09-05 21:14:41] [AppID 7] File is in sync serverbrowser_hist.vdf
+[2021-09-05 21:14:41] [AppID 7] File is in sync serverbrowser_hist.vdf.meta
+[2021-09-05 21:14:41] [AppID 7] File is in sync sharedconfig.vdf
+[2021-09-05 21:14:41] [AppID 7] File is in sync sharedconfig.vdf.meta
+[2021-09-05 21:14:41] [AppID 7] Eval complete
+[2021-09-05 21:14:41] [AppID 7] Starting sync (down,)
+[2021-09-05 21:14:41] [AppID 7] Download complete in build list
+[2021-09-05 21:14:41] [AppID 7] YldWriteCacheDirectoryToFile - saved to 'C:\Users\kilpa\Documents\GitHub\7D2DModLauncher-UE\ModLauncher\Assets\StreamingAssets\Tools\Windows\Steam/userdata/59824344/7/remotecache.vdf'
+[2021-09-05 21:14:41] [AppID 7] YldWriteCacheDirectoryToFile - saved to 'C:\Users\kilpa\Documents\GitHub\7D2DModLauncher-UE\ModLauncher\Assets\StreamingAssets\Tools\Windows\Steam/userdata/59824344/7/remotecache.vdf'
+
+
+[2021-09-05 21:19:15] [AppID 7] Starting sync (init,)
+[2021-09-05 21:19:15] [AppID 7] AutoCloud checking local state for user 59824344
+[2021-09-05 21:19:15] [U:1:59824344] [AppID 7] Init cache request complete
+[2021-09-05 21:19:15] [AppID 7] Starting sync (init,)
+[2021-09-05 21:19:15] [AppID 7] AutoCloud checking local state for user 59824344
+[2021-09-05 21:19:15] [U:1:59824344] [AppID 7] Init cache request complete
+[2021-09-05 21:19:20] [AppID 7] Starting sync (init,)
+[2021-09-05 21:19:20] [AppID 7] AutoCloud checking local state for user 59824344
+[2021-09-05 21:19:20] [U:1:59824344] [AppID 7] Init cache request complete
+
+
+[2021-09-05 21:30:17] [AppID 7] Starting sync (init,)
+[2021-09-05 21:30:17] [AppID 7] AutoCloud checking local state for user 59824344
+[2021-09-05 21:30:17] [U:1:59824344] [AppID 7] Init cache request complete
+[2021-09-05 21:30:17] [AppID 7] Starting sync (eval,)
+[2021-09-05 21:30:17] [AppID 7] AutoCloud checking local state for user 59824344
+[2021-09-05 21:30:17] [AppID 7] File is in sync serverbrowser_hist.vdf
+[2021-09-05 21:30:17] [AppID 7] File is in sync serverbrowser_hist.vdf.meta
+[2021-09-05 21:30:17] [AppID 7] File is in sync sharedconfig.vdf
+[2021-09-05 21:30:17] [AppID 7] File is in sync sharedconfig.vdf.meta
+[2021-09-05 21:30:17] [AppID 7] Eval complete
+[2021-09-05 21:30:17] [AppID 7] Starting sync (down,)
+[2021-09-05 21:30:17] [AppID 7] Download complete in build list
+[2021-09-05 21:30:17] [AppID 7] YldWriteCacheDirectoryToFile - saved to 'C:\Users\kilpa\Documents\GitHub\7D2DModLauncher-UE\ModLauncher\Assets\StreamingAssets\Tools\Windows\Steam/userdata/59824344/7/remotecache.vdf'
+
+
+[2021-09-05 21:33:06] [AppID 7] Starting sync (init,)
+[2021-09-05 21:33:06] [AppID 7] AutoCloud checking local state for user 59824344
+[2021-09-05 21:33:06] [U:1:59824344] [AppID 7] Init cache request complete
+[2021-09-05 21:33:06] [AppID 7] Starting sync (init,)
+[2021-09-05 21:33:06] [AppID 7] AutoCloud checking local state for user 59824344
+[2021-09-05 21:33:06] [U:1:59824344] [AppID 7] Init cache request complete
+[2021-09-05 21:33:07] [AppID 7] Starting sync (eval,)
+[2021-09-05 21:33:07] [AppID 7] AutoCloud checking local state for user 59824344
+[2021-09-05 21:33:07] [AppID 7] File is in sync serverbrowser_hist.vdf
+[2021-09-05 21:33:07] [AppID 7] File is in sync serverbrowser_hist.vdf.meta
+[2021-09-05 21:33:07] [AppID 7] File is in sync sharedconfig.vdf
+[2021-09-05 21:33:07] [AppID 7] File is in sync sharedconfig.vdf.meta
+[2021-09-05 21:33:07] [AppID 7] Eval complete
+[2021-09-05 21:33:07] [AppID 7] Starting sync (down,)
+[2021-09-05 21:33:07] [AppID 7] Download complete in build list
+[2021-09-05 21:33:07] [AppID 7] YldWriteCacheDirectoryToFile - saved to 'C:\Users\kilpa\Documents\GitHub\7D2DModLauncher-UE\ModLauncher\Assets\StreamingAssets\Tools\Windows\Steam/userdata/59824344/7/remotecache.vdf'
+[2021-09-05 21:33:07] [AppID 7] YldWriteCacheDirectoryToFile - saved to 'C:\Users\kilpa\Documents\GitHub\7D2DModLauncher-UE\ModLauncher\Assets\StreamingAssets\Tools\Windows\Steam/userdata/59824344/7/remotecache.vdf'
+
+
+[2022-01-21 14:46:43] [AppID 7] Starting sync (init,)
+[2022-01-21 14:46:43] [AppID 7] AutoCloud checking local state for user 59824344
+[2022-01-21 14:46:43] [U:1:59824344] [AppID 7] Init cache request complete
+[2022-01-21 14:46:43] [AppID 7] Starting sync (init,)
+[2022-01-21 14:46:43] [AppID 7] AutoCloud checking local state for user 59824344
+[2022-01-21 14:46:43] [U:1:59824344] [AppID 7] Init cache request complete
+[2022-01-21 14:47:02] [AppID 7] Starting sync (init,)
+[2022-01-21 14:47:02] [AppID 7] AutoCloud checking local state for user 59824344
+[2022-01-21 14:47:02] [U:1:59824344] [AppID 7] Init cache request complete
+[2022-01-21 14:47:03] [Roaming Config] PerformSyncCloud - evaluating sync state
+[2022-01-21 14:47:03] [AppID 7] Starting sync (eval,)
+[2022-01-21 14:47:03] [AppID 7] AutoCloud checking local state for user 59824344
+[2022-01-21 14:47:03] [AppID 7] Need to sync from local change number '0' to global change number '9284779071471969465', but not attempting now
+[2022-01-21 14:47:03] [AppID 7] Need to download file serverbrowser_hist.vdf
+[2022-01-21 14:47:03] [AppID 7] File is in sync serverbrowser_hist.vdf.meta
+[2022-01-21 14:47:03] [AppID 7] File is in sync sharedconfig.vdf
+[2022-01-21 14:47:03] [AppID 7] File is in sync sharedconfig.vdf.meta
+[2022-01-21 14:47:03] [AppID 7] Eval complete
+[2022-01-21 14:47:03] [Roaming Config] OnRemoteStorageStateEvaluated - result OK
+[2022-01-21 14:47:03] [AppID 7] YldWriteCacheDirectoryToFile - saved to 'C:\Users\kilpa\Documents\GitHub\7D2DModLauncher-UE\ModLauncher\Assets\StreamingAssets\Tools\Windows\Steam/userdata/59824344/7/remotecache.vdf'
+[2022-01-21 14:47:03] [Roaming Config] PerformSyncCloud - syncing cloud files locally
+[2022-01-21 14:47:03] [AppID 7] Starting sync (down,)
+[2022-01-21 14:47:03] [AppID 7] Attempting to sync from local change number '0' to global change number '9284779071471969465'
+[2022-01-21 14:47:03] [AppID 7] Need to download file serverbrowser_hist.vdf
+[2022-01-21 14:47:04] [AppID 7] HTTP download for file 'serverbrowser_hist.vdf' from host 'steamcloud-us-west1.storage.googleapis.com' beginning. . .
+[2022-01-21 14:47:04] [AppID 7] HTTP download for file 'serverbrowser_hist.vdf' from host 'steamcloud-us-west1.storage.googleapis.com' - Success.
+[2022-01-21 14:47:04] [AppID 7] Download OK for file serverbrowser_hist.vdf
+[2022-01-21 14:47:04] [AppID 7] Download complete, result OK
+[2022-01-21 14:47:04] [AppID 7] Successfully synced to ChangeNumber 9284779071471969465
+[2022-01-21 14:47:04] [Roaming Config] OnRemoteStorageSyncedClient() - result OK
+[2022-01-21 14:47:04] [AppID 7] YldWriteCacheDirectoryToFile - saved to 'C:\Users\kilpa\Documents\GitHub\7D2DModLauncher-UE\ModLauncher\Assets\StreamingAssets\Tools\Windows\Steam/userdata/59824344/7/remotecache.vdf'
+[2022-01-21 14:47:07] [AppID 7] Starting sync (down,)
+[2022-01-21 14:47:07] [AppID 7] Currently already synced to global change number '9284779071471969465', should be nothing to download
+[2022-01-21 14:47:07] [AppID 7] Download complete in build list
+[2022-01-21 14:47:07] [AppID 7] Successfully synced to ChangeNumber 0
+[2022-01-21 14:47:07] [Roaming Config] OnRemoteStorageSyncedClient() - result OK
+[2022-01-21 14:47:07] [AppID 7] YldWriteCacheDirectoryToFile - saved to 'C:\Users\kilpa\Documents\GitHub\7D2DModLauncher-UE\ModLauncher\Assets\StreamingAssets\Tools\Windows\Steam/userdata/59824344/7/remotecache.vdf'
+[2022-01-21 14:57:03] [Roaming Config] PerformSyncCloud - all sync'd up
+
+
+[2022-03-17 10:59:34] [AppID 7] Starting sync (init,)
+[2022-03-17 10:59:34] [AppID 7] AutoCloud checking local state for user 59824344
+[2022-03-17 10:59:34] [AppID 7] (ValidateCache) File 'C:\Users\kilpa\Documents\repos\7D2DModLauncher-UE\ModLauncher\Assets\StreamingAssets\Tools\Windows\Steam\userdata\59824344\7\remote\serverbrowser_hist.vdf' timestamp or SHA mismatch with cache - setting local changes
+[2022-03-17 10:59:34] [AppID 7] (ValidateCache) File 'C:\Users\kilpa\Documents\repos\7D2DModLauncher-UE\ModLauncher\Assets\StreamingAssets\Tools\Windows\Steam\userdata\59824344\7\remote\sharedconfig.vdf' timestamp or SHA mismatch with cache - setting local changes
+[2022-03-17 10:59:34] [U:1:59824344] [AppID 7] Init cache request complete
+[2022-03-17 10:59:34] [AppID 7] YldWriteCacheDirectoryToFile - saved to 'C:\Users\kilpa\Documents\repos\7D2DModLauncher-UE\ModLauncher\Assets\StreamingAssets\Tools\Windows\Steam/userdata/59824344/7/remotecache.vdf'
+
+
+[2022-03-17 10:59:56] [AppID 7] Starting sync (init,)
+[2022-03-17 10:59:57] [AppID 7] AutoCloud checking local state for user 59824344
+[2022-03-17 10:59:57] [U:1:59824344] [AppID 7] Init cache request complete
+[2022-03-17 10:59:57] [AppID 7] YldWriteCacheDirectoryToFile - saved to 'C:\Users\kilpa\Documents\repos\7D2DModLauncher-UE\ModLauncher\Assets\StreamingAssets\Tools\Windows\Steam/userdata/59824344/7/remotecache.vdf'
+[2022-03-17 10:59:58] [AppID 7] Starting sync (down,)
+[2022-03-17 10:59:58] [AppID 7] Attempting to sync from local change number '0' to global change number '13963018983963718718'
+[2022-03-17 10:59:58] [AppID 7] serverbrowser_hist.vdf has local changes but mismatch - creating a conflict. Local/Remote SHA: 915e3533c1158e0590212e86756cb8e297fbac0e / 715043312b1cda4b9e247e96b05afb40573bda37, Timestamps: 1645967867 / 1647392071, persist state: 0 / 0
+[2022-03-17 10:59:58] [AppID 7] sharedconfig.vdf has local changes but mismatch - creating a conflict. Local/Remote SHA: 68e2606acdefdb45f411207ad5bb47f1da380e20 / e4a56fa0b4681454d4568889b37794a38a09d83e, Timestamps: 1645967867 / 1646616422, persist state: 0 / 0
+[2022-03-17 10:59:58] [AppID 7] Sync conflict for file serverbrowser_hist.vdf
+[2022-03-17 10:59:58] [AppID 7] Sync conflict for file sharedconfig.vdf
+[2022-03-17 10:59:58] [AppID 7] Download failed due to conflicts in build list
+[2022-03-17 10:59:58] [Roaming Config] OnRemoteStorageSyncedClient() - result Remote File Conflict
+[2022-03-17 10:59:58] [AppID 7] YldWriteCacheDirectoryToFile - saved to 'C:\Users\kilpa\Documents\repos\7D2DModLauncher-UE\ModLauncher\Assets\StreamingAssets\Tools\Windows\Steam/userdata/59824344/7/remotecache.vdf'
+[2022-03-17 11:00:57] [Roaming Config] PerformSyncCloud - conflict detected, accepting remote files
+[2022-03-17 11:00:57] [AppID 7] Starting sync (down,resolve,)
+[2022-03-17 11:00:58] [AppID 7] Attempting to sync from local change number '0' to global change number '13963018983963718718'
+[2022-03-17 11:00:58] [AppID 7] serverbrowser_hist.vdf already marked as conflicting. Local/Remote SHA: 915e3533c1158e0590212e86756cb8e297fbac0e / 715043312b1cda4b9e247e96b05afb40573bda37, Local/Remote persist state: 0 / 0
+[2022-03-17 11:00:58] [AppID 7] sharedconfig.vdf already marked as conflicting. Local/Remote SHA: 68e2606acdefdb45f411207ad5bb47f1da380e20 / e4a56fa0b4681454d4568889b37794a38a09d83e, Local/Remote persist state: 0 / 0
+[2022-03-17 11:00:58] [AppID 7] Resolving file serverbrowser_hist.vdf from state 4, bUseLocal = false
+[2022-03-17 11:00:58] [AppID 7] Resolving file serverbrowser_hist.vdf.meta from state 1 - synchronized, leaving
+[2022-03-17 11:00:58] [AppID 7] Resolving file sharedconfig.vdf from state 4, bUseLocal = false
+[2022-03-17 11:00:58] [AppID 7] Resolving file sharedconfig.vdf.meta from state 1 - synchronized, leaving
+[2022-03-17 11:00:58] [AppID 7] Need to download file serverbrowser_hist.vdf
+[2022-03-17 11:00:58] [AppID 7] Skipping download of file sharedconfig.vdf to our platform
+[2022-03-17 11:00:58] [AppID 7] HTTP download for file 'serverbrowser_hist.vdf' from host 'steamcloud-yyz.s3.dualstack.ca-central-1.amazonaws.com' beginning. . .
+[2022-03-17 11:00:59] [AppID 7] HTTP download for file 'serverbrowser_hist.vdf' from host 'steamcloud-yyz.s3.dualstack.ca-central-1.amazonaws.com' - Success.
+[2022-03-17 11:00:59] [AppID 7] Download OK for file serverbrowser_hist.vdf
+[2022-03-17 11:00:59] [AppID 7] Download complete, result OK
+[2022-03-17 11:00:59] [Roaming Config] OnRemoteStorageConflictResolution - result OK
+[2022-03-17 11:00:59] [AppID 7] Successfully synced to ChangeNumber 13963018983963718718
+[2022-03-17 11:01:00] [AppID 7] YldWriteCacheDirectoryToFile - saved to 'C:\Users\kilpa\Documents\repos\7D2DModLauncher-UE\ModLauncher\Assets\StreamingAssets\Tools\Windows\Steam/userdata/59824344/7/remotecache.vdf'
+[2022-03-17 11:01:57] [Roaming Config] PerformSyncCloud - all sync'd up

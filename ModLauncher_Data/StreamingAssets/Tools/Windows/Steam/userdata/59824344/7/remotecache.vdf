@@ -1,0 +1,53 @@
+"7"
+{
+	"ChangeNumber"		"-4483725089745832898"
+	"ostype"		"13"
+	"serverbrowser_hist.vdf"
+	{
+		"root"		"0"
+		"size"		"674"
+		"localtime"		"1647392072"
+		"time"		"1647392071"
+		"remotetime"		"1647392071"
+		"sha"		"715043312b1cda4b9e247e96b05afb40573bda37"
+		"syncstate"		"1"
+		"persiststate"		"0"
+		"platformstosync2"		"-1"
+	}
+	"serverbrowser_hist.vdf.meta"
+	{
+		"root"		"0"
+		"size"		"155"
+		"localtime"		"1625051042"
+		"time"		"1625051041"
+		"remotetime"		"0"
+		"sha"		"3465abcf01f4513043b0c6638d9f878327f6e5b3"
+		"syncstate"		"1"
+		"persiststate"		"1"
+		"platformstosync2"		"-1"
+	}
+	"sharedconfig.vdf"
+	{
+		"root"		"0"
+		"size"		"1405"
+		"localtime"		"1645967868"
+		"time"		"1645967867"
+		"remotetime"		"1646616422"
+		"sha"		"68e2606acdefdb45f411207ad5bb47f1da380e20"
+		"syncstate"		"2"
+		"persiststate"		"0"
+		"platformstosync2"		"0"
+	}
+	"sharedconfig.vdf.meta"
+	{
+		"root"		"0"
+		"size"		"155"
+		"localtime"		"1626275110"
+		"time"		"1626275109"
+		"remotetime"		"0"
+		"sha"		"f5bab71257f24fcb5911719a6562097d92ac109a"
+		"syncstate"		"1"
+		"persiststate"		"1"
+		"platformstosync2"		"-1"
+	}
+}
