@@ -5,6 +5,7 @@ If you run into issues with the Mod Launcher, exit the mod launcher. This will m
 
 https://7d2dmodlauncher.org
 
+* Fixed an issue introduced by a unity crash that caused things to go sideways.
 * Fixed another steam issue where it would not downloading
 * Fixed a few %20 vs space issues
 
