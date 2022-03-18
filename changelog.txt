@@ -5,15 +5,8 @@ If you run into issues with the Mod Launcher, exit the mod launcher. This will m
 
 https://7d2dmodlauncher.org
 
-* Fixed an issue with the Steam Password not being passed through consistently.
-* Fixed an issue where a non-existing game copy could be used.
-* Fixed an issue with downloading modlets from gitlab (vehicle packs, etc).
-* Cleaned up a few UI issues.
-* Added optional command parameters to mods  (-language=, etc).
-* Added screenshot of the mod launcher for the logs.zip.
-* Added an extract check for the OPEN URL option.
-* Added a runas when starting the game for it to more accurately detect Steam is running.
-* Fixed an issue with the current mod listing not scrolling to the top, leading to confusion.
+* Fixed another steam issue where it would not downloading
+* Fixed a few %20 vs space issues
 
 Current Bugs:
 
