@@ -5,8 +5,9 @@ If you run into issues with the Mod Launcher, exit the mod launcher. This will m
 
 https://7d2dmodlauncher.org
 
-* Fixed crash when doing an update
-* Fixed randomly moving Description.
+* Potentially fixed the issue with controllers not working in-game
+* Fixed an issue where a recently deleted mod would not display in the Available Mods.
+
 * Fixed another steam issue where it would not downloading
 * Fixed a few %20 vs space issues
 
