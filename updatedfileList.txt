@@ -12,5 +12,4 @@ ModLauncher_Data/ScriptingAssemblies.json
 ModLauncher_Data/sharedassets0.assets
 ModLauncher_Data/sharedassets1.assets
 ModLauncher_Data/Managed/Assembly-CSharp.dll
-ModLauncher_Data/Managed/Unity.InputSystem.dll
-ModLauncher_Data/Managed/Unity.TextMeshPro.dll
+ModLauncher_Data/Plugins/x86_64/sqlite3.dll
