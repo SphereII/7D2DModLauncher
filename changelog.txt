@@ -12,6 +12,7 @@ https://7d2dmodlauncher.org
 * Changed Maximum window not to go behind Windows start menu
 * Added initial loading screen placeholder
 * Cleaned up many small UI elements
+* Added Direct Download option under Settings ( option not available on all overhauls )
 
 Current Bugs:
 
