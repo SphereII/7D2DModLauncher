@@ -1,0 +1,24 @@
+=========================
+7D2D Mod Launcher by sphereii
+
+If you run into issues with the Mod Launcher, exit the mod launcher. This will make a logs.zip fle in the same folder as the ModLauncher.exe. Share this zip on discord for help.
+
+https://7d2dmodlauncher.org
+
+* Changed for updates to the mod launcher to be triggered manually, rather than at the beginning.
+* Added update prompt to show changelist before updating.
+* Added Section Headers between the buttons for installed mods.
+* Fixed up some progress screens to show less information
+* Changed Maximum window not to go behind Windows start menu
+* Added initial loading screen placeholder
+* Cleaned up many small UI elements
+* Added Direct Download option under Settings ( option not available on all overhauls )
+* Added quick check for already existing files, speeding up copies
+* Turned off ToolTip during update screen
+
+
+Current Bugs:
+
+There are a few bugs that we are still tracking, and need more information on.
+
+* Sometimes when making a game copy, you will get a Cannot Load Mono error.
