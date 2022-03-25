@@ -1,6 +1,0 @@
-
-
-[2021-08-11 19:48:40] SharedLibraryLockStatus: own library locked by 0
-
-
-[2021-08-11 21:16:33] SharedLibraryLockStatus: own library locked by 0

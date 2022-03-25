@@ -14,3 +14,4 @@ ModLauncher_Data/sharedassets1.assets
 ModLauncher_Data/sharedassets2.assets
 ModLauncher_Data/sharedassets2.assets.resS
 ModLauncher_Data/Managed/Assembly-CSharp.dll
+ModLauncher_Data/StreamingAssets/Tools/Windows/Steam/steamcmd.exe
