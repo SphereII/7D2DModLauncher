@@ -5,11 +5,17 @@ If you run into issues with the Mod Launcher, exit the mod launcher. This will m
 
 https://7d2dmodlauncher.org
 
-* Updated Modlets to use the legacy database, avoiding Rate Limit issues
-* Fixed Modlets not downloading properly
+* Changed for updates to the mod launcher to be triggered manually, rather than at the beginning.
+* Added update prompt to show changelist before updating.
+* Added Section Headers between the buttons for installed mods.
+* Fixed up some progress screens to show less information
+* Changed Maximum window not to go behind Windows start menu
+* Added initial loading screen placeholder
+* Cleaned up many small UI elements
+* Added Direct Download option under Settings ( option not available on all overhauls )
+* Added quick check for already existing files, speeding up copies
+* Turned off ToolTip during update screen
 
-* Fixed another steam issue where it would not downloading
-* Fixed a few %20 vs space issues
 
 Current Bugs:
 
