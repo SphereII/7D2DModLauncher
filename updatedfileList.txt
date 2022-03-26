@@ -1,5 +1,6 @@
 Files necessary to upload to the server.
 fileList.txt
+changelog.txt
 version.txt
 ModLauncher_Data/globalgamemanagers
 ModLauncher_Data/level1
