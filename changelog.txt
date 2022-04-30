@@ -5,6 +5,20 @@ If you run into issues with the Mod Launcher, exit the mod launcher. This will m
 
 https://7d2dmodlauncher.org
 
+* Adjusted Git to download less per update. 
+* Added auto-restart when the Default Path changes
+* Added Tutorial Splash screen when Mod Launcher comes up with no mods installed.
+* Cleaned up some panels for maintenance.
+
+Previous Updates
+
+* Fixed a download issue with modlets with spaces in their name.
+* Fixed an issue where My Mods wasn't displaying correctly.
+* Fixed an issue with a newly installed Modlet would not show up.
+
+* Fixed a bug where Mods folder was not created when downloading a modlet
+* Fixed an issue with the cleanup when downloading a zip file
+
 * Changed for updates to the mod launcher to be triggered manually, rather than at the beginning.
 * Added update prompt to show changelist before updating.
 * Added Section Headers between the buttons for installed mods.
