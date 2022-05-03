@@ -5,12 +5,19 @@ If you run into issues with the Mod Launcher, exit the mod launcher. This will m
 
 https://7d2dmodlauncher.org
 
+* Added internet check for offline play
+* Fixed Steam warning
+* Added a check to make sure steam username and password is set before continueing.
+* Added check for short paths, such as setting default folder to E:\
+	- This isn't a valid path for most, and will cause long load times.
+
+
+Previous Updates
+
 * Adjusted Git to download less per update. 
 * Added auto-restart when the Default Path changes
 * Added Tutorial Splash screen when Mod Launcher comes up with no mods installed.
 * Cleaned up some panels for maintenance.
-
-Previous Updates
 
 * Fixed a download issue with modlets with spaces in their name.
 * Fixed an issue where My Mods wasn't displaying correctly.
