@@ -1,16 +1,30 @@
 =========================
 7D2D Mod Launcher by sphereii
 
-If you run into issues with the Mod Launcher, exit the mod launcher. This will make a logs.zip fle in the same folder as the ModLauncher.exe. Share this zip on discord for help.
+If you run into issues with the Mod Launcher, clck on the LAUNCHER LOG button. This will make a logs.zip fle. Share this zip on discord for help.
 
 https://7d2dmodlauncher.org
+
+* Fixed a lot of UI controls that were corrupted by Unity
+* Added additional check for spaces in default folder
+* Improved error detection for downloads
+* Added a v3 / v4 label to the loading screen to better help differentiate them
+
+
+
+
+* Fixed Steam warning
+* Added a check to make sure steam username and password is set before continueing.
+* Added check for short paths, such as setting default folder to E:\
+	- This isn't a valid path for most, and will cause long load times.
+
+
+Previous Updates
 
 * Adjusted Git to download less per update. 
 * Added auto-restart when the Default Path changes
 * Added Tutorial Splash screen when Mod Launcher comes up with no mods installed.
 * Cleaned up some panels for maintenance.
-
-Previous Updates
 
 * Fixed a download issue with modlets with spaces in their name.
 * Fixed an issue where My Mods wasn't displaying correctly.
