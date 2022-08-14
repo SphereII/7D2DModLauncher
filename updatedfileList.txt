@@ -1,9 +1,26 @@
 Files necessary to upload to the server.
 fileList.txt
-changelog.txt
+logs.zip
+ModLauncher.exe
+screenshot.png
 version.txt
 ModLauncher_Data/globalgamemanagers
+ModLauncher_Data/globalgamemanagers.assets
+ModLauncher_Data/level0
 ModLauncher_Data/level1
+ModLauncher_Data/level2
+ModLauncher_Data/level3
 ModLauncher_Data/resources.assets
+ModLauncher_Data/resources.assets.resS
+ModLauncher_Data/resources.resource
+ModLauncher_Data/ScriptingAssemblies.json
 ModLauncher_Data/sharedassets0.assets
+ModLauncher_Data/sharedassets0.assets.resS
+ModLauncher_Data/sharedassets1.assets
+ModLauncher_Data/sharedassets1.assets.resS
+ModLauncher_Data/sharedassets1.resource
+ModLauncher_Data/sharedassets2.assets
+ModLauncher_Data/sharedassets3.assets
+ModLauncher_Data/sharedassets3.assets.resS
+ModLauncher_Data/Managed/Aspose.Zip.dll
 ModLauncher_Data/Managed/Assembly-CSharp.dll
