@@ -5,6 +5,10 @@ If you run into issues with the Mod Launcher, clck on the LAUNCHER LOG button. T
 
 https://7d2dmodlauncher.org
 
+* Reset version numbers.
+* Fixed an issue with Alpha 20.4 loading two mod folders, causing issues.
+
+
 * Fixed a lot of UI controls that were corrupted by Unity
 * Added additional check for spaces in default folder
 * Improved error detection for downloads
