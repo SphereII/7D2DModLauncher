@@ -1,18 +1,62 @@
 =========================
 7D2D Mod Launcher by sphereii
 
-If you run into issues with the Mod Launcher, exit the mod launcher. This will make a logs.zip fle in the same folder as the ModLauncher.exe. Share this zip on discord for help.
+If you run into issues with the Mod Launcher, clck on the LOG button. This will make a logs.zip fle. Share this zip on discord for help.
 
 https://7d2dmodlauncher.org
 
-* Fixed an issue with the Steam Password not being passed through consistently.
-* Fixed an issue where a non-existing game copy could be used.
-* Fixed an issue with downloading modlets from gitlab (vehicle packs, etc).
-* Cleaned up a few UI issues.
-* Added optional command parameters to mods  (-language=, etc).
-* Added screenshot of the mod launcher for the logs.zip.
-* Added an extract check for the OPEN URL option.
-* Added a runas when starting the game for it to more accurately detect Steam is running.
+* Fixed an issue where Copy From Local was not working
+* Added an Update check for mods
+* Added larger prompt for when the ModLauncher has an update
+* Added tips to help solve common problems
+* Fixed a few UI issues
+* Added Low Disk Space warning.
+
+
+
+* Reset version numbers.
+* Fixed an issue with Alpha 20.4 loading two mod folders, causing issues.
+
+
+* Fixed a lot of UI controls that were corrupted by Unity
+* Added additional check for spaces in default folder
+* Improved error detection for downloads
+* Added a v3 / v4 label to the loading screen to better help differentiate them
+
+
+
+
+* Fixed Steam warning
+* Added a check to make sure steam username and password is set before continueing.
+* Added check for short paths, such as setting default folder to E:\
+	- This isn't a valid path for most, and will cause long load times.
+
+
+Previous Updates
+
+* Adjusted Git to download less per update. 
+* Added auto-restart when the Default Path changes
+* Added Tutorial Splash screen when Mod Launcher comes up with no mods installed.
+* Cleaned up some panels for maintenance.
+
+* Fixed a download issue with modlets with spaces in their name.
+* Fixed an issue where My Mods wasn't displaying correctly.
+* Fixed an issue with a newly installed Modlet would not show up.
+
+* Fixed a bug where Mods folder was not created when downloading a modlet
+* Fixed an issue with the cleanup when downloading a zip file
+
+* Changed for updates to the mod launcher to be triggered manually, rather than at the beginning.
+* Added update prompt to show changelist before updating.
+* Added Section Headers between the buttons for installed mods.
+* Fixed up some progress screens to show less information
+* Changed Maximum window not to go behind Windows start menu
+* Added initial loading screen placeholder
+* Cleaned up many small UI elements
+* Added Direct Download option under Settings ( option not available on all overhauls )
+* Added quick check for already existing files, speeding up copies
+* Turned off ToolTip during update screen
+
 
 Current Bugs:
 
