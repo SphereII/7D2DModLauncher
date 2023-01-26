@@ -5,6 +5,12 @@ If you run into issues with the Mod Launcher, clck on the LOG button. This will 
 
 https://7d2dmodlauncher.org
 
+* Fixed some modlets from not downloading correctly
+* Fixed UI bugs with small text on high resolution monitors
+* If a download fails, it will re-try automatically.
+* Enabled compression on the git download, to try to prevent the SSL / index errors.
+
+
 * Fixed an issue where Copy From Local was not working
 * Added an Update check for mods
 * Added larger prompt for when the ModLauncher has an update
