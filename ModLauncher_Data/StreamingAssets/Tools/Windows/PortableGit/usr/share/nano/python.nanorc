@@ -1,13 +1,15 @@
-## Here is an example for Python.
+## Syntax highlighting for Python.
 
 syntax python "\.py$"
 header "^#!.*python"
 magic "Python script"
-linter pyflakes
 comment "#"
 
+# Alternative linter: pylint --exit-zero
+linter pyflakes
+
 # Function definitions.
-icolor brightblue "def [0-9A-Z_]+"
+color brightblue "def [0-9A-Za-z_]+"
 # Keywords.
 color brightcyan "\<(and|as|assert|async|await|break|class|continue)\>"
 color brightcyan "\<(def|del|elif|else|except|finally|for|from)\>"
@@ -22,17 +24,21 @@ color brightcyan "\<(exec|print)([[:blank:]]|$)"
 # Special values.
 color brightmagenta "\<(False|None|True)\>"
 
-# Single-quoted strings.
-color brightgreen "'([^'\]|\\.)+'"
-color brightgreen ""([^"\]|\\.)+""
+# Mono-quoted strings.
+color brightgreen "'([^'\]|\\.)*'|"([^"\]|\\.)*"|'''|""""
+color normal "'''|""""
 # Comments.
 color brightred "(^|[[:blank:]])#.*"
 # Triple-quoted strings.
-color brightgreen    start="'''([^'),]|$)" end="(^|[^(\])'''"
-color brightgreen start="\"\"\"([^"),]|$)" end="(^|[^(\])\"\"\""
+color brightgreen start="'''([^'),]|$)" end="(^|[^(\])'''"
+color brightgreen start=""""([^"),]|$)" end="(^|[^(\])""""
+
+# Backslash escapes.
+color lime "\\($|[\'"abfnrtv]|[0-3]?[0-7]?[0-7]|x[[:xdigit:]]{2})"
+color lime "\\(N\{[[:alpha:]]+\}|u[[:xdigit:]]{4}|U[[:xdigit:]]{8})"
 
 # Reminders.
-color brightwhite,yellow "(FIXME|TODO|XXX)"
+color brightwhite,yellow "\<(FIXME|TODO|XXX)\>"
 
 # Trailing whitespace.
 color ,green "[[:space:]]+$"

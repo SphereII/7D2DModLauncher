@@ -11,17 +11,14 @@ HTTP/2.
 
 An HPACK encoder and decoder are available as a public API.
 
-An experimental high level C++ library is also available.
-
-We have Python bindings of this library, but we do not have full
-code coverage yet.
-
 Development Status
 ------------------
 
-We have implemented `RFC 7540 <https://tools.ietf.org/html/rfc7540>`_
-HTTP/2 and `RFC 7541 <https://tools.ietf.org/html/rfc7541>`_ HPACK -
-Header Compression for HTTP/2
+nghttp2 was originally developed based on `RFC 7540
+<https://tools.ietf.org/html/rfc7540>`_ HTTP/2 and `RFC 7541
+<https://tools.ietf.org/html/rfc7541>`_ HPACK - Header Compression for
+HTTP/2.  Now we are updating our code to implement `RFC 9113
+<https://datatracker.ietf.org/doc/html/rfc9113>`_.
 
 The nghttp2 code base was forked from the spdylay
 (https://github.com/tatsuhiro-t/spdylay) project.
@@ -32,11 +29,13 @@ Public Test Server
 The following endpoints are available to try out our nghttp2
 implementation.
 
-* https://nghttp2.org/ (TLS + ALPN/NPN)
+* https://nghttp2.org/ (TLS + ALPN/NPN and HTTP/3)
 
   This endpoint supports ``h2``, ``h2-16``, ``h2-14``, and
   ``http/1.1`` via ALPN/NPN and requires TLSv1.2 for HTTP/2
   connection.
+
+  It also supports HTTP/3.
 
 * http://nghttp2.org/ (HTTP Upgrade and HTTP/2 Direct)
 
@@ -104,26 +103,18 @@ To mitigate heap fragmentation in long running server programs
      Alpine Linux currently does not support malloc replacement
      due to musl limitations. See details in issue `#762 <https://github.com/nghttp2/nghttp2/issues/762>`_.
 
-libnghttp2_asio C++ library requires the following packages:
+libnghttp2_asio C++ library (deprecated, has moved to
+https://github.com/nghttp2/nghttp2-asio) requires the following
+packages:
 
 * libboost-dev >= 1.54.0
 * libboost-thread-dev >= 1.54.0
 
-The Python bindings require the following packages:
+The Python bindings (deprecated) require the following packages:
 
 * cython >= 0.19
 * python >= 3.8
 * python-setuptools
-
-If you are using Ubuntu 16.04 LTS (Xenial Xerus) or Debian 8 (jessie)
-and above, run the following to install the required packages:
-
-.. code-block:: text
-
-    sudo apt-get install g++ make binutils autoconf automake autotools-dev libtool pkg-config \
-      zlib1g-dev libcunit1-dev libssl-dev libxml2-dev libev-dev libevent-dev libjansson-dev \
-      libc-ares-dev libjemalloc-dev libsystemd-dev \
-      cython python3-dev python-setuptools
 
 To enable mruby support for nghttpx, `mruby
 <https://github.com/mruby/mruby>`_ is required.  We need to build
@@ -144,6 +135,33 @@ privilege separation engine for OpenSSL / LibreSSL.  In short, it
 minimizes the risk of private key leakage when serious bug like
 Heartbleed is exploited.  The neverbleed is disabled by default.  To
 enable it, use ``--with-neverbleed`` configure option.
+
+To enable the experimental HTTP/3 support for h2load and nghttpx, the
+following libraries are required:
+
+* `OpenSSL with QUIC support
+  <https://github.com/quictls/openssl/tree/OpenSSL_1_1_1s+quic>`_; or
+  `BoringSSL <https://boringssl.googlesource.com/boringssl/>`_ (commit
+  b2536a2c6234496ef609e7c909936bbf828dac6d)
+* `ngtcp2 <https://github.com/ngtcp2/ngtcp2>`_ >= 0.10.0
+* `nghttp3 <https://github.com/ngtcp2/nghttp3>`_ >= 0.7.0
+
+Use ``--enable-http3`` configure option to enable HTTP/3 feature for
+h2load and nghttpx.
+
+In order to build optional eBPF program to direct an incoming QUIC UDP
+datagram to a correct socket for nghttpx, the following libraries are
+required:
+
+* libbpf-dev >= 0.7.0
+
+Use ``--with-libbpf`` configure option to build eBPF program.
+libelf-dev is needed to build libbpf.
+
+For Ubuntu 20.04, you can build libbpf from `the source code
+<https://github.com/libbpf/libbpf/releases/tag/v1.0.1>`_.  nghttpx
+requires eBPF program for reloading its configuration and hot swapping
+its executable.
 
 Compiling libnghttp2 C source code requires a C99 compiler.  gcc 4.8
 is known to be adequate.  In order to compile the C++ source code, gcc
@@ -194,6 +212,18 @@ language features.
    specified, pkg-config is not used for detection, and user is
    responsible to specify the correct values to these variables.  For
    complete list of these variables, run ``./configure -h``.
+
+If you are using Ubuntu 22.04 LTS, run the following to install the
+required packages:
+
+.. code-block:: text
+
+    sudo apt-get install g++ clang make binutils autoconf automake \
+      autotools-dev libtool pkg-config \
+      zlib1g-dev libcunit1-dev libssl-dev libxml2-dev libev-dev \
+      libevent-dev libjansson-dev \
+      libc-ares-dev libjemalloc-dev libsystemd-dev \
+      ruby-dev bison libelf-dev
 
 Building nghttp2 from release tar archive
 -----------------------------------------
@@ -306,6 +336,88 @@ The generated documents will not be installed with ``make install``.
 
 The online documentation is available at
 https://nghttp2.org/documentation/
+
+Build HTTP/3 enabled h2load and nghttpx
+---------------------------------------
+
+To build h2load and nghttpx with HTTP/3 feature enabled, run the
+configure script with ``--enable-http3``.
+
+For nghttpx to reload configurations and swapping its executable while
+gracefully terminating old worker processes, eBPF is required.  Run
+the configure script with ``--enable-http3 --with-libbpf`` to build
+eBPF program.  The QUIC keying material must be set with
+``--frontend-quic-secret-file`` in order to keep the existing
+connections alive during reload.
+
+The detailed steps to build HTTP/3 enabled h2load and nghttpx follow.
+
+Build custom OpenSSL:
+
+.. code-block:: text
+
+   $ git clone --depth 1 -b OpenSSL_1_1_1s+quic https://github.com/quictls/openssl
+   $ cd openssl
+   $ ./config --prefix=$PWD/build --openssldir=/etc/ssl
+   $ make -j$(nproc)
+   $ make install_sw
+   $ cd ..
+
+Build nghttp3:
+
+.. code-block:: text
+
+   $ git clone --depth 1 -b v0.7.1 https://github.com/ngtcp2/nghttp3
+   $ cd nghttp3
+   $ autoreconf -i
+   $ ./configure --prefix=$PWD/build --enable-lib-only
+   $ make -j$(nproc)
+   $ make install
+   $ cd ..
+
+Build ngtcp2:
+
+.. code-block:: text
+
+   $ git clone --depth 1 -b v0.11.0 https://github.com/ngtcp2/ngtcp2
+   $ cd ngtcp2
+   $ autoreconf -i
+   $ ./configure --prefix=$PWD/build --enable-lib-only \
+         PKG_CONFIG_PATH="$PWD/../openssl/build/lib/pkgconfig"
+   $ make -j$(nproc)
+   $ make install
+   $ cd ..
+
+If your Linux distribution does not have libbpf-dev >= 0.7.0, build
+from source:
+
+.. code-block:: text
+
+   $ git clone --depth 1 -b v1.0.1 https://github.com/libbpf/libbpf
+   $ cd libbpf
+   $ PREFIX=$PWD/build make -C src install
+   $ cd ..
+
+Build nghttp2:
+
+.. code-block:: text
+
+   $ git clone https://github.com/nghttp2/nghttp2
+   $ cd nghttp2
+   $ git submodule update --init
+   $ autoreconf -i
+   $ ./configure --with-mruby --with-neverbleed --enable-http3 --with-libbpf \
+         --disable-python-bindings \
+         CC=clang-14 CXX=clang++-14 \
+         PKG_CONFIG_PATH="$PWD/../openssl/build/lib/pkgconfig:$PWD/../nghttp3/build/lib/pkgconfig:$PWD/../ngtcp2/build/lib/pkgconfig:$PWD/../libbpf/build/lib64/pkgconfig" \
+         LDFLAGS="$LDFLAGS -Wl,-rpath,$PWD/../openssl/build/lib -Wl,-rpath,$PWD/../libbpf/build/lib64"
+   $ make -j$(nproc)
+
+The eBPF program ``reuseport_kern.o`` should be found under bpf
+directory.  Pass ``--quic-bpf-program-file=bpf/reuseport_kern.o``
+option to nghttpx to load it.  See also `HTTP/3 section in nghttpx -
+HTTP/2 proxy - HOW-TO
+<https://nghttp2.org/documentation/nghttpx-howto.html#http-3>`_.
 
 Unit tests
 ----------
@@ -734,7 +846,7 @@ information.  Here is sample output from ``nghttpd``:
 nghttpx - proxy
 +++++++++++++++
 
-``nghttpx`` is a multi-threaded reverse proxy for HTTP/2, and
+``nghttpx`` is a multi-threaded reverse proxy for HTTP/3, HTTP/2, and
 HTTP/1.1, and powers http://nghttp2.org and supports HTTP/2 server
 push.
 
@@ -755,16 +867,16 @@ ticket keys among multiple ``nghttpx`` instances via memcached.
 
 ``nghttpx`` has 2 operation modes:
 
-================== ================ ================ =============
-Mode option        Frontend         Backend          Note
-================== ================ ================ =============
-default mode       HTTP/2, HTTP/1.1 HTTP/1.1, HTTP/2 Reverse proxy
-``--http2-proxy``  HTTP/2, HTTP/1.1 HTTP/1.1, HTTP/2 Forward proxy
-================== ================ ================ =============
+================== ======================== ================ =============
+Mode option        Frontend                 Backend          Note
+================== ======================== ================ =============
+default mode       HTTP/3, HTTP/2, HTTP/1.1 HTTP/1.1, HTTP/2 Reverse proxy
+``--http2-proxy``  HTTP/3, HTTP/2, HTTP/1.1 HTTP/1.1, HTTP/2 Forward proxy
+================== ======================== ================ =============
 
 The interesting mode at the moment is the default mode.  It works like
-a reverse proxy and listens for HTTP/2, and HTTP/1.1 and can be
-deployed as a SSL/TLS terminator for existing web server.
+a reverse proxy and listens for HTTP/3, HTTP/2, and HTTP/1.1 and can
+be deployed as a SSL/TLS terminator for existing web server.
 
 In all modes, the frontend connections are encrypted by SSL/TLS by
 default.  To disable encryption, use the ``no-tls`` keyword in
@@ -782,16 +894,16 @@ server:
 
 .. code-block:: text
 
-    Client <-- (HTTP/2, HTTP/1.1) --> nghttpx <-- (HTTP/1.1, HTTP/2) --> Web Server
-                                    [reverse proxy]
+    Client <-- (HTTP/3, HTTP/2, HTTP/1.1) --> nghttpx <-- (HTTP/1.1, HTTP/2) --> Web Server
+                                            [reverse proxy]
 
 With the ``--http2-proxy`` option, it works as forward proxy, and it
 is so called secure HTTP/2 proxy:
 
 .. code-block:: text
 
-    Client <-- (HTTP/2, HTTP/1.1) --> nghttpx <-- (HTTP/1.1) --> Proxy
-                                     [secure proxy]          (e.g., Squid, ATS)
+    Client <-- (HTTP/3, HTTP/2, HTTP/1.1) --> nghttpx <-- (HTTP/1.1) --> Proxy
+                                             [secure proxy]          (e.g., Squid, ATS)
 
 The ``Client`` in the above example needs to be configured to use
 ``nghttpx`` as secure proxy.
@@ -823,7 +935,7 @@ proxy through an HTTP proxy:
 
 .. code-block:: text
 
-    Client <-- (HTTP/2, HTTP/1.1) --> nghttpx <-- (HTTP/2) --
+    Client <-- (HTTP/3, HTTP/2, HTTP/1.1) --> nghttpx <-- (HTTP/2) --
 
             --===================---> HTTP/2 Proxy
               (HTTP proxy tunnel)     (e.g., nghttpx -s)
@@ -831,8 +943,8 @@ proxy through an HTTP proxy:
 Benchmarking tool
 -----------------
 
-The ``h2load`` program is a benchmarking tool for HTTP/2.  The UI of
-``h2load`` is heavily inspired by ``weighttp``
+The ``h2load`` program is a benchmarking tool for HTTP/3, HTTP/2, and
+HTTP/1.1.  The UI of ``h2load`` is heavily inspired by ``weighttp``
 (https://github.com/lighttpd/weighttp).  The typical usage is as
 follows:
 
@@ -874,6 +986,14 @@ threads to avoid saturating a single core on client side.
    **Don't use this tool against publicly available servers.** That is
    considered a DOS attack.  Please only use it against your private
    servers.
+
+If the experimental HTTP/3 is enabled, h2load can send requests to
+HTTP/3 server.  To do this, specify ``h3`` to ``--npn-list`` option
+like so:
+
+.. code-block:: text
+
+    $ h2load --npn-list h3 https://127.0.0.1:4433
 
 HPACK tools
 -----------
@@ -1315,6 +1435,9 @@ corresponding header set was processed.  The format is the same as
 libnghttp2_asio: High level HTTP/2 C++ library
 ----------------------------------------------
 
+libnghttp2_asio has been deprecated, and moved to
+https://github.com/nghttp2/nghttp2-asio.
+
 libnghttp2_asio is C++ library built on top of libnghttp2 and provides
 high level abstraction API to build HTTP/2 applications.  It depends
 on the Boost::ASIO library and OpenSSL.  Currently libnghttp2_asio
@@ -1411,6 +1534,8 @@ For more details, see the documentation of libnghttp2_asio.
 
 Python bindings
 ---------------
+
+Python bindings have been deprecated.
 
 The ``python`` directory contains nghttp2 Python bindings.  The
 bindings currently provide HPACK compressor and decompressor classes

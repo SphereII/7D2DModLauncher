@@ -1,4 +1,4 @@
-*version7.txt*  For Vim version 8.2.  Last change: 2021 May 13
+*version7.txt*  For Vim version 8.2.  Last change: 2021 May 17
 
 
 		  VIM REFERENCE MANUAL    by Bram Moolenaar
@@ -14965,7 +14965,7 @@ Solution:   Adjust autoconf. (lilydjwg)
 Files:	    src/configure.in, src/auto/configure
 
 Patch 7.3.806
-Problem:    Compiler warnings in Perl code when building with Visual studio
+Problem:    Compiler warnings in Perl code when building with Visual Studio
 	    2012. (skeept)
 Solution:   Add type casts. (Christian Brabandt, 2013 Jan 30)
 Files:	    src/if_perl.xs
@@ -16225,7 +16225,7 @@ Files:	    src/regexp_nfa.c, src/testdir/test64.in, src/testdir/test64.ok,
 Patch 7.3.1018
 Problem:    New regexp engine wastes memory.
 Solution:   Allocate prog with actual number of states, not estimated maximum
-	    number of sates.
+	    number of states.
 Files:	    src/regexp_nfa.c
 
 Patch 7.3.1019

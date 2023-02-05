@@ -1956,7 +1956,7 @@ commit.  Git calls this process a <a class="link" href="#fast-forwards" title="F
             o--o--o &lt;-- new head of the branch</pre>
 <p>In some cases it is possible that the new head will <span class="strong"><strong>not</strong></span> actually be
 a descendant of the old head.  For example, the developer may have
-realized she made a serious mistake, and decided to backtrack,
+realized a serious mistake was made and decided to backtrack,
 resulting in a situation like:</p>
 <pre class="literallayout"> o--o--o--o--a--b &lt;-- old head of the branch
            \
@@ -2229,7 +2229,7 @@ those "loose" objects.</p>
 <p>You can save space and make Git faster by moving these loose objects in
 to a "pack file", which stores a group of objects in an efficient
 compressed format; the details of how pack files are formatted can be
-found in <a class="ulink" href="technical/pack-format.html" target="_top">pack format</a>.</p>
+found in <a class="ulink" href="gitformat-pack.html" target="_top">gitformat-pack(5)</a>.</p>
 <p>To put the loose objects into a pack, just run git repack:</p>
 <pre class="screen">$ git repack
 Counting objects: 6020, done.
@@ -2268,7 +2268,7 @@ bigger picture, you changed something else in that file and committed
 that <span class="strong"><strong>updated</strong></span> thing—​the old state that you added originally ends up
 not being pointed to by any commit or tree, so it’s now a dangling blob
 object.</p>
-<p>Similarly, when the "recursive" merge strategy runs, and finds that
+<p>Similarly, when the "ort" merge strategy runs, and finds that
 there are criss-cross merges and thus more than one merge base (which is
 fairly unusual, but it does happen), it will generate one temporary
 midway tree (or possibly even more, if you had lots of criss-crossing
@@ -3095,7 +3095,7 @@ Untyped <a class="link" href="#def_object">object</a>, e.g. the contents of a fi
 </dd><dt><span class="term"><a name="def_branch"></a>branch</span></dt><dd>
 A "branch" is a line of development.  The most recent
 <a class="link" href="#def_commit">commit</a> on a branch is referred to as the tip of
-that branch.  The tip of the branch is referenced by a branch
+that branch.  The tip of the branch is <a class="link" href="#def_ref">referenced</a> by a branch
 <a class="link" href="#def_head">head</a>, which moves forward as additional development
 is done on the branch.  A single Git
 <a class="link" href="#def_repository">repository</a> can track an arbitrary number of
@@ -3141,6 +3141,19 @@ hand for <a class="link" href="#def_commit_object">commit object</a>.</p>
 state in the Git history, by creating a new commit representing the current
 state of the <a class="link" href="#def_index">index</a> and advancing <a class="link" href="#def_HEAD">HEAD</a>
 to point at the new commit.</p>
+</dd><dt><span class="term"><a name="def_commit_graph_general"></a>commit graph concept, representations and usage</span></dt><dd>
+A synonym for the <a class="link" href="#def_DAG">DAG</a> structure formed by the commits
+in the object database, <a class="link" href="#def_ref">referenced</a> by branch tips,
+using their <a class="link" href="#def_chain">chain</a> of linked commits.
+This structure is the definitive commit graph. The
+graph can be represented in other ways, e.g. the
+<a class="link" href="#def_commit_graph_file">"commit-graph" file</a>.
+</dd><dt><span class="term"><a name="def_commit_graph_file"></a>commit-graph file</span></dt><dd>
+The "commit-graph" (normally hyphenated) file is a supplemental
+representation of the <a class="link" href="#def_commit_graph_general">commit graph</a>
+which accelerates commit graph walks. The "commit-graph" file is
+stored either in the .git/objects/info directory or in the info
+directory of an alternate object database.
 </dd><dt><span class="term"><a name="def_commit_object"></a>commit object</span></dt><dd>
 An <a class="link" href="#def_object">object</a> which contains the information about a
 particular <a class="link" href="#def_revision">revision</a>, such as <a class="link" href="#def_parent">parents</a>, committer,
@@ -3202,8 +3215,8 @@ A fast-forward is a special type of <a class="link" href="#def_merge">merge</a> 
 <a class="link" href="#def_revision">revision</a> and you are "merging" another
 <a class="link" href="#def_branch">branch</a>'s changes that happen to be a descendant of what
 you have. In such a case, you do not make a new <a class="link" href="#def_merge">merge</a>
-<a class="link" href="#def_commit">commit</a> but instead just update to his
-revision. This will happen frequently on a
+<a class="link" href="#def_commit">commit</a> but instead just update your branch to point at the same
+revision as the branch you are merging. This will happen frequently on a
 <a class="link" href="#def_remote_tracking_branch">remote-tracking branch</a> of a remote
 <a class="link" href="#def_repository">repository</a>.
 </dd><dt><span class="term"><a name="def_fetch"></a>fetch</span></dt><dd>
@@ -3298,7 +3311,7 @@ object cannot be changed.
 Stores a set of "objects", and an individual <a class="link" href="#def_object">object</a> is
 identified by its <a class="link" href="#def_object_name">object name</a>. The objects usually
 live in <code class="literal">$GIT_DIR/objects/</code>.
-</dd><dt><span class="term"><a name="def_object_identifier"></a>object identifier</span></dt><dd>
+</dd><dt><span class="term"><a name="def_object_identifier"></a>object identifier (oid)</span></dt><dd>
 Synonym for <a class="link" href="#def_object_name">object name</a>.
 </dd><dt><span class="term"><a name="def_object_name"></a>object name</span></dt><dd>
 The unique identifier of an <a class="link" href="#def_object">object</a>.  The
@@ -3339,7 +3352,7 @@ pack.
 ls-tree", "git add", "git grep", "git diff", "git checkout",
 and many other commands to
 limit the scope of operations to some subset of the tree or
-worktree.  See the documentation of each command for whether
+working tree.  See the documentation of each command for whether
 paths are relative to the current directory or toplevel.  The
 pathspec syntax is as follows:</p>
 <div class="itemizedlist"><ul class="itemizedlist" style="list-style-type: disc; "><li class="listitem">
@@ -3454,7 +3467,7 @@ Cute name for programs and program suites depending on
 core Git. Porcelains expose more of a <a class="link" href="#def_SCM">SCM</a>
 interface than the <a class="link" href="#def_plumbing">plumbing</a>.
 </dd><dt><span class="term"><a name="def_per_worktree_ref"></a>per-worktree ref</span></dt><dd>
-Refs that are per-<a class="link" href="#def_working_tree">worktree</a>, rather than
+Refs that are per-<a class="link" href="#def_worktree">worktree</a>, rather than
 global.  This is presently only <a class="link" href="#def_HEAD">HEAD</a> and any refs
 that start with <code class="literal">refs/bisect/</code>, but might later include other
 unusual refs.
@@ -3496,6 +3509,13 @@ that follows <a class="link" href="#def_tag">tags</a> to whatever they tag,
 <a class="link" href="#def_commit_object">commits</a> to their parents or trees, and
 <a class="link" href="#def_tree_object">trees</a> to the trees or <a class="link" href="#def_blob_object">blobs</a>
 that they contain.
+</dd><dt><span class="term"><a name="def_reachability_bitmap"></a>reachability bitmaps</span></dt><dd>
+Reachability bitmaps store information about the
+<a class="link" href="#def_reachable">reachability</a> of a selected set of commits in
+a packfile, or a multi-pack index (MIDX), to speed up object search.
+The bitmaps are stored in a ".bitmap" file. A repository may have at
+most one bitmap file in use. The bitmap file may belong to either one
+pack, or the repository’s multi-pack index (if it exists).
 </dd><dt><span class="term"><a name="def_rebase"></a>rebase</span></dt><dd>
 To reapply a series of changes from a <a class="link" href="#def_branch">branch</a> to a
 different base, and reset the <a class="link" href="#def_head">head</a> of that branch
@@ -3643,6 +3663,14 @@ of <span class="emphasis"><em>A</em></span> is <span class="emphasis"><em>origin
 The tree of actual checked out files.  The working tree normally
 contains the contents of the <a class="link" href="#def_HEAD">HEAD</a> commit’s tree,
 plus any local changes that you have made but not yet committed.
+</dd><dt><span class="term"><a name="def_worktree"></a>worktree</span></dt><dd>
+A repository can have zero (i.e. bare repository) or one or
+more worktrees attached to it. One "worktree" consists of a
+"working tree" and repository metadata, most of which are
+shared among other worktrees of a single repository, and
+some of which are maintained separately per worktree
+(e.g. the index, HEAD and pseudorefs like MERGE_HEAD,
+per-worktree refs and per-worktree configuration file).
 </dd></dl></div>
 </div>
 </div>

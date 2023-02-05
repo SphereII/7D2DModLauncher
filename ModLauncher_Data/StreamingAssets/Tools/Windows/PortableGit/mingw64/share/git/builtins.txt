@@ -29,6 +29,7 @@ git-credential-cache.exe
 git-credential-store.exe
 git-credential.exe
 git-describe.exe
+git-diagnose.exe
 git-diff-files.exe
 git-diff-index.exe
 git-diff-tree.exe
@@ -49,6 +50,7 @@ git-get-tar-commit-id.exe
 git-grep.exe
 git-hash-object.exe
 git-help.exe
+git-hook.exe
 git-index-pack.exe
 git-init-db.exe
 git-interpret-trailers.exe
@@ -131,4 +133,5 @@ git-show.exe
 git-stage.exe
 git-status.exe
 git-switch.exe
+git-version.exe
 git-whatchanged.exe

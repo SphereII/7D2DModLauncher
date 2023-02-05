@@ -4,25 +4,23 @@
 <meta charset="UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<meta name="generator" content="Asciidoctor 2.0.13"/>
+<meta name="generator" content="Asciidoctor 2.0.17"/>
 <title>git(1)</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700"/>
 <style>
-/* Asciidoctor default stylesheet | MIT License | https://asciidoctor.org */
-/* Uncomment @import statement to use as custom stylesheet */
-/*@import "https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700";*/
-article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section{display:block}
-audio,video{display:inline-block}
-audio:not([controls]){display:none;height:0}
-html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}
+/*! Asciidoctor default stylesheet | MIT License | https://asciidoctor.org */
+/* Uncomment the following line when using as a custom stylesheet */
+/* @import "https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700"; */
+html{font-family:sans-serif;-webkit-text-size-adjust:100%}
 a{background:none}
 a:focus{outline:thin dotted}
 a:active,a:hover{outline:0}
 h1{font-size:2em;margin:.67em 0}
-abbr[title]{border-bottom:1px dotted}
 b,strong{font-weight:bold}
+abbr{font-size:.9em}
+abbr[title]{cursor:help;border-bottom:1px dotted #dddddf;text-decoration:none}
 dfn{font-style:italic}
-hr{-moz-box-sizing:content-box;box-sizing:content-box;height:0}
+hr{height:0}
 mark{background:#ff0;color:#000}
 code,kbd,pre,samp{font-family:monospace;font-size:1em}
 pre{white-space:pre-wrap}
@@ -34,20 +32,22 @@ sub{bottom:-.25em}
 img{border:0}
 svg:not(:root){overflow:hidden}
 figure{margin:0}
+audio,video{display:inline-block}
+audio:not([controls]){display:none;height:0}
 fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}
 legend{border:0;padding:0}
 button,input,select,textarea{font-family:inherit;font-size:100%;margin:0}
 button,input{line-height:normal}
 button,select{text-transform:none}
-button,html input[type="button"],input[type="reset"],input[type="submit"]{-webkit-appearance:button;cursor:pointer}
+button,html input[type=button],input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer}
 button[disabled],html input[disabled]{cursor:default}
-input[type="checkbox"],input[type="radio"]{box-sizing:border-box;padding:0}
+input[type=checkbox],input[type=radio]{padding:0}
 button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}
 textarea{overflow:auto;vertical-align:top}
 table{border-collapse:collapse;border-spacing:0}
-*,*::before,*::after{-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box}
+*,::before,::after{box-sizing:border-box}
 html,body{font-size:100%}
-body{background:#fff;color:rgba(0,0,0,.8);padding:0;margin:0;font-family:"Noto Serif","DejaVu Serif",serif;font-weight:400;font-style:normal;line-height:1;position:relative;cursor:auto;tab-size:4;word-wrap:anywhere;-moz-osx-font-smoothing:grayscale;-webkit-font-smoothing:antialiased}
+body{background:#fff;color:rgba(0,0,0,.8);padding:0;margin:0;font-family:"Noto Serif","DejaVu Serif",serif;line-height:1;position:relative;cursor:auto;-moz-tab-size:4;-o-tab-size:4;tab-size:4;word-wrap:anywhere;-moz-osx-font-smoothing:grayscale;-webkit-font-smoothing:antialiased}
 a:hover{cursor:pointer}
 img,object,embed{max-width:100%;height:auto}
 object,embed{height:100%}
@@ -67,7 +67,7 @@ div,dl,dt,dd,ul,ol,li,h1,h2,h3,#toctitle,.sidebarblock>.content>.title,h4,h5,h6,
 a{color:#2156a5;text-decoration:underline;line-height:inherit}
 a:hover,a:focus{color:#1d4b8f}
 a img{border:0}
-p{font-family:inherit;font-weight:400;font-size:1em;line-height:1.6;margin-bottom:1.25em;text-rendering:optimizeLegibility}
+p{line-height:1.6;margin-bottom:1.25em;text-rendering:optimizeLegibility}
 p aside{font-size:.875em;line-height:1.35;font-style:italic}
 h1,h2,h3,#toctitle,.sidebarblock>.content>.title,h4,h5,h6{font-family:"Open Sans","DejaVu Sans",sans-serif;font-weight:300;font-style:normal;color:#ba3925;text-rendering:optimizeLegibility;margin-top:1em;margin-bottom:.5em;line-height:1.0125em}
 h1 small,h2 small,h3 small,#toctitle small,.sidebarblock>.content>.title small,h4 small,h5 small,h6 small{font-size:60%;color:#e99b8f;line-height:0}
@@ -76,14 +76,14 @@ h2{font-size:1.6875em}
 h3,#toctitle,.sidebarblock>.content>.title{font-size:1.375em}
 h4,h5{font-size:1.125em}
 h6{font-size:1em}
-hr{border:solid #dddddf;border-width:1px 0 0;clear:both;margin:1.25em 0 1.1875em;height:0}
+hr{border:solid #dddddf;border-width:1px 0 0;clear:both;margin:1.25em 0 1.1875em}
 em,i{font-style:italic;line-height:inherit}
 strong,b{font-weight:bold;line-height:inherit}
 small{font-size:60%;line-height:inherit}
 code{font-family:"Droid Sans Mono","DejaVu Sans Mono",monospace;font-weight:400;color:rgba(0,0,0,.9)}
-ul,ol,dl{font-size:1em;line-height:1.6;margin-bottom:1.25em;list-style-position:outside;font-family:inherit}
+ul,ol,dl{line-height:1.6;margin-bottom:1.25em;list-style-position:outside;font-family:inherit}
 ul,ol{margin-left:1.5em}
-ul li ul,ul li ol{margin-left:1.25em;margin-bottom:0;font-size:1em}
+ul li ul,ul li ol{margin-left:1.25em;margin-bottom:0}
 ul.square li ul,ul.circle li ul,ul.disc li ul{list-style:inherit}
 ul.square{list-style-type:square}
 ul.circle{list-style-type:circle}
@@ -91,8 +91,6 @@ ul.disc{list-style-type:disc}
 ol li ul,ol li ol{margin-left:1.25em;margin-bottom:0}
 dl dt{margin-bottom:.3125em;font-weight:bold}
 dl dd{margin-bottom:1.25em}
-abbr,acronym{text-transform:uppercase;font-size:90%;color:rgba(0,0,0,.8);border-bottom:1px dotted #ddd;cursor:help}
-abbr{text-transform:none}
 blockquote{margin:0 0 1.25em;padding:.5625em 1.25em 0 1.1875em;border-left:1px solid #ddd}
 blockquote,blockquote p{line-height:1.6;color:rgba(0,0,0,.85)}
 @media screen and (min-width:768px){h1,h2,h3,#toctitle,.sidebarblock>.content>.title,h4,h5,h6{line-height:1.2}
@@ -100,7 +98,7 @@ h1{font-size:2.75em}
 h2{font-size:2.3125em}
 h3,#toctitle,.sidebarblock>.content>.title{font-size:1.6875em}
 h4{font-size:1.4375em}}
-table{background:#fff;margin-bottom:1.25em;border:solid 1px #dedede;word-wrap:normal}
+table{background:#fff;margin-bottom:1.25em;border:1px solid #dedede;word-wrap:normal}
 table thead,table tfoot{background:#f7f8f7}
 table thead tr th,table thead tr td,table tfoot tr th,table tfoot tr td{padding:.5em .625em .625em;font-size:inherit;color:rgba(0,0,0,.8);text-align:left}
 table tr th,table tr td{padding:.5625em .625em;font-size:inherit;color:rgba(0,0,0,.8)}
@@ -115,7 +113,7 @@ h1 strong,h2 strong,h3 strong,#toctitle strong,.sidebarblock>.content>.title str
 :not(pre).nobreak{word-wrap:normal}
 :not(pre).nowrap{white-space:nowrap}
 :not(pre).pre-wrap{white-space:pre-wrap}
-:not(pre):not([class^=L])>code{font-size:.9375em;font-style:normal!important;letter-spacing:0;padding:.1em .5ex;word-spacing:-.15em;background:#f7f7f8;-webkit-border-radius:4px;border-radius:4px;line-height:1.45;text-rendering:optimizeSpeed}
+:not(pre):not([class^=L])>code{font-size:.9375em;font-style:normal!important;letter-spacing:0;padding:.1em .5ex;word-spacing:-.15em;background:#f7f7f8;border-radius:4px;line-height:1.45;text-rendering:optimizeSpeed}
 pre{color:rgba(0,0,0,.9);font-family:"Droid Sans Mono","DejaVu Sans Mono",monospace;line-height:1.45;text-rendering:optimizeSpeed}
 pre code,pre pre{color:inherit;font-size:inherit;line-height:inherit}
 pre>code{display:block}
@@ -123,7 +121,7 @@ pre.nowrap,pre.nowrap pre{white-space:pre;word-wrap:normal}
 em em{font-style:normal}
 strong strong{font-weight:400}
 .keyseq{color:rgba(51,51,51,.8)}
-kbd{font-family:"Droid Sans Mono","DejaVu Sans Mono",monospace;display:inline-block;color:rgba(0,0,0,.8);font-size:.65em;line-height:1.45;background:#f7f7f7;border:1px solid #ccc;-webkit-border-radius:3px;border-radius:3px;-webkit-box-shadow:0 1px 0 rgba(0,0,0,.2),0 0 0 .1em white inset;box-shadow:0 1px 0 rgba(0,0,0,.2),0 0 0 .1em #fff inset;margin:0 .15em;padding:.2em .5em;vertical-align:middle;position:relative;top:-.1em;white-space:nowrap}
+kbd{font-family:"Droid Sans Mono","DejaVu Sans Mono",monospace;display:inline-block;color:rgba(0,0,0,.8);font-size:.65em;line-height:1.45;background:#f7f7f7;border:1px solid #ccc;border-radius:3px;box-shadow:0 1px 0 rgba(0,0,0,.2),inset 0 0 0 .1em #fff;margin:0 .15em;padding:.2em .5em;vertical-align:middle;position:relative;top:-.1em;white-space:nowrap}
 .keyseq kbd:first-child{margin-left:0}
 .keyseq kbd:last-child{margin-right:0}
 .menuseq,.menuref{color:#000}
@@ -135,7 +133,7 @@ b.button::before,b.button::after{position:relative;top:-1px;font-weight:400}
 b.button::before{content:"[";padding:0 3px 0 2px}
 b.button::after{content:"]";padding:0 2px 0 3px}
 p a>code:hover{color:rgba(0,0,0,.9)}
-#header,#content,#footnotes,#footer{width:100%;margin-left:auto;margin-right:auto;margin-top:0;margin-bottom:0;max-width:62.5em;*zoom:1;position:relative;padding-left:.9375em;padding-right:.9375em}
+#header,#content,#footnotes,#footer{width:100%;margin:0 auto;max-width:62.5em;*zoom:1;position:relative;padding-left:.9375em;padding-right:.9375em}
 #header::before,#header::after,#content::before,#content::after,#footnotes::before,#footnotes::after,#footer::before,#footer::after{content:" ";display:table}
 #header::after,#content::after,#footnotes::after,#footer::after{clear:both}
 #content{margin-top:1.25em}
@@ -143,7 +141,7 @@ p a>code:hover{color:rgba(0,0,0,.9)}
 #header>h1:first-child{color:rgba(0,0,0,.85);margin-top:2.25rem;margin-bottom:0}
 #header>h1:first-child+#toc{margin-top:8px;border-top:1px solid #dddddf}
 #header>h1:only-child,body.toc2 #header>h1:nth-last-child(2){border-bottom:1px solid #dddddf;padding-bottom:8px}
-#header .details{border-bottom:1px solid #dddddf;line-height:1.45;padding-top:.25em;padding-bottom:.25em;padding-left:.25em;color:rgba(0,0,0,.6);display:-ms-flexbox;display:-webkit-flex;display:flex;-ms-flex-flow:row wrap;-webkit-flex-flow:row wrap;flex-flow:row wrap}
+#header .details{border-bottom:1px solid #dddddf;line-height:1.45;padding-top:.25em;padding-bottom:.25em;padding-left:.25em;color:rgba(0,0,0,.6);display:flex;flex-flow:row wrap}
 #header .details span:first-child{margin-left:-.125em}
 #header .details span.email a{color:rgba(0,0,0,.85)}
 #header .details br{display:none}
@@ -177,11 +175,11 @@ body.toc2.toc-right #toc.toc2{border-right-width:0;border-left:1px solid #e7e7e9
 #toc.toc2>ul{font-size:.95em}
 #toc.toc2 ul ul{padding-left:1.25em}
 body.toc2.toc-right{padding-left:0;padding-right:20em}}
-#content #toc{border-style:solid;border-width:1px;border-color:#e0e0dc;margin-bottom:1.25em;padding:1.25em;background:#f8f8f7;-webkit-border-radius:4px;border-radius:4px}
+#content #toc{border:1px solid #e0e0dc;margin-bottom:1.25em;padding:1.25em;background:#f8f8f7;border-radius:4px}
 #content #toc>:first-child{margin-top:0}
 #content #toc>:last-child{margin-bottom:0}
 #footer{max-width:none;background:rgba(0,0,0,.8);padding:1.25em}
-#footer-text{color:rgba(255,255,255,.8);line-height:1.44}
+#footer-text{color:hsla(0,0%,100%,.8);line-height:1.44}
 #content{margin-bottom:.625em}
 .sect1{padding-bottom:.625em}
 @media screen and (min-width:768px){#content{margin-bottom:1.25em}
@@ -194,29 +192,33 @@ body.toc2.toc-right{padding-left:0;padding-right:20em}}
 #content h1>a.link,h2>a.link,h3>a.link,#toctitle>a.link,.sidebarblock>.content>.title>a.link,h4>a.link,h5>a.link,h6>a.link{color:#ba3925;text-decoration:none}
 #content h1>a.link:hover,h2>a.link:hover,h3>a.link:hover,#toctitle>a.link:hover,.sidebarblock>.content>.title>a.link:hover,h4>a.link:hover,h5>a.link:hover,h6>a.link:hover{color:#a53221}
 details,.audioblock,.imageblock,.literalblock,.listingblock,.stemblock,.videoblock{margin-bottom:1.25em}
-details>summary:first-of-type{cursor:pointer;display:list-item;outline:none;margin-bottom:.75em}
+details{margin-left:1.25rem}
+details>summary{cursor:pointer;display:block;position:relative;line-height:1.6;margin-bottom:.625rem;outline:none;-webkit-tap-highlight-color:transparent}
+details>summary::-webkit-details-marker{display:none}
+details>summary::before{content:"";border:solid transparent;border-left:solid;border-width:.3em 0 .3em .5em;position:absolute;top:.5em;left:-1.25rem;transform:translateX(15%)}
+details[open]>summary::before{border:solid transparent;border-top:solid;border-width:.5em .3em 0;transform:translateY(15%)}
+details>summary::after{content:"";width:1.25rem;height:1em;position:absolute;top:.3em;left:-1.25rem}
 .admonitionblock td.content>.title,.audioblock>.title,.exampleblock>.title,.imageblock>.title,.listingblock>.title,.literalblock>.title,.stemblock>.title,.openblock>.title,.paragraph>.title,.quoteblock>.title,table.tableblock>.title,.verseblock>.title,.videoblock>.title,.dlist>.title,.olist>.title,.ulist>.title,.qlist>.title,.hdlist>.title{text-rendering:optimizeLegibility;text-align:left;font-family:"Noto Serif","DejaVu Serif",serif;font-size:1rem;font-style:italic}
 table.tableblock.fit-content>caption.title{white-space:nowrap;width:0}
-.paragraph.lead>p,#preamble>.sectionbody>[class="paragraph"]:first-of-type p{font-size:1.21875em;line-height:1.6;color:rgba(0,0,0,.85)}
-table.tableblock #preamble>.sectionbody>[class="paragraph"]:first-of-type p{font-size:inherit}
+.paragraph.lead>p,#preamble>.sectionbody>[class=paragraph]:first-of-type p{font-size:1.21875em;line-height:1.6;color:rgba(0,0,0,.85)}
 .admonitionblock>table{border-collapse:separate;border:0;background:none;width:100%}
 .admonitionblock>table td.icon{text-align:center;width:80px}
 .admonitionblock>table td.icon img{max-width:none}
 .admonitionblock>table td.icon .title{font-weight:bold;font-family:"Open Sans","DejaVu Sans",sans-serif;text-transform:uppercase}
 .admonitionblock>table td.content{padding-left:1.125em;padding-right:1.25em;border-left:1px solid #dddddf;color:rgba(0,0,0,.6);word-wrap:anywhere}
 .admonitionblock>table td.content>:last-child>:last-child{margin-bottom:0}
-.exampleblock>.content{border-style:solid;border-width:1px;border-color:#e6e6e6;margin-bottom:1.25em;padding:1.25em;background:#fff;-webkit-border-radius:4px;border-radius:4px}
+.exampleblock>.content{border:1px solid #e6e6e6;margin-bottom:1.25em;padding:1.25em;background:#fff;border-radius:4px}
 .exampleblock>.content>:first-child{margin-top:0}
 .exampleblock>.content>:last-child{margin-bottom:0}
-.sidebarblock{border-style:solid;border-width:1px;border-color:#dbdbd6;margin-bottom:1.25em;padding:1.25em;background:#f3f3f2;-webkit-border-radius:4px;border-radius:4px}
+.sidebarblock{border:1px solid #dbdbd6;margin-bottom:1.25em;padding:1.25em;background:#f3f3f2;border-radius:4px}
 .sidebarblock>:first-child{margin-top:0}
 .sidebarblock>:last-child{margin-bottom:0}
 .sidebarblock>.content>.title{color:#7a2518;margin-top:0;text-align:center}
 .exampleblock>.content>:last-child>:last-child,.exampleblock>.content .olist>ol>li:last-child>:last-child,.exampleblock>.content .ulist>ul>li:last-child>:last-child,.exampleblock>.content .qlist>ol>li:last-child>:last-child,.sidebarblock>.content>:last-child>:last-child,.sidebarblock>.content .olist>ol>li:last-child>:last-child,.sidebarblock>.content .ulist>ul>li:last-child>:last-child,.sidebarblock>.content .qlist>ol>li:last-child>:last-child{margin-bottom:0}
-.literalblock pre,.listingblock>.content>pre{-webkit-border-radius:4px;border-radius:4px;overflow-x:auto;padding:1em;font-size:.8125em}
+.literalblock pre,.listingblock>.content>pre{border-radius:4px;overflow-x:auto;padding:1em;font-size:.8125em}
 @media screen and (min-width:768px){.literalblock pre,.listingblock>.content>pre{font-size:.90625em}}
 @media screen and (min-width:1280px){.literalblock pre,.listingblock>.content>pre{font-size:1em}}
-.literalblock pre,.listingblock>.content>pre:not(.highlight),.listingblock>.content>pre[class="highlight"],.listingblock>.content>pre[class^="highlight "]{background:#f7f7f8}
+.literalblock pre,.listingblock>.content>pre:not(.highlight),.listingblock>.content>pre[class=highlight],.listingblock>.content>pre[class^="highlight "]{background:#f7f7f8}
 .literalblock.output pre{color:#f7f7f8;background:rgba(0,0,0,.9)}
 .listingblock>.content{position:relative}
 .listingblock code[data-lang]::before{display:none;content:attr(data-lang);position:absolute;font-size:.75em;top:.425rem;right:.5rem;line-height:1;text-transform:uppercase;color:inherit;opacity:.5}
@@ -224,7 +226,7 @@ table.tableblock #preamble>.sectionbody>[class="paragraph"]:first-of-type p{font
 .listingblock.terminal pre .command::before{content:attr(data-prompt);padding-right:.5em;color:inherit;opacity:.5}
 .listingblock.terminal pre .command:not([data-prompt])::before{content:"$"}
 .listingblock pre.highlightjs{padding:0}
-.listingblock pre.highlightjs>code{padding:1em;-webkit-border-radius:4px;border-radius:4px}
+.listingblock pre.highlightjs>code{padding:1em;border-radius:4px}
 .listingblock pre.prettyprint{border-width:0}
 .prettyprint{background:#f7f7f8}
 pre.prettyprint .linenums{line-height:1.45;margin-left:2em}
@@ -234,9 +236,8 @@ pre.prettyprint li:not(:first-child) code[data-lang]::before{display:none}
 table.linenotable{border-collapse:separate;border:0;margin-bottom:0;background:none}
 table.linenotable td[class]{color:inherit;vertical-align:top;padding:0;line-height:inherit;white-space:normal}
 table.linenotable td.code{padding-left:.75em}
-table.linenotable td.linenos{border-right:1px solid currentColor;opacity:.35;padding-right:.5em}
-pre.pygments .lineno{border-right:1px solid currentColor;opacity:.35;display:inline-block;margin-right:.75em}
-pre.pygments .lineno::before{content:"";margin-right:-.125em}
+table.linenotable td.linenos,pre.pygments .linenos{border-right:1px solid;opacity:.35;padding-right:.5em;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}
+pre.pygments span.linenos{display:inline-block;margin-right:.75em}
 .quoteblock{margin:0 1em 1.25em 1.5em;display:table}
 .quoteblock:not(.excerpt)>.title{margin-left:-1.5em;margin-bottom:.75em}
 .quoteblock blockquote,.quoteblock p{color:rgba(0,0,0,.85);font-size:1.15rem;line-height:1.75;word-spacing:.1em;letter-spacing:0;font-style:italic;text-align:justify}
@@ -245,7 +246,7 @@ pre.pygments .lineno::before{content:"";margin-right:-.125em}
 .quoteblock blockquote>.paragraph:last-child p{margin-bottom:0}
 .quoteblock .attribution{margin-top:.75em;margin-right:.5ex;text-align:right}
 .verseblock{margin:0 1em 1.25em}
-.verseblock pre{font-family:"Open Sans","DejaVu Sans",sans;font-size:1.15rem;color:rgba(0,0,0,.85);font-weight:300;text-rendering:optimizeLegibility}
+.verseblock pre{font-family:"Open Sans","DejaVu Sans",sans-serif;font-size:1.15rem;color:rgba(0,0,0,.85);font-weight:300;text-rendering:optimizeLegibility}
 .verseblock pre strong{font-weight:400}
 .verseblock .attribution{margin-top:1.25rem;margin-left:.5ex}
 .quoteblock .attribution,.verseblock .attribution{font-size:.9375em;line-height:1.45;font-style:italic}
@@ -273,7 +274,7 @@ table.frame-none>colgroup+*>:first-child>*,table.frame-sides>colgroup+*>:first-c
 table.frame-none>:last-child>:last-child>*,table.frame-sides>:last-child>:last-child>*{border-bottom-width:0}
 table.frame-none>*>tr>:first-child,table.frame-ends>*>tr>:first-child{border-left-width:0}
 table.frame-none>*>tr>:last-child,table.frame-ends>*>tr>:last-child{border-right-width:0}
-table.stripes-all tr,table.stripes-odd tr:nth-of-type(odd),table.stripes-even tr:nth-of-type(even),table.stripes-hover tr:hover{background:#f8f8f7}
+table.stripes-all>*>tr,table.stripes-odd>*>tr:nth-of-type(odd),table.stripes-even>*>tr:nth-of-type(even),table.stripes-hover>*>tr:hover{background:#f8f8f7}
 th.halign-left,td.halign-left{text-align:left}
 th.halign-right,td.halign-right{text-align:right}
 th.halign-center,td.halign-center{text-align:center}
@@ -289,14 +290,15 @@ ol{margin-left:1.75em}
 ul li ol{margin-left:1.5em}
 dl dd{margin-left:1.125em}
 dl dd:last-child,dl dd:last-child>:last-child{margin-bottom:0}
-ol>li p,ul>li p,ul dd,ol dd,.olist .olist,.ulist .ulist,.ulist .olist,.olist .ulist{margin-bottom:.625em}
+li p,ul dd,ol dd,.olist .olist,.ulist .ulist,.ulist .olist,.olist .ulist{margin-bottom:.625em}
 ul.checklist,ul.none,ol.none,ul.no-bullet,ol.no-bullet,ol.unnumbered,ul.unstyled,ol.unstyled{list-style-type:none}
 ul.no-bullet,ol.no-bullet,ol.unnumbered{margin-left:.625em}
 ul.unstyled,ol.unstyled{margin-left:0}
-ul.checklist{margin-left:.625em}
-ul.checklist li>p:first-child>.fa-square-o:first-child,ul.checklist li>p:first-child>.fa-check-square-o:first-child{width:1.25em;font-size:.8em;position:relative;bottom:.125em}
-ul.checklist li>p:first-child>input[type="checkbox"]:first-child{margin-right:.25em}
-ul.inline{display:-ms-flexbox;display:-webkit-box;display:flex;-ms-flex-flow:row wrap;-webkit-flex-flow:row wrap;flex-flow:row wrap;list-style:none;margin:0 0 .625em -1.25em}
+li>p:empty:only-child::before{content:"";display:inline-block}
+ul.checklist>li>p:first-child{margin-left:-1em}
+ul.checklist>li>p:first-child>.fa-square-o:first-child,ul.checklist>li>p:first-child>.fa-check-square-o:first-child{width:1.25em;font-size:.8em;position:relative;bottom:.125em}
+ul.checklist>li>p:first-child>input[type=checkbox]:first-child{margin-right:.25em}
+ul.inline{display:flex;flex-flow:row wrap;list-style:none;margin:0 0 .625em -1.25em}
 ul.inline>li{margin-left:1.25em}
 .unstyled dl dt{font-weight:400;font-style:normal}
 ol.arabic{list-style-type:decimal}
@@ -315,7 +317,7 @@ td.hdlist2{word-wrap:anywhere}
 .colist td:not([class]):first-child{padding:.4em .75em 0;line-height:1;vertical-align:top}
 .colist td:not([class]):first-child img{max-width:none}
 .colist td:not([class]):last-child{padding:.25em 0}
-.thumb,.th{line-height:0;display:inline-block;border:solid 4px #fff;-webkit-box-shadow:0 0 0 1px #ddd;box-shadow:0 0 0 1px #ddd}
+.thumb,.th{line-height:0;display:inline-block;border:4px solid #fff;box-shadow:0 0 0 1px #ddd}
 .imageblock.left{margin:.25em .625em 1.25em 0}
 .imageblock.right{margin:.25em 0 1.25em .625em}
 .imageblock>.title{margin-bottom:0}
@@ -335,8 +337,6 @@ sup.footnote a:active,sup.footnoteref a:active{text-decoration:underline}
 #footnotes .footnote a:first-of-type{font-weight:bold;text-decoration:none;margin-left:-1.05em}
 #footnotes .footnote:last-of-type{margin-bottom:0}
 #content #footnotes{margin-top:-.625em;margin-bottom:0;padding:.75em 0}
-.gist .file-data>table{border:0;background:#fff;width:100%;margin-bottom:0}
-.gist .file-data>table td.line-data{width:99%}
 div.unbreakable{page-break-inside:avoid}
 .big{font-size:larger}
 .small{font-size:smaller}
@@ -383,7 +383,7 @@ a span.icon>.fa{cursor:inherit}
 .admonitionblock td.icon .icon-warning::before{content:"\f071";color:#bf6900}
 .admonitionblock td.icon .icon-caution::before{content:"\f06d";color:#bf3400}
 .admonitionblock td.icon .icon-important::before{content:"\f06a";color:#bf0000}
-.conum[data-value]{display:inline-block;color:#fff!important;background:rgba(0,0,0,.8);-webkit-border-radius:50%;border-radius:50%;text-align:center;font-size:.75em;width:1.67em;height:1.67em;line-height:1.67em;font-family:"Open Sans","DejaVu Sans",sans-serif;font-style:normal;font-weight:bold}
+.conum[data-value]{display:inline-block;color:#fff!important;background:rgba(0,0,0,.8);border-radius:50%;text-align:center;font-size:.75em;width:1.67em;height:1.67em;line-height:1.67em;font-family:"Open Sans","DejaVu Sans",sans-serif;font-style:normal;font-weight:bold}
 .conum[data-value] *{color:#fff!important}
 .conum[data-value]+b{display:none}
 .conum[data-value]::after{content:attr(data-value)}
@@ -391,19 +391,20 @@ pre .conum[data-value]{position:relative;top:-.125em}
 b.conum *{color:inherit!important}
 .conum:not([data-value]):empty{display:none}
 dt,th.tableblock,td.content,div.footnote{text-rendering:optimizeLegibility}
-h1,h2,p,td.content,span.alt{letter-spacing:-.01em}
+h1,h2,p,td.content,span.alt,summary{letter-spacing:-.01em}
 p strong,td.content strong,div.footnote strong{letter-spacing:-.005em}
-p,blockquote,dt,td.content,span.alt{font-size:1.0625rem}
+p,blockquote,dt,td.content,span.alt,summary{font-size:1.0625rem}
 p{margin-bottom:1.25rem}
 .sidebarblock p,.sidebarblock dt,.sidebarblock td.content,p.tableblock{font-size:1em}
-.exampleblock>.content{background:#fffef7;border-color:#e0e0dc;-webkit-box-shadow:0 1px 4px #e0e0dc;box-shadow:0 1px 4px #e0e0dc}
+.exampleblock>.content{background:#fffef7;border-color:#e0e0dc;box-shadow:0 1px 4px #e0e0dc}
 .print-only{display:none!important}
 @page{margin:1.25cm .75cm}
-@media print{*{-webkit-box-shadow:none!important;box-shadow:none!important;text-shadow:none!important}
+@media print{*{box-shadow:none!important;text-shadow:none!important}
 html{font-size:80%}
 a{color:inherit!important;text-decoration:underline!important}
 a.bare,a[href^="#"],a[href^="mailto:"]{text-decoration:none!important}
 a[href^="http:"]:not(.bare)::after,a[href^="https:"]:not(.bare)::after{content:"(" attr(href) ")";display:inline-block;font-size:.875em;padding-left:.25em}
+abbr[title]{border-bottom:1px dotted}
 abbr[title]::after{content:" (" attr(title) ")"}
 pre,blockquote,tr,img,object,svg{page-break-inside:avoid}
 thead{display:table-header-group}
@@ -427,7 +428,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 .print-only{display:block!important}
 .hide-for-print{display:none!important}
 .show-for-print{display:inherit!important}}
-@media print,amzn-kf8{#header>h1:first-child{margin-top:1.25rem}
+@media amzn-kf8,print{#header>h1:first-child{margin-top:1.25rem}
 .sect1{padding:0!important}
 .sect1+.sect1{border:0}
 #footer{background:none}
@@ -448,7 +449,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <h2 id="_synopsis">SYNOPSIS</h2>
 <div class="sectionbody">
 <div class="verseblock">
-<pre class="content"><em>git</em> [--version] [--help] [-C &lt;path&gt;] [-c &lt;name&gt;=&lt;value&gt;]
+<pre class="content"><em>git</em> [-v | --version] [-h | --help] [-C &lt;path&gt;] [-c &lt;name&gt;=&lt;value&gt;]
     [--exec-path[=&lt;path&gt;]] [--html-path] [--man-path] [--info-path]
     [-p|--paginate|-P|--no-pager] [--no-replace-objects] [--bare]
     [--git-dir=&lt;path&gt;] [--work-tree=&lt;path&gt;] [--namespace=&lt;name&gt;]
@@ -489,10 +490,17 @@ or <a href="https://git-scm.com/docs" class="bare">https://git-scm.com/docs</a>.
 <div class="sectionbody">
 <div class="dlist">
 <dl>
+<dt class="hdlist1">-v</dt>
 <dt class="hdlist1">--version</dt>
 <dd>
 <p>Prints the Git suite version that the <em>git</em> program came from.</p>
+<div class="paragraph">
+<p>This option is internally converted to <code>git version ...</code> and accepts
+the same options as the <a href="git-version.html">git-version(1)</a> command. If <code>--help</code> is
+also given, it takes precedence over <code>--version</code>.</p>
+</div>
 </dd>
+<dt class="hdlist1">-h</dt>
 <dt class="hdlist1">--help</dt>
 <dd>
 <p>Prints the synopsis and a list of the most commonly used
@@ -861,7 +869,7 @@ ancillary user utilities.</p>
 </dd>
 <dt class="hdlist1"><a href="git-sparse-checkout.html">git-sparse-checkout(1)</a></dt>
 <dd>
-<p>Initialize and modify the sparse-checkout.</p>
+<p>Reduce your working tree to a subset of tracked files.</p>
 </dd>
 <dt class="hdlist1"><a href="git-stash.html">git-stash(1)</a></dt>
 <dd>
@@ -890,6 +898,10 @@ ancillary user utilities.</p>
 <dt class="hdlist1"><a href="gitk.html">gitk(1)</a></dt>
 <dd>
 <p>The Git repository browser.</p>
+</dd>
+<dt class="hdlist1"><a href="scalar.html">scalar(1)</a></dt>
+<dd>
+<p>A tool for managing large Git repositories.</p>
 </dd>
 </dl>
 </div>
@@ -968,6 +980,10 @@ ancillary user utilities.</p>
 <dd>
 <p>Count unpacked number of objects and their disk consumption.</p>
 </dd>
+<dt class="hdlist1"><a href="git-diagnose.html">git-diagnose(1)</a></dt>
+<dd>
+<p>Generate a zip archive of diagnostic information.</p>
+</dd>
 <dt class="hdlist1"><a href="git-difftool.html">git-difftool(1)</a></dt>
 <dd>
 <p>Show changes using common diff tools.</p>
@@ -986,7 +1002,7 @@ ancillary user utilities.</p>
 </dd>
 <dt class="hdlist1"><a href="git-merge-tree.html">git-merge-tree(1)</a></dt>
 <dd>
-<p>Show three-way merge without touching index.</p>
+<p>Perform merge without touching index or working tree.</p>
 </dd>
 <dt class="hdlist1"><a href="git-rerere.html">git-rerere(1)</a></dt>
 <dd>
@@ -1003,6 +1019,10 @@ ancillary user utilities.</p>
 <dt class="hdlist1"><a href="git-verify-tag.html">git-verify-tag(1)</a></dt>
 <dd>
 <p>Check the GPG signature of tags.</p>
+</dd>
+<dt class="hdlist1"><a href="git-version.html">git-version(1)</a></dt>
+<dd>
+<p>Display version information about Git.</p>
 </dd>
 <dt class="hdlist1"><a href="git-whatchanged.html">git-whatchanged(1)</a></dt>
 <dd>
@@ -1404,6 +1424,10 @@ users typically do not use them directly.</p>
 <dd>
 <p>Produce a merge commit message.</p>
 </dd>
+<dt class="hdlist1"><a href="git-hook.html">git-hook(1)</a></dt>
+<dd>
+<p>Run git hooks.</p>
+</dd>
 <dt class="hdlist1"><a href="git-interpret-trailers.html">git-interpret-trailers(1)</a></dt>
 <dd>
 <p>Add or parse structured information in commit messages.</p>
@@ -1449,14 +1473,6 @@ users typically do not use them directly.</p>
 </div>
 <div class="dlist">
 <dl>
-<dt class="hdlist1"><a href="gitattributes.html">gitattributes(5)</a></dt>
-<dd>
-<p>Defining attributes per path.</p>
-</dd>
-<dt class="hdlist1"><a href="gitcli.html">gitcli(7)</a></dt>
-<dd>
-<p>Git command-line interface and conventions.</p>
-</dd>
 <dt class="hdlist1"><a href="gitcore-tutorial.html">gitcore-tutorial(7)</a></dt>
 <dd>
 <p>A Git core tutorial for developers.</p>
@@ -1485,22 +1501,6 @@ users typically do not use them directly.</p>
 <dd>
 <p>A Git Glossary.</p>
 </dd>
-<dt class="hdlist1"><a href="githooks.html">githooks(5)</a></dt>
-<dd>
-<p>Hooks used by Git.</p>
-</dd>
-<dt class="hdlist1"><a href="gitignore.html">gitignore(5)</a></dt>
-<dd>
-<p>Specifies intentionally untracked files to ignore.</p>
-</dd>
-<dt class="hdlist1"><a href="gitmailmap.html">gitmailmap(5)</a></dt>
-<dd>
-<p>Map author/committer names and/or E-Mail addresses.</p>
-</dd>
-<dt class="hdlist1"><a href="gitmodules.html">gitmodules(5)</a></dt>
-<dd>
-<p>Defining submodule properties.</p>
-</dd>
 <dt class="hdlist1"><a href="gitnamespaces.html">gitnamespaces(7)</a></dt>
 <dd>
 <p>Git namespaces.</p>
@@ -1508,14 +1508,6 @@ users typically do not use them directly.</p>
 <dt class="hdlist1"><a href="gitremote-helpers.html">gitremote-helpers(7)</a></dt>
 <dd>
 <p>Helper programs to interact with remote repositories.</p>
-</dd>
-<dt class="hdlist1"><a href="gitrepository-layout.html">gitrepository-layout(5)</a></dt>
-<dd>
-<p>Git Repository Layout.</p>
-</dd>
-<dt class="hdlist1"><a href="gitrevisions.html">gitrevisions(7)</a></dt>
-<dd>
-<p>Specifying revisions and ranges for Git.</p>
 </dd>
 <dt class="hdlist1"><a href="gitsubmodules.html">gitsubmodules(7)</a></dt>
 <dd>
@@ -1532,6 +1524,110 @@ users typically do not use them directly.</p>
 <dt class="hdlist1"><a href="gitworkflows.html">gitworkflows(7)</a></dt>
 <dd>
 <p>An overview of recommended workflows with Git.</p>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_repository_command_and_file_interfaces">Repository, command and file interfaces</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>This documentation discusses repository and command interfaces which
+users are expected to interact with directly. See <code>--user-formats</code> in
+<a href="git-help.html">git-help(1)</a> for more details on the criteria.</p>
+</div>
+<div class="dlist">
+<dl>
+<dt class="hdlist1"><a href="gitattributes.html">gitattributes(5)</a></dt>
+<dd>
+<p>Defining attributes per path.</p>
+</dd>
+<dt class="hdlist1"><a href="gitcli.html">gitcli(7)</a></dt>
+<dd>
+<p>Git command-line interface and conventions.</p>
+</dd>
+<dt class="hdlist1"><a href="githooks.html">githooks(5)</a></dt>
+<dd>
+<p>Hooks used by Git.</p>
+</dd>
+<dt class="hdlist1"><a href="gitignore.html">gitignore(5)</a></dt>
+<dd>
+<p>Specifies intentionally untracked files to ignore.</p>
+</dd>
+<dt class="hdlist1"><a href="gitmailmap.html">gitmailmap(5)</a></dt>
+<dd>
+<p>Map author/committer names and/or E-Mail addresses.</p>
+</dd>
+<dt class="hdlist1"><a href="gitmodules.html">gitmodules(5)</a></dt>
+<dd>
+<p>Defining submodule properties.</p>
+</dd>
+<dt class="hdlist1"><a href="gitrepository-layout.html">gitrepository-layout(5)</a></dt>
+<dd>
+<p>Git Repository Layout.</p>
+</dd>
+<dt class="hdlist1"><a href="gitrevisions.html">gitrevisions(7)</a></dt>
+<dd>
+<p>Specifying revisions and ranges for Git.</p>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_file_formats_protocols_and_other_developer_interfaces">File formats, protocols and other developer interfaces</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>This documentation discusses file formats, over-the-wire protocols and
+other git developer interfaces. See <code>--developer-interfaces</code> in
+<a href="git-help.html">git-help(1)</a>.</p>
+</div>
+<div class="dlist">
+<dl>
+<dt class="hdlist1"><a href="gitformat-bundle.html">gitformat-bundle(5)</a></dt>
+<dd>
+<p>The bundle file format.</p>
+</dd>
+<dt class="hdlist1"><a href="gitformat-chunk.html">gitformat-chunk(5)</a></dt>
+<dd>
+<p>Chunk-based file formats.</p>
+</dd>
+<dt class="hdlist1"><a href="gitformat-commit-graph.html">gitformat-commit-graph(5)</a></dt>
+<dd>
+<p>Git commit-graph format.</p>
+</dd>
+<dt class="hdlist1"><a href="gitformat-index.html">gitformat-index(5)</a></dt>
+<dd>
+<p>Git index format.</p>
+</dd>
+<dt class="hdlist1"><a href="gitformat-pack.html">gitformat-pack(5)</a></dt>
+<dd>
+<p>Git pack format.</p>
+</dd>
+<dt class="hdlist1"><a href="gitformat-signature.html">gitformat-signature(5)</a></dt>
+<dd>
+<p>Git cryptographic signature formats.</p>
+</dd>
+<dt class="hdlist1"><a href="gitprotocol-capabilities.html">gitprotocol-capabilities(5)</a></dt>
+<dd>
+<p>Protocol v0 and v1 capabilities.</p>
+</dd>
+<dt class="hdlist1"><a href="gitprotocol-common.html">gitprotocol-common(5)</a></dt>
+<dd>
+<p>Things common to various protocols.</p>
+</dd>
+<dt class="hdlist1"><a href="gitprotocol-http.html">gitprotocol-http(5)</a></dt>
+<dd>
+<p>Git HTTP-based protocols.</p>
+</dd>
+<dt class="hdlist1"><a href="gitprotocol-pack.html">gitprotocol-pack(5)</a></dt>
+<dd>
+<p>How packs are transferred over-the-wire.</p>
+</dd>
+<dt class="hdlist1"><a href="gitprotocol-v2.html">gitprotocol-v2(5)</a></dt>
+<dd>
+<p>Git Wire Protocol, Version 2.</p>
 </dd>
 </dl>
 </div>
@@ -1676,7 +1772,13 @@ symbolic notation:</p>
 <h2 id="_environment_variables">Environment Variables</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>Various Git commands use the following environment variables:</p>
+<p>Various Git commands pay attention to environment variables and change
+their behavior.  The environment variables marked as "Boolean" take
+their values the same way as Boolean valued configuration variables, e.g.
+"true", "yes", "on" and positive numbers are taken as "yes".</p>
+</div>
+<div class="paragraph">
+<p>Here are the variables:</p>
 </div>
 <div class="sect2">
 <h3 id="_system">System</h3>
@@ -1703,14 +1805,14 @@ Git so take care if using a foreign front-end.</p>
 <dl>
 <dt class="hdlist1"><code>GIT_INDEX_FILE</code></dt>
 <dd>
-<p>This environment allows the specification of an alternate
+<p>This environment variable specifies an alternate
 index file. If not specified, the default of <code>$GIT_DIR/index</code>
 is used.</p>
 </dd>
 <dt class="hdlist1"><code>GIT_INDEX_VERSION</code></dt>
 <dd>
-<p>This environment variable allows the specification of an index
-version for new repositories.  It won&#8217;t affect existing index
+<p>This environment variable specifies what index version is used
+when writing the index file out.  It won&#8217;t affect existing index
 files.  By default index file version 2 or 3 is used. See
 <a href="git-update-index.html">git-update-index(1)</a> for more information.</p>
 </dd>
@@ -1775,7 +1877,7 @@ e.g.,
 <p>When run in a directory that does not have ".git" repository
 directory, Git tries to find such a directory in the parent
 directories to find the top of the working tree, but by default it
-does not cross filesystem boundaries.  This environment variable
+does not cross filesystem boundaries.  This Boolean environment variable
 can be set to true to tell Git not to stop at filesystem
 boundaries.  Like <code>GIT_CEILING_DIRECTORIES</code>, this will not affect
 an explicit repository directory set via <code>GIT_DIR</code> or on the
@@ -1979,6 +2081,12 @@ whether <code>GIT_SSH</code>/<code>GIT_SSH_COMMAND</code>/<code>core.sshCommand<
 plink or tortoiseplink. This variable overrides the config setting
 <code>ssh.variant</code> that serves the same purpose.</p>
 </dd>
+<dt class="hdlist1"><code>GIT_SSL_NO_VERIFY</code></dt>
+<dd>
+<p>Setting and exporting this environment variable to any value
+tells Git not to verify the SSL certificate when fetching or
+pushing over HTTPS.</p>
+</dd>
 <dt class="hdlist1"><code>GIT_ASKPASS</code></dt>
 <dd>
 <p>If this environment variable is set, then Git commands which need to
@@ -1989,7 +2097,7 @@ option in <a href="git-config.html">git-config(1)</a>.</p>
 </dd>
 <dt class="hdlist1"><code>GIT_TERMINAL_PROMPT</code></dt>
 <dd>
-<p>If this environment variable is set to <code>0</code>, git will not prompt
+<p>If this Boolean environment variable is set to false, git will not prompt
 on the terminal (e.g., when asking for HTTP authentication).</p>
 </dd>
 <dt class="hdlist1"><code>GIT_CONFIG_GLOBAL</code></dt>
@@ -2006,10 +2114,10 @@ respective level.</p>
 <dt class="hdlist1"><code>GIT_CONFIG_NOSYSTEM</code></dt>
 <dd>
 <p>Whether to skip reading settings from the system-wide
-<code>$(prefix)/etc/gitconfig</code> file.  This environment variable can
+<code>$(prefix)/etc/gitconfig</code> file.  This Boolean environment variable can
 be used along with <code>$HOME</code> and <code>$XDG_CONFIG_HOME</code> to create a
 predictable environment for a picky script, or you can set it
-temporarily to avoid using a buggy <code>/etc/gitconfig</code> file while
+to true to temporarily avoid using a buggy <code>/etc/gitconfig</code> file while
 waiting for someone with sufficient permissions to fix it.</p>
 </dd>
 <dt class="hdlist1"><code>GIT_FLUSH</code></dt>
@@ -2178,12 +2286,13 @@ See <code>GIT_TRACE2</code> for available trace output options and
 <dt class="hdlist1"><code>GIT_TRACE_REDACT</code></dt>
 <dd>
 <p>By default, when tracing is activated, Git redacts the values of
-cookies, the "Authorization:" header, and the "Proxy-Authorization:"
-header. Set this variable to <code>0</code> to prevent this redaction.</p>
+cookies, the "Authorization:" header, the "Proxy-Authorization:"
+header and packfile URIs. Set this Boolean environment variable to false to prevent this
+redaction.</p>
 </dd>
 <dt class="hdlist1"><code>GIT_LITERAL_PATHSPECS</code></dt>
 <dd>
-<p>Setting this variable to <code>1</code> will cause Git to treat all
+<p>Setting this Boolean environment variable to true will cause Git to treat all
 pathspecs literally, rather than as glob patterns. For example,
 running <code>GIT_LITERAL_PATHSPECS=1 git log -- '*.c'</code> will search
 for commits that touch the path <code>*.c</code>, not any paths that the
@@ -2193,17 +2302,17 @@ literal paths to Git (e.g., paths previously given to you by
 </dd>
 <dt class="hdlist1"><code>GIT_GLOB_PATHSPECS</code></dt>
 <dd>
-<p>Setting this variable to <code>1</code> will cause Git to treat all
+<p>Setting this Boolean environment variable to true will cause Git to treat all
 pathspecs as glob patterns (aka "glob" magic).</p>
 </dd>
 <dt class="hdlist1"><code>GIT_NOGLOB_PATHSPECS</code></dt>
 <dd>
-<p>Setting this variable to <code>1</code> will cause Git to treat all
+<p>Setting this Boolean environment variable to true will cause Git to treat all
 pathspecs as literal (aka "literal" magic).</p>
 </dd>
 <dt class="hdlist1"><code>GIT_ICASE_PATHSPECS</code></dt>
 <dd>
-<p>Setting this variable to <code>1</code> will cause Git to treat all
+<p>Setting this Boolean environment variable to true will cause Git to treat all
 pathspecs as case-insensitive.</p>
 </dd>
 <dt class="hdlist1"><code>GIT_REFLOG_ACTION</code></dt>
@@ -2219,29 +2328,28 @@ end user, to be recorded in the body of the reflog.</p>
 </dd>
 <dt class="hdlist1"><code>GIT_REF_PARANOIA</code></dt>
 <dd>
-<p>If set to <code>1</code>, include broken or badly named refs when iterating
-over lists of refs. In a normal, non-corrupted repository, this
-does nothing. However, enabling it may help git to detect and
-abort some operations in the presence of broken refs. Git sets
-this variable automatically when performing destructive
-operations like <a href="git-prune.html">git-prune(1)</a>. You should not need to set
-it yourself unless you want to be paranoid about making sure
-an operation has touched every ref (e.g., because you are
-cloning a repository to make a backup).</p>
+<p>If this Boolean environment variable is set to false, ignore broken or badly named refs when iterating
+over lists of refs. Normally Git will try to include any such
+refs, which may cause some operations to fail. This is usually
+preferable, as potentially destructive operations (e.g.,
+<a href="git-prune.html">git-prune(1)</a>) are better off aborting rather than
+ignoring broken refs (and thus considering the history they
+point to as not worth saving). The default value is <code>1</code> (i.e.,
+be paranoid about detecting and aborting all operations). You
+should not normally need to set this to <code>0</code>, but it may be
+useful when trying to salvage data from a corrupted repository.</p>
 </dd>
 <dt class="hdlist1"><code>GIT_ALLOW_PROTOCOL</code></dt>
 <dd>
 <p>If set to a colon-separated list of protocols, behave as if
 <code>protocol.allow</code> is set to <code>never</code>, and each of the listed
 protocols has <code>protocol.&lt;name&gt;.allow</code> set to <code>always</code>
-(overriding any existing configuration). In other words, any
-protocol not mentioned will be disallowed (i.e., this is a
-whitelist, not a blacklist). See the description of
+(overriding any existing configuration). See the description of
 <code>protocol.allow</code> in <a href="git-config.html">git-config(1)</a> for more details.</p>
 </dd>
 <dt class="hdlist1"><code>GIT_PROTOCOL_FROM_USER</code></dt>
 <dd>
-<p>Set to 0 to prevent protocols used by fetch/push/clone which are
+<p>Set this Boolean environment variable to false to prevent protocols used by fetch/push/clone which are
 configured to the <code>user</code> state.  This is useful to restrict recursive
 submodule initialization from an untrusted repository or for programs
 which feed potentially-untrusted URLS to git commands.  See
@@ -2253,10 +2361,27 @@ which feed potentially-untrusted URLS to git commands.  See
 Contains a colon <em>:</em> separated list of keys with optional values
 <em>key[=value]</em>.  Presence of unknown keys and values must be
 ignored.</p>
+<div class="paragraph">
+<p>Note that servers may need to be configured to allow this variable to
+pass over some transports. It will be propagated automatically when
+accessing local repositories (i.e., <code>file://</code> or a filesystem path), as
+well as over the <code>git://</code> protocol. For git-over-http, it should work
+automatically in most configurations, but see the discussion in
+<a href="git-http-backend.html">git-http-backend(1)</a>. For git-over-ssh, the ssh server may need
+to be configured to allow clients to pass this variable (e.g., by using
+<code>AcceptEnv GIT_PROTOCOL</code> with OpenSSH).</p>
+</div>
+<div class="paragraph">
+<p>This configuration is optional. If the variable is not propagated, then
+clients will fall back to the original "v0" protocol (but may miss out
+on some performance improvements or features). This variable currently
+only affects clones and fetches; it is not yet used for pushes (but may
+be in the future).</p>
+</div>
 </dd>
 <dt class="hdlist1"><code>GIT_OPTIONAL_LOCKS</code></dt>
 <dd>
-<p>If set to <code>0</code>, Git will complete any requested operation without
+<p>If this Boolean environment variable is set to false, Git will complete any requested operation without
 performing any optional sub-operations that require taking a lock.
 For example, this will prevent <code>git status</code> from refreshing the
 index as a side effect. This is useful for processes running in
@@ -2447,7 +2572,7 @@ the Git Security mailing list &lt;<a href="mailto:git-security@googlegroups.com"
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2021-07-06 19:00:22 UTC
+Last updated 2023-01-12 16:42:50 UTC
 </div>
 </div>
 </body>
