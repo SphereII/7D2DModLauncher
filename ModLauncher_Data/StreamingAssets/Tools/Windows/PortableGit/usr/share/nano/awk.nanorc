@@ -1,4 +1,4 @@
-## Here is an example for awk.
+## Syntax highlighting for AWK scripts.
 
 syntax awk "\.awk$"
 header "^#!.*awk"
@@ -6,7 +6,7 @@ magic "awk script"
 comment "#"
 
 # Records.
-icolor brightred "\$[0-9A-Z_!@#$*?-]+"
+color brightred "\$[0-9A-Za-z_!@#$*?-]+"
 # Awk-set variables.
 color red "\<(ARGC|ARGIND|ARGV|BINMODE|CONVFMT|ENVIRON|ERRNO|FIELDWIDTHS)\>"
 color red "\<(FILENAME|FNR|FS|IGNORECASE|LINT|NF|NR|OFMT|OFS|ORS)\>"
@@ -14,7 +14,7 @@ color red "\<(PROCINFO|RS|RT|RSTART|RLENGTH|SUBSEP|TEXTDOMAIN)\>"
 # Function declarations and special patterns.
 color brightgreen "\<(function|extension|BEGIN|END)\>"
 # Operators.
-color green "(\{|\}|\(|\)|\;|\]|\[|\\|<|>|!|=|&|\+|-|\*|%|/|\?:|\^|\|)"
+color green "\{|\}|\(|\)|\;|\[|\]|\\|<|>|!|=|&|\+|-|\*|%|/|\?:|\^|\|"
 # Flow control.
 color brightyellow "\<(for|if|while|do|else|in|delete|exit)\>"
 color brightyellow "\<(break|continue|return)\>"
@@ -29,9 +29,9 @@ color magenta "\<(and|compl|lshift|or|rshift|xor)\>"
 color magenta "\<(bindtextdomain|dcgettext|dcngettext)\>"
 
 # Strings.
-color brightyellow "<[^= 	]*>" ""(\\.|[^"])*""
+color brightyellow ""([^"\]|\\.)*""
 # Comments.
-color brightblue "(^|[[:space:]])#.*$"
+color brightblue "(^|[[:blank:]])#.*"
 
 # Trailing whitespace.
 color ,green "[[:space:]]+$"

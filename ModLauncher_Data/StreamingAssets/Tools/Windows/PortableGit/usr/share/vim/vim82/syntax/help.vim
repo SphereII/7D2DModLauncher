@@ -1,7 +1,7 @@
 " Vim syntax file
 " Language:	Vim help file
 " Maintainer:	Bram Moolenaar (Bram@vim.org)
-" Last Change:	2020 Jul 28
+" Last Change:	2022 May 15
 
 " Quit when a (custom) syntax file was already loaded
 if exists("b:current_syntax")
@@ -76,6 +76,7 @@ syn match helpSpecial		"\[line]"
 syn match helpSpecial		"\[count]"
 syn match helpSpecial		"\[offset]"
 syn match helpSpecial		"\[cmd]"
+syn match helpNormal		"vim9\[cmd]"
 syn match helpSpecial		"\[num]"
 syn match helpSpecial		"\[+num]"
 syn match helpSpecial		"\[-num]"
@@ -213,6 +214,12 @@ hi def link helpUnderlined	Underlined
 hi def link helpError		Error
 hi def link helpTodo		Todo
 hi def link helpURL		String
+
+if has('textprop') && expand('%:p') =~ '[/\\]doc[/\\]syntax.txt'
+  " highlight groups with their respective color
+  import 'dist/vimhelp.vim'
+  call vimhelp.HighlightGroups()
+endif
 
 let b:current_syntax = "help"
 

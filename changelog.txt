@@ -5,6 +5,14 @@ If you run into issues with the Mod Launcher, clck on the LOG button. This will 
 
 https://7d2dmodlauncher.org
 
+* Updated to the latest version of Portable Git ( Windows )
+* Added 7Zip to improve handling of zip files with long paths
+* Added RoboCopy feature to help with files with long paths ( Windows )
+* Switched downloading of zip files to WebClient from UnityWebRequest to improve reliability
+* Added a progress indicator on some windows
+* Added another check to grab the right game log when saving logs to zip
+* Moved loading of available mods to its appropriate screen, rather than start up.
+
 * Fixed some modlets from not downloading correctly
 * Fixed UI bugs with small text on high resolution monitors
 * If a download fails, it will re-try automatically.

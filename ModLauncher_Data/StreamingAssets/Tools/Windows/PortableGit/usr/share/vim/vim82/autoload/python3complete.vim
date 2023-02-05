@@ -2,7 +2,7 @@
 " Maintainer: <vacancy>
 " Previous Maintainer: Aaron Griffin <aaronmgriffin@gmail.com>
 " Version: 0.9
-" Last Updated: 2020 Oct 9
+" Last Updated: 2022 Mar 30
 "
 " Roland Puntaier: this file contains adaptations for python3 and is parallel to pythoncomplete.vim
 "
@@ -91,6 +91,9 @@ endfunction
 
 function! s:DefPython()
 py3 << PYTHONEOF
+import warnings
+warnings.simplefilter(action='ignore', category=FutureWarning)
+
 import sys, tokenize, io, types
 from token import NAME, DEDENT, NEWLINE, STRING
 
@@ -173,7 +176,7 @@ class Completer(object):
                 pass
         if len(arg_text) == 0:
             # The doc string sometimes contains the function signature
-            #  this works for alot of C modules that are part of the
+            #  this works for a lot of C modules that are part of the
             #  standard library
             doc = func_obj.__doc__
             if doc:
