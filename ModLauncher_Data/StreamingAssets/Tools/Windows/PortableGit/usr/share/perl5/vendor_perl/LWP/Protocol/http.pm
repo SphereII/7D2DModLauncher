@@ -2,13 +2,13 @@ package LWP::Protocol::http;
 
 use strict;
 
-our $VERSION = '6.55';
+our $VERSION = '6.67';
 
 require HTTP::Response;
 require HTTP::Status;
 require Net::HTTP;
 
-use base qw(LWP::Protocol);
+use parent qw(LWP::Protocol);
 
 our @EXTRA_SOCK_OPTS;
 my $CRLF = "\015\012";
