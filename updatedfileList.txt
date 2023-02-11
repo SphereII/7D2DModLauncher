@@ -1,5 +1,6 @@
 Files necessary to upload to the server.
 fileList.txt
+changelog.txt
 logs.zip
 screenshot.png
 version.txt

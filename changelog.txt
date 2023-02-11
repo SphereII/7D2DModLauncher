@@ -5,6 +5,12 @@ If you run into issues with the Mod Launcher, clck on the LOG button. This will 
 
 https://7d2dmodlauncher.org
 
+* Added a  new config option for git downloads
+* Re-added initial mod loading. This was causing wonkyness.
+* Added a polling option to check for updates.
+* More fixes for long paths in windows.
+
+
 * Updated to the latest version of Portable Git ( Windows )
 * Added 7Zip to improve handling of zip files with long paths
 * Added RoboCopy feature to help with files with long paths ( Windows )
