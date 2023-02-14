@@ -5,6 +5,9 @@ If you run into issues with the Mod Launcher, clck on the LOG button. This will 
 
 https://7d2dmodlauncher.org
 
+* Fixed an issue where the Delete would not work correctly
+* Fixed an issue where the Mods folder was not detected correctly.
+
 * Added a  new config option for git downloads
 * Re-added initial mod loading. This was causing wonkyness.
 * Added a polling option to check for updates.
