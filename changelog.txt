@@ -5,6 +5,8 @@ If you run into issues with the Mod Launcher, clck on the LOG button. This will 
 
 https://7d2dmodlauncher.org
 
+* Fixed an issue where not all files were deployed correctly. Seriously, you had one job, Copy Task.
+
 * Fixed an issue where the Delete would not work correctly
 * Fixed an issue where the Mods folder was not detected correctly.
 
