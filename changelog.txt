@@ -5,6 +5,10 @@ If you run into issues with the Mod Launcher, clck on the LOG button. This will 
 
 https://7d2dmodlauncher.org
 
+* Re-enabled the visibility of the Play button, even if the download failed.
+	- Additional prompt to have users retry.
+
+
 * Fixed an issue where not all files were deployed correctly. Seriously, you had one job, Copy Task.
 
 * Fixed an issue where the Delete would not work correctly
